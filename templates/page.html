@@ -1,0 +1,41 @@
+{% extends "base_with_nav.html" %}
+
+{% block title %}
+秋槭与石桥都消失不见 - {{ page.title }}
+{% endblock title %}
+
+{% block content %}
+<section>
+    <h1>
+        {{ page.title }}
+    </h1>
+</section>
+
+<section>
+    <p>
+        {{ page.description }}
+    </p>
+</section>
+
+<section>
+    {{ page.content | safe }}
+</section>
+
+<section>
+    {{ page.date }}
+</section>
+
+<section>
+    {% for category in page.taxonomies.category %}
+        # <a href="/category/{{ category }}"> {{ category }} </a>
+    {% endfor %}
+    {% for field in page.taxonomies.field %}
+        # <a href="/field/{{ field }}"> {{ field }} </a>
+    {% endfor %}
+    {% if page.taxonomies.tag %}
+        {% for tag in page.taxonomies.tag %}
+            # <a href="/tag/{{ tag }}"> {{ tag }} </a>
+        {% endfor %}
+    {% endif %}
+</section>
+{% endblock content %}

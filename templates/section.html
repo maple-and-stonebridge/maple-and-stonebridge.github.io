@@ -1,0 +1,21 @@
+{% extends "paginator.html" %}
+
+{% block title %}
+秋槭与石桥都消失不见 - {{ section.title }}
+{% endblock title %}
+
+{% block meta %}
+<section>
+    <h1>
+        {{ section.title }}
+    </h1>
+
+    <a href="{{ section.permalink }}/rss.xml"> <img src="/rss-icon.png" alt="RSS" /> </a>
+</section>
+
+<section>
+    <p>
+        {{ section.description }}
+    </p>
+</section>
+{% endblock meta %}

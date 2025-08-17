@@ -1,0 +1,46 @@
+{% extends "base_with_nav.html" %}
+
+{% block content %}
+    {% block meta %} {% endblock meta %}
+
+    <section>
+        <ol>
+        {% for page in paginator.pages %}
+            <li>
+                <article>
+                    <h2>
+                        <a href="{{ page.permalink | safe }}"> {{ page.title }} </a>
+                    </h2> @ {{ page.date }}
+                    {% for category in page.taxonomies.category %}
+                        # <a href="/category/{{ category }}"> {{ category }} </a>
+                    {% endfor %}
+                    {% for field in page.taxonomies.field %}
+                        # <a href="/field/{{ field }}"> {{ field }} </a>
+                    {% endfor %}
+                    {% if page.taxonomies.tag %}
+                        {% for tag in page.taxonomies.tag %}
+                            # <a href="/tag/{{ tag }}"> {{ tag }} </a>
+                        {% endfor %}
+                    {% endif %}
+                    <p>
+                        {{ page.description }}
+                        {% if not page.description %}
+                            No description...
+                        {% endif %}
+                    </p>
+                </article>
+            </li>
+        {% endfor %}
+        </ol>
+    </section>
+
+    <section>
+        {% if paginator.previous %}
+            <a href="{{ paginator.first | safe }}"> &lt;&lt; </a> <a rel="prev" href="{{ paginator.previous | safe }}"> &lt; </a>
+        {% endif %}
+        Page {{ paginator.current_index }}
+        {% if paginator.next %}
+            <a rel="next" href="{{ paginator.next | safe }}"> &gt; </a> <a href="{{ paginator.last | safe }}"> &gt;&gt; </a>
+        {% endif %}
+    </section>
+{% endblock content %}

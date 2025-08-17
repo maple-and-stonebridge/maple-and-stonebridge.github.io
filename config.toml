@@ -1,11 +1,28 @@
 # The URL the site will be built for
 base_url = "https://maple-and-stonebridge.github.io"
 
+title = "秋槭与石桥都消失不见"
+description = "发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~"
+
+default_language = "zh-cn"
+
+author = "chsungyesuzuki"
+
+generate_feeds = true
+
+feed_filenames = ["atom.xml", "rss.xml"]
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
+
+taxonomies = [
+    { name = "category", feed = true, paginate_by = 20},
+    { name = "field", feed = true, paginate_by = 20},
+    { name = "tag", feed = true, paginate_by = 20}
+]
 
 [markdown]
 # Whether to do syntax highlighting

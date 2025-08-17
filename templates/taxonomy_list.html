@@ -1,0 +1,21 @@
+{% extends "base_with_nav.html" %}
+    {% block title %}
+        秋槭与石桥都消失不见 - {{ taxonomy.name }}
+    {% endblock title %}
+    {% block content %}
+        <section>
+            <h1>
+                {{ taxonomy.name }}
+            </h1>
+         </section>
+
+         <section>
+            <ul>
+                {% for term in terms %}
+                    <ul>
+                        <a href="{{ term.permalink }}"> {{ term.name }} </a>
+                    </ul>
+                {% endfor %}
+            </ul>
+        </section>
+    {% endblock content %}
