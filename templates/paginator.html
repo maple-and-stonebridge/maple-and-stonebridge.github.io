@@ -12,14 +12,16 @@
                         <a href="{{ page.permalink | safe }}"> {{ page.title }} </a>
                     </h2> @ {{ page.date }}
                     {% for category in page.taxonomies.category %}
-                        # <a href="/category/{{ category }}"> {{ category }} </a>
+                        # <a href="{{ get_taxonomy_url(kind='category', name=category) }}"> {{ category }} </a>
                     {% endfor %}
-                    {% for field in page.taxonomies.field %}
-                        # <a href="/field/{{ field }}"> {{ field }} </a>
-                    {% endfor %}
+                    {% if page.taxonomies.field %}
+                        {% for field in page.taxonomies.field %}
+                            # <a href="{{ get_taxonomy_url(kind='field', name=field) }}"> {{ field }} </a>
+                        {% endfor %}
+                    {% endif %}
                     {% if page.taxonomies.tag %}
                         {% for tag in page.taxonomies.tag %}
-                            # <a href="/tag/{{ tag }}"> {{ tag }} </a>
+                            # <a href="{{ get_taxonomy_url(kind='tag', name=tag) }}"> {{ tag }} </a>
                         {% endfor %}
                     {% endif %}
                     <p>

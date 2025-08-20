@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>秋槭与石桥都消失不见 - Blog Pages</title>
+      <link>https://maple-and-stonebridge.github.io/blog/</link>
+      <description>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</description>
+      <generator>Zola</generator>
+      <language>zh-cn</language>
+      <atom:link href="https://maple-and-stonebridge.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>催眠药</title>
+          <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250820-dairy/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250820-dairy/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250820-dairy/">&lt;p&gt;催眠药真的能带来安心感啊，可以掌握自己死亡的感觉w&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>&lt;i&gt;Handbook of the Protists&lt;&#x2F;i&gt;章1笔记</title>
+          <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/">&lt;h2 id=&quot;zai-fu-xi-yi-xue-ji-sheng-chong-xue-de-bu-kao-shi-zai-wu-qu-jiu-kai-shi-du-liao-springer-reference-de-handbook-of-the-protists-ban-2&quot;&gt;在复习《医学寄生虫学》的补考，实在无趣，就开始读了。 Springer Reference 的 &lt;em&gt;Handbook of the Protists&lt;&#x2F;em&gt; 版2。&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;1-protist-diversity-and-eukaryote-phylogeny-yuan-sheng-sheng-wu-duo-yang-xing-he-zhen-he-sheng-wu-de-xi-tong-fa-sheng&quot;&gt;1 Protist Diversity and Eukaryote Phylogeny 原生生物多样性和真核生物的系统发生&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-1-introduction-xu-lun&quot;&gt;1.1 Introduction 绪论&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;fang-fa-lun&quot;&gt;方法论&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;分子系统发生学 molecular phylogenetics 技术：起初是单个的子单位线粒体RNA测序。后来系统发生基因组学 phylogenomics 分析可综合上百个基因数据。&lt;&#x2F;li&gt;
+&lt;li&gt;转录物组学和电镜研究也促进了对系统发生的理解。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;zhen-he-sheng-wu-xi-tong-fa-sheng-shu-gai-shu&quot;&gt;真核生物系统发生树概述&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大体被解决，仍有少量不确定。&lt;&#x2F;li&gt;
+&lt;li&gt;真核生物可分为(4~8)个称作超类群 supergroup 的单系群，其阶在界之上。&lt;&#x2F;li&gt;
+&lt;li&gt;光合原生生物，即藻 alga ，以及异养原生生物，即原生动物 protozoan ，交错分散于各超类群中。&lt;&#x2F;li&gt;
+&lt;li&gt;原生动物中鞭毛虫 flagellate 亦分散于各超类群中。&lt;&#x2F;li&gt;
+&lt;li&gt;以上事实佐证了真核生物共同祖先是被覆鞭毛的异养生物。&lt;&#x2F;li&gt;
+&lt;li&gt;变形虫 amoeba 由多次独立的进化产生，在树上各自显示为放射状的子树。&lt;&#x2F;li&gt;
+&lt;li&gt;黏菌 slime mold 同变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;经孢子传播的寄生原生动物同变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;类真菌在树上分布于多处，通常远离真菌。&lt;&#x2F;li&gt;
+&lt;li&gt;古虫 excavate 是否是单系群是有争议的。&lt;&#x2F;li&gt;
+&lt;li&gt;质粒&#x2F;叶绿体的进化史不甚明了。大多数光合真核生物的质粒来自真核藻的内共生；该种真核-真核内共生的次数、次序、方向尚未阐明。&lt;&#x2F;li&gt;
+&lt;li&gt;树根附近的系统发生需要较强的假设或复杂的基因组分析才能解释，且有一些不相容的解释。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;1-2-an-overview-of-protist-diversity-yuan-sheng-sheng-wu-duo-yang-xing-gai-lun&quot;&gt;1.2 An Overview of Protist Diversity 原生生物多样性概论&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;archaeplastida-lit-ancient-plastid&quot;&gt;Archaeplastida lit. ancient plastid&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;指含有初等质粒的光合生物，其质粒来源于蓝细菌的内共生。&lt;&#x2F;li&gt;
+&lt;li&gt;强证据表明Archaeplastida是单系群，上述内共生事件只发生了1次。&lt;&#x2F;li&gt;
+&lt;li&gt;分为 Glaucophyta lit. gray plants 、 Rhodophyta lit. red plants 和 Chloroplastida lit. green plastids 。&lt;&#x2F;li&gt;
+&lt;li&gt;Glaucophytes 是罕见的淡水藻，通常位于水体表面。&lt;&#x2F;li&gt;
+&lt;li&gt;Rhodophytese 有上千种被描述的藻种，通常为海水藻。形态既有单细胞，又有各种丝状形态，还有复杂的红色水草。&lt;&#x2F;li&gt;
+&lt;li&gt;Chloroplastida 包括绿藻和陆生植物。&lt;&#x2F;li&gt;
+&lt;li&gt;Chloroplastida 分为 streptophytes lit. twisted plants 和 chlorophytes lit. green plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;Streptophytes 包括绿藻和陆生植物；链形植物中的绿藻称为 charophytes lit. altered plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;Charophytes 包括 Zygnematophyta lit. paired threaded plants ，单细胞或线状的淡水藻； Charophyceae lit. altered algae ，多细胞的淡水藻； Chlorokybophyceae lit. green cubic algae ; Klebsormidiophyceae lit. chained algae of Klebs ；
+Coleochaetophyceae lit. sheathed haired algae 以及 Mesostigma lit. middle mark 。&lt;&#x2F;li&gt;
+&lt;li&gt;Chlorophytes 包括大量的含或不含鞭毛的单细胞或群落，及丝状和复杂的巨藻 macroalga ，包括绿色水藻。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>姚宁远《初等模型论》章1习题</title>
+          <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250819-model-theory-exercise-chapter-1/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250819-model-theory-exercise-chapter-1/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250819-model-theory-exercise-chapter-1/">&lt;h2 id=&quot;da-zi-hao-ma-fan-man-man-xie-liao&quot;&gt;打字好麻烦，慢慢写了&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;练习1.1.1.&lt;&#x2F;strong&gt; 设\( I \)是一个集合，\( \{\mathcal M_i|i\in I\} \)是\( \mathcal L \)-结构\( \mathcal N \)的一族子结构。证明\( \bigcap_{i\in I}\mathcal M_i \)也是\( \mathcal N \)的子结构。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 设\( \mathcal M=\bigcap_{i\in I}\mathcal M_i \)。对所有\( i\in I \)，由于\( \mathcal M_i\subseteq\mathcal N \)，则有每个常元符号\( c\in\mathcal C \)满足\( c^{\mathcal M_i}=c^\mathcal N \)，
+因此\( c^\mathcal N\in\mathcal M \)且\( c^\mathcal M=c^\mathcal N \)；每个\( n \)-元函数符号满足\( \forall\overline a\in\mathcal M_i^n, f^{\mathcal M_i}(\overline a)=f^\mathcal N(\overline a \))，
+因此\( \forall\overline a\in\mathcal M^n, f^\mathcal M(\overline a)=f^\mathcal N(\overline a) \)；每个\( n \)-元关系符号\( R\in\mathcal R \)满足
+\( \forall\overline a\in\mathcal M_i^n, R^\mathcal M_i(\overline a)\Leftrightarrow R^\mathcal N(\overline a) \)，因此
+\( \forall\overline a\in\mathcal M^n, R^\mathcal M(\overline a)\Leftrightarrow R^\mathcal N(\overline a) \)。因此，\( \mathcal M\subseteq\mathcal N \)。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;练习1.1.2.&lt;&#x2F;strong&gt; 设\( \mathcal M \)是论域为\( M \)的\( \mathcal L \)-结构。证明对任意的\( S\subseteq M \)，存在一个论域包含\( S \)的\( \mathcal M \)的子结构\( \mathcal A \)，使得对任意论域包含\( S \)的\( \mathcal M \)的
+子结构\( \mathcal B \)，都有\( \mathcal A \)是\( \mathcal B \)的子结构。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 令\( A_0=S\cup\{c^\mathcal M\}_{c\in\mathcal C} \)，\( A_n=A_{n-1}\cup\{f^\mathcal M(\overline a)\}_{f\in\mathcal F, \overline a\in A_{n-1}^{n_f}} \)，\( A=\bigcup_{n\in\omega}A_n \)
+且\( \mathcal A=\mathcal M\upharpoonright A \)。
+由注1.1.2(i)，
+\( \mathcal A\subseteq\mathcal M \)。设论域为\( B \)的\( \mathcal B\subseteq\mathcal M \)，且\( S\subseteq B \)。下面对\( n \)归纳证明\( A_n\subseteq B \)，从而\( A\subseteq B \)。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( n=0 \)。由\( \mathcal B\subseteq\mathcal M \)，我们有\( \{c^\mathcal M\}_{c\in\mathcal C}\subseteq B \)。又\( S\subseteq B \)，从而\( A_n\subseteq B \)。&lt;&#x2F;li&gt;
+&lt;li&gt;\( n&amp;gt;0 \)。由归纳假设，\( A_{n-1}\subseteq B \)。又因为\( \mathcal B\subseteq\mathcal M \)，所以对所有\( f\in\mathcal F \)以及\( \overline a\in A_{n-1}^{n_f} \)，我们有
+\( f^\mathcal B(\overline a)=f^\mathcal M(\overline a) \)。从而，\( f^\mathcal M(\overline a)\in B \)，所以\( A_n\subseteq B \)。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;另外，对所有\( c\in\mathcal C \)，
+\( c^\mathcal A=c^\mathcal M=c^\mathcal B \)；对所有\( f\in\mathcal F \)以及\( \overline a\in A^{n_f} \)，\( f^\mathcal A(\overline a)=f^\mathcal M(\overline a)=f^\mathcal B(\overline a) \)；对所有
+\( R\in\mathcal R \)以及\( \overline a\in A^{n_R} \)，\( R^\mathcal A(\overline a)\Leftrightarrow R^\mathcal M(\overline a)\Leftrightarrow R^\mathcal B(\overline a) \)。因此，\( \mathcal A\subseteq\mathcal B \)。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;练习1.1.3.&lt;&#x2F;strong&gt; 设论域为\( M \)的\( \mathcal L \)-结构\( \mathcal M \)是由子集\( S\subseteq M \)生成的。证明对任意的\( \mathcal L \)-结构\( \mathcal N \)，同态\( h:\mathcal M\rightarrow\mathcal N \)仅由
+\( h\upharpoonright S \)确定。即两个同态\( h_1:\mathcal M\rightarrow\mathcal N \)和\( h_2:\mathcal M\rightarrow\mathcal N \)，如果对任意的\( s\in S \)都有\( h_1(s)=h_2(s) \)，则\( h_1=h_2 \)。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 对\( n \)归纳证明若\( a\in M_n \)，则\( h_1(a)=h_2(a) \)。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( n=0 \)。若\( a\in S \)，则\( h_1(a)=h_2(a) \)。若\( a=c^\mathcal M \)，则\( h_1(a)=c^\mathcal N=h_2(a) \)。&lt;&#x2F;li&gt;
+&lt;li&gt;\( n&amp;gt;0 \)。\( a=f^\mathcal M(\overline m) \)，其中\( \overline m\in M_{n-1}^{n_f} \)。\( h_k \)为同态，所以
+\( h_k(a)=f^\mathcal N(h_k(\overline m)) \)。由归纳假设，\( h_1(\overline m)=h_2(\overline m) \)。因此，\( h_1(a)=h_2(a) \)。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;练习.1.2.4.&lt;&#x2F;strong&gt; 设\( \mathcal M \)和\( \mathcal N \)分别是论域为\( M \)和\( N \)的结构，证明\( h:\mathcal M\rightarrow\mathcal N \)是一个嵌入当且仅当：对任意的无量词的公式\( \phi(x_{m_1},\cdots,x_{m_n}) \)，
+对任意的\( a_1,\cdots,a_n\in M \)，都有
+$$\mathcal M\Vdash\phi(a_1,\cdots,a_n)\Leftrightarrow\mathcal N\Vdash\phi(h(a_1),\cdots,h(a_n))$$。&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Test.title</title>
+          <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250816-test/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250816-test/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250816-test/">&lt;h1 id=&quot;test&quot;&gt;Test&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1&lt;&#x2F;li&gt;
+&lt;li&gt;2&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;3&lt;&#x2F;li&gt;
+&lt;li&gt;4&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;A paragraph&lt;&#x2F;em&gt; &lt;strong&gt;bold&lt;&#x2F;strong&gt; &lt;code&gt;code&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;\_a_&lt;&#x2F;p&gt;
+&lt;p&gt;$$ a_b\neq c$$&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;$$a_b \neq c$$&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;q&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;q2
+q3&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;$$a=b$$.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;lt;www.example.com&amp;gt; &lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250816-test&#x2F;www.example.com&quot;&gt;a&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250816-test&#x2F;www.example.com&quot;&gt;b&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

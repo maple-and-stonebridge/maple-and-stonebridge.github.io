@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - 绪论</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/tag/xu-lun/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-20T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/tag/xu-lun/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>&lt;i&gt;Handbook of the Protists&lt;&#x2F;i&gt;章1笔记</title>
+        <published>2025-08-20T00:00:00+00:00</published>
+        <updated>2025-08-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/">&lt;h2 id=&quot;zai-fu-xi-yi-xue-ji-sheng-chong-xue-de-bu-kao-shi-zai-wu-qu-jiu-kai-shi-du-liao-springer-reference-de-handbook-of-the-protists-ban-2&quot;&gt;在复习《医学寄生虫学》的补考，实在无趣，就开始读了。 Springer Reference 的 &lt;em&gt;Handbook of the Protists&lt;&#x2F;em&gt; 版2。&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;1-protist-diversity-and-eukaryote-phylogeny-yuan-sheng-sheng-wu-duo-yang-xing-he-zhen-he-sheng-wu-de-xi-tong-fa-sheng&quot;&gt;1 Protist Diversity and Eukaryote Phylogeny 原生生物多样性和真核生物的系统发生&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-1-introduction-xu-lun&quot;&gt;1.1 Introduction 绪论&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;fang-fa-lun&quot;&gt;方法论&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;分子系统发生学 molecular phylogenetics 技术：起初是单个的子单位线粒体RNA测序。后来系统发生基因组学 phylogenomics 分析可综合上百个基因数据。&lt;&#x2F;li&gt;
+&lt;li&gt;转录物组学和电镜研究也促进了对系统发生的理解。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;zhen-he-sheng-wu-xi-tong-fa-sheng-shu-gai-shu&quot;&gt;真核生物系统发生树概述&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大体被解决，仍有少量不确定。&lt;&#x2F;li&gt;
+&lt;li&gt;真核生物可分为(4~8)个称作超类群 supergroup 的单系群，其阶在界之上。&lt;&#x2F;li&gt;
+&lt;li&gt;光合原生生物，即藻 alga ，以及异养原生生物，即原生动物 protozoan ，交错分散于各超类群中。&lt;&#x2F;li&gt;
+&lt;li&gt;原生动物中鞭毛虫 flagellate 亦分散于各超类群中。&lt;&#x2F;li&gt;
+&lt;li&gt;以上事实佐证了真核生物共同祖先是被覆鞭毛的异养生物。&lt;&#x2F;li&gt;
+&lt;li&gt;变形虫 amoeba 由多次独立的进化产生，在树上各自显示为放射状的子树。&lt;&#x2F;li&gt;
+&lt;li&gt;黏菌 slime mold 同变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;经孢子传播的寄生原生动物同变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;类真菌在树上分布于多处，通常远离真菌。&lt;&#x2F;li&gt;
+&lt;li&gt;古虫 excavate 是否是单系群是有争议的。&lt;&#x2F;li&gt;
+&lt;li&gt;质粒&#x2F;叶绿体的进化史不甚明了。大多数光合真核生物的质粒来自真核藻的内共生；该种真核-真核内共生的次数、次序、方向尚未阐明。&lt;&#x2F;li&gt;
+&lt;li&gt;树根附近的系统发生需要较强的假设或复杂的基因组分析才能解释，且有一些不相容的解释。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;1-2-an-overview-of-protist-diversity-yuan-sheng-sheng-wu-duo-yang-xing-gai-lun&quot;&gt;1.2 An Overview of Protist Diversity 原生生物多样性概论&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;archaeplastida-lit-ancient-plastid&quot;&gt;Archaeplastida lit. ancient plastid&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;指含有初等质粒的光合生物，其质粒来源于蓝细菌的内共生。&lt;&#x2F;li&gt;
+&lt;li&gt;强证据表明Archaeplastida是单系群，上述内共生事件只发生了1次。&lt;&#x2F;li&gt;
+&lt;li&gt;分为 Glaucophyta lit. gray plants 、 Rhodophyta lit. red plants 和 Chloroplastida lit. green plastids 。&lt;&#x2F;li&gt;
+&lt;li&gt;Glaucophytes 是罕见的淡水藻，通常位于水体表面。&lt;&#x2F;li&gt;
+&lt;li&gt;Rhodophytese 有上千种被描述的藻种，通常为海水藻。形态既有单细胞，又有各种丝状形态，还有复杂的红色水草。&lt;&#x2F;li&gt;
+&lt;li&gt;Chloroplastida 包括绿藻和陆生植物。&lt;&#x2F;li&gt;
+&lt;li&gt;Chloroplastida 分为 streptophytes lit. twisted plants 和 chlorophytes lit. green plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;Streptophytes 包括绿藻和陆生植物；链形植物中的绿藻称为 charophytes lit. altered plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;Charophytes 包括 Zygnematophyta lit. paired threaded plants ，单细胞或线状的淡水藻； Charophyceae lit. altered algae ，多细胞的淡水藻； Chlorokybophyceae lit. green cubic algae ; Klebsormidiophyceae lit. chained algae of Klebs ；
+Coleochaetophyceae lit. sheathed haired algae 以及 Mesostigma lit. middle mark 。&lt;&#x2F;li&gt;
+&lt;li&gt;Chlorophytes 包括大量的含或不含鞭毛的单细胞或群落，及丝状和复杂的巨藻 macroalga ，包括绿色水藻。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
