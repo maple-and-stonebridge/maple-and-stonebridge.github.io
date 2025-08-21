@@ -5,11 +5,11 @@ date = 2025-08-20
 updated = 2025-08-21
 [taxonomies]
 category = ["笔记"]
-field = ["生物学", "分类学", "系统发生学", "微生物学", "寄生虫学", "原生生物学", "进化论"]
+field = ["生物学", "分类学", "系统发生学", "微生物学", "寄生虫学", "原生生物学", "进化论", "藻类学"]
 tag = ["绪论"]
 +++
 
-在复习《医学寄生虫学》的补考，实在无趣，就开始读了。 Springer Reference 的 _Handbook of the Protists_ 版2。
+在复习《医学寄生虫学》的补考，实在无趣，就开始读了。 Springer Reference 的 _Handbook of the Protists_ 版2。像这样看一看生物多样性不是很好吗。
 
 因为汉语音节更好记，所以我会随便翻译成汉语。真的是随便翻译的哦，千万别参考。<s>虽然查到很多通用译名但我还是要直译</s>
 
@@ -64,7 +64,7 @@ Klebs小链藻纲/克里藻纲 Klebsormidiophyceae lit. little-chained algae of 
 * 包括顶系门/顶复门 Apicomplexa lit. top complexes 、奇异鞭毛门/鞭毛藻门 Dinoflagellata lit. awesome flagellates 和有纤毛门/纤毛虫门 Ciliophora lit. cilia carriers 。
 * 典型的顶系门寄生，包括质虫属/疟原虫属 _Plasmodium_ lit. little plasma 、Gond毒质/刚地弓形虫 _Toxoplasma gondii_ lit. toxic plasma of Gond 以及小隐孢虫/小隐孢子虫 _Cryptosporidium parvum_ lit. small little hidden spores 。
 阴虫 colpodellids lit. little hollows 、色虫藻 chromerids lit. little colours 是顶系门的姐妹系，阴虫寄生或捕食其他种原生生物，而色虫藻是顶系门光合祖先的后代。2系可能交错组成色阴虫 chrompodellids 。
-* 奇异鞭毛门是海洋微浮游生态的重要成分，肉眼可见，可营自养或异养生活。奇异鞭毛门参与的生态现象包括赤潮、与珊瑚虫的共生以及动物和其他原生生物的寄生。Perkins动物 Perkinsozoa 与奇异鞭毛门有密切关系。顶系门与奇异鞭毛门亦关系密切，其不甚清晰的边界包括一些一样鞭毛虫，
+* 奇异鞭毛门是海洋微浮游生态的重要成分，肉眼可见，可营自养或异养生活。奇异鞭毛门参与的生态现象包括赤潮、与珊瑚虫的共生以及动物和其他原生生物的寄生。Perkins动物 Perkinsozoa 与奇异鞭毛门有密切关系。顶系门与奇异鞭毛门亦关系密切，其不甚清晰的边界包括一些异养鞭毛虫，
 如沙虫 _Psammosa_ 。
 * 有纤毛门大多自由生活，异养。大多含有大量纤毛，呈现特征性的核2-态性，即体细胞含大核 macronuclei 而生殖细胞含小核 micronuclei 。
 
