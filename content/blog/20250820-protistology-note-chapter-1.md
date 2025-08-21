@@ -1,5 +1,5 @@
 +++
-title = "<i>Handbook of the Protists</i>章1笔记"
+title = "_Handbook of the Protists_ 章1笔记"
 description = "介绍了真核生物的系统发生/分类学/多样性哦。"
 date = 2025-08-20
 updated = 2025-08-21
