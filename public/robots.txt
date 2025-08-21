@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Allow: /
-Sitemap: https://maple-and-stonebridge.github.io/sitemap.xml
