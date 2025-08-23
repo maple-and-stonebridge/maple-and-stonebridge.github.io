@@ -10,7 +10,7 @@ tag = ["绪论"]
 
 在复习《医学寄生虫学》的补考，实在无趣，就开始读了。 Springer Reference 的 _Handbook of the Protists_ 版2。像这样看一看生物多样性不是很好吗。
 
-因为汉语音节更好记，所以我会随便翻译成汉语。真的是随便翻译的哦，千万别参考。<s>虽然查到很多通用译名但我还是要直译</s>
+因为汉语音节更好记，所以我会随便翻译成汉语。真的是随便翻译的哦，千万别参考。<s>虽然查到很多通用译名但我还是要直译</s> <s>结果大部分时间花在查单词上了囧</s>
 
 ---
 # 1 Protist Diversity and Eukaryote Phylogeny 原生生物多样性和真核生物的系统发生
@@ -87,7 +87,7 @@ Klebs小链藻纲/克里藻纲 Klebsormidiophyceae lit. little-chained algae of 
 ### 盘kob亚界/盘嵴亚界 Discoba
 * 包括Jakob目/雅各巴虫目 Jakobida ，异养鞭毛虫，线粒体基因组像细菌；筑波单属 _Tsukubamonas_ ；以及盘嵴总门 Discicristata lit. disk-shaped cristae 。
 * 盘嵴总门分为异圆纲/异叶足纲 Heterolobosea ，变形虫、鞭毛虫或变形鞭毛虫，其中混目 acrasids lit. chaos 是黏菌；真窝动物门/眼虫门 Euglenozoa lit. true depressed animals 。
-* 真窝动物门分为真窝目/眼虫目 Euglenida ，在表面上滑行捕食，或藻，质体来源于绿藻；动质纲/动质体纲 Kinetoplastea ，自由生活或寄生鞭毛虫，包括锥虫；双线纲 Diplonemea lit. 2 threads ，动质体纲的姐妹群，具有独特的线粒体基因表达系统。
+* 真窝动物门分为真窝目/眼虫目 Euglenida ，在表面上滑行捕食，或藻，质体来源于绿藻；动质纲/动质体纲 Kinetoplastea ，包括锥虫，自由生活或寄生鞭毛虫；双线纲 Diplonemea lit. 2 threads ，动质体纲的姐妹群，具有独特的线粒体基因表达系统。
 
 ### 后单门/后滴门 Metamonada lit. flagellates after
 * 是厌氧原生动物，几乎均为鞭毛虫。
