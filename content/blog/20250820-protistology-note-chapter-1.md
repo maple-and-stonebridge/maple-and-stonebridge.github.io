@@ -46,7 +46,7 @@ Klebs小链藻纲/克里藻纲 Klebsormidiophyceae lit. little-chained algae of 
 * 绿植门包括大量的含或不含鞭毛的单细胞或群落，及丝状和复杂的巨藻 macroalgae ，包括绿色水草。
 
 ### 秆腔根超类群 Sar
-* 秆腔根超类群通过系统发生基因组学分析被发现，分为秆毛界/不等鞭毛界 Stramenopiles lit. straw hairs 、 腔虫界/囊泡虫界 Alveolata lit. little cavities 以及生根界/有孔虫界 Rhizaria lit. root producers。
+* 秆腔根超类群通过系统发生基因组学分析被发现，分为秆毛界/不等鞭毛界/绒鞭界 Stramenopiles lit. straw hairs 、 腔虫界/囊泡虫界 Alveolata lit. little cavities 以及生根界/有孔虫界/根足虫界 Rhizaria lit. root producers。
 
 ### 秆毛界
 * 形态特征为有坚硬管状鞭毛；然而一些种和子类群中此特征已退化，如生杆植纲和褐植纲的营养期。
@@ -60,7 +60,7 @@ Klebs小链藻纲/克里藻纲 Klebsormidiophyceae lit. little-chained algae of 
 最后宝亚门/蛙片虫亚门 Opalinata lit. jewels 包括一些栖居在动物肠道的虫，具(2~4)或多个鞭毛的虫，或包括芽囊属/芽囊原虫属 _Blastocystis_ lit. bladder with buds 的无鞭毛厌氧生物。
 
 ### 腔虫界
-* 包括顶系门/顶复门 Apicomplexa lit. top complexes 、奇异鞭毛门/鞭毛藻门 Dinoflagellata lit. awesome flagellates 和有纤毛门/纤毛虫门 Ciliophora lit. cilia carriers 。
+* 包括顶系门/顶复门 Apicomplexa lit. top complexes 、奇异鞭毛门/甲藻门 Dinoflagellata lit. awesome flagellates 和有纤毛门/纤毛虫门 Ciliophora lit. cilia carriers 。
 * 典型的顶系门寄生，包括质虫属/疟原虫属 _Plasmodium_ lit. little plasma 、Gond毒质/刚地弓形虫 _Toxoplasma gondii_ lit. toxic plasma of Gond 以及小隐孢虫/小隐孢子虫 _Cryptosporidium parvum_ lit. small little hidden spores 。
 阴虫目 colpodellids lit. little hollows 、色虫藻目 chromerids lit. little colours 是顶系门的姐妹系，阴虫目寄生或捕食其他种原生生物，而色虫藻目是顶系门光合祖先的后代。2系可能交错组成色阴虫目 chrompodellids 。
 * 奇异鞭毛门是海洋微浮游生态的重要成分，肉眼可见，可营自养或异养生活。奇异鞭毛门参与的生态现象包括赤潮、与珊瑚虫的共生以及动物和其他原生生物的寄生。Perkins动物 Perkinsozoa 与奇异鞭毛门有密切关系。顶系门与奇异鞭毛门亦关系密切，其不甚清晰的边界包括一些异养鞭毛虫，
