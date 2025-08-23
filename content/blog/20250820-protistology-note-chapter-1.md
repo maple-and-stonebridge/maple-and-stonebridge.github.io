@@ -1,8 +1,7 @@
 +++
 title = "Handbook of the Protists 章1笔记"
 description = "介绍了真核生物的系统发生/分类学/多样性哦。"
-date = 2025-08-20
-updated = 2025-08-21
+date = 2025-08-23
 [taxonomies]
 category = ["笔记"]
 field = ["生物学", "分类学", "系统发生学", "微生物学", "寄生虫学", "原生生物学", "进化论", "藻类学"]
@@ -29,14 +28,14 @@ tag = ["绪论"]
 * 黏菌 slime molds 同变形虫。
 * 经孢子传播的寄生原生动物同变形虫。
 * 类真菌在树上分布于多处，通常远离真菌。
-* 古虫 excavates 是否是单系群是有争议的。
+* 古虫 excavates 是否是单系群是有争议的，包括后单门与Malawi单科的位置等。
 * 质体/叶绿体的进化史不甚明了。大多数光合真核生物的质体来自真核藻的内共生；该种真核-真核内共生的次数、次序、方向尚未阐明。
 * 树根附近的系统发生需要较强的假设或复杂的基因组分析才能解释，且有一些不相容的解释。
 ## 1.2 An Overview of Protist Diversity 原生生物多样性概论
 ### 古质体界/原始色素体界 Archaeplastida lit. ancient plastids
 * 指含有初等质体的光合生物，即其质体来源于蓝细菌的内共生。
 * 强证据表明古质体界是单系群，上述内共生事件只发生了1次。
-* 分为灰植门/灰藻门 Glaucophyta lit. gray plants 、红植门/红藻门 Rhodophyta lit. red plants 和叶绿体亚界 Chloroplastida lit. green plastids 。
+* 分为灰植门/灰藻门 Glaucophyta lit. gray plants 、红植门/红藻门 Rhodophyta lit. red plants 和叶绿体亚界/绿色植物亚界 Chloroplastida lit. green plastids/Viridiplantae lit. green plants 。
 * 灰植门是罕见的淡水藻，通常位于水体表面。
 * 红植门有上千种被描述的藻种，通常为海水藻。形态既有单细胞，又有各种丝状形态，还有复杂的红色水草。
 * 叶绿体亚界包括绿藻和陆生植物。
@@ -63,7 +62,7 @@ Klebs小链藻纲/克里藻纲 Klebsormidiophyceae lit. little-chained algae of 
 ### 腔虫界
 * 包括顶系门/顶复门 Apicomplexa lit. top complexes 、奇异鞭毛门/鞭毛藻门 Dinoflagellata lit. awesome flagellates 和有纤毛门/纤毛虫门 Ciliophora lit. cilia carriers 。
 * 典型的顶系门寄生，包括质虫属/疟原虫属 _Plasmodium_ lit. little plasma 、Gond毒质/刚地弓形虫 _Toxoplasma gondii_ lit. toxic plasma of Gond 以及小隐孢虫/小隐孢子虫 _Cryptosporidium parvum_ lit. small little hidden spores 。
-阴虫 colpodellids lit. little hollows 、色虫藻 chromerids lit. little colours 是顶系门的姐妹系，阴虫寄生或捕食其他种原生生物，而色虫藻是顶系门光合祖先的后代。2系可能交错组成色阴虫 chrompodellids 。
+阴虫目 colpodellids lit. little hollows 、色虫藻目 chromerids lit. little colours 是顶系门的姐妹系，阴虫目寄生或捕食其他种原生生物，而色虫藻目是顶系门光合祖先的后代。2系可能交错组成色阴虫目 chrompodellids 。
 * 奇异鞭毛门是海洋微浮游生态的重要成分，肉眼可见，可营自养或异养生活。奇异鞭毛门参与的生态现象包括赤潮、与珊瑚虫的共生以及动物和其他原生生物的寄生。Perkins动物 Perkinsozoa 与奇异鞭毛门有密切关系。顶系门与奇异鞭毛门亦关系密切，其不甚清晰的边界包括一些异养鞭毛虫，
 如沙虫 _Psammosa_ 。
 * 有纤毛门大多自由生活，异养。大多含有大量纤毛，呈现特征性的核2-态性，即体细胞含大核 macronuclei 而生殖细胞含小核 micronuclei 。
@@ -77,6 +76,23 @@ Klebs小链藻纲/克里藻纲 Klebsormidiophyceae lit. little-chained algae of 
 * 有孔虫、多囊纲、棘纲以及类似生小辐门的行尖属 _Sticholonche_ lit. spearheads in a row 有联系，但它们的关系尚不明了。
 * 线状虫 Filosa 极多样。包括很多自由生活的鞭毛虫和一些变形虫系。鞭毛虫线状虫大多使用细小的伪足摄食，附着于表面，有些寄生。变形虫线状虫有壳或裸。有2个光合系，其中绿蛛植 chlorarachniophytes lit. green spider-like plants 质体来源于绿藻的内共生，
 而有色Pauli虫 _Paulinella chromatophora_ lit. little Pauli carrying colours 的载色体 chromatophore 来源于蓝细菌的内共生，但与古质体界的内共生是分离的。
-* 除有孔虫、生小辐门及线状虫之外的生根界主要为变形虫和寄生虫。寄生虫如植黏纲 Phytomyxea lit. plant mucus ，植物和秆毛界的病原；旁黏目 Paramyxida lit. abnormal mucus 和单孢虫纲/单孢子纲 Haplosporidia lit. little single spores ，寄生于海洋无脊椎动物。
+* 除有孔虫、生小辐门及线状虫之外的生根界主要为变形虫和寄生虫。寄生虫如植黏纲 Phytomyxea lit. plant mucus ，植物和秆毛界的病原；副黏目 Paramyxida lit. abnormal mucus 和单孢虫纲/单孢子纲 Haplosporidia lit. little single spores ，寄生于海洋无脊椎动物。
 
 ### 其他古质体界和秆腔根超类群相关的系群
+* 狭义隐界/狭义隐藻界 Cryptista lit. hidden (sensu stricto) 包括隐植门/隐藻门 Cryptophyta lit. hidden plants ，大多单细胞，有2鞭毛，有红藻来源的质体，很多不再光合；下睑目 katablepharids lit. down eyelids 和
+搏单属 _Palpitomonas_ lit. thrombing flagellates ，2鞭毛异养。
+* 定植门/定鞭藻门 Haptophyta lit. fastened plants 是单细胞藻，质体来源于红藻，主要在海洋中。其中有球石目/颗石藻目 coccolithophorids lit. globular stone bearers 产生的钙鳞在碳循环中有重要意义。
+* 中日目 Centrohelida lit. central suns 是异养变形虫，有长辐状轴足 axopodia 。
+
+### 盘kob亚界/盘嵴亚界 Discoba
+* 包括Jakob目/雅各巴虫目 Jakobida ，异养鞭毛虫，线粒体基因组像细菌；筑波单属 _Tsukubamonas_ ；以及盘嵴总门 Discicristata lit. disk-shaped cristae 。
+* 盘嵴总门分为异圆纲/异叶足纲 Heterolobosea ，变形虫、鞭毛虫或变形鞭毛虫，其中混目 acrasids lit. chaos 是黏菌；真窝动物门/眼虫门 Euglenozoa lit. true depressed animals 。
+* 真窝动物门分为真窝目/眼虫目 Euglenida ，在表面上滑行捕食，或藻，质体来源于绿藻；动质纲/动质体纲 Kinetoplastea ，自由生活或寄生鞭毛虫，包括锥虫；双线纲 Diplonemea lit. 2 threads ，动质体纲的姐妹群，具有独特的线粒体基因表达系统。
+
+### 后单门/后滴门 Metamonada lit. flagellates after
+* 是厌氧原生动物，几乎均为鞭毛虫。
+* 后单门在系统发生树上的位置有争议，一些分析支持其与盘kob亚界的关系，而另一些支持其与Malawi单科的关系。
+* 包括前轴笔纲/前轴柱纲 Preaxostyla lit. axial styli before ，其中锐单目/锐滴虫目 oxymonads lit. sharp flagellates 肠道共生，三鞭目/三鞭毛虫目 trimastigids lit. 3 whips 自由生活；
+副基纲/副基体纲 Parabasalia ，几乎体内共生，包括鞘毛单/阴道毛滴虫 _Trichomonas vaginalis_ ；拱纲/拱形虫纲 Fornicata 。
+* 拱纲包括双单目/双滴虫目 Diplomonadida ，有2核和2鞭毛器，如Lamblgiard/蓝氏贾第虫 _Giardia lamblia_ 和肠giard _Giardia intestinalis_ ；后扭单目/曲滴虫目 retortamonads 和腔单科 Caviomonadidae ，互利共生或寄生；
+类捕摄单属生物 _Carpediemonas_-like organisms ，如捕摄单属 _Carpediemonas_ 、错连属 _Dysnectes_ 和新月酥属 _Kipferlia_ 。
