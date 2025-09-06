@@ -1,7 +1,7 @@
 +++
 title = "Guyton and Hall Textbook of Medical Physiology 单元9笔记"
 description = "单元9介绍了神经系统原理和感觉生理学。"
-date = 2025-09-01
+date = 2025-09-06
 [taxonomies]
 category = ["笔记"]
 field = ["医学", "生理学", "神经科学"]
