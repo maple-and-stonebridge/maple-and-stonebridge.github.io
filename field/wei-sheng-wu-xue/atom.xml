@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - 微生物学</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/field/wei-sheng-wu-xue/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-23T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/field/wei-sheng-wu-xue/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>Handbook of the Protists 章1笔记</title>
+        <published>2025-08-23T00:00:00+00:00</published>
+        <updated>2025-08-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/">&lt;p&gt;在复习《医学寄生虫学》的补考，实在无趣，就开始读了。 Springer Reference 的 &lt;em&gt;Handbook of the Protists&lt;&#x2F;em&gt; 版2。像这样看一看生物多样性不是很好吗。&lt;&#x2F;p&gt;
+&lt;p&gt;因为汉语音节更好记，所以我会随便翻译成汉语。真的是随便翻译的哦，千万别参考。&lt;s&gt;虽然查到很多通用译名但我还是要直译&lt;&#x2F;s&gt; &lt;s&gt;结果大部分时间花在查单词上了囧&lt;&#x2F;s&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;1-protist-diversity-and-eukaryote-phylogeny-yuan-sheng-sheng-wu-duo-yang-xing-he-zhen-he-sheng-wu-de-xi-tong-fa-sheng&quot;&gt;1 Protist Diversity and Eukaryote Phylogeny 原生生物多样性和真核生物的系统发生&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-1-introduction-xu-lun&quot;&gt;1.1 Introduction 绪论&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;fang-fa-lun&quot;&gt;方法论&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;分子系统发生学 molecular phylogenetics 技术：起初是单个的子单位线粒体RNA测序。后来系统发生基因组学 phylogenomics 分析可综合上百个基因数据。&lt;&#x2F;li&gt;
+&lt;li&gt;转录物组学和电镜研究也促进了对系统发生的理解。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;zhen-he-sheng-wu-xi-tong-fa-sheng-shu-gai-shu&quot;&gt;真核生物系统发生树概述&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大体被解决，仍有少量不确定。&lt;&#x2F;li&gt;
+&lt;li&gt;真核生物可分为(4~8)称作超类群 supergroups 的单系群，其阶在界之上。&lt;&#x2F;li&gt;
+&lt;li&gt;光合原生生物，即藻 algae ，以及异养原生生物，即原生动物 protozoans ，交错分散于各超类群中。&lt;&#x2F;li&gt;
+&lt;li&gt;原生动物中鞭毛虫 flagellates 亦分散于各超类群中。&lt;&#x2F;li&gt;
+&lt;li&gt;以上事实佐证了真核生物共同祖先是被覆鞭毛的异养生物。&lt;&#x2F;li&gt;
+&lt;li&gt;变形虫 amoebae 由多次独立的进化产生，在树上各自显示为放射状的子树。&lt;&#x2F;li&gt;
+&lt;li&gt;黏菌 slime molds 同变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;经孢子传播的寄生原生动物同变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;类真菌在树上分布于多处，通常远离真菌。&lt;&#x2F;li&gt;
+&lt;li&gt;古虫 excavates 是否是单系群是有争议的，包括后单门与Malawi单科的位置等。&lt;&#x2F;li&gt;
+&lt;li&gt;质体&#x2F;叶绿体的进化史不甚明了。大多数光合真核生物的质体来自真核藻的内共生；该种真核-真核内共生的次数、次序、方向尚未阐明。&lt;&#x2F;li&gt;
+&lt;li&gt;树根附近的系统发生需要较强的假设或复杂的基因组分析才能解释，且有一些不相容的解释。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;1-2-an-overview-of-protist-diversity-yuan-sheng-sheng-wu-duo-yang-xing-gai-lun&quot;&gt;1.2 An Overview of Protist Diversity 原生生物多样性概论&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;gu-zhi-ti-jie-yuan-shi-se-su-ti-jie-archaeplastida-lit-ancient-plastids&quot;&gt;古质体界&#x2F;原始色素体界 Archaeplastida lit. ancient plastids&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;指含有初等质体的光合生物，即其质体来源于蓝细菌的内共生。&lt;&#x2F;li&gt;
+&lt;li&gt;强证据表明古质体界是单系群，上述内共生事件只发生了1次。&lt;&#x2F;li&gt;
+&lt;li&gt;分为灰植门&#x2F;灰藻门 Glaucophyta lit. gray plants 、红植门&#x2F;红藻门 Rhodophyta lit. red plants 和叶绿体亚界&#x2F;绿色植物亚界 Chloroplastida lit. green plastids&#x2F;Viridiplantae lit. green plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;灰植门是罕见的淡水藻，通常位于水体表面。&lt;&#x2F;li&gt;
+&lt;li&gt;红植门有上千种被描述的藻种，通常为海水藻。形态既有单细胞，又有各种丝状形态，还有复杂的红色水草。&lt;&#x2F;li&gt;
+&lt;li&gt;叶绿体亚界包括绿藻和陆生植物。&lt;&#x2F;li&gt;
+&lt;li&gt;叶绿体亚界分为链形植物 streptophytes lit. twisted plants 和绿植门&#x2F;绿藻门 chlorophytes lit. green plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;链形植物包括一些绿藻和陆生植物；链形植物中的绿藻称为另类植门&#x2F;轮藻门 charophytes lit. altered plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;另类植门包括偶线植纲&#x2F;双星藻纲 Zygnematophyta lit. paired threaded plants ，单细胞或线状的淡水藻，与陆生植物亲缘较近；另类藻纲&#x2F;轮藻纲 Charophyceae lit. altered algae ，多细胞的淡水藻；绿方藻纲 Chlorokybophyceae lit. green cubic algae ;
+Klebs小链藻纲&#x2F;克里藻纲 Klebsormidiophyceae lit. little-chained algae of Klebs ；鞘毛藻纲 Coleochaetophyceae lit. sheathed haired algae 以及中斑纲&#x2F;中眼藻纲 Mesostigma lit. middle marks 。&lt;&#x2F;li&gt;
+&lt;li&gt;绿植门包括大量的含或不含鞭毛的单细胞或群落，及丝状和复杂的巨藻 macroalgae ，包括绿色水草。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;gan-qiang-gen-chao-lei-qun-sar&quot;&gt;秆腔根超类群 Sar&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;秆腔根超类群通过系统发生基因组学分析被发现，分为秆毛界&#x2F;不等鞭毛界&#x2F;绒鞭界 Stramenopiles lit. straw hairs 、 腔虫界&#x2F;囊泡虫界 Alveolata lit. little cavities 以及生根界&#x2F;有孔虫界&#x2F;根足虫界 Rhizaria lit. root producers。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;gan-mao-jie&quot;&gt;秆毛界&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;形态特征为有坚硬管状鞭毛；然而一些种和子类群中此特征已退化，如生杆植纲和褐植纲的营养期。&lt;&#x2F;li&gt;
+&lt;li&gt;包括一些光合和异养生物。&lt;&#x2F;li&gt;
+&lt;li&gt;秆毛界的光合成员构成单系群，称作赭植门&#x2F;淡色藻门 ochrophytes lit. yellow plants ，其质体来源于红藻的内共生。&lt;&#x2F;li&gt;
+&lt;li&gt;赭植门包括生杆植纲&#x2F;硅藻纲 diatoms lit. cuts through&#x2F;Bacillariophyta lit. small rod producing plants ，呈单细胞或种群，有含硅的“细胞壁”，具有巨大生态价值；褐植纲&#x2F;褐藻纲 Phaeophyta lit. dark gray plants ，丝状或多细胞；
+针藻纲&#x2F;针胞藻纲 Raphidophyceae lit. needle algae ，具鞭毛；金植纲&#x2F;金藻纲 Chrysophyta lit. golden plants ，具鞭毛，有些呈种群，多数不再光合；真斑藻纲&#x2F;真眼点藻纲 Eustigmatophyceae lit. algae of true mark ；
+黄藻纲 Xanthophyceae lit. yellow algae ，上述2纲通常为丝状，与褐藻亲缘较近。此外有一些不清晰的类群，如辐眉虫目&#x2F;太阳虫目 Actinophryida lit. little radial eyebrows ，异养原生动物。&lt;&#x2F;li&gt;
+&lt;li&gt;秆毛界的异养成员包括一些类真菌和原生动物。丝壶菌门 Hyphochytriomycota lit. pot-like fungi with hyphae 和卵菌门 Oomycota lit. egg-like fungi 很像真菌，产生有隔、有壁的菌丝，通常寄生植物和水生生物。马铃薯晚疫病由卵菌引起。
+小迷路菌门&#x2F;网黏菌门 Labyrinthulomycota lit. little tortuous fungi 无壁，形成质外网络 ectoplasmic networks 。Pirson虫目 Pirsoniida 与卵菌和丝壶菌有关，是类寄生虫的藻。此外，有很多具2或1鞭毛的异养秆毛虫。海洋中有许多称为MAST的未被描述的秆毛虫种。
+最后宝亚门&#x2F;蛙片虫亚门 Opalinata lit. jewels 包括一些栖居在动物肠道的虫，具(2~4)或多个鞭毛的虫，或包括芽囊属&#x2F;芽囊原虫属 &lt;em&gt;Blastocystis&lt;&#x2F;em&gt; lit. bladder with buds 的无鞭毛厌氧生物。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;qiang-chong-jie&quot;&gt;腔虫界&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;包括顶系门&#x2F;顶复门 Apicomplexa lit. top complexes 、奇异鞭毛门&#x2F;甲藻门 Dinoflagellata lit. awesome flagellates 和有纤毛门&#x2F;纤毛虫门 Ciliophora lit. cilia carriers 。&lt;&#x2F;li&gt;
+&lt;li&gt;典型的顶系门寄生，包括质虫属&#x2F;疟原虫属 &lt;em&gt;Plasmodium&lt;&#x2F;em&gt; lit. little plasma 、Gond毒质&#x2F;刚地弓形虫 &lt;em&gt;Toxoplasma gondii&lt;&#x2F;em&gt; lit. toxic plasma of Gond 以及小隐孢虫&#x2F;小隐孢子虫 &lt;em&gt;Cryptosporidium parvum&lt;&#x2F;em&gt; lit. small little hidden spores 。
+阴虫目 colpodellids lit. little hollows 、色虫藻目 chromerids lit. little colours 是顶系门的姐妹系，阴虫目寄生或捕食其他种原生生物，而色虫藻目是顶系门光合祖先的后代。2系可能交错组成色阴虫目 chrompodellids 。&lt;&#x2F;li&gt;
+&lt;li&gt;奇异鞭毛门是海洋微浮游生态的重要成分，肉眼可见，可营自养或异养生活。奇异鞭毛门参与的生态现象包括赤潮、与珊瑚虫的共生以及动物和其他原生生物的寄生。Perkins动物 Perkinsozoa 与奇异鞭毛门有密切关系。顶系门与奇异鞭毛门亦关系密切，其不甚清晰的边界包括一些异养鞭毛虫，
+如沙虫 &lt;em&gt;Psammosa&lt;&#x2F;em&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;有纤毛门大多自由生活，异养。大多含有大量纤毛，呈现特征性的核2-态性，即体细胞含大核 macronuclei 而生殖细胞含小核 micronuclei 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;sheng-gen-jie&quot;&gt;生根界&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大多为变形虫、鞭毛虫或变形鞭毛虫，亦存在孢子寄生虫和藻。通常有线状或网状的伪足，可由微丝&#x2F;肌动蛋白或微管支撑。&lt;&#x2F;li&gt;
+&lt;li&gt;无形态特征，仅由分子系统发生学分析确定。&lt;&#x2F;li&gt;
+&lt;li&gt;有孔虫 Foraminifera lit. foramen bearers 和生小辐门&#x2F;放射虫门 radiolarians lit. little ray producers 是有名的生根虫，多数是大型大量存在的伪足由微管支持的海洋变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;多数有孔虫栖居在多室的壳中，因此留下众多化石记录。&lt;&#x2F;li&gt;
+&lt;li&gt;生小辐门分为多囊纲&#x2F;多孔虫纲 Polycystinea lit. multiple cysts ，通常有硅骨架，以及棘纲&#x2F;等辐骨虫纲 Acanthanrea lit. thorns ，有硫酸锶骨架。&lt;&#x2F;li&gt;
+&lt;li&gt;有孔虫、多囊纲、棘纲以及类似生小辐门的行尖属 &lt;em&gt;Sticholonche&lt;&#x2F;em&gt; lit. spearheads in a row 有联系，但它们的关系尚不明了。&lt;&#x2F;li&gt;
+&lt;li&gt;线状虫 Filosa 极多样。包括很多自由生活的鞭毛虫和一些变形虫系。鞭毛虫线状虫大多使用细小的伪足摄食，附着于表面，有些寄生。变形虫线状虫有壳或裸。有2个光合系，其中绿蛛植 chlorarachniophytes lit. green spider-like plants 质体来源于绿藻的内共生，
+而有色Pauli虫 &lt;em&gt;Paulinella chromatophora&lt;&#x2F;em&gt; lit. little Pauli carrying colours 的载色体 chromatophore 来源于蓝细菌的内共生，但与古质体界的内共生是分离的。&lt;&#x2F;li&gt;
+&lt;li&gt;除有孔虫、生小辐门及线状虫之外的生根界主要为变形虫和寄生虫。寄生虫如植黏纲 Phytomyxea lit. plant mucus ，植物和秆毛界的病原；副黏目 Paramyxida lit. abnormal mucus 和单孢虫纲&#x2F;单孢子纲 Haplosporidia lit. little single spores ，寄生于海洋无脊椎动物。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;qi-ta-gu-zhi-ti-jie-he-gan-qiang-gen-chao-lei-qun-xiang-guan-de-xi-qun&quot;&gt;其他古质体界和秆腔根超类群相关的系群&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;狭义隐界&#x2F;狭义隐藻界 Cryptista lit. hidden (sensu stricto) 包括隐植门&#x2F;隐藻门 Cryptophyta lit. hidden plants ，大多单细胞，有2鞭毛，有红藻来源的质体，很多不再光合；下睑目 katablepharids lit. down eyelids 和
+搏单属 &lt;em&gt;Palpitomonas&lt;&#x2F;em&gt; lit. thrombing flagellates ，2鞭毛异养。&lt;&#x2F;li&gt;
+&lt;li&gt;定植门&#x2F;定鞭藻门 Haptophyta lit. fastened plants 是单细胞藻，质体来源于红藻，主要在海洋中。其中有球石目&#x2F;颗石藻目 coccolithophorids lit. globular stone bearers 产生的钙鳞在碳循环中有重要意义。&lt;&#x2F;li&gt;
+&lt;li&gt;中日目 Centrohelida lit. central suns 是异养变形虫，有长辐状轴足 axopodia 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;pan-kobya-jie-pan-ji-ya-jie-discoba&quot;&gt;盘kob亚界&#x2F;盘嵴亚界 Discoba&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;包括Jakob目&#x2F;雅各巴虫目 Jakobida ，异养鞭毛虫，线粒体基因组像细菌；筑波单属 &lt;em&gt;Tsukubamonas&lt;&#x2F;em&gt; ；以及盘嵴总门 Discicristata lit. disk-shaped cristae 。&lt;&#x2F;li&gt;
+&lt;li&gt;盘嵴总门分为异圆纲&#x2F;异叶足纲 Heterolobosea ，变形虫、鞭毛虫或变形鞭毛虫，其中混目 acrasids lit. chaos 是黏菌；真窝动物门&#x2F;眼虫门 Euglenozoa lit. true depressed animals 。&lt;&#x2F;li&gt;
+&lt;li&gt;真窝动物门分为真窝目&#x2F;眼虫目 Euglenida ，在表面上滑行捕食，或藻，质体来源于绿藻；动质纲&#x2F;动质体纲 Kinetoplastea ，包括锥虫，自由生活或寄生鞭毛虫；双线纲 Diplonemea lit. 2 threads ，动质体纲的姐妹群，具有独特的线粒体基因表达系统。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;hou-dan-men-hou-di-men-metamonada-lit-flagellates-after&quot;&gt;后单门&#x2F;后滴门 Metamonada lit. flagellates after&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;是厌氧原生动物，几乎均为鞭毛虫。&lt;&#x2F;li&gt;
+&lt;li&gt;后单门在系统发生树上的位置有争议，一些分析支持其与盘kob亚界的关系，而另一些支持其与Malawi单科的关系。&lt;&#x2F;li&gt;
+&lt;li&gt;包括前轴笔纲&#x2F;前轴柱纲 Preaxostyla lit. axial styli before ，其中锐单目&#x2F;锐滴虫目 oxymonads lit. sharp flagellates 肠道共生，三鞭目&#x2F;三鞭毛虫目 trimastigids lit. 3 whips 自由生活；
+副基纲&#x2F;副基体纲 Parabasalia ，几乎体内共生，包括鞘毛单&#x2F;阴道毛滴虫 &lt;em&gt;Trichomonas vaginalis&lt;&#x2F;em&gt; ；拱纲&#x2F;拱形虫纲 Fornicata 。&lt;&#x2F;li&gt;
+&lt;li&gt;拱纲包括双单目&#x2F;双滴虫目 Diplomonadida ，有2核和2鞭毛器，如Lamblgiard&#x2F;蓝氏贾第虫 &lt;em&gt;Giardia lamblia&lt;&#x2F;em&gt; 和肠giard &lt;em&gt;Giardia intestinalis&lt;&#x2F;em&gt; ；后扭单目&#x2F;曲滴虫目 retortamonads 和腔单科 Caviomonadidae ，互利共生或寄生；
+类捕摄单属生物 &lt;em&gt;Carpediemonas&lt;&#x2F;em&gt;-like organisms ，如捕摄单属 &lt;em&gt;Carpediemonas&lt;&#x2F;em&gt; 、错连属 &lt;em&gt;Dysnectes&lt;&#x2F;em&gt; 和新月酥属 &lt;em&gt;Kipferlia&lt;&#x2F;em&gt; 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
