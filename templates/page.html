@@ -17,7 +17,28 @@
     </p>
 </section>
 
-<section>
+{% if page.toc %}
+    <section class="bordered">
+        <ul>
+            {% for h1 in page.toc %}
+                <li>
+                    <a href="{{ h1.permalink | safe }}"> {{ h1.title }} </a>
+                    {% if h1.children %}
+                        <ul>
+                            {% for h2 in h1.children %}
+                                <li>
+                                    <a href="{{ h2.permalink | safe }}"> {{ h2.title }} </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}
+
+<section class="bordered">
     {{ page.content | safe }}
 </section>
 
