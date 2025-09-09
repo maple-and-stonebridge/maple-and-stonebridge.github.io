@@ -1,7 +1,7 @@
 +++
 title = "Guyton and Hall Textbook of Medical Physiology 单元9笔记"
 description = "单元9介绍了神经系统原理和感觉生理学。"
-date = 2025-09-06
+date = 2025-09-09
 [taxonomies]
 category = ["笔记"]
 field = ["医学", "生理学", "神经科学"]
@@ -41,7 +41,8 @@ tag = ["神经元", "突触", "神经递质"]
 
 ## 46.4 Central Nervous System Synapses 中枢神经系统中的突触
 * 电突触是双向传导的。可用于探测相连神经元的多个阈下去极化事件的同时出现，以提高敏感性，同时促进神经元的 _共时 synchronous_ 激活。
-> 可能介导下章讲到的平行通路，这样在输出端就能通过空间加和产生比较强的兴奋。
+> 可能介导下章讲到的[平行](#47-3-signal-intensity-transmission-in-nerve-tracts-sptial-and-temporal-summation-shen-jing-zhong-de-xin-hao-qiang-du-bian-ma-kong-jian-he-shi-jian-jia-he)通路，这样在输出端就能通过空间加和产生比较强的兴奋。
+> > 并不是。。。下章是感觉通路上的
 > 注意以上叙述和典型的“树突传导电扩布，轴突传导动作电位”的二分是不相容的。突触两侧的膜对称？电突触又分布在神经元的何处？
 ### 前膜
 * 突触前末端膜上有电压门控Ca<sup>++</sup>通道，在动作电位到达时开放。前膜释放的递质量与Ca<sup>++</sup>进入的量直接相关。
@@ -70,7 +71,9 @@ tag = ["神经元", "突触", "神经递质"]
 * 突触前抑制是突触前末端的超极化，主要由GABA引起，如感觉侧抑制。
 * 前角运动神经元(80~95)%突触在树突上，(5~20)%突触在胞体上。树突可自胞体向各方向延伸(500~1k)μm。
 * 由于树突膜绝缘不完全以及胞质的电阻，电扩布的电位发生衰减，因此树突上的突触距离胞体越远， _权重_ 就越低。
-* 神经元越兴奋，放电频率就越高。不同神经元的阈电位和最大频率不同，功能也就不同。 ![频率—兴奋关系](/resources/frequency-excitation-relationship.png)
+* 神经元越兴奋，放电频率就越高。不同神经元的阈电位和最大频率不同，功能也就不同。
+
+![频率—兴奋关系](/resources/frequency-excitation-relationship.png) 图片来自原书
 * G蛋白耦联受体激活后开放胞内结合位点，无活性的GDP-G蛋白与受体结合后，可结合GTP，释放的能量使G蛋白裂解，有活性的GTP-α游离于胞质发挥效应。β和γ是调节亚基。GTP-α可开放离子通道（如较慢的K<sup>+</sup>通道），激活cAMP/cGMP通路，
 激活酶或基因转录来改变神经元的代谢或结构状态。
 * 长期的激活或抑制效应可通过后膜受体 _数量_ 介导，神经肽也可致Ca<sup>++</sup>通道的长时关闭、代谢的变化和基因的开关等。
@@ -117,8 +120,21 @@ tag = ["神经元", "突触", "神经递质"]
 * 感觉受体可对持续的刺激进行适应 adaptation 。不同受体适应的速度和程度不同。如 __环层小体 Pacinian corpuscle__ 在数cs内完全适应，而化学感受器和痛觉感受器可能永不完全适应。
 * 适应的机制对受体类型是特异的。对机械感受器来说，适应的机制包括受体 _结构_ 的改变及可能缘于Na<sup>+</sup>通道失活的 __accommodation 调定__ 。
 * __Tonic 张型受体__ 即慢适应受体持续探测刺激强度。包括肌梭、腱器、前庭器的椭圆囊斑及球囊斑、痛觉感受器、动脉压力感受器和颈动脉窦与主动脉体的化学感受器。
-* __Rate receptors 变化率受体__ 、 __movement receptors 运动受体__ 或 __phasic receptors 相型受体__ 即快适应受体探测刺激强度的变化率。具有预测功能。
+* __Rate receptors 变化率受体__ 、 __movement receptors 运动受体__ 或曰 __phasic receptors 相型受体__ 即快适应受体探测刺激强度的变化率。具有预测功能。
 > 变化率受体大概相当于刺激强度的 _微分器_ ，所以可以用来近似求未来的刺激强度值。
 * 神经纤维可分为有髓鞘的 __A型__ 和无髓鞘的 __C型__ 。A型按照直径由大到小或传输速度由快到慢可分为 __Aα型__ 、 __Aβ型__ 、 __Aγ型__ 和 __Aδ型__ 。
 * 神经纤维也被分为 __Ia__ 、 __Ib__ 、 __II__ 、 __III__ 和 __IV__ 等5组。Ia纤维来自肌梭螺旋末梢，Ib纤维来自腱器，它们是Aα型。II纤维来自大多数皮肤触觉受体和肌梭花蕊末梢，它们是Aβ型、Aγ型。III纤维传输温觉、粗触觉和尖锐痛觉，它们是Aδ型。
 IV纤维传输痛觉、氧觉、温觉和粗触觉，它们是C型。
+
+## 47.3 Signal Intensity Transmission in Nerve Tracts — Sptial and Temporal Summation 神经中的信号强度编码——空间和时间加和
+* 为叙述方便，定义一块空间A对数量特性p是 __羽的__ :⇔ A的中心部分p最大，越是周围的部分p越小，直到A的边界p趋于0。
+* __空间加和 spatial summation__ 指信号越强，激活的并行神经纤维越多的现象。这些纤维对于激活度是羽的。
+* 空间加和的机制是每个纤维的 _感受野 receptive field_ 相互重叠，并且感受野对于感受性是羽的。
+* __时间加和 temporal summation__ 指信号越强，单个神经纤维放电频率越高的现象。
+
+## 47.4 Transmission and Processing of Signals in Neuronal Pools 神经元池中信号的传输和处理
+* __神经元池 neuronal pools__ 是对神经系统中紧密关联的神经元集合的称谓。如皮层、核团和脊髓背侧的灰质。
+### 神经元池对信号的中继
+* 输入纤维的 _刺激野 stimulatory field_ 是羽的。中心部位接受了纤维足够的刺激而仅需该纤维兴奋即可产生动作电位的胞体构成了纤维的 __discharge zone 放电区__ 、 __excited zone 兴奋区__ 或曰 __liminal zone 阈区__ ；
+周围不属于阈区的胞体构成了 __facilitated zone 易化区__ 、 __subthreshold zone__ 或曰 __subliminal zone 阈下区__ 。
+* _Inhibitory zone 抑制区_ 和刺激野相似，是羽的。
