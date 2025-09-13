@@ -9,6 +9,7 @@ tag = ["神经元", "突触", "神经递质"]
 +++
 
 下学期有《神经生物学》和《精神药理学》课程，紧急来看一下。这本书看起来真的爽。
+下面的章节不太紧要，应该会停更许久orz
 
 ---
 # Unit 9 The Nervous System: A. General Principles and Sensory Physiology 神经系统A：原理和感觉生理学
