@@ -7,16 +7,8 @@
 }
 
 @font-face {
-    font-family: 'BubbleCN';
-    src: url('BubbleCN.ttf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'BubblegumBliss';
-    src: url('BubblegumBliss.otf') format('opentype');
+    font-family: 'XiaoXueSiNianJi';
+    src: url('XiaoXueSiNianJi-2.ttf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
