@@ -12,11 +12,11 @@ tag = ["转运体"]
 
 ---
 # 2 Transporters, Receptors, and Enzymes as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的转运体、受体和酶
-* ~30%精神药物作用于转运体。
-* ~30%精神药物作用于G蛋白耦联受体。
-* ~10%精神药物作用于酶。
-* ~20%精神药物作用于配体门控离子通道。
-* ~19%精神药物作用于电压门控离子通道。
+* ~30%精神药作用于转运体。
+* ~30%精神药作用于G蛋白耦联受体。
+* ~10%精神药作用于酶。
+* ~20%精神药作用于配体门控离子通道。
+* ~10%精神药作用于电压门控离子通道。
 
 ## 2.1 Neurotransmitter Transporters as Targets of Drug Action 递质转运体作为药靶点
 * __转运体 transporters__ 是一类12次跨膜蛋白，与递质结合，随后将其跨膜转运。
