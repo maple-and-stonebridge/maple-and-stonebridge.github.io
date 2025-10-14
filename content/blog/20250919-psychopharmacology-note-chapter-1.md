@@ -5,13 +5,13 @@ date = 2025-09-23
 [taxonomies]
 category = ["笔记"]
 field = ["医学", "药理学", "精神药理学", "神经科学"]
-tag = ["突触", "神经递质", "化学神经传导"]
+tag = ["突触", "神经递质", "化学神经传导", "信号转导"]
 +++
 
-[< 本书笔记目录](@/blog/20250919-psychopharmacology-note-index.md)
+[< 本书笔记目录](/blog/20250919-psychopharmacology-note-index)
 
 ---
-本篇笔记将作为对[生理学章46笔记](@/blog/20250823-physiology-note-unit-9.md#46-organization-of-the-nervous-system-basic-functions-of-synapses-and-neurotransmitters-shen-jing-xi-tong-de-zu-zhi-tu-hong-de-ji-ben-gong-neng-shen-jing-di-zhi)的扩充。
+本篇笔记将作为对[生理学章46笔记](/blog/20250823-physiology-note-unit-9/#46-organization-of-the-nervous-system-basic-functions-of-synapses-and-neurotransmitters-shen-jing-xi-tong-de-zu-zhi-tu-hong-de-ji-ben-gong-neng-shen-jing-di-zhi)的扩充。
 
 ---
 # 1 Chemical Neurotransmission 化学神经传导
@@ -21,12 +21,12 @@ tag = ["突触", "神经递质", "化学神经传导"]
 
 ## 1.2 Principles of Chemical Neurotransmission 化学神经传导的原理
 * 任何神经元和神经环路的输入都涉及多种递质。这是理解配伍的基础。
-* __Retrograde neurotransmission 逆向神经传输__ 指的是突触后膜向突触前末端传递信息的过程。逆向的递质如内源性大麻素、NO及神经生长因子（NGF）。NGF需经逆向轴突运输至胞体作用于基因调控。
+* __Retrograde neurotransmission 逆向神经传输__ 指的是突触后膜向突触前末端传递信息的过程。逆向的递质如内源性大麻素、NO及神经生长因子（NGF）。NGF需经逆向轴突运输至胞体作用于基因调控。NGF, nerve growth factor。
 * __Volume neurotranmission 扩散性神经传输__ 是不经突触的神经传输。释放的递质扩散形成浓度梯度，从而作用于一定 __diffusion radius 扩散半径__ 内的受体。药可能主要通过该方式影响神经传输。
-* 扩散性神经传输的例子如前额叶（PFC）的多巴胺。PFC的多巴胺转运体（DAT）少，因此多巴胺形成扩散性神经传播。另如一些单胺神经元的树突释放出单胺，作用于树突的 __autoreceptors 自受体__ 。
+* 扩散性神经传输的例子如前额叶（PFC）的多巴胺。PFC的多巴胺转运体少，因此多巴胺形成扩散性神经传播。另如一些单胺神经元的树突释放出单胺，作用于树突的 __autoreceptors 自受体__ 。PFC, prefrontal cortex。
 
 ## 1.3 Signal Transduction Cascades 信号转导
-* 信号转导使得突触前后的神经元可以在基因表达层面产生交流。有4条主要的信号转导通路。
+* 信号转导使得突触前后的神经元可以在基因表达层面产生交流。有4条主要的信号转导通路，即G蛋白耦联受体、钙通道耦联受体、激素受体和神经营养因子受体。
 * G蛋白耦联受体和钙通道耦联受体是递质的受体，它们激活各自的第2信使（cAMP，通过G蛋白和酶，或Ca<sup>++</sup>）。
 * 第3信使可作为激酶（cAMP）和蛋白磷酸酶（Ca<sup>++</sup>-calcineurin）继续信号转导过程。此处，cAMP和Ca<sup>++</sup>的作用是拮抗的。
 * 第4信使可能是磷酸蛋白或去磷酸化的蛋白，它们可调控递质合成或释放、通道电导或者维持化学神经传导的就绪状态。
