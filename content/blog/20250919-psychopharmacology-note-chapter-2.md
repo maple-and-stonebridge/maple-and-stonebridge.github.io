@@ -20,11 +20,10 @@ tag = ["转运体"]
 
 ## 2.1 Neurotransmitter Transporters as Targets of Drug Action 递质转运体作为药靶点
 * __转运体 transporters__ 是一类12次跨膜蛋白，与递质结合，随后将其跨膜转运。
-* 转运体按位置分为（突触前或胶质） __质膜转运体 plasma membrane transporters__ 和 __囊泡转运体 vesicular transporters__ 。
-SLC, solute carrier; EAAT, excitatory amino acid transporter。
+* 转运体按位置分为（突触前或胶质） __质膜转运体 plasma membrane transporters__ 和 __囊泡转运体 vesicular transporters__ 。它们是SLC。SLC, solute carrier。
 * SLC是协同运输载体。无相应溶质离子时，不能发挥转运功能。
 ### 质膜转运体
-* 质膜转运体包括SLC6及SLC1。SLC6包括单胺、GABA及甘氨酸转运体。SLC1包括兴奋性氨基酸转运体EAAT1~5。
+* 质膜转运体包括SLC6及SLC1。SLC6包括单胺、GABA及甘氨酸转运体。SLC1包括兴奋性氨基酸转运体EAAT1~5。EAAT, excitatory amino acid transporter。
 * SLC6涉及Na<sup>+</sup>/Cl<sup>-</sup>同向运输，而SLC1涉及Na<sup>+</sup>的同向运输和K<sup>+</sup>的对向运输。
 * _单胺的质膜转运体_ ：5-HT的质膜转运体是SERT，去甲肾上腺素的质膜转运体是NET，多巴胺的质膜转运体是DAT。SERT, serotonin transporter; NET, norepinephrine transporter; DAT, dopamine transpoter。
     * 单胺的质膜转运体对单胺种类特异性不太高。SERT可转运5-HT和MDMA，NET可转运去甲肾上腺素和多巴胺，DAT可转运多巴胺和苯丙胺。
@@ -49,7 +48,7 @@ VMAT, vesicular monoamine transporter; VAChT, vesicular acetylcholine transporte
 * _激动剂 agonist_ 与受体结合时，受体表现全部活性，下游效应达到最大。递质是激动剂。药可直接作用于递质结合位点发挥激动剂作用，或作用于递质转运体或灭活酶发挥激动剂作用。
 * _部分激动剂 partial agonist_ 与受体结合时，受体表现的活性位于组成性活性和全部活性之间。有时称为 _稳定剂 stabilizer_ 。
 * _拮抗剂 antagonist_ 与受体结合时，受体的构象与无激动剂时相同，因而表现组成性活性。
-* _反向激动剂 inverse agonist__ （这翻译好烂啊…）与受体结合时，受体完全失活。其与拮抗剂的区分可能有或没有临床意义。
+* _反向激动剂 inverse agonist_ （这翻译好烂啊…）与受体结合时，受体完全失活。其与拮抗剂的区分可能有或没有临床意义。
 
 ## 2.3 Enzymes as Sites of Psychopharmacological Drug Action 酶作为精神药理学药靶点
 * 药作用于酶时，可发挥不可逆抑制作用或可逆抑制作用。可逆抑制作用即竞争性抑制，作用强度取决于药和底物的浓度和亲和力。
