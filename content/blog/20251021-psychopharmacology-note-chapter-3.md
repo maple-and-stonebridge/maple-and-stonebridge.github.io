@@ -1,7 +1,7 @@
 +++
 title = "Stahl's Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章3笔记"
 description = "介绍了离子通道。"
-date = 2025-10-21
+date = 2025-10-22
 [taxonomies]
 category = ["笔记"]
 field = ["医学", "生理学", "药理学", "精神药理学", "神经科学"]
