@@ -17,7 +17,10 @@ field = ["医学", "药理学", "精神药理学"]
     * [2.2 G-Protein-Linked Receptors G蛋白耦联受体](/blog/20250919-psychopharmacology-note-chapter-2/#2-2-g-protein-linked-receptors-gdan-bai-ou-lian-shou-ti)
     * [2.3 Enzymes as Sites of Psychopharmacological Drug Action 酶作为精神药理学药靶点](/blog/20250919-psychopharmacology-note-chapter-2/#2-3-enzymes-as-sites-of-psychopharmacological-drug-action-mei-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian)
     * [2.4 Cytochrome P450 Drug Metabolizing Enzymes as Targets of Psychotropic Drugs 药代谢酶细胞色素P450作为精神药靶点](/blog/20250919-psychopharmacology-note-chapter-2/#2-4-cytochrome-p450-drug-metabolizing-enzymes-as-targets-of-psychotropic-drugs-yao-dai-xie-mei-xi-bao-se-su-p450zuo-wei-jing-shen-yao-ba-dian)
-* 3 Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的离子通道
+* [3 Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的离子通道](/blog/20251021-psychopharmacology-note-chapter-3/)
+    * [3.1 Ligand-Gated Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的配体门控离子通道](/20251021-psychopharmacology-note-chapter-3/#3-1-ligand-gated-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-pei-ti-men-kong-chi-zi-tong-dao)
+    * [3.2 Voltage-Sensitive Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的电敏电子通道](/blog/20251021-psychopharmacology-note-chapter-3/#3-2-voltage-sensitive-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-dian-min-dian-zi-tong-dao)
+    * [3.3 Ion Channels and Neurotransmission 离子通道和神经传输](/blog/20251021-psychopharmacology-note-chapter-3/#3-3-ion-channels-and-neurotransmission-chi-zi-tong-dao-he-shen-jing-chuan-shu)
 * 4 Psychosis, Schizophrenia, and the Neurotransmitter Networks Dopamine, Serotonin, and Glutamate 精神病性障碍、精神分裂症以及多巴胺、5-HT和谷氨酸的神经递质网络
 * 5 Targeting Dopamine and Serotonin Receptors for Psychosis, Mood, and Beyond: So-Called "Antipsychotics" 作用于多巴胺和5-HT受体治疗精神病性障碍和心境障碍等的“抗精神病药”
 * 6 Mood Disorders and the Neurotransmitter Networks Norepinephrine and γ-Aminobutyric Acid (GABA) 心境障碍以及去甲肾上腺素和GABA的神经递质网络

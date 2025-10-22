@@ -4,8 +4,8 @@ description = "介绍了转运体、受体和酶。"
 date = 2025-10-14
 [taxonomies]
 category = ["笔记"]
-field = ["医学", "药理学", "精神药理学", "神经科学"]
-tag = ["转运体"]
+field = ["医学", "生理学", "药理学", "精神药理学", "神经科学"]
+tag = ["转运体", "激动剂光谱", "CYP450"]
 +++
 
 [< 本书笔记目录](@/blog/20250919-psychopharmacology-note-index.md)
@@ -45,16 +45,16 @@ VMAT, vesicular monoamine transporter; VAChT, vesicular acetylcholine transporte
 * 某递质的受体可分为不同的 __药理学亚型 pharmacological subtypes__ 。
 ### 激动剂光谱
 * _无激动剂_ 时，一些受体仍会表现微弱的活性，称为 __组成性活性 constitutive activity__ 。
-* _激动剂 agonist_ 与受体结合时，受体表现全部活性，下游效应达到最大。递质是激动剂。药可直接作用于递质结合位点发挥激动剂作用，或作用于递质转运体或灭活酶发挥激动剂作用。
-* _部分激动剂 partial agonist_ 与受体结合时，受体表现的活性位于组成性活性和全部活性之间。有时称为 _稳定剂 stabilizer_ 。
-* _拮抗剂 antagonist_ 与受体结合时，受体的构象与无激动剂时相同，因而表现组成性活性。
-* _反向激动剂 inverse agonist_ （这翻译好烂啊…）与受体结合时，受体完全失活。其与拮抗剂的区分可能有或没有临床意义。
+* __激动剂 agonist__ 与受体结合时，受体表现全部活性，下游效应达到最大。递质是激动剂。药可直接作用于递质结合位点发挥激动剂作用，或作用于递质转运体或灭活酶发挥激动剂作用。
+* __部分激动剂 partial agonist__ 与受体结合时，受体表现的活性位于组成性活性和全部活性之间。有时称为 _稳定剂 stabilizer_ 。
+* __拮抗剂 antagonist__ 与受体结合时，受体的构象与无激动剂时相同，因而表现组成性活性。
+* __阻动剂 inverse agonist__ 与受体结合时，受体完全失活。其与拮抗剂的区分可能有或没有临床意义。
 
 ## 2.3 Enzymes as Sites of Psychopharmacological Drug Action 酶作为精神药理学药靶点
 * 药作用于酶时，可发挥不可逆抑制作用或可逆抑制作用。可逆抑制作用即竞争性抑制，作用强度取决于药和底物的浓度和亲和力。
 * 一些酶是临床用药的靶点，包括MAO、乙酰胆碱酯酶及GSK。锂可能通过抑制神经营养因子通路上的GSK发挥神经保护作用、长时的神经重塑作用以及心境稳定作用。丙戊酸盐和ECT可能亦作用于GSK-3。MAO, monoamine oxidase; ECT, electroconvulsive therapy。
 
-## 2.4 Cytochrome P450 Drug Metabolizing Enzymes as Targets of Psychotropic Drugs 药代谢酶细胞色素P450作为精神药靶点
+## 2.4 Cytochrome P450 Drug Metabolizing Enzymes as Targets of Psychotropic Drugs 药代谢酶CYP450作为精神药靶点
 * 一些精神药是CYP450的底物、抑制剂或诱导剂。CYP450, cytochrome P450。
 * CYP450基因型的个体差异使得标准剂量下个体的血药浓度不同。可有药物基因检测确定。药物基因检测可与血药检测协同用于病人管理。
 * CYP450分为家族；家族分为亚型；亚型分为基因产物，以3位字符串表示。重要的CYP450包括1A2、2B6、2D6、2C9、2C19和3A4。
