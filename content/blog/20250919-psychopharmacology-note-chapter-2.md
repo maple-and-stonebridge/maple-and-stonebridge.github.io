@@ -26,9 +26,9 @@ tag = ["转运体", "激动剂光谱", "CYP450"]
 * 质膜转运体包括SLC6及SLC1。SLC6包括单胺、GABA及甘氨酸转运体。SLC1包括兴奋性氨基酸转运体EAAT1~5。EAAT, excitatory amino acid transporter。
 * SLC6涉及Na<sup>+</sup>/Cl<sup>-</sup>同向运输，而SLC1涉及Na<sup>+</sup>的同向运输和K<sup>+</sup>的对向运输。
 * _单胺的质膜转运体_ ：5-HT的质膜转运体是SERT，去甲肾上腺素的质膜转运体是NET，多巴胺的质膜转运体是DAT。SERT, serotonin transporter; NET, norepinephrine transporter; DAT, dopamine transpoter。
-    * 单胺的质膜转运体对单胺种类特异性不太高。SERT可转运5-HT和MDMA，NET可转运去甲肾上腺素和多巴胺，DAT可转运多巴胺和苯丙胺。
+    * 单胺的质膜转运体对单胺种类特异性不太高。SERT可转运5-HT和MDMA，NET可转运去甲肾上腺素和多巴胺，DAT可转运多巴胺和苯丙胺 amphetamine。
     * 单胺的转运体有单胺和2Na<sup>+</sup>结合位点。可能是二聚体。有药的别构调节位点。
-    * 药作用于别构调节位点抑制转运。这些药如SSRI以及作用于NET和DAT治疗ADHD的激动剂（哌甲酯 methylphenidate 、苯丙胺 amphetamine 和可卡因 cocaine 等）。
+    * 药作用于别构调节位点抑制转运。这些药如SSRI以及作用于NET和DAT治疗ADHD的激动剂（哌甲酯 methylphenidate 、苯丙胺和可卡因 cocaine 等）。
 * _GABA的质膜转运体_ 是SLC6中的GAT1~4。抗癫痫药噻加宾 tiagabine 选择性抑制GAT1。临床上没有其他药作用于此类转运体。GAT, GABA transporter。
 * _甘氨酸的质膜转运体_ 是SLC6中的GlyT1~2。临床上没有药作用于此类转运体。GlyT, glycine transporter。
 * _谷氨酸的质膜转运体_ 是SLC1中的EAAT1~5。可能是三聚体。有些关键的EAAT位于胶质细胞质膜上，在胶质细胞内转化为谷氨酰胺，随后谷氨酰胺进入突触前神经元转化回谷氨酸。临床上没有药作用于此类转运体。

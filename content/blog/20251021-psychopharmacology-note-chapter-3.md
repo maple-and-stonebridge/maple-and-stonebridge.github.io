@@ -26,7 +26,7 @@ tag = []
 * 别构剂包括正别构剂（PAM）和负别构剂（NAM）。其于配体门控离子通道暴露于递质时发挥作用。PAM如GABA-A受体的苯二氮䓬类 benzodiazepines ，NAM如NMDA受体的苯环利定 phencyclidine _abbr._ PCP 和氯胺酮 ketamine 等。
 PAM, positive allosteric modulator; NAM, negative allosteric modulator。
 
-## 3.2 Voltage-Sensitive Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的电敏电子通道
+## 3.2 Voltage-Sensitive Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的电敏离子通道
 * 介绍VSSC和VSCC。VSSC, voltage-sensitive sodium channel; VSCC, voltage-sensitive calcium channel。
 * VSSC由一些调节亚基（如β）和1成孔亚基（α）构成。α亚基由4亚基连接而成，每亚基6次跨膜，其中跨膜区4对电压敏感，跨膜区5、6间有 __离子滤 ionic filter__ 用于选择性过滤离子。
 亚基间在胞内连接，亚基3、4之间的连接段是 __孔栓 pore inactivator__， 可将通道栓住，其他连接段也可发挥调节作用。
