@@ -19,11 +19,11 @@ tag = []
 * 配体门控离子通道的亚基有不同亚型。一些药作用于特定的亚型。
 * 5-聚体亚型配体门控离子通道由5亚基构成，每亚基4次跨膜。如GABA-A受体、N受体、5-HT3受体和一些甘氨酸受体。
 * 4-聚体亚型配体门控离子通道由4亚基构成，每亚基3次跨膜，另有1 _入膜袢 re-entrant loop_ 。如谷氨酸受体，包括AMPA受体、kainate受体和NMDA受体。
-* 配体门控离子通道有[激动剂光谱](/blog/20250919-psychopharmacology-note-chapter-2/#ji-dong-ji-guang-pu)。
-* 配体门控离子通道可处于开放状态、静息状态和关闭状态。此外，长期暴露于激动剂可致其处于 __脱敏 desensitization__ 状态，即不再具有反应性，但除去激动剂后恢复反应性。
-    * 若继续暴露于激动剂，可致配体门控离子通道处于 __失活 inactivation__ 状态，即不再具有反应性，除去激动剂后仍需较长时间才能恢复反应性。
-    * 阻动剂可作用于配体门控离子通道，使其关闭，随后稳定为失活状态。此作用可被拮抗剂迅速取消。
-* 别构剂包括正别构剂（PAM）和负别构剂（NAM）。其于配体门控离子通道暴露于递质时发挥作用。PAM如GABA-A受体的苯二氮䓬类 benzodiazepines ，NAM如NMDA受体的苯环利定 phencyclidine _abbr._ PCP 和氯胺酮 ketamine 等。
+* 配体门控离子通道有[激动药光谱](/blog/20250919-psychopharmacology-note-chapter-2/#ji-dong-yao-guang-pu)。
+* 配体门控离子通道可处于开放状态、静息状态和关闭状态。此外，长期暴露于激动药可致其处于 __脱敏 desensitization__ 状态，即不再具有反应性，但除去激动药后恢复反应性。
+    * 若继续暴露于激动药，可致配体门控离子通道处于 __失活 inactivation__ 状态，即不再具有反应性，除去激动药后仍需较长时间才能恢复反应性。
+    * 阻动药可作用于配体门控离子通道，使其关闭，随后稳定为失活状态。此作用可被拮抗药迅速取消。
+* 别构药包括正别构药（PAM）和负别构药（NAM）。其于配体门控离子通道暴露于递质时发挥作用。PAM如GABA-A受体的苯二氮䓬类 benzodiazepines ，NAM如NMDA受体的苯环利定 phencyclidine _abbr._ PCP 和氯胺酮 ketamine 等。
 PAM, positive allosteric modulator; NAM, negative allosteric modulator。
 
 ## 3.2 Voltage-Sensitive Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的电敏离子通道

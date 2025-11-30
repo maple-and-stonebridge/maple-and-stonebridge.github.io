@@ -21,10 +21,17 @@ field = ["医学", "药理学", "精神药理学"]
     * [3.1 Ligand-Gated Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的配体门控离子通道](/20251021-psychopharmacology-note-chapter-3/#3-1-ligand-gated-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-pei-ti-men-kong-chi-zi-tong-dao)
     * [3.2 Voltage-Sensitive Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的电敏离子通道](/blog/20251021-psychopharmacology-note-chapter-3/#3-2-voltage-sensitive-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-dian-min-chi-zi-tong-dao)
     * [3.3 Ion Channels and Neurotransmission 离子通道和神经传输](/blog/20251021-psychopharmacology-note-chapter-3/#3-3-ion-channels-and-neurotransmission-chi-zi-tong-dao-he-shen-jing-chuan-shu)
-* 4 Psychosis, Schizophrenia, and the Neurotransmitter Networks Dopamine, Serotonin, and Glutamate 精神病性症状、精神分裂症以及多巴胺、5-HT和谷氨酸的神经递质网络
+* [4 Psychosis, Schizophrenia, and the Neurotransmitter Networks Dopamine, Serotonin, and Glutamate 精神病性症状、精神分裂症以及多巴胺、5-HT和谷氨酸的神经递质网络](/blog/20251106-psychopharmacology-note-chapter-4/)
+    * [4.1 Symptoms of Psychosis 精神病性症状](/blog/20251106-psychopharmacology-note-chapter-4/#4-1-symptoms-of-psychosis-jing-shen-bing-xing-zheng-zhuang)
+    * [4.2 The Three Major Hypotheses of Psychosis and Their Neurotransmitter Networks 精神病性症状的3主要假说及其神经递质网络](/blog/20251106-psychopharmacology-note-chapter-4/#4-2-the-three-major-hypotheses-of-psychosis-and-their-neurotransmitter-networks-jing-shen-bing-xing-zheng-zhuang-de-3zhu-yao-jia-shuo-ji-qi-shen-jing-di-zhi-wang-luo)
+    * [4.3 The Classic Dopamine Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的经典多巴胺假说](=/blog/20251106-psychopharmacology-note-chapter-4/#4-3-the-classic-dopamine-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-jing-dian-duo-ba-e-jia-shuo)
+    * [4.4 The Glutamate Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的谷氨酸假说](/blog/20251106-psychopharmacology-note-chapter-4/#4-4-the-glutamate-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-gu-an-suan-jia-shuo)
+    * [4.5 The Serotonin Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的5-HT假说](/blog/20251106-psychopharmacology-note-chapter-4/#4-5-the-serotonin-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-5-htjia-shuo)
+    * [4.6 Schizophrenia as the Prototypical Psychotic Disorder 精神分裂症作为典型精神病性障碍](/blog/20251106-psychopharmacology-note-chapter-4/#4-6-schizophrenia-as-the-prototypical-psychotic-disorder-jing-shen-fen-lie-zheng-zuo-wei-dian-xing-jing-shen-bing-xing-zhang-ai)
+    * [4.7 Other Psychotic Illnesses 其他精神病性障碍](/blog/20251106-psychopharmacology-note-chapter-4/#4-7-other-psychotic-illnesses-qi-ta-jing-shen-bing-xing-zhang-ai)
 * 5 Targeting Dopamine and Serotonin Receptors for Psychosis, Mood, and Beyond: So-Called "Antipsychotics" 作用于多巴胺和5-HT受体治疗精神病性障碍和心境障碍等的“抗精神病药”
 * 6 Mood Disorders and the Neurotransmitter Networks Norepinephrine and γ-Aminobutyric Acid (GABA) 心境障碍以及去甲肾上腺素和GABA的神经递质网络
-* 7 Treatment for Mood Disorders: So-Called "Antidepressants" and "Mood Stabilizers" 治疗心境障碍的“抗抑郁药”和“心境稳定剂”
+* 7 Treatment for Mood Disorders: So-Called "Antidepressants" and "Mood Stabilizers" 治疗心境障碍的“抗抑郁药”和“心境稳定药”
 * 8 Anxiety, Trauma, and Treatment 焦虑和创伤及其治疗
 * 9 Chronic Pain and Its Treatment 慢性疼痛及其治疗
 * 10 Disorders of Sleep and Wakefulness and Their Treatment: Neurotransmitter Networks for Histamin and Orexin 睡眠觉醒障碍、其治疗以及组胺和食欲素的神经递质网络
