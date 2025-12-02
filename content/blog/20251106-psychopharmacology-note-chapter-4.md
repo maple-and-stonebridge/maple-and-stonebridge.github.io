@@ -1,7 +1,7 @@
 +++
 title = "Stahl's Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章4笔记"
 description = "药理学书怎么还带介绍精神病性障碍的发病机制（通路水平、系统水平）和症状学的啊？"
-date = 2025-12-01
+date = 2025-12-02
 [taxonomies]
 category = ["笔记"]
 field = ["医学", "药理学", "精神药理学", "神经科学"]
@@ -61,6 +61,26 @@ tag = ["精神病性症状", "精神病性障碍", "精神分裂症", "帕金森
 精神分裂症、物质使用、Parkinson病和痴呆及其他因素可通过不同途径导致中脑纹状体通路的高活动，引发妄想、幻觉等阳性症状。精神分裂症可导致中脑皮质通路的低活动，引发认知、情感和阴性症状。
 
 ## 4.4 The Glutamate Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的谷氨酸假说
+### 谷氨酸神经递质网络
+* 谷氨酸、甘氨酸、D-丝氨酸代谢
+    * 谷氨酸在谷氨酸能神经末梢内形成。谷氨酰胺在线粒体内由谷氨酰胺酶生成谷氨酸。而在胶质细胞内，谷氨酸由谷氨酰胺合成酶生成谷氨酰胺。
+    * 甘氨酸和L-丝氨酸在胶质细胞中经丝氨酸羟甲基转移酶（SHMT）相互转化。SHMT, serine hydroxymethyl transferase。
+    * D-丝氨酸和L-丝氨酸在胶质细胞中经D-丝氨酸消旋酶相互转化。D-丝氨酸可经D-氨基酸氧化酶（DAO）代谢为羟基丙酮酸。DAO拥有1种激活物DAOA。DAO, D-amino acid oxidase; DAOA, DAO activator。
+* 谷氨酸神经传导
+    * 谷氨酸经vGluT转运至囊泡。突触间隙中的谷氨酸主要被胶质细胞质膜EAAT再摄取并转化为谷氨酰胺，储存于胞质中。谷氨酰胺经转运体SNAT或ASC-T释放出细胞，经另型的SNAT转运入突触末梢，随后被转化为谷氨酸。SNAT, specific neutral amino acid
+    transporter; ASC-T, alanine-serine-cysteine transpoter。
+    * NMDA受体需要 __协同递质 cotransmitter__ 甘氨酸或D-丝氨酸。
+    * 甘氨酸可由甘氨酸能末梢释放，但主要由胶质细胞胞质经GlyT1释放。经胶质质膜上的GlyT1或SNAT或甘氨酸能末梢质膜上的GlyT2再摄取。
+    * D-丝氨酸在胶质合成后，可能储存在某种囊泡中。经不同方向的D-SER-T释放和再摄取。D-SER-T, D-serine transporter。
+* 谷氨酸受体
+    * 谷氨酸的促代谢型受体有至少8亚型，分为3组。组I可能主要位于突触后膜，协助促离子型受体的作用。组II和III可位于突触前膜作为负反馈自受体。
+    * 促离子型受体有NMDA受体、AMPA受体及kainate受体。其中，AMPA受体及kainate受体可能介导快速去极化，而NMDA受体需要下列条件 __同时__ 满足，方可使 __Ca<sup>++</sup>__ 流入：
+        1. 存在谷氨酸；
+        2. 存在协同递质甘氨酸 __或__ D-丝氨酸；
+        3. 后膜去极化。
+
+        介导长时增强和突触可塑性。
+
 ## 4.5 The Serotonin Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的5-HT假说
 ## 4.6 Schizophrenia as the Prototypical Psychotic Disorder 精神分裂症作为典型精神病性障碍
 ## 4.7 Other Psychotic Illnesses 其他精神病性障碍
