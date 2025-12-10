@@ -18,7 +18,7 @@ tag = ["神经元", "突触", "神经递质"]
 > 本书基本立场：神经系统是信息处理系统（认知主义）。
 ## 46.1 General Design of the Nervous System 神经系统的运行模式
 * 化学突触是单向传导的。
-`但：见[逆向神经传输](/blog/20250919-psychopharmacology-note-chapter-1/#1-2-principles-of-chemical-neurotransmission-hua-xue-shen-jing-chuan-dao-de-yuan-li)。`
+> 但：见[逆向神经传输](/blog/20250919-psychopharmacology-note-chapter-1/#1-2-principles-of-chemical-neurotransmission-hua-xue-shen-jing-chuan-dao-de-yuan-li)。
 * 神经元接受数百至200,000个输入，输出信号则经单个轴突。
 > 单个神经元接受广泛的信息传入，对这些信息进行整合输出。即，信息流是 _收敛的 convergent_。在这个意义上，神经元可类比为 __探测器 detector__。
 * 感觉区分布于脊髓、网状结构、小脑、丘脑、皮层。
