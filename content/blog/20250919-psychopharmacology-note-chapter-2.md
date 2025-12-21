@@ -18,7 +18,7 @@ tag = ["转运体", "激动药光谱", "CYP450"]
 * ~20%精神药作用于配体门控离子通道。
 * ~10%精神药作用于电压门控离子通道。
 
-## 2.1 Neurotransmitter Transporters as Targets of Drug Action 递质转运体作为药靶点
+## 2.1 Neurotransmitter Transporters as Targets of Drug Action 作为药靶点的递质转运体
 * __转运体 transporters__ 是一类12次跨膜蛋白，与递质结合，随后将其跨膜转运。
 * 转运体按位置分为（突触前或胶质） __质膜转运体 plasma membrane transporters__ 和 __囊泡转运体 vesicular transporters__ 。它们是SLC。SLC, solute carrier。
 * SLC是协同运输载体。无相应溶质离子时，不能发挥转运功能。
@@ -50,11 +50,11 @@ VMAT, vesicular monoamine transporter; VAChT, vesicular acetylcholine transporte
 * __拮抗药 antagonist__ 与受体结合时，受体的构象与无激动药时相同，因而表现组成性活性。
 * __阻动药 inverse agonist__ 与受体结合时，受体完全失活。其与拮抗药的区分可能有或没有临床意义。
 
-## 2.3 Enzymes as Sites of Psychopharmacological Drug Action 酶作为精神药理学药靶点
+## 2.3 Enzymes as Sites of Psychopharmacological Drug Action 作为精神药理学药靶点的酶
 * 药作用于酶时，可发挥不可逆抑制作用或可逆抑制作用。可逆抑制作用即竞争性抑制，作用强度取决于药和底物的浓度和亲和力。
 * 一些酶是临床用药的靶点，包括MAO、乙酰胆碱酯酶及GSK。锂可能通过抑制神经营养因子通路上的GSK发挥神经保护作用、长时的神经重塑作用以及心境稳定作用。丙戊酸盐和ECT可能亦作用于GSK-3。MAO, monoamine oxidase; ECT, electroconvulsive therapy。
 
-## 2.4 Cytochrome P450 Drug Metabolizing Enzymes as Targets of Psychotropic Drugs 药代谢酶CYP450作为精神药靶点
+## 2.4 Cytochrome P450 Drug Metabolizing Enzymes as Targets of Psychotropic Drugs 作为精神药靶点的药代谢酶CYP450
 * 一些精神药是CYP450的底物、抑制药或诱导药。CYP450, cytochrome P450。
 * CYP450基因型的个体差异使得标准剂量下个体的血药浓度不同。可有药物基因检测确定。药物基因检测可与血药检测协同用于病人管理。
 * CYP450分为家族；家族分为亚型；亚型分为基因产物，以3位字符串表示。重要的CYP450包括1A2、2B6、2D6、2C9、2C19和3A4。
