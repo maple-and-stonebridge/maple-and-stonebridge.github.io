@@ -37,7 +37,11 @@ tag = ["转运体", "激动药光谱", "CYP450"]
 * 囊泡转运体包括SLC18、SLC32及SLC17，还有新发现的、底物未知的SV2A。SLC18包括单胺组胺转运体VMAT及乙酰胆碱转运体VAChT。SLC32包括抑制性氨基酸转运体VIAAT。SLC17包括谷氨酸转运体vGluT1~3。
 VMAT, vesicular monoamine transporter; VAChT, vesicular acetylcholine transporter; VIAAT, vesicular inhibitory amino acid transporter; vGluT, vesicular glutamate transporter。
 * 囊泡上的质子泵将质子泵出囊泡从而制造电位差，囊泡转运体利用递质的正电荷将其转运入囊泡。
-* 一些药作用于VMAT，如苯丙胺（作为底物）和丁苯那嗪 tetrabenazine 及其衍生物氘代丁苯那嗪 deutetrabenazine 和缬苯那嗪 valbenazine （作为抑制药）。临床上没有药作用于VAChT、SLC32和SLC17。
+> 此处有误。质子泵将质子泵入囊泡。见<a href="https://pubs.acs.org/doi/10.1021/bi00624a025">1977 Biochemistry 16, 972-977</a>。
+* VMAT包括VMAT1和VMAT2。VMAT1位于中枢和周围，VMAT2则只见于中枢。
+    * 利血平 reserpine 不可逆阻滞VMAT1和VMAT2。
+    * 一些药作用于VMAT2，如苯丙胺、MDMA（作为底物）和丁苯那嗪 tetrabenazine 及其衍生药（作为可逆阻滞药）。
+* 临床上没有药作用于VAChT、SLC32和SLC17。
 * SV2A与抗癫痫药左乙拉西坦 levetiracetam 结合。
 
 ## 2.2 G-Protein-Linked Receptors G蛋白耦联受体
