@@ -4,9 +4,9 @@
     {% block meta %} {% endblock meta %}
 
     <section>
-        <ol>
+        <ol class="item_list">
         {% for page in paginator.pages %}
-            <li>
+            <li class="item">
                 <article>
                     <h2>
                         <a href="{{ page.permalink | safe }}"> {{ page.title }} </a>

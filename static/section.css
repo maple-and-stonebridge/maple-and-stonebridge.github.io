@@ -1,0 +1,42 @@
+.description_div {
+    background-image: url('/description.png');
+    height: 500px;
+    width: 1382px;
+}
+
+.description {
+    position: relative;
+    width: 395px;
+    left: 53px;
+    top: 118px;
+    line-height: 50px;
+}
+
+
+.item {
+    background: rgb(255 255 0 / 15%);
+    border-top: solid thick #700000;
+    contain: layout;
+}
+
+.item_list {
+}
+
+article h2 {
+}
+
+article p {
+}
+
+a:link {
+    text-decoration: none;
+    color: #0060ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #b000b0;
+}

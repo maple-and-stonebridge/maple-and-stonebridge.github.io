@@ -4,6 +4,10 @@
 秋槭与石桥都消失不见 - {{ section.title }}
 {% endblock title %}
 
+{% block head %}
+<link rel="stylesheet" href="/section.css" />
+{% endblock head %}
+
 {% block meta %}
 <section>
     <h1>
@@ -13,9 +17,11 @@
     <a href="{{ section.permalink }}/rss.xml"> <img src="/rss-icon.png" alt="RSS" /> </a>
 </section>
 
-<section>
-    <p>
-        {{ section.description }}
-    </p>
+<section class="description_section">
+    <div class="description_div">
+        <p class="description">
+            {{ section.description }}
+        </p>
+    </div>
 </section>
 {% endblock meta %}
