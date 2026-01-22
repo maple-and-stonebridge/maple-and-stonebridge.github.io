@@ -1,0 +1,52 @@
+.description_div {
+    background-image: url('/description_o.png');
+    height: 500px;
+    width: 1382px;
+
+    margin-left:40px;
+}
+
+.description {
+    position: relative;
+    width: 29%;
+    left: 3.835%;
+    top: 23.6%;
+    line-height: 50px;
+}
+
+.item_list::before {
+    content:"";
+    display:block;
+    height:40px;
+    width:100%;
+    background-image: url('/border_wood_pattern.png');
+}
+
+.item {
+    background: rgb(255 255 0 / 15%);
+    border-top: solid thick #700000;
+    contain: layout;
+}
+
+.item_list {
+    margin: 0 40px 16px 0;
+}
+
+article h2 {
+}
+
+article p {
+}
+
+a:link {
+    text-decoration: none;
+    color: #0060ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #b000b0;
+}

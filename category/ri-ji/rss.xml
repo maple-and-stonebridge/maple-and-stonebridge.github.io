@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>秋槭与石桥都消失不见 - 日记</title>
+      <link>https://maple-and-stonebridge.github.io</link>
+      <description>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</description>
+      <generator>Zola</generator>
+      <language>zh-cn</language>
+      <atom:link href="https://maple-and-stonebridge.github.io/category/ri-ji/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>1个小说的构想</title>
+          <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251221-novel-idea/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251221-novel-idea/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251221-novel-idea/">&lt;p&gt;可以每一段前用一个标号，由几个字母或者数字构成，用方括号括起来，这个字符串其实要放在一个隐蔽的符号系统里解释，这个符号系统的主题和内容、形式会形成3条平行线；最后在一些彼此关联较弱的句子中逐渐同时加入情感和无意义符号来结尾&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>为什么要摘抄文学文本呢</title>
+          <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250822-dairy/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250822-dairy/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250822-dairy/">&lt;p&gt;把那些概括的句子收集起来，背下来，然后在侃侃而谈的时候引用来赋予言语文化背景，也显得自己博学。看起来很俗吧。但是随口说出来一句全世界不超过10人记得的句子真的很酷呢。就算是我也是有文化的啊！&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>催眠药</title>
+          <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250820-dairy/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250820-dairy/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250820-dairy/">&lt;p&gt;催眠药真的能带来安心感啊，可以掌握自己死亡的感觉w&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
