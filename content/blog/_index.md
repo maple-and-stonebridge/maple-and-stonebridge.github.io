@@ -1,6 +1,6 @@
 +++
 title = "Blog Pages"
-description = "所有的页面都在这里！"
+description = "所有的页面都在这里！所有的页面都在这里！所有的页面都在这里！所有的页面都在这里！"
 sort_by = "date"
 
 template = "section.html"

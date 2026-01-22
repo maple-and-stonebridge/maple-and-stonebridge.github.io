@@ -1,17 +1,26 @@
 .description_div {
-    background-image: url('/description.png');
+    background-image: url('/description_o.png');
     height: 500px;
     width: 1382px;
+
+    margin-left:40px;
 }
 
 .description {
     position: relative;
-    width: 395px;
-    left: 53px;
-    top: 118px;
+    width: 29%;
+    left: 3.835%;
+    top: 23.6%;
     line-height: 50px;
 }
 
+.item_list::before {
+    content:"";
+    display:block;
+    height:40px;
+    width:100%;
+    background-image: url('/border_wood_pattern.png');
+}
 
 .item {
     background: rgb(255 255 0 / 15%);
@@ -20,6 +29,7 @@
 }
 
 .item_list {
+    margin: 0 40px 16px 0;
 }
 
 article h2 {
