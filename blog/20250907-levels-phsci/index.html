@@ -1,0 +1,183 @@
+<!doctype html>
+
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon@16x16.png" />
+
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+		<title>
+			
+秋槭与石桥都消失不见 - 论层级
+
+		</title>
+
+		<link rel="stylesheet" href="/font.css" />
+		<link rel="stylesheet" href="/base.css" />
+		
+<link rel="stylesheet" href="/page.css" />
+
+	</head>
+
+	<body>
+		
+<nav>
+    <ul>
+        <li>
+            <a href="/">home</a>
+        </li>
+        <li>
+            <a href="/blog/">blog</a>
+        </li>
+        <li>
+            <a>图片库</a>
+        </li>
+        <li>
+            <a>关于本站</a>
+        </li>
+    </ul>
+</nav>
+
+<section>
+    <h1>
+        论层级
+    </h1>
+</section>
+
+<section>
+    <p>
+        功能层级、结构层级、抽象层级……？
+    </p>
+</section>
+
+
+    <section class="bordered">
+        <ul>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#xing-shi-hua"> 形式化 </a>
+                    
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#jie-gou-ceng-ji"> 结构层级 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#gong-neng-ceng-ji"> 功能层级 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#chou-xiang-ceng-ji"> 抽象层级 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#s"> Σ </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#shi-jian"> 实践 </a>
+                    
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#jie-gou-gong-neng"> 结构-功能 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#chou-xiang"> 抽象 </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/#s-1"> Σ </a>
+                    
+                </li>
+            
+        </ul>
+    </section>
+
+
+<section class="bordered">
+    <p>经常提到“功能层级”、“结构层级”、“抽象层级”。它们到底是什么？</p>
+<p>传统的做法要先考虑“我们说这些术语时，我们在说什么”。但是那样就有点主流了。为了契合我的口味，先来形式化地看一下。</p>
+<h1 id="xing-shi-hua">形式化</h1>
+<h2 id="jie-gou-ceng-ji">结构层级</h2>
+<p>上层的结构可以被分为下层的结构。因此结构层级是一个树\( T&lt;span class=""&gt;</span>{struct} \)，每个节点都是一个结构。</p>
+<h2 id="gong-neng-ceng-ji">功能层级</h2>
+<p>功能是一个结构的属性，把它看作一个理论：\( \Sigma&lt;span class=""&gt;</span>{func}(a)\subseteq\mathcal L&lt;span class=""&gt;</span>{func} \)，其中\( a \)满足存在结构层级\( T&lt;span class=""&gt;</span>{struct} \)使得\( a\in T&lt;span class=""&gt;</span>{struct} \)。</p>
+<p>理想情况下下层结构的功能支持了上层结构的功能，这里的支持不妨考虑为逻辑\( \vdash&lt;span class=""&gt;</span>{func} \)。即\( \Sigma&lt;span class=""&gt;</span>{func}(b)=\{ \varphi\in\mathcal L&lt;span class=""&gt;</span>{func}:\cup&lt;span class=""&gt;</span>{a\prec b}\Sigma&lt;span class=""&gt;</span>{func}(a)\vdash&lt;span class=""&gt;</span>{func}\varphi \} \)，
+其中\( a\prec b \)的含义是\( a \)在\( b \)的下层。</p>
+<h2 id="chou-xiang-ceng-ji">抽象层级</h2>
+<p>呃这个其实是来自oo的。涉及一个偏序\( \prec&lt;span class=""&gt;</span>{concept} \)。其中的元素是概念，它们要作为形式语言的常元\( \prec&lt;span class=""&gt;</span>{concept}\subseteq constant(\mathcal L&lt;span class=""&gt;</span>{abstact}) \)。</p>
+<p>当然有一个逻辑\( \vdash&lt;span class=""&gt;</span>{abstract} \)。假设\( a, b\in\prec&lt;span class=""&gt;</span>{concept}; a\prec b \)，我们有\( \forall\varphi(x)\in\mathcal L&lt;span class=""&gt;</span>{abstract}, \vdash&lt;span class=""&gt;</span>{abstract}\varphi(b)\Rightarrow\vdash&lt;span class=""&gt;</span>{abstract}\varphi(a) \)。
+这里还有量词的问题。。。。。</p>
+<h2 id="s">Σ</h2>
+<p>综上，功能层级和抽象层级没什么关联。。。。。。。。。。。。。。功能是在命题的层面，抽象是在变元的层面，而且二者的蕴含方向是相反的。</p>
+<p>接下来我们再回到实践中我们怎么运用“功能”“抽象”等术语的。</p>
+<h1 id="shi-jian">实践</h1>
+<h2 id="jie-gou-gong-neng">结构-功能</h2>
+<p>我们首先把一个大结构分为比如形态学上小结构。然后我们会先给最大的结构即\( T&lt;span class=""&gt;</span>{struct} \)的树根指派一些功能，然后我们目的论地给小结构指派功能，这些功能是为了满足大结构的功能，并最终满足树根的功能。</p>
+<p>这种指派是合理的吗？有时候，例如在生物学中，这种合理性是由进化论保障的。看来有些特异。对于人造物来说，可能有（一些实用的工具），可能没有（出于传统、直觉etc.）。</p>
+<p>这种指派在实践中有什么意义？在生物学等科学中，呃，其实我认为意义在于为我们提供了一个方便记忆的语义网络的骨架，我们的人类实践可以锚定在这个骨架上，这样，它们才能被组织起来。由此可见\( T&lt;span class=""&gt;</span>{struct, science} \)必须是符合人类自然认知的，
+否则，例如一个结构的功能很难描述的时候，我们可能要对整个结构树进行再排布。嗯，“科学结构”作为一个人造物的功能也就在此了。注意这个想法还是很循证的，可能不容易满足，需要再退一步。</p>
+<p>还有问题在于\( \vdash&lt;span class=""&gt;</span>{func} \)也不是那个符号逻辑的后承，我们当然并不严格地证明它，或者把\( \Sigma&lt;span class=""&gt;</span>{func}(x) \)详尽地列出来。正是这里的让步导致形式化意义不大，只能回到为了实践的认知上（有点打脸）。</p>
+<h2 id="chou-xiang">抽象</h2>
+<p>那么科学抽象就比较直白了，它的组织（\( \prec&lt;span class=""&gt;</span>{concept} \)）本来就很随意了，明摆着就是要怎么方便认知怎么来。只不过是形式上（或者语义组织的种类，反应为逻辑形式）有所不同。</p>
+<h1 id="s-1">Σ</h1>
+<p>总结就是，科学学者不用区分这两者。。。。。阿姨一哦哦a哎呀嗯哟</p>
+
+</section>
+
+<section>
+    2025-09-14
+</section>
+
+<section>
+    
+        # <a href="https://maple-and-stonebridge.github.io/category/fa-xiang/"> 发想 </a>
+    
+    
+        
+            # <a href="https://maple-and-stonebridge.github.io/field/ke-xue-zhe-xue/"> 科学哲学 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/field/zhe-xue/"> 哲学 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/field/sheng-wu-xue-zhe-xue/"> 生物学哲学 </a>
+        
+    
+    
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/gong-neng/"> 功能 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/chou-xiang/"> 抽象 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/ceng-ji/"> 层级 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/jie-gou/"> 结构 </a>
+        
+    
+</section>
+
+
+		<footer>
+			<p>除非另有说明，本站所有本人创作内容均通过CC0协议释放至公共领域～ Unless other specified, all content by me is released into public domain under CC0 license~~<br /> chsungyesuzuki 2025 no rights reserved</p>
+			<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode"><img src="/cc0.png" alt="CC0 Legal Code" /></a>
+			<a href="/rss.xml"> <img src="/rss-icon.png" alt="RSS" /> </a>
+		</footer>
+	</body>
+</html>
+

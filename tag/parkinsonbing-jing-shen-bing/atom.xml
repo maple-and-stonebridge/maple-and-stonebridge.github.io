@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - Parkinson病精神病</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/tag/parkinsonbing-jing-shen-bing/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-04T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/tag/parkinsonbing-jing-shen-bing/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>Stahl&#x27;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章4笔记</title>
+        <published>2025-12-04T00:00:00+00:00</published>
+        <updated>2025-12-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20251106-psychopharmacology-note-chapter-4/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20251106-psychopharmacology-note-chapter-4/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20251106-psychopharmacology-note-chapter-4/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250919-psychopharmacology-note-index&#x2F;&quot;&gt;&amp;lt; 本书笔记目录&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;4-psychosis-schizophrenia-and-the-neurotransmitter-networks-dopamine-serotonin-and-glutamate-jing-shen-bing-xing-zheng-zhuang-jing-shen-fen-lie-zheng-yi-ji-duo-ba-e-5-hthe-gu-an-suan-de-shen-jing-di-zhi-wang-luo&quot;&gt;4 Psychosis, Schizophrenia, and the Neurotransmitter Networks Dopamine, Serotonin, and Glutamate 精神病性症状、精神分裂症以及多巴胺、5-HT和谷氨酸的神经递质网络&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;4-1-symptoms-of-psychosis-jing-shen-bing-xing-zheng-zhuang&quot;&gt;4.1 Symptoms of Psychosis 精神病性症状&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;精神病性症状 psychosis&lt;&#x2F;strong&gt; 是妄想或幻觉，或者言语紊乱、行为紊乱、现实检验的失效或阴性症状（情感表达减少、动机减弱）等症状。
+&lt;ul&gt;
+&lt;li&gt;精神病性症状的出现可以分为妄想性精神病、紊乱&#x2F;激动性精神病和抑郁性精神病。知觉扭曲和运动障碍可出现于每型。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;妄想 delusions&lt;&#x2F;strong&gt; 是不被理性支持的固定信念，且无法被理性改变。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;幻觉 hallucinations&lt;&#x2F;strong&gt; 是缺乏真实外部刺激的知觉体验，其生动、清晰，无法随意控制。&lt;&#x2F;li&gt;
+&lt;li&gt;精神病性 &lt;strong&gt;知觉扭曲 perceptual distortions&lt;&#x2F;strong&gt; 是幻觉、由幻觉导致的压力或者对熟悉人物感到陌生。&lt;&#x2F;li&gt;
+&lt;li&gt;精神病性 &lt;strong&gt;运动障碍 motor disturbances&lt;&#x2F;strong&gt; 是奇怪、刻板的姿势或肢体动作，肌张力增高，不合适的笑容或笑声，自言自语或者仿佛听到声音而左顾右盼。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;妄想性精神病性症状 paranoid psychosis&lt;&#x2F;strong&gt; 是妄想投射、断定敌意及自我夸大，常见于精神分裂症和药源性精神病。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;妄想投射 paranoid projection&lt;&#x2F;strong&gt; 是相信自己被谈论、被迫害、被怀疑或被控制，或者对妄想信念的过度关注。Parkinson病精神病患者可出现伴偶不忠或偷其财物的妄想。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;断定敌意 hostile belligerence&lt;&#x2F;strong&gt; 是敌意或鄙夷的态度或表达、易激惹、批评他人倾向、表达不公正感、挑刺或者怀疑他人。尤见于精神分裂症和药源性精神病。&lt;&#x2F;li&gt;
+&lt;li&gt;妄想性 &lt;strong&gt;自我夸大 grandiose expansiveness&lt;&#x2F;strong&gt; 是相信自己有不寻常的能力或有名或承担神圣的任务、听到夸赞的言语，或者优越的态度。常见于精神分裂症和躁狂性精神病。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;紊乱&#x2F;激动性精神病性症状 disorganized&#x2F;excited psychosis&lt;&#x2F;strong&gt; 是概念紊乱、定向障碍及激动。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;概念紊乱 conceptual disorganization&lt;&#x2F;strong&gt; 是回答不相关或不连贯、偏题、使用 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;生造词 neologisms_ ，或者重复某词。见于任何精神病性障碍。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;定向障碍 disorientation&lt;&#x2F;strong&gt; 是不知道自己在何处、季节、年份或自己的年龄。常见于痴呆相关精神病和药源性精神病。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;兴奋 excitement&lt;&#x2F;strong&gt; 是心境增高，没有限制的情感表达，优越的态度，症状的夸张描述，多动，不安，或者快速、响亮、热情或过多的言语。尤见于躁狂和精神分裂症。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;抑郁性精神病性症状 depressive psychosis&lt;&#x2F;strong&gt; 是精神运动性迟滞、麻木以及自罚自责焦虑。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;精神运动性迟滞 psychomotor retardation&lt;&#x2F;strong&gt; 和 &lt;strong&gt;麻木 apathy&lt;&#x2F;strong&gt; 是言语变慢、受阻、响度低或不能回答问题，运动变慢，对自己、自己的问题或未来不关心或麻木，面部表情固定，近期记忆缺陷或者不整洁。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;自罚自责焦虑 anxious self-punishment and blame&lt;&#x2F;strong&gt; 是自责、自我贬低、负罪感、无价值感，其表达或倾向，对特定事物或未来不确定性的焦虑，抑郁心境，或者对自杀想法、不想要的想法或特定恐惧的过分关注。常见于精神病性抑郁症。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-2-the-three-major-hypotheses-of-psychosis-and-their-neurotransmitter-networks-jing-shen-bing-xing-zheng-zhuang-de-3zhu-yao-jia-shuo-ji-qi-shen-jing-di-zhi-wang-luo&quot;&gt;4.2 The Three Major Hypotheses of Psychosis and Their Neurotransmitter Networks 精神病性症状的3主要假说及其神经递质网络&lt;&#x2F;h2&gt;
+&lt;p&gt;见下。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;4-3-the-classic-dopamine-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-jing-dian-duo-ba-e-jia-shuo&quot;&gt;4.3 The Classic Dopamine Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的经典多巴胺假说&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;duo-ba-e-shen-jing-di-zhi-wang-luo&quot;&gt;多巴胺神经递质网络&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;多巴胺代谢
+&lt;ul&gt;
+&lt;li&gt;多巴胺由多巴胺能神经末梢合成。从血流和细胞外经酪氨酸转运体转运入胞质的酪氨酸经由限速酶酪氨酸羟化酶（TOH）和多巴脱羧酶（DDC）生成多巴胺。TOH, tyrosine hydroxylase; DDC, DOPA decarboxylase。&lt;&#x2F;li&gt;
+&lt;li&gt;细胞内，多巴胺可被单胺氧化酶（MAO）A或MAO-B代谢。细胞外，多巴胺可被儿茶酚-O-甲基转移酶（COMT）代谢。MAO, monoamine oxidase; COMT, catechol-O-methyltransferase。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;多巴胺神经传导
+&lt;ul&gt;
+&lt;li&gt;多巴胺经VMAT2转运至囊泡。突触间隙中的多巴胺在纹状体可被DAT再摄取，而在前额叶，DAT较稀疏，多巴胺主要经由COMT清除，也可扩散而被去甲肾上腺素神经元的NET转运。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;多巴胺受体
+&lt;ul&gt;
+&lt;li&gt;分为D1样受体D1、D5和D2样受体D2、D3、D4。D1样受体激活AC因而是兴奋性的。D2样受体抑制AC因而是抑制性的。AC, adenosine cyclase。&lt;&#x2F;li&gt;
+&lt;li&gt;D2和D3可位于突触前（突触前膜或树突胞体膜）充当自受体，防止多巴胺在突触中蓄积。其中D3较D2敏感。&lt;&#x2F;li&gt;
+&lt;li&gt;中脑皮质通路的多巴胺神经元在VTA的胞体有D2&#x2F;D3自受体，但前额叶没有。同时前额叶的DAT较稀疏，导致多巴胺的扩散半径大；反之，中脑纹状体通路的多巴胺神经元在VTA、黑质的胞体和纹状体的突触前后膜都有D2或D3受体，纹状体还有丰富的DAT，因而作用较局限。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;多巴胺通路
+&lt;ul&gt;
+&lt;li&gt;5经典多巴胺通路是结节漏斗通路、丘脑通路、黑质纹状体通路、中脑边缘通路和中脑皮质通路。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;结节漏斗通路 tuberoinfundibular pathway&lt;&#x2F;strong&gt; 起自下丘脑，终到腺垂体。张性活动抑制催乳素释放。可被D2阻滞药阻滞。&lt;&#x2F;li&gt;
+&lt;li&gt;丘脑通路起自导水管旁灰质、腹侧中脑、多个下丘脑核和外侧臂旁核，终到丘脑。可能通过门控丘脑的信息流参与睡眠觉醒系统。&lt;&#x2F;li&gt;
+&lt;li&gt;（经典的）&lt;strong&gt;黑质纹状体通路 nigrostriatal pathway&lt;&#x2F;strong&gt; 起自黑质，终到背侧纹状体。经过直接通路D1（纹状体—苍白球内侧部&#x2F;黑质网状部，增多运动）和间接通路D2（纹状体—苍白球外侧部—底丘脑—苍白球内侧部&#x2F;黑质网状部，减少运动）调控皮质纹状体丘脑皮质
+（CSTC）环路。激活可表现为运动增多。一些运动障碍如Parkinson病可由本通路多巴胺缺陷引起，表现为僵硬、运动不能、运动徐缓或震颤，此外尚参与静坐不能和肌张力障碍等。可被D2阻滞药阻滞。左旋多巴 levodopa
+的D2慢性激活可致运动过度或运动障碍，称为LID。
+CSTC circuit, cortico-striato-thalamo-cortical circuit; LID, levodopa-induced dyskinesias。&lt;&#x2F;li&gt;
+&lt;li&gt;（经典的）&lt;strong&gt;中脑边缘通路 mesolimbic pathway&lt;&#x2F;strong&gt; 起自腹侧被盖区（VTA），终到腹侧纹状体边缘系统的伏隔核。参与多种生理和病理性情绪行为，如动机、愉悦、奖赏，可能是奖赏和强化的最后通路。高活动水平致阳性症状，可能参与冲动、激越、攻击性及敌意
+症状，见于物质滥用（兴奋药如可卡因、苯丙胺），以及精神分裂症、躁狂、抑郁、Parkinson病、Alzheimer病及其他痴呆相关的精神病性症状。低活动水平致快感缺失、麻木和精力缺乏，见于单双相抑郁和阴性症状。可被D2阻滞药阻滞。VTA, ventral
+tegmental area。&lt;&#x2F;li&gt;
+&lt;li&gt;上述2通路基于啮齿类解剖学、药理学和人类药理学研究。神经成像研究表明，未治疗的精神分裂症患者在背侧和腹侧纹状体之间的 &lt;strong&gt;联络性纹状体 associative striatum&lt;&#x2F;strong&gt; 出现多巴胺升高，即内侧黑质—联络性纹状体通路高活动。因此，上述2通路的区分不当，
+可简化作 &lt;strong&gt;中脑纹状体通路 mesostriatal pathway&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;中脑皮质通路 mesocortical pathway&lt;&#x2F;strong&gt; 起自VTA，终到前额叶。终到背外侧前额叶的通路调控认知和执行功能，低活动可能参与了精神分裂症的认知和一些阴性症状。终到腹内侧前额叶的通路调控情绪和情感，低活动可能参与了精神分裂症的情感和另些阴性症状。
+可能由NMDA系统的神经发育障碍造成。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jing-shen-bing-xing-zheng-zhuang-de-duo-ba-e-jia-shuo&quot;&gt;精神病性症状的多巴胺假说&lt;&#x2F;h3&gt;
+&lt;p&gt;精神分裂症、物质使用、Parkinson病和痴呆及其他因素可通过不同途径导致中脑纹状体通路的高活动，引发妄想、幻觉等阳性症状。精神分裂症可导致中脑皮质通路的低活动，引发认知、情感和阴性症状。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;4-4-the-glutamate-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-gu-an-suan-jia-shuo&quot;&gt;4.4 The Glutamate Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的谷氨酸假说&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;gu-an-suan-shen-jing-di-zhi-wang-luo&quot;&gt;谷氨酸神经递质网络&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;谷氨酸、甘氨酸、D-丝氨酸代谢
+&lt;ul&gt;
+&lt;li&gt;谷氨酸在谷氨酸能神经末梢内形成。谷氨酰胺在线粒体内由谷氨酰胺酶生成谷氨酸。而在胶质细胞内，谷氨酸由谷氨酰胺合成酶生成谷氨酰胺。&lt;&#x2F;li&gt;
+&lt;li&gt;甘氨酸和L-丝氨酸在胶质细胞中经丝氨酸羟甲基转移酶（SHMT）相互转化。SHMT, serine hydroxymethyl transferase。&lt;&#x2F;li&gt;
+&lt;li&gt;D-丝氨酸和L-丝氨酸在胶质细胞中经D-丝氨酸消旋酶相互转化。D-丝氨酸可经D-氨基酸氧化酶（DAO）代谢为羟基丙酮酸。DAO拥有1种激活物DAOA。DAO, D-amino acid oxidase; DAOA, DAO activator。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;谷氨酸神经传导
+&lt;ul&gt;
+&lt;li&gt;谷氨酸经vGluT转运至囊泡。突触间隙中的谷氨酸主要被胶质细胞质膜EAAT再摄取并转化为谷氨酰胺，储存于胞质中。谷氨酰胺经转运体SNAT或ASC-T释放出细胞，经另型的SNAT转运入突触末梢，随后被转化为谷氨酸。SNAT, specific neutral amino acid
+transporter; ASC-T, alanine-serine-cysteine transpoter。&lt;&#x2F;li&gt;
+&lt;li&gt;NMDA受体需要 &lt;strong&gt;协同递质 cotransmitter&lt;&#x2F;strong&gt; 甘氨酸或D-丝氨酸。&lt;&#x2F;li&gt;
+&lt;li&gt;甘氨酸可由甘氨酸能末梢释放，但主要由胶质细胞胞质经GlyT1释放。经胶质质膜上的GlyT1或SNAT或甘氨酸能末梢质膜上的GlyT2再摄取。&lt;&#x2F;li&gt;
+&lt;li&gt;D-丝氨酸在胶质合成后，可能储存在某种囊泡中。经不同方向的D-SER-T释放和再摄取。D-SER-T, D-serine transporter。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;谷氨酸受体
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;谷氨酸的促代谢型受体有至少8亚型，分为3组。组I可能主要位于突触后膜，协助促离子型受体的作用。组II和III可位于突触前作为负反馈自受体。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;促离子型受体有NMDA受体、AMPA受体及kainate受体。其中，AMPA受体及kainate受体可能介导快速去极化，而NMDA受体需要下列条件 &lt;strong&gt;同时&lt;&#x2F;strong&gt; 满足，方可使 &lt;strong&gt;Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;&lt;&#x2F;strong&gt; 流入：&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;存在谷氨酸；&lt;&#x2F;li&gt;
+&lt;li&gt;存在协同递质甘氨酸 &lt;strong&gt;或&lt;&#x2F;strong&gt; D-丝氨酸；&lt;&#x2F;li&gt;
+&lt;li&gt;后膜去极化。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;介导长时增强和突触可塑性。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;谷氨酸通路
+&lt;ul&gt;
+&lt;li&gt;有7通路和精神药理学有关，是皮质脑干通路、皮质纹状体通路、海马伏隔核通路、丘脑皮质通路、皮质丘脑通路、皮质皮质直接通路和皮质皮质间接通路。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质脑干通路 cortico-brainstem pathway&lt;&#x2F;strong&gt; 起自皮质锥体细胞，终到脑干的众多递质核团，包括中缝核（5-HT）、VTA、黑质（多巴胺）和蓝斑（去甲肾上腺素）。可直接与其形成突触增加递质水平，或通过GABA中间神经元减少递质水平。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质纹状体通路 cortico-striatal pathway&lt;&#x2F;strong&gt; 起自皮质锥体细胞，终到纹状体的GABA能神经元，是CSTC环路的一部分。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;海马伏隔核通路 hippocampal-accumbens pathway&lt;&#x2F;strong&gt; 起自海马，终到伏隔核的GABA能神经元，亦前往苍白球。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;丘脑皮质通路 thalamo-cortical pathway&lt;&#x2F;strong&gt; 起自丘脑，终到皮质，常传导感觉信息。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质丘脑通路 cortico-thalamic pathway&lt;&#x2F;strong&gt; 起自皮质，终到丘脑，可能调控丘脑对感觉信息的反应。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质皮质直接通路 direct cortico-cortical pathways&lt;&#x2F;strong&gt; 包含众多皮质内的通路，其中锥体细胞兴奋另锥体细胞。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质皮质间接通路 indirect cortico-cortical pathways&lt;&#x2F;strong&gt; 同上，但锥体细胞间有GAB能中间神经元。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jing-shen-bing-xing-zheng-zhuang-de-gu-an-suan-jia-shuo&quot;&gt;精神病性症状的谷氨酸假说&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;皮质皮质间接通路中，GABA中间神经元上的NMDA受体低活动，造成下游支配多巴胺释放的皮质脑干通路锥体细胞高活动，继而造成中脑纹状体多巴胺通路高活动。&lt;&#x2F;li&gt;
+&lt;li&gt;精神分裂症中，这可能是神经发育障碍所致。同时，一些终到GABA中间神经元的皮质脑干锥体细胞高活动，造成下游中脑皮质多巴胺通路低活动。&lt;&#x2F;li&gt;
+&lt;li&gt;使用氯胺酮或苯环利定 phencyclidine 后，其作为NMDA拮抗剂造成精神病性症状。&lt;&#x2F;li&gt;
+&lt;li&gt;痴呆中，神经退行性病变造成皮质皮质间接通路的锥体细胞或GABA中间神经元损毁，而皮质脑干锥体细胞尚可发挥作用，造成精神病性症状。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-5-the-serotonin-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-5-htjia-shuo&quot;&gt;4.5 The Serotonin Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的5-HT假说&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;5-htshen-jing-di-zhi-wang-luo&quot;&gt;5-HT神经递质网络&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;5-HT代谢
+&lt;ul&gt;
+&lt;li&gt;色氨酸经色氨酸羟化酶（TRY-OH）生成5-羟色氨酸（5-HTP），再经芳香氨基酸脱羧酶（AAADC）生成5-HT。5-HT神经元中，高浓度5-HT可被MAO-B代谢。
+TRY-OH, tryptophan hydroxylase; 5-HTP, 5-hydroxytryptophan; AAADC, aromatic amino acid decarboxylase。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;5-HT神经传导
+&lt;ul&gt;
+&lt;li&gt;5-HT经VMAT2转运至囊泡。突触中的5-HT经SERT再摄取。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;5-HT受体、通路
+&lt;ul&gt;
+&lt;li&gt;5HT1A受体、5HT1B&#x2F;D受体和5HT2B受体可位于突触前，其中5HT1B&#x2F;D受体位于突触前膜，5HT1A受体和5HT2B受体位于树突胞体质膜。所有型受体均可位于突触后膜。&lt;&#x2F;li&gt;
+&lt;li&gt;突触前5HT1A受体位于树突胞体质膜，其接受释放自树突膜的5-HT。起负调控轴突末端释放的作用。5-HT再摄取抑制药的作用依赖本类受体的下调和脱敏。&lt;&#x2F;li&gt;
+&lt;li&gt;突触前5HT1B&#x2F;D受体位于轴突末端，负反馈调节5-HT释放。&lt;&#x2F;li&gt;
+&lt;li&gt;突触前5HT2B受体位于树突胞体质膜，与5HT1A拮抗，正调控轴突末端释放。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT1A受体抑制性，主要位于GABA神经元上，因此促进其他神经递质的释放。如前额叶中含5HT1A受体的GABA神经元可作用于谷氨酸神经元、去甲肾上腺素能突触前膜、多巴胺能突触前膜及乙酰胆碱能突触前膜。众多治疗精神病性症状、心境症状和焦虑的药是5HT1A
+（部分）激动药。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT1B受体抑制性，主要位于去甲肾上腺素能突触前膜、多巴胺能突触前膜、组胺能突触前膜和乙酰胆碱能突触前膜，抑制其释放。一些治疗抑郁症的药是5HT1B拮抗药。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT2A受体兴奋性，可位于谷氨酸神经元和GABA神经元。许多治疗精神病性症状和心境症状的药是5HT2A拮抗药。大部分致幻药是5HT2A激动药。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT2C受体兴奋性，大多位于GABA神经元，抑制去甲肾上腺素和多巴胺等的释放。5HT2C激动药可治疗肥胖。5HT2C拮抗药可治疗精神病性症状和心境障碍。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT3受体兴奋性。
+&lt;ul&gt;
+&lt;li&gt;血脑屏障外的脑干化学感受器触发的区域中，5HT3受体参与恶心和呕吐。&lt;&#x2F;li&gt;
+&lt;li&gt;前额叶中，5HT3受体位于 &lt;strong&gt;小清蛋白 parvalmin&lt;&#x2F;strong&gt; 阴性的GABA神经元上。其可抑制皮质的去甲肾上腺素和乙酰胆碱突触前膜，以及谷氨酸能神经元。5HT3—谷氨酸—中缝核构成了一个负反馈环路。一些治疗抑郁症的药是5HT3拮抗药。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT6受体可能是调节乙酰胆碱和认知的关键受体。5HT6拮抗药可能是促认知药，用以治疗精神分裂症认知症状和Alzheimer病等。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT7受体兴奋性，多位于GABA神经元，在皮质抑制锥体细胞，在中缝核作为负反馈环路抑制5-HT释放。5HT7拮抗药可用作治疗精神病性症状和心境症状。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jing-shen-bing-xing-zheng-zhuang-de-5-htjia-shuo&quot;&gt;精神病性症状的5-HT假说&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;和5-HT失衡有关的精神病性症状常出现幻视，而主要和多巴胺相关的则更多出现幻听。&lt;&#x2F;li&gt;
+&lt;li&gt;5HT2A相对高活动可造成所支配的VTA多巴胺能神经元及视觉皮层高活动。&lt;&#x2F;li&gt;
+&lt;li&gt;致幻药LSD、麦司卡林 mescaline、赛洛西宾 psilocybin 可通过激活前额叶和视觉皮层5HT2A致精神病性症状、解离体验和幻视。这种作用可被5HT2A拮抗药阻断。&lt;&#x2F;li&gt;
+&lt;li&gt;Parkinson病精神病（PDP）患者不仅纹状体的多巴胺能神经末梢减少，前额叶和视皮层的5-HT能神经末梢亦减少。这可导致谷氨酸神经元的5HT2A上调，造成5-HT作用失衡。这过程可被5HT2A拮抗药阻断。PDP, Parkinson&#x27;s disease psychosis。&lt;&#x2F;li&gt;
+&lt;li&gt;痴呆相关精神病的谷氨酸神经元脱抑制后，5HT2A活动相对增高，造成精神病性症状。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-6-schizophrenia-as-the-prototypical-psychotic-disorder-jing-shen-fen-lie-zheng-zuo-wei-dian-xing-jing-shen-bing-xing-zhang-ai&quot;&gt;4.6 Schizophrenia as the Prototypical Psychotic Disorder 精神分裂症作为典型精神病性障碍&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一些反歧视的说教和针对美利坚合众国社会的讨论我就不写了。。。书中的流行病学信息缺乏来源标记又自相矛盾，我也不写了。鉴于不系统以及下节障碍的小篇幅，症状学我也不写了。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;精神障碍易感性是多基因遗传的。可为个体计算 &lt;strong&gt;多基因风险分数 polygenic risk score&lt;&#x2F;strong&gt; 评估易感性的遗传部分。&lt;&#x2F;li&gt;
+&lt;li&gt;环境因素可贡献易感性。对于易感个体，环境可使其发病。环境还可改变正常基因的表观遗传来贡献发病。&lt;&#x2F;li&gt;
+&lt;li&gt;精神分裂症早期可表现为神经发育障碍，因其涉及异常突触形成和脑重构。
+&lt;ul&gt;
+&lt;li&gt;突触形成主要发生于出生～6岁。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;脑重构 brain restructuring&#x2F;remodeling&lt;&#x2F;strong&gt; 终其一生发生，但在童年后期和青春期最活跃。机制为突触彼此竞争存活机会，称为 &lt;strong&gt;竞争性消除 competitive elimination&lt;&#x2F;strong&gt; 。成年时通常存活童年期1&#x2F;2～2&#x2F;3的突触。&lt;&#x2F;li&gt;
+&lt;li&gt;NMDA受体介导的长时增强（LTP）可在突触常用时造成其增强，如通过增加膜AMPA数量、突触形成等过程。精神分裂症的LTP障碍可能造成重要的突触因LTP不足而被错误消除，导致脑 &lt;strong&gt;连接障碍 dysconnectivity&lt;&#x2F;strong&gt; 。这可解释精神分裂症常发于青春期前后。
+LTP, long-time potentiation。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;精神分裂症发病后可表现为神经退行性改变，因为脑重构持续发生，而LTP障碍导致的错误消除以及连接障碍导致的错误突触被增强使得病情逐渐恶化、对治疗的反应降低，甚至脑萎缩。这可解释未治疗的精神分裂症患者病情恶化较严重。
+&lt;ul&gt;
+&lt;li&gt;这体现了1尚发展中的观点，即对症的精神药理学治疗也可能改变疾病本身，从而也是对因的。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-7-other-psychotic-illnesses-qi-ta-jing-shen-bing-xing-zhang-ai&quot;&gt;4.7 Other Psychotic Illnesses 其他精神病性障碍&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;懒了。请参阅ICD-11&#x2F;DSM-5-TR。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        
+    </entry>
+</feed>

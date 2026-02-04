@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - MAPK</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/tag/mapk/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-03T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/tag/mapk/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>中枢神经系统中的信号转导</title>
+        <published>2026-02-03T00:00:00+00:00</published>
+        <updated>2026-02-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/">&lt;p&gt;sources：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alberts B, Heald R, Johnson A, Morgan D, Raff M, Roberts K, Walter P, Molecular Biology of the Cells, 7th ed. Ch. 15, Cell Signaling&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;范畴们：胞外信号&#x2F;配体、受体、胞内信号蛋白、第2信使、效应蛋白&lt;&#x2F;li&gt;
+&lt;li&gt;转导通路中，连续的2抑制步等效于1激活步。&lt;&#x2F;li&gt;
+&lt;li&gt;1种信号可以在转导通路中产生分支，从而造成多种效应的协调。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;是不是能说这反映了信号通路的进化论地位，从而正当化对其进行功能描述，见&lt;a href=&quot;&#x2F;blog&#x2F;20250907-levels-phsci&#x2F;#jie-gou-gong-neng&quot;&gt;这个&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;效应产生快慢取决于信号分子的周转率&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大意是为了维持信号分子的稳态，激活速率和灭活速率一定相等是周转率；周转率快说明激活灭活都很快，效应产生快，不应期短。&lt;&#x2F;p&gt;
+&lt;p&gt;所以灭活步很重要的！&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;对信号的敏感性与信号放大过程的增益有关&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xin-hao-zhuan-dao-de-te-yi-xing-he-robustxing&quot;&gt;信号转导的特异性和robust性&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;非共价结合本身亲和力、特异性高
+&lt;ul&gt;
+&lt;li&gt;信号转导的地点限制，如信号转导复合体的形成，进一步提高特异性&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;背景噪声的消除： &lt;strong&gt;噪滤 noise filter&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;S-形强度效应曲线。如某蛋白2位点均磷酸化方被激活&lt;&#x2F;li&gt;
+&lt;li&gt;阈。如蛋白磷酸化后被蛋白磷酸酶迅速灭活，只有当信号强度超过蛋白磷酸酶灭活能力时方可产生有意义的效应&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;同类信号效应单位（细胞或信号分子）性质变异引发的噪声，其消除：
+&lt;ul&gt;
+&lt;li&gt;平行通路&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;liang-xiao-ying-de-lei-xing&quot;&gt;量效应的类型&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;取决于信号处理程序&lt;&#x2F;li&gt;
+&lt;li&gt;信号强度效应关系上，可有近似双曲线形、S-形、全或无反应。
+&lt;blockquote&gt;
+&lt;p&gt;受到不同信号调控的效应，通常是合取性的（与），此时效应是各自效应的积*上游信号独立系数。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;当一个信号分子需要（共价情况下）在多处被同一信号激活或（非共价情况下）被多个上游信号分子激活时，或某信号的多不同通路分支汇合时，效应就呈现S-形量效关系。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;div class=&quot;proof&quot;&gt;假设上游信号分子Sig激活效应信号分子Eff需经2步：
+&lt;ol&gt;
+&lt;li&gt;Eff + Sig -&amp;gt; EffSig；&lt;&#x2F;li&gt;
+&lt;li&gt;EffSig + Sig -&amp;gt; EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;设Sig浓度（即信号强度）为\(x\)，EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;浓度（即效应量）为\(y\)。证明\( y \sim x \)可呈S-形量效关系。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 设2步反应平衡常数分别为\(K_1\)、\(K_2\)，EffSig浓度为\(m\)，Eff、EffSig、EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;总浓度为\(t\)。有
+$$ \begin{align}
+\frac{m}{x(t-y-m)} &amp;amp;= K_1 \\
+\frac{y}{xm} &amp;amp;= K_2 \end{align}$$
+解得\( y=\frac{K_1K_2x^2}{K_1K_2x^2+K_1x+1}\cdot t \)。令\(K_1=10, K_2=10\)，画图&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;resources&#x2F;sigmoidal_curve.png&quot; alt=&quot;S-形曲线&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;即证。&lt;&#x2F;div&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;此外正反馈也可产生全或无反应。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;当正反馈产生的全或无反应不能自发而必须由另信号消除时，此效应即形成了记忆（如命运选择后的终末分化状态）。&lt;&#x2F;li&gt;
+&lt;li&gt;负反馈过程速率慢时，可产生效应的明显振荡（如某些生物的昼夜节律）。速率快时，迅速达成稳态，可造成适应。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;dui-xin-hao-de-gua-ying&quot;&gt;对信号的适应&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;沿用&lt;span class=&quot;crossref&quot;&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#47-2-transduction-of-sensory-stimuli-into-nerve-impulses-gan-jue-ci-ji-xiang-shen-jing-chong-dong-de-chuan-dao&quot;&gt;生理学&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;的术语，快适应是相性的，慢适应是张性的&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;相性适应是微分器，使得能产生有效反应的信号强度区间宽（如视觉）。&lt;&#x2F;li&gt;
+&lt;li&gt;机制
+&lt;ul&gt;
+&lt;li&gt;负反馈&lt;&#x2F;li&gt;
+&lt;li&gt;延迟前馈环，即较慢的前馈通路拮抗较快的前馈通路&lt;&#x2F;li&gt;
+&lt;li&gt;受体灭活、内化、或降解&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;jue-ding-xin-hao-dan-bai-huo-xing-de-yin-su&quot;&gt;决定信号蛋白活性的因素&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;共价修饰
+&lt;ul&gt;
+&lt;li&gt;磷酸化
+&lt;ul&gt;
+&lt;li&gt;蛋白激酶包括丝氨酸&#x2F;苏氨酸激酶以及酪氨酸激酶（主要存在于多细胞生物）。&lt;&#x2F;li&gt;
+&lt;li&gt;蛋白磷酸酶也包括丝氨酸&#x2F;苏氨酸磷酸酶以及酪氨酸磷酸酶。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;GTP&#x2F;GDP结合
+&lt;ul&gt;
+&lt;li&gt;GTP结合蛋白：激活状态结合GTP，无活性状态结合GDP。
+&lt;ul&gt;
+&lt;li&gt;激活状态GTP结合蛋白将GTP水解，转化为无活性状态；无活性状态蛋白释放GDP以结合GTP转化为激活状态。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;omg，这个GTP结合蛋白有组成性活性&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;GEF加速GDP释放，从而加速激活；GAP加速GTP水解，从而加速失活。GEF, guanine nucleotide exchange factor; GAP, GTPase activating protein。&lt;&#x2F;li&gt;
+&lt;li&gt;包括异源三聚体GTP结合蛋白&#x2F;G蛋白，以及单体GTP酶&#x2F;单体GTP结合蛋白。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;泛素化等&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;非共价结合
+&lt;ul&gt;
+&lt;li&gt;cAMP、Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;等第2信使&lt;&#x2F;li&gt;
+&lt;li&gt;其他信号蛋白&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xin-hao-zhuan-dao-fu-he-ti&quot;&gt;信号转导复合体&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;支架蛋白 scaffold proteins&lt;&#x2F;strong&gt; 同时结合若干信号蛋白使其靠近，从而形成信号转导复合体。&lt;&#x2F;li&gt;
+&lt;li&gt;通常形成于受体附近，或膜上一些特别的磷脂附近（如磷酸肌醇）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;fei-gong-jia-jie-he-jie-gou-yu&quot;&gt;非共价结合结构域&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;它们还要在周围的结构上也匹配才能结合&lt;&#x2F;li&gt;
+&lt;li&gt;通常位于蛋白质非结构化的区域，其插入不影响原蛋白质的折叠&lt;&#x2F;li&gt;
+&lt;li&gt;接头蛋白是只由结合结构域组成的信号蛋白，参与局部微环境的形成&lt;&#x2F;li&gt;
+&lt;li&gt;SH2、PTB结合磷酸化酪氨酸。SH, Src homology; PTB, phosphotyrosine-binding。&lt;&#x2F;li&gt;
+&lt;li&gt;SH3结合富含脯氨酸的短序列。&lt;&#x2F;li&gt;
+&lt;li&gt;PH结合一些磷酸肌醇。PH, pleckstrin homology。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;gpcr&quot;&gt;GPCR&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+</feed>

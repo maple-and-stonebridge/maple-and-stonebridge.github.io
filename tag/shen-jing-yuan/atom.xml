@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - 神经元</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/tag/shen-jing-yuan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-12T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/tag/shen-jing-yuan/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>Guyton and Hall Textbook of Medical Physiology 单元9笔记</title>
+        <published>2025-09-12T00:00:00+00:00</published>
+        <updated>2025-09-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20250823-physiology-note-unit-9/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20250823-physiology-note-unit-9/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20250823-physiology-note-unit-9/">&lt;p&gt;下学期有《神经生物学》和《精神药理学》课程，紧急来看一下。这本书看起来真的爽。
+下面的章节不太紧要，应该会停更许久orz&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;unit-9-the-nervous-system-a-general-principles-and-sensory-physiology-shen-jing-xi-tong-a-yuan-li-he-gan-jue-sheng-li-xue&quot;&gt;Unit 9 The Nervous System: A. General Principles and Sensory Physiology 神经系统A：原理和感觉生理学&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;46-organization-of-the-nervous-system-basic-functions-of-synapses-and-neurotransmitters-shen-jing-xi-tong-de-zu-zhi-tu-hong-de-ji-ben-gong-neng-shen-jing-di-zhi&quot;&gt;46 Organization of the Nervous System, Basic Functions of Synapses, and Neurotransmitters 神经系统的组织，突触的基本功能，神经递质&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;span class=&quot;crossref&quot;&gt;章46要和CompCogNeuro互相链接一下。另外再有生之年能不能学到信号系统呢…。&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本书基本立场：神经系统是信息处理系统（认知主义）。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;46-1-general-design-of-the-nervous-system-shen-jing-xi-tong-de-yun-xing-mo-shi&quot;&gt;46.1 General Design of the Nervous System 神经系统的运行模式&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;化学突触是单向传导的。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;但：见&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-1&#x2F;#1-2-principles-of-chemical-neurotransmission-hua-xue-shen-jing-chuan-dao-de-yuan-li&quot;&gt;逆向神经传输&lt;&#x2F;a&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;神经元接受数百至200,000个输入，输出信号则经单个轴突。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单个神经元接受广泛的信息传入，对这些信息进行整合输出。即，信息流是 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;收敛的 convergent_。在这个意义上，神经元可类比为 &lt;strong&gt;探测器 detector&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;感觉区分布于脊髓、网状结构、小脑、丘脑、皮层。&lt;&#x2F;li&gt;
+&lt;li&gt;运动功能包括骨骼肌收缩、平滑肌收缩、内分泌、外分泌。&lt;&#x2F;li&gt;
+&lt;li&gt;骨骼肌可被脊髓、网状结构、基底核、小脑和运动皮层控制。
+&lt;span class=&quot;crossref&quot;&gt;详见CogNeuroBio的运动那一章。&lt;&#x2F;span&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;不同突触传递信息的难易程度不同。
+&lt;span class=&quot;crossref&quot;&gt;见CompCogNeuro layer权重。&lt;&#x2F;span&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;突触对信息有选择性：阻断弱信号，或增强弱信号，并导至广泛的区域。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;权重不同造成的？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;感觉记忆的机制：感觉信息经过一串突触导致其被 &lt;strong&gt;易化 facilitated&lt;&#x2F;strong&gt; 。多次易化后，来自脑内的信号即可导致感觉经验产生。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;46-2-major-levels-of-central-nervous-system-function-zhong-shu-shen-jing-xi-tong-de-zhu-yao-gong-neng-ceng-ji&quot;&gt;46.2 Major Levels of Central Nervous System Function 中枢神经系统的主要功能层级&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;高位离断脊髓功能包括走路、从疼痛处缩回的反射、腿使劲站立的反射、控制血管、胃肠道运动和排尿的反射。脊髓通常中继高层级发出的信号。&lt;&#x2F;li&gt;
+&lt;li&gt;皮层下（延髓～下丘脑、丘脑、基底节）控制多数无意识活动。如血压和呼吸的控制、平衡的控制、进食相关反射（进食时泌涎、舔唇等）、情绪等。&lt;&#x2F;li&gt;
+&lt;li&gt;皮层储存记忆，使得下层功能更精准，思考等。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“更精准”由于记忆的范畴化和认知控制？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;46-3-comparison-of-the-nervous-system-to-a-computer-shen-jing-xi-tong-yu-ji-suan-ji-de-dui-bi&quot;&gt;46.3 Comparison of the Nervous System to a Computer 神经系统与计算机的对比&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这节文本很短，但能说的还挺多，涉及到计算主义等。待我至少熟悉了认知控制系统，或许还有读完了CompCogNeuro之后，再来展开这个话题。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;46-4-central-nervous-system-synapses-zhong-shu-shen-jing-xi-tong-zhong-de-tu-hong&quot;&gt;46.4 Central Nervous System Synapses 中枢神经系统中的突触&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;电突触是双向传导的。可用于探测相连神经元的多个阈下去极化事件的同时出现，以提高敏感性，同时促进神经元的 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;共时 synchronous_ 激活。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能介导&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#47-3-signal-intensity-transmission-in-nerve-tracts-sptial-and-temporal-summation-shen-jing-zhong-de-xin-hao-qiang-du-bian-ma-kong-jian-he-shi-jian-jia-he&quot;&gt;下章&lt;&#x2F;a&gt;讲到的平行通路，这样在输出端就能通过空间加和产生比较强的兴奋。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;并不是。。。下章是感觉通路上的&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;注意以上叙述和典型的“树突传导电扩布，轴突传导动作电位”的二分是不相容的。突触两侧的膜对称？电突触又分布在神经元的何处？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;qian-mo&quot;&gt;前膜&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;突触前末端膜上有电压门控Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;通道，在动作电位到达时开放。前膜释放的递质量与Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;进入的量直接相关。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;小分子递质&lt;&#x2F;strong&gt; 多在前末端胞质内合成，通过主动运输进入囊泡，Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;介导释放； &lt;strong&gt;NO&lt;&#x2F;strong&gt; 在需要时合成，扩散入后膜； &lt;strong&gt;神经肽 neuropeptides&lt;&#x2F;strong&gt; 在胞体核糖体合成，经内质网在Golgi体剪切后经轴浆运输转运至前膜。&lt;&#x2F;li&gt;
+&lt;li&gt;包含小分子递质的囊泡释放后，原先的囊泡膜重又凹回胞质并形成新的囊泡，其膜仍保留酶和转运蛋白。神经肽囊泡不再重利用。&lt;&#x2F;li&gt;
+&lt;li&gt;小分子递质和神经肽可在一个神经元内同时存在，分为 &lt;strong&gt;共释放 co-release&lt;&#x2F;strong&gt; 和 &lt;strong&gt;信号协同传导 co-transmission&lt;&#x2F;strong&gt; 。共释放的递质存在于共同的囊泡中。协同传导的递质存在于各自的囊泡中，它们可通过Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;
+或定位于不同的轴突末端被 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;有差别地&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 释放。
+如中缝核的5-HT谷氨酸共释放负责觉醒周期。&lt;&#x2F;li&gt;
+&lt;li&gt;突触前抑制是突触前末端的超极化，主要由GABA引起，如感觉侧抑制。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;di-zhi&quot;&gt;递质&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;除气体分子外，小分子递质（包括乙酰胆碱、胺和氨基酸）作用较迅速，通常在2ms内完成，效应通常为改变离子通道电导。气体分子（如NO）和神经肽可产生 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;长期&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 效应。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;乙酰胆碱 acetylcholine&lt;&#x2F;strong&gt; 由运动皮层锥体细胞、基底节的一些神经元、支配骨骼肌的运动神经元、节前神经元、副交感节后神经元和一些交感节后神经元分泌。大多兴奋性，一些副交感末梢抑制性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;去甲肾上腺素 norepinephrine&lt;&#x2F;strong&gt; 在中枢由脑干和下丘脑的众多神经元分泌。脑桥的 &lt;strong&gt;蓝斑 locus coeruleus&lt;&#x2F;strong&gt; 的去甲肾上腺素能突触在脑中分布广泛，控制意识和情绪。大多兴奋性，有些抑制性。在周围，由多数交感节后神经元分泌，有些兴奋性，有些抑制性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;多巴胺 dopamine&lt;&#x2F;strong&gt; 由 &lt;strong&gt;黑质 substantia nigra&lt;&#x2F;strong&gt; 分泌。突触主要位于基底节的 &lt;strong&gt;纹状体 striatum&lt;&#x2F;strong&gt; 。通常抑制性。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;奖赏通路是不是在纹状体来着？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;甘氨酸 glycine&lt;&#x2F;strong&gt; 能突触主要位于脊髓。抑制性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;GABA&lt;&#x2F;strong&gt; 能突触位于脊髓、小脑、基底节和皮层的众多区域。成人中枢中是主要的抑制性递质。在胚胎和产后1w内，GABA可能是兴奋性的。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;谷氨酸 glutamate&lt;&#x2F;strong&gt; 能突触位于感觉通路上和皮层的众多区域。可能总是兴奋性的。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;5-HT&lt;&#x2F;strong&gt; 由 &lt;strong&gt;中缝核 median raphe&lt;&#x2F;strong&gt; 分泌，投射至许多脑、脊髓区，尤其是脊髓后角和下丘脑。在脊髓中抑制痛觉通路，在高级中枢抑制性，调控情绪，可能催眠。&lt;&#x2F;li&gt;
+&lt;li&gt;NO能突触分布于长时行为和记忆的脑区。&lt;&#x2F;li&gt;
+&lt;li&gt;神经肽的数量远少于小分子递质，但效应通常&amp;gt;1kx。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;hou-mo&quot;&gt;后膜&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;递质受体本身是通道受体，或激活第二信使系统。&lt;&#x2F;li&gt;
+&lt;li&gt;后膜离子通道的开启与关闭均在1ms内完成，持续(1~2)ms。数mV的E&#x2F;IPSP约经15ms回到静息电位。长期效应由促代谢受体介导。&lt;&#x2F;li&gt;
+&lt;li&gt;前角运动神经元（其他神经元仅由量的差异）胞体静息电位为-65mV，比神经纤维和骨骼肌正。这使其去极化和超极化均有较大的调节空间。&lt;&#x2F;li&gt;
+&lt;li&gt;由Nernst公式，前角运动神经元Na&lt;sup&gt;+&lt;&#x2F;sup&gt;平衡电位为61mV，K&lt;sup&gt;+&lt;&#x2F;sup&gt;平衡电位为-86mV，Cl&lt;sup&gt;-&lt;&#x2F;sup&gt;平衡电位为-70mV。&lt;&#x2F;li&gt;
+&lt;li&gt;轴丘Na&lt;sup&gt;+&lt;&#x2F;sup&gt;通道较多，因此阈电位比胞体其他部位低，是动作电位的起点。树突几乎无Na&lt;sup&gt;+&lt;&#x2F;sup&gt;通道，因此动作电位难以沿树突传播。&lt;&#x2F;li&gt;
+&lt;li&gt;前角运动神经元(80~95)%突触在树突上，(5~20)%突触在胞体上。树突可自胞体向各方向延伸(500~1k)μm。&lt;&#x2F;li&gt;
+&lt;li&gt;由于树突膜绝缘不完全以及胞质的电阻，电扩布的电位发生衰减，因此树突上的突触距离胞体越远， &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;权重&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 就越低。&lt;&#x2F;li&gt;
+&lt;li&gt;神经元越兴奋，放电频率就越高。不同神经元的阈电位和最大频率不同，功能也就不同。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;resources&#x2F;frequency-excitation-relationship.png&quot; alt=&quot;频率—兴奋关系&quot; &#x2F;&gt; 图片来自原书&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;G蛋白耦联受体激活后开放胞内结合位点，无活性的GDP-G蛋白与受体结合后，可结合GTP，释放的能量使G蛋白裂解，有活性的GTP-α游离于胞质发挥效应。β和γ是调节亚基。GTP-α可开放离子通道（如较慢的K&lt;sup&gt;+&lt;&#x2F;sup&gt;通道），激活cAMP&#x2F;cGMP通路，
+激活酶或基因转录来改变神经元的代谢或结构状态。&lt;&#x2F;li&gt;
+&lt;li&gt;长期的激活或抑制效应可通过后膜受体 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;数量&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 介导，神经肽也可致Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;通道的长时关闭、代谢的变化和基因的开关等。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;46-5-special-characteristics-of-synaptic-trnasmission-tu-hong-chuan-dao-de-te-xing&quot;&gt;46.5 Special Characteristics of Synaptic Trnasmission 突触传导的特性&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特性的话。。。应该就是一些功能性描述，然后对更高层的功能有贡献的意思吧？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;碱中毒极大地增加了神经元兴奋性。如癫痫风险者在短期过度通气后可能引发癫痫发作。酸中毒极大地降低了神经元兴奋性。如糖尿病或尿毒症引起的严重酸中毒可导致昏迷。&lt;&#x2F;li&gt;
+&lt;li&gt;突触依赖氧。数s缺氧造成一些神经元的完全失活。&lt;&#x2F;li&gt;
+&lt;li&gt;突触延搁是化学突触传递的最小延搁，约.5ms。通过测量神经环路的最小延搁，可估算环路中输入到输出经过的突触数量。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后发放&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#shen-jing-yuan-chi-dui-xin-hao-de-yan-chang-hou-fa-fang-afterdischarge&quot;&gt;见下&lt;&#x2F;a&gt;。&lt;&#x2F;li&gt;
+&lt;li&gt;突触疲劳&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#47-5-instability-and-stability-of-neuronal-circuits-shen-jing-huan-lu-de-wen-ding-xing&quot;&gt;见下&lt;&#x2F;a&gt;。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;yao-dui-tu-hong-chuan-dao-de-ying-xiang&quot;&gt;药对突触传导的影响&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;咖啡因 caffeine&lt;&#x2F;strong&gt; 、 &lt;strong&gt;茶碱 theophylline&lt;&#x2F;strong&gt; 、 &lt;strong&gt;可可碱 theobromine&lt;&#x2F;strong&gt; 通过降低阈电位提高神经元兴奋性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;士的宁 strychnine&lt;&#x2F;strong&gt; 通过抑制抑制性递质，尤其是甘氨酸，来提升神经元兴奋性。&lt;&#x2F;li&gt;
+&lt;li&gt;多数麻醉药通过提升阈电位减少突触传导。一些脂溶性麻醉药通过改变神经元质膜的物理性质达到麻醉作用。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;47-sensory-receptors-neuronal-circuits-for-processing-information-gan-jue-shou-ti-chu-li-xin-xi-de-shen-jing-huan-lu&quot;&gt;47 Sensory Receptors, Neuronal Circuits for Processing Information 感觉受体，处理信息的神经环路&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;47-1-types-of-sensory-receptors-and-the-stimuli-they-detect-gan-jue-shou-ti-ji-qi-tan-ce-ci-ji-de-fen-xing&quot;&gt;47.1 Types of Sensory Receptors and the Stimuli They Detect 感觉受体及其探测刺激的分型&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;机械感受器 mechanoreceptors&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;表皮和真皮触觉感受器&lt;&#x2F;li&gt;
+&lt;li&gt;深部感觉&lt;&#x2F;li&gt;
+&lt;li&gt;听觉&lt;&#x2F;li&gt;
+&lt;li&gt;平衡觉&lt;&#x2F;li&gt;
+&lt;li&gt;血压&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;温度感受器 thermoreceptors&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;冷觉&lt;&#x2F;li&gt;
+&lt;li&gt;温觉&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;痛觉感受器 nociceptors&lt;&#x2F;strong&gt; ：游离神经末梢&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;电磁感受器 electromagnetic receptors&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;视觉&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;化学感受器 chemoreceptors&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;味觉&lt;&#x2F;li&gt;
+&lt;li&gt;嗅觉&lt;&#x2F;li&gt;
+&lt;li&gt;动脉氧&lt;&#x2F;li&gt;
+&lt;li&gt;渗透压&lt;&#x2F;li&gt;
+&lt;li&gt;血CO&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;血葡萄糖、氨基酸、脂肪酸&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;感觉具有不同 &lt;strong&gt;模态 modalities&lt;&#x2F;strong&gt; 因为传导它们的神经在中枢的终点不同。这是 &lt;strong&gt;labeled line principle&lt;&#x2F;strong&gt; 。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个结构功能对应。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;47-2-transduction-of-sensory-stimuli-into-nerve-impulses-gan-jue-ci-ji-xiang-shen-jing-chong-dong-de-chuan-dao&quot;&gt;47.2 Transduction of Sensory Stimuli into Nerve Impulses 感觉刺激向神经冲动的传导&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;感觉刺激通过改变膜的通透性产生 &lt;strong&gt;受体电位 receptor potentials&lt;&#x2F;strong&gt; 。受体电位达到阈电位后产生动作电位。&lt;&#x2F;li&gt;
+&lt;li&gt;随着刺激强度增大，动作电位频率增加的速度逐渐减慢。这使得受体感受的刺激强度范围很宽。&lt;&#x2F;li&gt;
+&lt;li&gt;感觉受体可对持续的刺激进行适应 adaptation 。不同受体适应的速度和程度不同。如 &lt;strong&gt;环层小体 Pacinian corpuscle&lt;&#x2F;strong&gt; 在数cs内完全适应，而化学感受器和痛觉感受器可能永不完全适应。&lt;&#x2F;li&gt;
+&lt;li&gt;适应的机制对受体类型是特异的。对机械感受器来说，适应的机制包括受体 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;结构&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 的改变及可能缘于Na&lt;sup&gt;+&lt;&#x2F;sup&gt;通道失活的 &lt;strong&gt;accommodation 调定&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tonic 张型受体&lt;&#x2F;strong&gt; 即慢适应受体持续探测刺激强度。包括肌梭、腱器、前庭器的椭圆囊斑及球囊斑、痛觉感受器、动脉压力感受器和颈动脉窦与主动脉体的化学感受器。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Rate receptors 变化率受体&lt;&#x2F;strong&gt; 、 &lt;strong&gt;movement receptors 运动受体&lt;&#x2F;strong&gt; 或曰 &lt;strong&gt;phasic receptors 相型受体&lt;&#x2F;strong&gt; 即快适应受体探测刺激强度的变化率。具有预测功能。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;变化率受体大概相当于刺激强度的 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;微分器&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ，所以可以用来近似求未来的刺激强度值。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;神经纤维可分为有髓鞘的 &lt;strong&gt;A型&lt;&#x2F;strong&gt; 和无髓鞘的 &lt;strong&gt;C型&lt;&#x2F;strong&gt; 。A型按照直径由大到小或传输速度由快到慢可分为 &lt;strong&gt;Aα型&lt;&#x2F;strong&gt; 、 &lt;strong&gt;Aβ型&lt;&#x2F;strong&gt; 、 &lt;strong&gt;Aγ型&lt;&#x2F;strong&gt; 和 &lt;strong&gt;Aδ型&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;神经纤维也被分为 &lt;strong&gt;Ia&lt;&#x2F;strong&gt; 、 &lt;strong&gt;Ib&lt;&#x2F;strong&gt; 、 &lt;strong&gt;II&lt;&#x2F;strong&gt; 、 &lt;strong&gt;III&lt;&#x2F;strong&gt; 和 &lt;strong&gt;IV&lt;&#x2F;strong&gt; 等5组。Ia纤维来自肌梭螺旋末梢，Ib纤维来自腱器，它们是Aα型。II纤维来自大多数皮肤触觉受体和肌梭花蕊末梢，它们是Aβ型、Aγ型。III纤维传输温度觉、粗触觉和尖锐痛觉，它们是Aδ型。
+IV纤维传输痛觉、氧觉、温度觉和粗触觉，它们是C型。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;47-3-signal-intensity-transmission-in-nerve-tracts-sptial-and-temporal-summation-shen-jing-zhong-de-xin-hao-qiang-du-bian-ma-kong-jian-he-shi-jian-jia-he&quot;&gt;47.3 Signal Intensity Transmission in Nerve Tracts — Sptial and Temporal Summation 神经中的信号强度编码——空间和时间加和&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;为叙述方便，定义一块空间A对数量特性p是 &lt;strong&gt;羽的&lt;&#x2F;strong&gt; :⇔ A的中心部分p最大，越是周围的部分p越小，直到A的边界p趋于0。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;空间加和 spatial summation&lt;&#x2F;strong&gt; 指信号越强，激活的并行神经纤维越多的现象。这些纤维对于激活度是羽的。
+&lt;ul&gt;
+&lt;li&gt;空间加和的机制是每个纤维的 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;感受野 receptive field_ 相互重叠，并且感受野对于感受性是羽的。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;时间加和 temporal summation&lt;&#x2F;strong&gt; 指信号越强，单个神经纤维放电频率越高的现象。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;47-4-transmission-and-processing-of-signals-in-neuronal-pools-shen-jing-yuan-chi-zhong-xin-hao-de-chuan-shu-he-chu-li&quot;&gt;47.4 Transmission and Processing of Signals in Neuronal Pools 神经元池中信号的传输和处理&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;神经元池 neuronal pools&lt;&#x2F;strong&gt; 是对神经系统中紧密关联的神经元集合的称谓。如皮层、核团和脊髓背侧的灰质。神经元池包括输入和输出。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;shen-jing-yuan-chi-dui-xin-hao-de-zhong-ji&quot;&gt;神经元池对信号的中继&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;输入纤维的 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;刺激野 stimulatory field_ 是羽的。中心部位接受了纤维足够的刺激而仅需该纤维兴奋即可产生动作电位的胞体构成了纤维的 &lt;strong&gt;discharge zone 放电区&lt;&#x2F;strong&gt; 、 &lt;strong&gt;excited zone 兴奋区&lt;&#x2F;strong&gt; 或曰 &lt;strong&gt;liminal zone 阈区&lt;&#x2F;strong&gt; ；
+周围不属于阈区的胞体构成了 &lt;strong&gt;facilitated zone 易化区&lt;&#x2F;strong&gt; 、 &lt;strong&gt;subthreshold zone&lt;&#x2F;strong&gt; 或曰 &lt;strong&gt;subliminal zone 阈下区&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;_Inhibitory zone 抑制区&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 和刺激野相似，是羽的。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;发散的 divergent_ 神经元池分为输出纤维并行的放大型，如皮质脊髓通路；以及输出纤维前往不同区域的类型，如脊髓背侧束的感觉信息被投射至小脑和丘脑，在丘脑又前往丘脑的深层结构以及大脑皮层。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;收敛的 convergent_ 神经元池分为输入纤维并行的类型，可完成并行纤维的空间加和过程；以及兴奋性和抑制性输入来源不同的类型，如脊髓中间神经元接受来自周围神经、脊髓固有纤维、皮质脊髓纤维和其他来自脑的纤维传入。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Reciprocal inhibition circuits 拮抗抑制环路&lt;&#x2F;strong&gt; 是指某些输出是兴奋性的，而某些输出是抑制性的神经元池，其中抑制性输出通路上有一个专门的抑制神经元发出抑制性突触。用于控制拮抗肌。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;shen-jing-yuan-chi-dui-xin-hao-de-yan-chang-hou-fa-fang-afterdischarge&quot;&gt;神经元池对信号的延长——后发放 Afterdischarge&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;后发放可在输入的信号终止后持续数ms~数min。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Synaptic afterdischarge 突触后发放&lt;&#x2F;strong&gt; 是单个突触的后发放。通常突触的递质是较为长效的，在突触兴奋时，突触后神经元反复放电，可将信号延长至数ms。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;反响环路 reverberatory circuit&lt;&#x2F;strong&gt; 或曰 &lt;strong&gt;振荡环路 oscillatory circuit&lt;&#x2F;strong&gt; 是存在正反馈的环路，可导致长时间的后发放。&lt;&#x2F;li&gt;
+&lt;li&gt;振荡环路的复杂性不等，可仅为单纤维的反馈至后方神经元的突触，但多数振荡环路由并行的纤维构成，其中参与振荡的纤维数量可以编码振荡强度。&lt;&#x2F;li&gt;
+&lt;li&gt;振荡和后发放的终止由突触疲劳介导。其他来源的易化或抑制输入可控制后发放的总时程。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;某些环路的持续输出可由于疲劳较小的持续的振荡信号或持续的神经元 &lt;strong&gt;自发放电 intrinsic discharge&lt;&#x2F;strong&gt; 。
+&lt;ul&gt;
+&lt;li&gt;自发放电即正常膜电位高于阈电位的神经元持续放电，如小脑的许多神经元和脊髓的中间神经元。&lt;&#x2F;li&gt;
+&lt;li&gt;这种持续输出的信号强度可由兴奋或抑制信号调控，抑制信号可致输出停止。这类似于 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;载波 carrier wave_ ，用于控制一些自主神经系统功能如血管紧张、消化道紧张、虹膜收缩及心率。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;节律性 rhythmical&lt;&#x2F;strong&gt; 信号，如呼吸和搔抓，几乎均由振荡环路产生。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;47-5-instability-and-stability-of-neuronal-circuits-shen-jing-huan-lu-de-wen-ding-xing&quot;&gt;47.5 Instability and Stability of Neuronal Circuits 神经环路的稳定性&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;span class=&quot;crossref&quot;&gt;此事在CompCogNeuro亦有提及。&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;抑制环路和突触疲劳可防止神经系统的过度激活。过度激活可妨碍信息的正常传播，&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;降低信息熵？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;从而导致癫痫发作。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;抑制环路包括感觉通路上的负反馈环路和投射至脑的广泛区域的神经元池，如基底节的很多部分。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;突触疲劳 synaptic fatigue&lt;&#x2F;strong&gt; 即兴奋性突触快速反复激活后，突触后神经元放电频率会在数ms~数min后减小。机制主要是突触前末端递质消耗或耗竭，此外还有突触后神经元受体失活或离子异常。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;过度激活的通路很快就疲劳了，而得到休息的通路则敏感性增加。这种快速调节机制维持通路敏感性的稳定。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;当突触过度激活时，受体数量将会下调，反之亦然。这是由于受体与过多递质结合后会失活并脱离突触后膜。这提供了敏感性稳定的长期机制。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

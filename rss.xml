@@ -1,0 +1,2227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>秋槭与石桥都消失不见</title>
+      <link>https://maple-and-stonebridge.github.io</link>
+      <description>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</description>
+      <generator>Zola</generator>
+      <language>zh-cn</language>
+      <atom:link href="https://maple-and-stonebridge.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>中枢神经系统中的信号转导</title>
+          <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/">&lt;p&gt;sources：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alberts B, Heald R, Johnson A, Morgan D, Raff M, Roberts K, Walter P, Molecular Biology of the Cells, 7th ed. Ch. 15, Cell Signaling&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;范畴们：胞外信号&#x2F;配体、受体、胞内信号蛋白、第2信使、效应蛋白&lt;&#x2F;li&gt;
+&lt;li&gt;转导通路中，连续的2抑制步等效于1激活步。&lt;&#x2F;li&gt;
+&lt;li&gt;1种信号可以在转导通路中产生分支，从而造成多种效应的协调。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;是不是能说这反映了信号通路的进化论地位，从而正当化对其进行功能描述，见&lt;a href=&quot;&#x2F;blog&#x2F;20250907-levels-phsci&#x2F;#jie-gou-gong-neng&quot;&gt;这个&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;效应产生快慢取决于信号分子的周转率&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大意是为了维持信号分子的稳态，激活速率和灭活速率一定相等是周转率；周转率快说明激活灭活都很快，效应产生快，不应期短。&lt;&#x2F;p&gt;
+&lt;p&gt;所以灭活步很重要的！&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;对信号的敏感性与信号放大过程的增益有关&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xin-hao-zhuan-dao-de-te-yi-xing-he-robustxing&quot;&gt;信号转导的特异性和robust性&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;非共价结合本身亲和力、特异性高
+&lt;ul&gt;
+&lt;li&gt;信号转导的地点限制，如信号转导复合体的形成，进一步提高特异性&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;背景噪声的消除： &lt;strong&gt;噪滤 noise filter&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;S-形强度效应曲线。如某蛋白2位点均磷酸化方被激活&lt;&#x2F;li&gt;
+&lt;li&gt;阈。如蛋白磷酸化后被蛋白磷酸酶迅速灭活，只有当信号强度超过蛋白磷酸酶灭活能力时方可产生有意义的效应&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;同类信号效应单位（细胞或信号分子）性质变异引发的噪声，其消除：
+&lt;ul&gt;
+&lt;li&gt;平行通路&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;liang-xiao-ying-de-lei-xing&quot;&gt;量效应的类型&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;取决于信号处理程序&lt;&#x2F;li&gt;
+&lt;li&gt;信号强度效应关系上，可有近似双曲线形、S-形、全或无反应。
+&lt;blockquote&gt;
+&lt;p&gt;受到不同信号调控的效应，通常是合取性的（与），此时效应是各自效应的积*上游信号独立系数。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;当一个信号分子需要（共价情况下）在多处被同一信号激活或（非共价情况下）被多个上游信号分子激活时，或某信号的多不同通路分支汇合时，效应就呈现S-形量效关系。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;div class=&quot;proof&quot;&gt;假设上游信号分子Sig激活效应信号分子Eff需经2步：
+&lt;ol&gt;
+&lt;li&gt;Eff + Sig -&amp;gt; EffSig；&lt;&#x2F;li&gt;
+&lt;li&gt;EffSig + Sig -&amp;gt; EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;设Sig浓度（即信号强度）为\(x\)，EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;浓度（即效应量）为\(y\)。证明\( y \sim x \)可呈S-形量效关系。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 设2步反应平衡常数分别为\(K_1\)、\(K_2\)，EffSig浓度为\(m\)，Eff、EffSig、EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;总浓度为\(t\)。有
+$$ \begin{align}
+\frac{m}{x(t-y-m)} &amp;amp;= K_1 \\
+\frac{y}{xm} &amp;amp;= K_2 \end{align}$$
+解得\( y=\frac{K_1K_2x^2}{K_1K_2x^2+K_1x+1}\cdot t \)。令\(K_1=10, K_2=10\)，画图&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;resources&#x2F;sigmoidal_curve.png&quot; alt=&quot;S-形曲线&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;即证。&lt;&#x2F;div&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;此外正反馈也可产生全或无反应。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;当正反馈产生的全或无反应不能自发而必须由另信号消除时，此效应即形成了记忆（如命运选择后的终末分化状态）。&lt;&#x2F;li&gt;
+&lt;li&gt;负反馈过程速率慢时，可产生效应的明显振荡（如某些生物的昼夜节律）。速率快时，迅速达成稳态，可造成适应。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;dui-xin-hao-de-gua-ying&quot;&gt;对信号的适应&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;沿用&lt;span class=&quot;crossref&quot;&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#47-2-transduction-of-sensory-stimuli-into-nerve-impulses-gan-jue-ci-ji-xiang-shen-jing-chong-dong-de-chuan-dao&quot;&gt;生理学&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;的术语，快适应是相性的，慢适应是张性的&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;相性适应是微分器，使得能产生有效反应的信号强度区间宽（如视觉）。&lt;&#x2F;li&gt;
+&lt;li&gt;机制
+&lt;ul&gt;
+&lt;li&gt;负反馈&lt;&#x2F;li&gt;
+&lt;li&gt;延迟前馈环，即较慢的前馈通路拮抗较快的前馈通路&lt;&#x2F;li&gt;
+&lt;li&gt;受体灭活、内化、或降解&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;jue-ding-xin-hao-dan-bai-huo-xing-de-yin-su&quot;&gt;决定信号蛋白活性的因素&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;共价修饰
+&lt;ul&gt;
+&lt;li&gt;磷酸化
+&lt;ul&gt;
+&lt;li&gt;蛋白激酶包括丝氨酸&#x2F;苏氨酸激酶以及酪氨酸激酶（主要存在于多细胞生物）。&lt;&#x2F;li&gt;
+&lt;li&gt;蛋白磷酸酶也包括丝氨酸&#x2F;苏氨酸磷酸酶以及酪氨酸磷酸酶。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;GTP&#x2F;GDP结合
+&lt;ul&gt;
+&lt;li&gt;GTP结合蛋白：激活状态结合GTP，无活性状态结合GDP。
+&lt;ul&gt;
+&lt;li&gt;激活状态GTP结合蛋白将GTP水解，转化为无活性状态；无活性状态蛋白释放GDP以结合GTP转化为激活状态。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;omg，这个GTP结合蛋白有组成性活性&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;GEF加速GDP释放，从而加速激活；GAP加速GTP水解，从而加速失活。GEF, guanine nucleotide exchange factor; GAP, GTPase activating protein。&lt;&#x2F;li&gt;
+&lt;li&gt;包括异源三聚体GTP结合蛋白&#x2F;G蛋白，以及单体GTP酶&#x2F;单体GTP结合蛋白。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;泛素化等&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;非共价结合
+&lt;ul&gt;
+&lt;li&gt;cAMP、Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;等第2信使&lt;&#x2F;li&gt;
+&lt;li&gt;其他信号蛋白&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xin-hao-zhuan-dao-fu-he-ti&quot;&gt;信号转导复合体&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;支架蛋白 scaffold proteins&lt;&#x2F;strong&gt; 同时结合若干信号蛋白使其靠近，从而形成信号转导复合体。&lt;&#x2F;li&gt;
+&lt;li&gt;通常形成于受体附近，或膜上一些特别的磷脂附近（如磷酸肌醇）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;fei-gong-jia-jie-he-jie-gou-yu&quot;&gt;非共价结合结构域&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;它们还要在周围的结构上也匹配才能结合&lt;&#x2F;li&gt;
+&lt;li&gt;通常位于蛋白质非结构化的区域，其插入不影响原蛋白质的折叠&lt;&#x2F;li&gt;
+&lt;li&gt;接头蛋白是只由结合结构域组成的信号蛋白，参与局部微环境的形成&lt;&#x2F;li&gt;
+&lt;li&gt;SH2、PTB结合磷酸化酪氨酸。SH, Src homology; PTB, phosphotyrosine-binding。&lt;&#x2F;li&gt;
+&lt;li&gt;SH3结合富含脯氨酸的短序列。&lt;&#x2F;li&gt;
+&lt;li&gt;PH结合一些磷酸肌醇。PH, pleckstrin homology。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;gpcr&quot;&gt;GPCR&lt;&#x2F;h1&gt;
+</description>
+      </item>
+      <item>
+          <title>血液学复习</title>
+          <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20260103-hematology-review/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20260103-hematology-review/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20260103-hematology-review/">&lt;h1 id=&quot;xie-ye&quot;&gt;血液&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;zhi-xie&quot;&gt;止血&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;内皮保护因素：NO、PGI2&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能还有6-酮-PGF1alpha&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;血管收缩；血小板栓；纤维蛋白凝块&lt;&#x2F;li&gt;
+&lt;li&gt;血小板黏附
+&lt;ul&gt;
+&lt;li&gt;血小板受体：vWF受体：GPIb w&#x2F; FIX&#x2F;FV；胶原受体：GPVI、α2β1&lt;&#x2F;li&gt;
+&lt;li&gt;vWF由内皮细胞和血小板释放&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;血小板激活
+&lt;ul&gt;
+&lt;li&gt;细胞骨架重构，细胞表面伸出棘&lt;&#x2F;li&gt;
+&lt;li&gt;脱颗粒
+&lt;ul&gt;
+&lt;li&gt;致密体
+&lt;ul&gt;
+&lt;li&gt;ADP：募集血小板、促进聚集&lt;&#x2F;li&gt;
+&lt;li&gt;5-HT：扩张血管，增加血管通透性&lt;&#x2F;li&gt;
+&lt;li&gt;钙：钙依赖细胞黏附&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;alpha颗粒
+&lt;ul&gt;
+&lt;li&gt;促进凝血：纤维蛋白原、FV&lt;&#x2F;li&gt;
+&lt;li&gt;促进修复、血管新生：PDGF、VEGF、basic fibroblast GF&lt;&#x2F;li&gt;
+&lt;li&gt;抑制血管新生：血小板因子4、thrombospondin、金属蛋白酶抑制物&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;低剂量阿司匹林使COX-1不可逆失活&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;TXA2由COX-1合成促进血小板激活；凝血酶、胶原促进激活&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;血小板聚集
+&lt;ul&gt;
+&lt;li&gt;激活物：ADP、TXA2&lt;&#x2F;li&gt;
+&lt;li&gt;细胞黏附：(GPIIb&#x2F;IIIa)&#x2F;αIIbβ3-纤维蛋白原-αIIbβ3&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;凝血
+&lt;ul&gt;
+&lt;li&gt;FXa-FVa-&amp;gt;凝血酶-&amp;gt;纤维蛋白&lt;&#x2F;li&gt;
+&lt;li&gt;血小板表面磷脂酰丝氨酸提供表面&lt;&#x2F;li&gt;
+&lt;li&gt;外部通路
+&lt;ul&gt;
+&lt;li&gt;TF-FVIIa-&amp;gt;FX&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：血浆中加入TF测凝血酶原时间&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;接触激活通路&#x2F;内部通路
+&lt;ul&gt;
+&lt;li&gt;FXII-&amp;gt;FXI-&amp;gt;FIX&lt;&#x2F;li&gt;
+&lt;li&gt;FIXa-FVIIIa-&amp;gt;FX&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：加入负离子物质测aPTT。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;抗凝
+&lt;ul&gt;
+&lt;li&gt;肝素&#x2F;硫酸肝素-AT-III：可灭活凝血酶。
+&lt;ul&gt;
+&lt;li&gt;AT-III由肝合成。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;TFPI：可抑制FXa。&lt;&#x2F;li&gt;
+&lt;li&gt;血栓调节蛋白位于内皮表面，可结合凝血酶。招募蛋白C。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;高凝状态时血栓调节蛋白可代偿性增高。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;活化蛋白C-蛋白S可灭活FVa。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;纤溶
+&lt;ul&gt;
+&lt;li&gt;t-PA、u-PA激活纤溶酶；alpha2-抗纤溶酶控制纤溶酶；PAI抑制纤溶酶。&lt;&#x2F;li&gt;
+&lt;li&gt;纤维蛋白纤溶产物主要是D-二聚体。其已用作深静脉血栓和肺栓塞的诊断。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;zhen-duan&quot;&gt;诊断&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;骨髓诊断
+&lt;ul&gt;
+&lt;li&gt;穿刺&#x2F;组织活检形态学检查。可诊断中枢造血缺陷、B细胞缺陷、髓增生性疾病、淋巴&#x2F;单核细胞恶性肿瘤等&lt;&#x2F;li&gt;
+&lt;li&gt;铁储备：普鲁士蓝染色。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;bing-li-sheng-li&quot;&gt;病理生理&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;pin-xie&quot;&gt;贫血&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;血液黏度降低，流速增加，造成高血流动力状态。心搏出量和心率增加。可导致心脏扩大和瓣膜受损。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;进入休克进程了：：：低氧血症可造成全身微动脉、毛细血管、微静脉扩张，降低阻力，进一步加速血流。可导致心衰。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;组织缺氧使呼吸加快。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;临床：呼吸困难、心悸、眩晕、疲劳。进行性加重。皮肤黏膜等可变苍白。溶血可造成变黄。缺氧造成愈合障碍、弹性丧失、头发稀疏变灰。髓鞘变性导致感觉异常、步态改变、虚弱、肌强直、反射异常。消化道症状包括腹痛、恶心、呕吐、厌食。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;失血性贫血&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;急性
+&lt;ul&gt;
+&lt;li&gt;恢复期可出现网织红细胞增高；可出现嗜多色素性红细胞和巨红细胞。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;慢性
+&lt;ul&gt;
+&lt;li&gt;可出现缺铁性贫血。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;红细胞生成减少导致的贫血&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;巨幼细胞贫血
+&lt;ul&gt;
+&lt;li&gt;维生素B12&#x2F;叶酸缺乏&lt;&#x2F;li&gt;
+&lt;li&gt;核胞质异步：DNA合成障碍，细胞周期长，细胞生长导致巨细胞&lt;&#x2F;li&gt;
+&lt;li&gt;巨红细胞很快就凋亡了&#x2F;晚幼细胞凋亡，造成贫血&lt;&#x2F;li&gt;
+&lt;li&gt;恶性贫血
+&lt;ul&gt;
+&lt;li&gt;病因：A型慢性萎缩性胃炎；其他维生素B12吸收障碍或需求旺盛
+&lt;ul&gt;
+&lt;li&gt;A型慢性萎缩性胃炎
+&lt;ul&gt;
+&lt;li&gt;病因：遗传；自身免疫病（自身免疫性多内分泌腺病）
+&lt;ul&gt;
+&lt;li&gt;自身免疫性多内分泌腺病
+&lt;ul&gt;
+&lt;li&gt;恶性贫血常伴有自身免疫性甲状腺炎、1型糖尿病&lt;&#x2F;li&gt;
+&lt;li&gt;攻击胃壁细胞、主细胞致胃萎缩&lt;&#x2F;li&gt;
+&lt;li&gt;可能由于幽门螺旋杆菌抗原与壁细胞质子泵交叉&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;临床：初期可出现非特异性症状（感染、情绪变化，消化道、心、肾不舒服）；严重时（血红蛋白&amp;lt;8g&#x2F;dL），出现典型贫血症状。&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：血检巨红细胞、白细胞缺乏、中性粒细胞核右移（分叶增多）；血浆维生素B12水平低，同型半胱氨酸、甲基丙二酸水平升高；肠外给维生素B12后网织红细胞增多，压积增大。出现抗壁细胞或内因子的抗体。胃活检盐酸缺乏。&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：注射维生素B12替代治疗。纠正期每周注射，之后每月注射。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;叶酸缺乏
+&lt;ul&gt;
+&lt;li&gt;病因：饮酒、节食、蔬菜吃少了
+&lt;ul&gt;
+&lt;li&gt;饮酒导致肝储存叶酸能力下降&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;临床：类似恶性贫血；特异性症状：灼口综合征（唇、嘴角有沟壑、口炎、颊粘膜、舌溃疡）&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：替代治疗，口服叶酸&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;小细胞低色素性贫血
+&lt;ul&gt;
+&lt;li&gt;缺铁性贫血
+&lt;ul&gt;
+&lt;li&gt;I期：铁储备耗竭&lt;&#x2F;li&gt;
+&lt;li&gt;II期：骨髓铁供不足，造成血红蛋白缺陷的红细胞生成&lt;&#x2F;li&gt;
+&lt;li&gt;III期：血红蛋白缺陷的低色素小红细胞进入循环&lt;&#x2F;li&gt;
+&lt;li&gt;含铁酶缺陷异常（细胞色素、肌红蛋白、过氧化氢酶、过氧化物酶、单胺递质代谢酶、核苷酸还原酶、甲硫氨酸合成酶）&lt;&#x2F;li&gt;
+&lt;li&gt;病因：铁摄入过少、吸收障碍（乳糜泻、脂肪吸收障碍、慢性腹泻、寄生虫感染）、需求增加（妊娠）、慢性失血（月经过多、其他慢性病、癌）&lt;&#x2F;li&gt;
+&lt;li&gt;临床：加重时，上皮变化使甲变脆、变薄、边缘粗糙、匙状甲。灼口综合征、舌炎（舌乳头萎缩）；吞咽困难（喉咽-食管部隆起、涎少）；神经症状（感觉运动障碍、老年认知障碍）&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：初始：血红蛋白、血细胞比容下降。铁储备：骨髓活检、血清铁蛋白浓度（易受其他病理状态干扰）、转铁蛋白饱和度。红细胞血红素：胞内自由原卟啉。区分原发继发：可溶转铁蛋白受体与铁蛋白比值。&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：控制失血后，铁替代治疗。口服。注射右旋糖酐铁。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;慢性病贫血
+&lt;ul&gt;
+&lt;li&gt;轻到中度贫血。&lt;&#x2F;li&gt;
+&lt;li&gt;慢性炎症时，铁代谢缺陷，如IL-6促进肝细胞分泌铁调素（降低铁的释放利用）。红细胞凋亡增加。中性粒细胞释放的乳铁蛋白、去铁铁蛋白可与转铁蛋白拮抗血清铁。有肾病时可有促红素降低。细胞因子使骨髓红细胞生成受抑制。毒性导致溶血。出血倾向等。&lt;&#x2F;li&gt;
+&lt;li&gt;病因：继发于多种慢性病、创伤、恶性肿瘤等；铁利用缺陷综合征。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：无症状。严重时可出现缺铁性贫血症状。&lt;&#x2F;li&gt;
+&lt;li&gt;鉴别诊断：与缺铁性贫血相比，铁蛋白、转铁蛋白水平升高；缺铁性贫血铁蛋白、转铁蛋白水平降低。&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：铁替代疗法疗效差。肾衰竭继发的慢性病贫血可给促红素。血红蛋白水平高达正常值可增加死亡率。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;再生障碍性贫血
+&lt;ul&gt;
+&lt;li&gt;骨髓再生障碍；骨髓细胞减少，脂肪增多&lt;&#x2F;li&gt;
+&lt;li&gt;全血细胞减少&lt;&#x2F;li&gt;
+&lt;li&gt;骨髓造血干细胞或前体细胞（CD34+细胞）受到自身免疫系统攻击&lt;&#x2F;li&gt;
+&lt;li&gt;病因：原发；继发于化学&#x2F;药物暴露、电离射线、病毒感染（HIV、EBV、肝炎病毒、细小病毒B19）；遗传（Fanconi贫血）&lt;&#x2F;li&gt;
+&lt;li&gt;临床：发病隐匿，.5病例进展迅速。快速进展：贫血（低氧血症、苍白、虚弱、呼吸困难）、出血倾向、感染倾向。缓慢进展：进展性疲劳虚弱、出血倾向、感染倾向&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：血检红白细胞、血小板减少。骨髓活检细胞减少至.25正常。红细胞可为大细胞、大小不均、形态不整、不成熟。&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：骨髓、外周血干细胞移植（先用放疗&#x2F;化疗杀死异常淋巴细胞）、免疫抑制药（抗胸腺细胞球蛋白、环孢素、糖皮质激素）、重组GM-CSF、IL-6、促红素（依泊汀）。
+&lt;ul&gt;
+&lt;li&gt;用免疫抑制药可继发克隆性或恶性状况，包括阵发性夜间血红蛋白尿症、骨髓增生异常综合征、急性白血病、实体瘤。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;纯红再障
+&lt;ul&gt;
+&lt;li&gt;只有红细胞受到影响的骨髓再生障碍&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;溶血性贫血
+&lt;ul&gt;
+&lt;li&gt;红细胞表面改变或变形功能障碍使其在吞噬细胞中被清除，产生血管外溶血&lt;&#x2F;li&gt;
+&lt;li&gt;红细胞被IgG或C3b覆盖，调理吞噬&lt;&#x2F;li&gt;
+&lt;li&gt;红细胞被快速破坏，促红素增加，血红蛋白代谢物增加，可产生黄疸&lt;&#x2F;li&gt;
+&lt;li&gt;发育时骨髓造血旺盛，骨髓增生，可造成骨骼发育异常&lt;&#x2F;li&gt;
+&lt;li&gt;病因：遗传（膜缺陷（遗传性球形红细胞增多症、阵发性夜间血红蛋白尿症）、酶缺陷（G-6-P脱氢酶缺陷）、血红蛋白合成缺陷（地中海贫血、镰状细胞贫血））、对红细胞表面抗原、吸附的药物抗原、异型输血、物理损伤（瓣膜植入物、DIC中剪切力增大）、反复创伤（空手道、Bongo鼓、马拉松）、胞内寄生虫（疟原虫）、毒物（梭菌败血症、蛇毒、铅）&lt;&#x2F;li&gt;
+&lt;li&gt;临床：贫血；黄疸，肝大脾大，胆道结石；血红蛋白尿症（血管内溶血）；血栓栓塞（肺栓塞）；骨骼发育异常&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：骨髓活检红系增生；血涂片见未成熟红细胞（干细胞、网织红细胞），红细胞平均体积可降低。可出现球形红细胞、裂红细胞。&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：用糖皮质激素、利妥昔单抗（CD20抗体，减少阻遏B细胞）。脾大时可行脾切除。溶血危象时，纠正水电解质紊乱，输血。慢性溶血时，红细胞周转率增加，为预防巨幼细胞危象，增加叶酸摄入。
+&lt;ul&gt;
+&lt;li&gt;阵发性夜间血红蛋白尿症
+&lt;ul&gt;
+&lt;li&gt;先天性&#x2F;获得性遗传缺陷，补体介导溶血&lt;&#x2F;li&gt;
+&lt;li&gt;干细胞的糖基磷脂酰肌醇缺陷，导致CD55（decay-accelrating factor，加速C3转换酶降解）、CD59（MAC inhibitory protein，两个都是保护免受补体作用的）不能锚定在细胞膜上，进而溶血，血红蛋白漏进血浆&lt;&#x2F;li&gt;
+&lt;li&gt;游离的血红蛋白结合NO，导致血液稳态破坏，发生血栓、栓塞&lt;&#x2F;li&gt;
+&lt;li&gt;病因：遗传、再障性贫血&lt;&#x2F;li&gt;
+&lt;li&gt;临床：贫血、严重疲劳、腹痛、血栓形成&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：可用依库珠单抗（C5抗体）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;免疫性溶血性贫血
+&lt;ul&gt;
+&lt;li&gt;对红细胞表面正常抗原的自身免疫&lt;&#x2F;li&gt;
+&lt;li&gt;温抗体型
+&lt;ul&gt;
+&lt;li&gt;抗原包括Rh血型相关抗原和其他的；抗体是IgG&lt;&#x2F;li&gt;
+&lt;li&gt;调理作用导致溶血&lt;&#x2F;li&gt;
+&lt;li&gt;病因：淋巴瘤、其他肿瘤&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;冷凝集素病
+&lt;ul&gt;
+&lt;li&gt;抗原包括I系、P系抗原，抗体是IgM&lt;&#x2F;li&gt;
+&lt;li&gt;指端等寒冷部位，IgM结合，补体也结合，调理溶血&lt;&#x2F;li&gt;
+&lt;li&gt;可在寒冷部位产生凝集，造成发绀，温暖后消失；长期凝集可出现坏疽&lt;&#x2F;li&gt;
+&lt;li&gt;病因：急性主要是感染性疾病；慢性淋巴系肿瘤等&lt;&#x2F;li&gt;
+&lt;li&gt;临床：急性可感染后恢复期急性发病&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;阵发性冷性血红蛋白尿症
+&lt;ul&gt;
+&lt;li&gt;多为急性，严重血管内溶血&lt;&#x2F;li&gt;
+&lt;li&gt;P系抗原，IgG，补体介导细胞毒&lt;&#x2F;li&gt;
+&lt;li&gt;病因：可为上呼吸道感染&lt;&#x2F;li&gt;
+&lt;li&gt;临床：贫血；发热、棕褐色尿、血红蛋白尿、黄疸、腹痛、苍白，可有肝大脾大&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;异型免疫性溶血性贫血
+&lt;ul&gt;
+&lt;li&gt;错型输血&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;药源性溶血性贫血
+&lt;ul&gt;
+&lt;li&gt;半抗原与红细胞表面蛋白结合形成抗原，调理血管外溶血，也可补体介导血管内溶血&lt;&#x2F;li&gt;
+&lt;li&gt;免疫复合物-补体与红细胞表面补体受体结合。抗原可为药物半抗原。&lt;&#x2F;li&gt;
+&lt;li&gt;病因：半抗原性（青霉素、头孢菌素、氢化可的松）；免疫复合物型（奎尼丁）；Rh自身抗体型（alpha-甲基多巴）&lt;&#x2F;li&gt;
+&lt;li&gt;临床：给药1周~2周发病，停药后迅速缓解。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;gu-sui-zeng-zhi-xing-hong-xi-bao-zhang-ai&quot;&gt;骨髓增殖性红细胞障碍&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;相对性红细胞增多症
+&lt;ul&gt;
+&lt;li&gt;脱水引起血液浓缩&lt;&#x2F;li&gt;
+&lt;li&gt;病因：水摄入过少、腹泻、呕吐、利尿药&lt;&#x2F;li&gt;
+&lt;li&gt;临床：液体纠正后迅速消退&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;绝对性红细胞增多症
+&lt;ul&gt;
+&lt;li&gt;继发性红细胞增多症
+&lt;ul&gt;
+&lt;li&gt;缺氧致促红素升高&lt;&#x2F;li&gt;
+&lt;li&gt;高海拔、吸烟、慢阻肺、充血性心衰缺氧时可发生&lt;&#x2F;li&gt;
+&lt;li&gt;San Diego血红蛋白、Chesapeake血红蛋白等与氧亲和力过高的血红蛋白可发&lt;&#x2F;li&gt;
+&lt;li&gt;一些肿瘤可分泌促红素（肾细胞癌、肝癌、脑血管母细胞瘤等）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;真性&#x2F;原发性红细胞增多症
+&lt;ul&gt;
+&lt;li&gt;属于慢性骨髓增殖障碍
+&lt;ul&gt;
+&lt;li&gt;慢性骨髓增殖障碍
+&lt;ul&gt;
+&lt;li&gt;包括真性红细胞增多症、原发性血小板增多症、慢性特发性骨髓纤维化、慢性髓性白血病、慢性中性粒细胞白血病、慢性嗜酸性粒细胞白血病&lt;&#x2F;li&gt;
+&lt;li&gt;涉及祖细胞&lt;&#x2F;li&gt;
+&lt;li&gt;无明显刺激时血液有形成分产生过多&lt;&#x2F;li&gt;
+&lt;li&gt;变化的祖细胞占优势&lt;&#x2F;li&gt;
+&lt;li&gt;骨髓细胞增多或纤维化&lt;&#x2F;li&gt;
+&lt;li&gt;细胞遗传异常&lt;&#x2F;li&gt;
+&lt;li&gt;血栓形成和出血倾向&lt;&#x2F;li&gt;
+&lt;li&gt;可自发转归为急性白血病&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>肾复习</title>
+          <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20260103-kidney-review/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20260103-kidney-review/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20260103-kidney-review/">&lt;h1 id=&quot;shen&quot;&gt;肾&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;shen-guan-zhu&quot;&gt;肾灌注&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;肾血管由交感神经收缩。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shen-lu-guo&quot;&gt;肾滤过&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;管球反馈：GFR降低、小管液流速慢、钠氯重吸收增加、致密斑钠氯浓度降低、致密斑促使入球小动脉扩张、释放肾素激活RAAS系统，结果是滤过分数增加
+&lt;ul&gt;
+&lt;li&gt;在肾动脉硬化患者用ACEI、AT1阻断药时，可造成滤过分数进一步降低，发生急性肾衰&lt;&#x2F;li&gt;
+&lt;li&gt;汞中毒、一些药物导致近端小管重吸收障碍时，可导致滤过分数降低，防止容量快速下降&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shen-xiao-qiu&quot;&gt;肾小球&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;有毛细血管、血管系膜和足细胞。滤过屏障：内皮细胞、基膜、足细胞裂孔膜，呈负电。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shen-xiao-guan&quot;&gt;肾小管&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;主要通过基侧膜钠钾泵提供渗透压差驱动。&lt;&#x2F;li&gt;
+&lt;li&gt;近端小管
+&lt;ul&gt;
+&lt;li&gt;通透性高，重吸收旺盛&lt;&#x2F;li&gt;
+&lt;li&gt;输入：滤过液&lt;&#x2F;li&gt;
+&lt;li&gt;输出：量减少，渗透压、电荷不变
+&lt;ul&gt;
+&lt;li&gt;营养物质
+&lt;ul&gt;
+&lt;li&gt;前半段&lt;&#x2F;li&gt;
+&lt;li&gt;葡萄糖在顶侧膜直接和钠内流耦联，通过SGLT Sodium GLucose coTransporter同向运输。基侧膜GLUT扩散&lt;&#x2F;li&gt;
+&lt;li&gt;氨基酸同
+&lt;ul&gt;
+&lt;li&gt;葡萄糖、氨基酸浓度高时，其重吸收旺盛，钠重吸收增加，通过管球反馈增加滤过分数&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;蛋白质胞饮&lt;&#x2F;li&gt;
+&lt;li&gt;呈现饱和性，如肾糖阈&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;小离子
+&lt;ul&gt;
+&lt;li&gt;渗透作用使水携带小离子通过胞旁途径重吸收。包括氯、钾、钙、镁等&lt;&#x2F;li&gt;
+&lt;li&gt;顶侧膜钠-质子反向运输，酸化小管液（小管液的酸化就是碳酸氢根的重吸收）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;有机离子
+&lt;ul&gt;
+&lt;li&gt;分泌胆盐、草酸盐、尿酸盐、儿茶酚胺、药物、毒物、对氨基马尿酸&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;髓袢降支细段
+&lt;ul&gt;
+&lt;li&gt;位于髓质，管外渗透压高，通透性高，主动运输弱&lt;&#x2F;li&gt;
+&lt;li&gt;输出：渗透压高、浓缩&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;髓袢升支细段
+&lt;ul&gt;
+&lt;li&gt;通透性低，不怎么重吸收&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;髓袢升支粗段
+&lt;ul&gt;
+&lt;li&gt;通透性低&lt;&#x2F;li&gt;
+&lt;li&gt;有NKCC2 钠钾二氯共转运体，因此钾和钠的重吸收相等；钾被大量重吸收，漏回小管液，造成正电，促进钙镁重吸收&lt;&#x2F;li&gt;
+&lt;li&gt;输出：渗透压回降，钾少，正电&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;袢利尿药呋塞米、托拉塞米、布美他尼阻滞NKCC2，对抗上述作用，排钾，排镁；同时溶质浓度输出增加对抗ADH下渗透作用而利尿&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;远曲小管
+&lt;ul&gt;
+&lt;li&gt;通透性低&lt;&#x2F;li&gt;
+&lt;li&gt;有钠氯共转运体，钾不被重吸收。&lt;&#x2F;li&gt;
+&lt;li&gt;输出：渗透压降低&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;噻嗪类利尿药氢氯噻嗪、类噻嗪类利尿药吲达帕胺阻滞钠氯共转运体，溶质浓度输出增加对抗渗透作用&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;远曲小管远端和弓状（皮质）集合管
+&lt;ul&gt;
+&lt;li&gt;有主细胞和闰细胞，调节电解质&lt;&#x2F;li&gt;
+&lt;li&gt;主细胞保钠排钾，醛固酮通过激活钠钾泵和顶侧膜插入钠通道促进此过程&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;醛固酮受体拮抗药螺内酯、依普利酮对抗上述作用，保钾&lt;&#x2F;p&gt;
+&lt;p&gt;上皮钠通道阻滞药阿米洛利、氨苯蝶啶同上&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;A型闰细胞酸化小管液，B型闰细胞分泌碳酸氢根&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;髓质集合管
+&lt;ul&gt;
+&lt;li&gt;ADH控制水重吸收；尿素重吸收；泌质子&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;shen-bing&quot;&gt;肾病&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;shen-bing-zong-he-zheng&quot;&gt;肾病综合征&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;蛋白尿&amp;gt;3.5g&#x2F;d、低白蛋白血症、高脂血症&lt;&#x2F;li&gt;
+&lt;li&gt;基膜、足细胞损伤致滤过屏障负电丢失，通透性增加&lt;&#x2F;li&gt;
+&lt;li&gt;白蛋白、Ig等漏入尿中&lt;&#x2F;li&gt;
+&lt;li&gt;低白蛋白血症造成血浆胶体渗透压下降，造成水肿&lt;&#x2F;li&gt;
+&lt;li&gt;低白蛋白血症刺激肝合成载脂蛋白（以维持渗透压）、降低脂质代谢，造成高脂血症、脂尿，加重肾小球病，诱发动脉粥样硬化
+&lt;ul&gt;
+&lt;li&gt;VLDL、LDL、甘油三酯、脂肪酸增高；HDL降低&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Ig丢失增加感染风险&lt;&#x2F;li&gt;
+&lt;li&gt;载体蛋白丢失致维生素D缺陷&lt;&#x2F;li&gt;
+&lt;li&gt;载体蛋白和T4丢失致甲减&lt;&#x2F;li&gt;
+&lt;li&gt;可继发钠潴留、高血压、高凝状态、血栓&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;管旁毛细血管胶体渗透压降低，钠重吸收增加&lt;&#x2F;p&gt;
+&lt;p&gt;AT-III减少，抗凝系统低下；内皮损伤，内皮保护因素降低导致高凝状态&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;病因：糖尿病、淀粉样变、系统性红斑狼疮、IgA血管炎、药、感染、恶性肿瘤、血管障碍、遗传
+&lt;ul&gt;
+&lt;li&gt;厌食、营养不良、肝病可加重低白蛋白血症&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;临床：眶周水肿，晨尤甚；尿少，泡沫尿；腹水，胸腔积液导致呼吸困难；阴唇、阴囊水肿；肠黏膜水肿致腹泻、厌食、吸收不良；蛋白质缺陷使毛发不好；皮肤苍白发亮，静脉明显；易激惹、疲劳、嗜睡&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：蛋白尿&amp;gt;3.5g&#x2F;d、血清白蛋白&amp;lt;3g&#x2F;dL、胆固醇、磷脂、甘油三酯增加、尿中出现脂肪&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：限制蛋白、脂肪、盐摄入；可用糖皮质激素泼尼松、环磷酰胺控制免疫；利妥昔单抗；皮肤护理；高血压可用利尿药（螺内酯、袢利尿药可合用）、ACE抑制药卡托普利、AT1阻断药氯沙坦；可预防性用类肝素；监测低血容量、低钾血症、钾毒性&lt;&#x2F;li&gt;
+&lt;li&gt;原发性肾病综合征
+&lt;ul&gt;
+&lt;li&gt;流行病学：多于学龄前发病；男&amp;gt;女；种族地区差异小；年发病率2~3&#x2F;100,000&lt;&#x2F;li&gt;
+&lt;li&gt;病因
+&lt;ul&gt;
+&lt;li&gt;微小病变肾病
+&lt;ul&gt;
+&lt;li&gt;异常Treg细胞释放增加通透性的物质（IL-8、TNF）&lt;&#x2F;li&gt;
+&lt;li&gt;病因：原发；继发于Hodgkin病、HIV感染、药物、遗传（nephrin基因）&lt;&#x2F;li&gt;
+&lt;li&gt;病变：电镜见足细胞足突扁平、相互融合&lt;&#x2F;li&gt;
+&lt;li&gt;临床：肾病综合征（儿童选择性蛋白尿、少量alpha2-巨球蛋白；成人蛋白尿选择性降低），对激素治疗敏感。&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：激素治疗&lt;&#x2F;li&gt;
+&lt;li&gt;预后：极好。数年后白蛋白尿消失。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;局灶性节段性肾小球硬化
+&lt;ul&gt;
+&lt;li&gt;首发损伤是足细胞变薄消失，裂孔孔径增大&lt;&#x2F;li&gt;
+&lt;li&gt;内皮、系膜增生造成毛细血管硬化&lt;&#x2F;li&gt;
+&lt;li&gt;病因：原发，伴其他肾小球疾病（MCD、IgA肾病）、继发（HIV、糖尿病、反流性肾病、海洛因滥用、止痛药肾病）、基因&lt;&#x2F;li&gt;
+&lt;li&gt;病理：光镜下，&amp;lt;50%血管球发生；见硬化，硬化毛细血管袢内面见玻璃样变。系膜可增生。电镜下，足细胞足突消失，玻璃样变、硬化部位见电子致密沉积物IgM、C3。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：主要表现为肾病综合征伴严重蛋白尿。&lt;&#x2F;li&gt;
+&lt;li&gt;原发性FSGS
+&lt;ul&gt;
+&lt;li&gt;临床：蛋白尿非选择性，对激素治疗不敏感&lt;&#x2F;li&gt;
+&lt;li&gt;预后：可进展为慢性肾衰。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;膜性GN=膜性肾病
+&lt;ul&gt;
+&lt;li&gt;广泛毛细血管壁增厚&lt;&#x2F;li&gt;
+&lt;li&gt;免疫复合物原位形成，补体介导足细胞损伤。系膜、上皮释放补体、炎性介质，导致膜通透性增加、血管硬化。&lt;&#x2F;li&gt;
+&lt;li&gt;流行病学：中老年，男女2:1&lt;&#x2F;li&gt;
+&lt;li&gt;病因：多为原发，某种未知抗原诱导。SLE、恶性肿瘤、感染（乙肝、丙肝）、梅毒、疟疾、药（青霉胺）&lt;&#x2F;li&gt;
+&lt;li&gt;病理：光镜下，小球毛细血管壁弥散性增厚，形态类似。进展后，免疫复合物沉积于增厚的基膜，基膜变成了2个（银染黑色、PAS粉色）。电镜下，沉积物IgG位于上皮下，可见基膜有棘突。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：成人发病肾病综合征。蛋白尿选择性低。可有隐血尿，高血压。可产生肾静脉血栓。&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：烷化药、糖皮质激素&#x2F;钙调磷酸酶抑制药&lt;&#x2F;li&gt;
+&lt;li&gt;预后：病变多不可逆。50%患者2a~20a进展为终末期肾疾病、氮质血症。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;膜增生性肾小球肾炎&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shen-yan-zong-he-zheng&quot;&gt;肾炎综合征&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;血尿、红细胞管型、蛋白尿不如肾病综合征显著&lt;&#x2F;li&gt;
+&lt;li&gt;系膜抗原沉积，炎症细胞浸润，造成内皮损伤、红细胞、蛋白质漏出&lt;&#x2F;li&gt;
+&lt;li&gt;蛋白质漏出后，过程类似肾病综合征&lt;&#x2F;li&gt;
+&lt;li&gt;病因：感染相关的肾小球肾炎（急性GN）（乙肝、丙肝、急性链球菌）、急进性肾小球肾炎、狼疮性肾炎、系膜增生性GN
+&lt;ul&gt;
+&lt;li&gt;急性肾小球肾炎=急性弥散性增生性GN
+&lt;ul&gt;
+&lt;li&gt;流行病学：多为发展中国家2~14岁儿童&lt;&#x2F;li&gt;
+&lt;li&gt;病因：继发于感染&lt;&#x2F;li&gt;
+&lt;li&gt;临床：肾炎综合征（血尿、红细胞管型、蛋白尿、可伴有水钠潴留、水肿、高血压、氮质血症）&lt;&#x2F;li&gt;
+&lt;li&gt;链球菌后急性GN
+&lt;ul&gt;
+&lt;li&gt;感染后原位或循环免疫复合物（IgG、C3）沉积于肾小球，炎症反应介导肾小球损伤，内皮损伤致血尿、蛋白尿，膜增厚致滤过率下降&lt;&#x2F;li&gt;
+&lt;li&gt;病因：12、4、1型A组beta溶血性链球菌&lt;&#x2F;li&gt;
+&lt;li&gt;病变：肾重量增加，切面出血点。光镜下，病变弥散性，细胞增多（系膜、内皮），中性粒浸润。电镜下，基膜的上皮侧有高密度不规则免疫复合物沉积。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：儿童链球菌感染咽炎后1~2周、脓疱病后6周内迅速发病。间断性血尿或隐血尿、红细胞管型（尿可呈棕褐色）、轻微蛋白尿；腰腹部疼痛、易激惹、不舒服、发热；高血压（头痛、呕吐、嗜睡、癫痫发作、通气障碍、呼吸浅快、肝肿大、柔韧）、眶水肿；
+成人症状不典型&lt;&#x2F;li&gt;
+&lt;li&gt;预后：儿童95%痊愈。高血压患者预后不良。可转归为急进性、慢性GN、急慢性肾衰&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;非链球菌后急性GN
+&lt;ul&gt;
+&lt;li&gt;类似。&lt;&#x2F;li&gt;
+&lt;li&gt;预后：不如链球菌后急性GN。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;急进性GN=新月体性GN
+&lt;ul&gt;
+&lt;li&gt;纤维蛋白渗出至Bowman囊，HB-EGF样生长因子刺激壁层上皮细胞增殖形成新月体&lt;&#x2F;li&gt;
+&lt;li&gt;流行病学：多见于成人&lt;&#x2F;li&gt;
+&lt;li&gt;病变：切面皮质苍白、髓质淤血。光镜下见新月体（淡染瘦长多边形细胞）取代Bowman囊，旁有纤维蛋白；血管球受挤压，细胞增多；间质水肿&lt;&#x2F;li&gt;
+&lt;li&gt;临床：肾炎综合征；肾功能迅速减退，数周&#x2F;数月后发生急性肾衰&lt;&#x2F;li&gt;
+&lt;li&gt;鉴别诊断：血清C3（II型低）、抗基膜抗体、抗中性粒胞质抗体&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：抗凝药可能阻止纤维蛋白新月体形成。血液置换、糖皮质激素、免疫抑制药。不可逆衰竭时透析移植。&lt;&#x2F;li&gt;
+&lt;li&gt;预后：极差。&lt;&#x2F;li&gt;
+&lt;li&gt;I型急进性GN
+&lt;ul&gt;
+&lt;li&gt;抗基膜抗体&lt;&#x2F;li&gt;
+&lt;li&gt;病因：Goodpasture综合征、SLE、血管炎、Wegener肉芽肿、Henoch-Schonlein紫癜（=IgA血管炎）、特发性混合型冷球蛋白血症
+&lt;ul&gt;
+&lt;li&gt;Goodpasture综合征
+&lt;ul&gt;
+&lt;li&gt;抗肾小球基膜抗体与肺泡基膜交叉反应，抗原可能是一种IV型胶原&lt;&#x2F;li&gt;
+&lt;li&gt;流行病学：青年男性&lt;&#x2F;li&gt;
+&lt;li&gt;临床：RPGN急性肾衰、肺出血&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;病变：电镜下，沿基膜间断、线状沉积；免疫组化可见其为IgG、C3&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;II型急进性GN
+&lt;ul&gt;
+&lt;li&gt;感染后免疫复合物沉积&lt;&#x2F;li&gt;
+&lt;li&gt;病因：可继发于急性GN&lt;&#x2F;li&gt;
+&lt;li&gt;病变：电镜下，类似急性GN，上皮下颗粒沉积；免疫组化可见其为IgG、C3&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;III型急进性GN
+&lt;ul&gt;
+&lt;li&gt;抗中性粒胞质抗体&lt;&#x2F;li&gt;
+&lt;li&gt;病因：Wegener肉芽肿、显微性结节性多动脉炎&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：类似肾病综合征。对急进性肾小球肾炎用高剂量糖皮质激素、环磷酰胺。血浆置换。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shen-xiao-qiu-ji-bing&quot;&gt;肾小球疾病&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;通常是免疫因素。&lt;&#x2F;li&gt;
+&lt;li&gt;免疫复合物沉积
+&lt;ul&gt;
+&lt;li&gt;系膜：轻微&lt;&#x2F;li&gt;
+&lt;li&gt;内皮下：导致硬化：I型MPGN&lt;&#x2F;li&gt;
+&lt;li&gt;致密层：II型MPGN&lt;&#x2F;li&gt;
+&lt;li&gt;上皮下：急性GN、II型RPGN、膜性GN&lt;&#x2F;li&gt;
+&lt;li&gt;来源：原位（吸附的抗原、gp330）、循环Ig沉积（内源（狼疮）、外源（乙肝、梅毒、恶性疟））&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;抗小球基膜抗体：Goodpasture综合征中I型急进性肾小球肾炎
+&lt;ul&gt;
+&lt;li&gt;病变：抗体、补体沿基膜间断、线状沉积&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;补体旁路途径：II型膜增生性GN、一些急进性、急性弥漫性增生性、IgA肾病、SLE
+&lt;ul&gt;
+&lt;li&gt;C3、properdin（激活旁路途径）沉积在肾小球，未见Ig。&lt;&#x2F;li&gt;
+&lt;li&gt;循环中存在C3转换酶（C3bBb）的自抗体。&lt;&#x2F;li&gt;
+&lt;li&gt;IgA肾病
+&lt;ul&gt;
+&lt;li&gt;系膜IgA、C3、properdin沉积物&lt;&#x2F;li&gt;
+&lt;li&gt;IgA可能源于浆膜感染&lt;&#x2F;li&gt;
+&lt;li&gt;糖基化异常（半乳糖缺陷）的IgA-1致抗该IgA-1多糖的抗体形成，激活补体，刺激系膜细胞使其增生和释放炎性介质。&lt;&#x2F;li&gt;
+&lt;li&gt;病因：原发、IgA血管炎、慢性感染（慢性肝病、炎症性肠病、间质性肺炎、麻风、疱疹样皮炎、葡萄膜炎、强直性脊柱炎、Sjögren综合征、单克隆IgA丙种球蛋白病）&lt;&#x2F;li&gt;
+&lt;li&gt;病变：局灶性增生性GN、FSGS、MPGN&lt;&#x2F;li&gt;
+&lt;li&gt;临床：常为复发性血尿伴扁桃体炎&#x2F;胃肠炎。&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：支持性治疗。&lt;&#x2F;li&gt;
+&lt;li&gt;预后：20%~40%进展为需透析治疗或肾移植。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;抗中性粒胞质抗体、Ig缺陷：III型急进性&lt;&#x2F;li&gt;
+&lt;li&gt;抗内皮抗体&lt;&#x2F;li&gt;
+&lt;li&gt;T细胞介导损伤&lt;&#x2F;li&gt;
+&lt;li&gt;随后，中性粒、巨噬、补体、血小板、系膜细胞、凝血系统介导炎症反应、基膜损伤、硬化等&lt;&#x2F;li&gt;
+&lt;li&gt;血流量降低、滤过膜面积减小、毛细血管静压降低，GFR降低，血肌酐升高&lt;&#x2F;li&gt;
+&lt;li&gt;非免疫因素：代谢（糖尿病肾病、Fabry病）、血流（高血压、肾小球硬化）、淀粉样变、感染、药毒、遗传&lt;&#x2F;li&gt;
+&lt;li&gt;系膜增生性GN
+&lt;ul&gt;
+&lt;li&gt;系膜免疫复合物沉积，系膜细胞增生&lt;&#x2F;li&gt;
+&lt;li&gt;血流量降低、膜通透性改变造成肾炎综合征。&lt;&#x2F;li&gt;
+&lt;li&gt;病因：IgA肾病、狼疮性肾炎、早期糖尿病肾病&lt;&#x2F;li&gt;
+&lt;li&gt;局灶性增生性GN
+&lt;ul&gt;
+&lt;li&gt;病理：光镜下，病变局限在&amp;lt;50%血管球，呈现局灶性、节段性。系膜细胞、内皮细胞增生。系膜广泛沉积IgA、C3和纤维蛋白。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;弥散性增生性GN
+&lt;ul&gt;
+&lt;li&gt;病因：IV型狼疮性肾炎。&lt;&#x2F;li&gt;
+&lt;li&gt;病理：类似局灶性增生性GN。病变见于&amp;gt;50%血管球，系膜细胞、内皮细胞、上皮细胞、炎细胞可增生。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;膜增生性GN
+&lt;ul&gt;
+&lt;li&gt;系膜增生，血管球分叶状，毛细血管壁不规则增厚。&lt;&#x2F;li&gt;
+&lt;li&gt;流行病学：15~20岁好发。&lt;&#x2F;li&gt;
+&lt;li&gt;病理：光镜下，血管球呈现分叶状，基膜显著增厚，银染显示2基膜间有间隙。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：50%表现为肾病综合征；30%表现为无症状蛋白尿；20%表现为肾炎综合征。蛋白尿非选择性。常见血尿、高血压、低补体血症。&lt;&#x2F;li&gt;
+&lt;li&gt;预后：大多进展为肾衰，少量可功能正常，蛋白尿、血尿、高血压持续。I型预后稍好。&lt;&#x2F;li&gt;
+&lt;li&gt;I型MPGN：70%
+&lt;ul&gt;
+&lt;li&gt;内皮下免疫复合物沉积&lt;&#x2F;li&gt;
+&lt;li&gt;病因：自身免疫病（SLE、混合型冷球蛋白血症、Sjögren综合征）、慢性感染（细菌性心内膜炎、HIV、乙丙肝）、恶性肿瘤（淋巴瘤、白血病）&lt;&#x2F;li&gt;
+&lt;li&gt;病理：电镜下，内皮下有电子致密沉积物，为C3和少量IgG。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;II型MPGN：30%
+&lt;ul&gt;
+&lt;li&gt;旁路途径，电子致密物沉积于基膜致密层&lt;&#x2F;li&gt;
+&lt;li&gt;病因：自身免疫，有一种Ig（C3肾炎因子）&lt;&#x2F;li&gt;
+&lt;li&gt;病理：电镜下，基膜致密层和系膜有致密不定形沉积物，为C3和properdin。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：可伴有部分性脂肪萎缩&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;III型MPGN
+&lt;ul&gt;
+&lt;li&gt;有I型和膜性GN特征&lt;&#x2F;li&gt;
+&lt;li&gt;病因：系统性疾病、药&lt;&#x2F;li&gt;
+&lt;li&gt;病理：电镜下，内皮下、基膜、上皮下均有电子致密沉积物，为C3、IgM和IgG。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;慢性GN
+&lt;ul&gt;
+&lt;li&gt;肾功能不可逆损伤&lt;&#x2F;li&gt;
+&lt;li&gt;病因：RPGN、膜性GN、MPGN、FSGS、IgA肾病、糖尿病肾病、狼疮性肾炎&lt;&#x2F;li&gt;
+&lt;li&gt;病变：肾萎缩，切面髓质不可见。光镜下肾小球数量少，多呈现无细胞玻璃样（PAS阳性）；大量肾小管消失，管细胞及其基膜显示玻璃样；间质纤维化&lt;&#x2F;li&gt;
+&lt;li&gt;临床：高血压、血尿、肾功能进行性丧失&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：可有蜡样管型、颗粒管型。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;lang-chuang-xing-shen-yan&quot;&gt;狼疮性肾炎&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;抗dsDNA或核小体抗体沉积或抗原植入而原位形成。&lt;&#x2F;li&gt;
+&lt;li&gt;损伤肾小球膜，系膜增大。&lt;&#x2F;li&gt;
+&lt;li&gt;病变：膜性GN、系膜性GN、MPGN、弥漫性增生性GN、小管纤维化&lt;&#x2F;li&gt;
+&lt;li&gt;临床：肾炎综合征&lt;&#x2F;li&gt;
+&lt;li&gt;预后：不定&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：免疫抑制药；保护肾免受他种伤害&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;tang-niao-bing-shen-bing&quot;&gt;糖尿病肾病&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;慢性高糖血症的代谢（晚期糖基化终末产物）、炎症（TGFbeta、PKC）、血管并发症导致足细胞损伤，基膜纤维化、系膜增大。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：糖尿病肾小球硬化、糖尿病肾盂肾炎可伴蛋白尿。GFR降低。慢性肾衰。&lt;&#x2F;li&gt;
+&lt;li&gt;糖尿病肾小球硬化
+&lt;ul&gt;
+&lt;li&gt;病变：弥散性（基膜增厚，系膜基质增加、轻度增生，渗出性纤维蛋白（玻璃滴、纤维蛋白帽））、结节性=Kimmelstiel-Wilson结节（见于1型糖尿病，毛细血管袢绕着一个多层玻璃样椭圆结节）、近曲小管合成糖原空泡（Armanni-Ebstein）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>循环复习</title>
+          <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251231-circulation-review/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251231-circulation-review/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251231-circulation-review/">&lt;h1 id=&quot;xin&quot;&gt;心&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;xin-ji&quot;&gt;心肌&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;dian-huo-dong&quot;&gt;电活动&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;动作电位时，L型钙通道开放，钾通道关闭，造成2期平台期&lt;&#x2F;li&gt;
+&lt;li&gt;心室肌绝对不应期为.25s~.3s，相对不应期为.05s；心房肌绝对不应期.15s。&lt;&#x2F;li&gt;
+&lt;li&gt;收缩用钙来自T小管和肌浆网。依赖于间质钙浓度正常。肌浆网钙通过RyR通道进入胞质，通过钙泵SERCA2转运回肌浆网。还有钠钙交换体。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;shou-suo-xing-zhi&quot;&gt;收缩性质&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;左心室收缩时，心尖顺时针转动，心底逆时针转动&lt;&#x2F;li&gt;
+&lt;li&gt;收缩时间：心室.3s，心房.2s。&lt;&#x2F;li&gt;
+&lt;li&gt;休息时，舒张期，从心室流到心房的血液占充盈量的.8，心房收缩进一步泵出.2充盈量的血液。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;beng-gong-neng&quot;&gt;泵功能&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;快速充盈&#x2F;射血期是指舒张&#x2F;射血期的前1&#x2F;3。&lt;&#x2F;li&gt;
+&lt;li&gt;射血分数=搏出量&#x2F;舒张末期容量=~.6。&lt;&#x2F;li&gt;
+&lt;li&gt;瓣狭窄&#x2F;硬化时，血流通过速度极快，心脏需要额外做大量功来为其提供动能。&lt;&#x2F;li&gt;
+&lt;li&gt;可画心室p-V图。围成面积即外部功。&lt;&#x2F;li&gt;
+&lt;li&gt;因为肌肉维持势能也要耗能，所以心肌耗氧量和外部功+势能正相关。
+&lt;ul&gt;
+&lt;li&gt;心能量效率正常约.25。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;耗氧量近似与收缩期张力*收缩期时间成正比。
+&lt;ul&gt;
+&lt;li&gt;Laplace定律：张力=压强*半径。&lt;&#x2F;li&gt;
+&lt;li&gt;前负荷：舒张末期容积。前负荷增加时，张力增加，耗能增加。作为代偿，离心性肥大、纤维化，心室壁顺应性降低，收缩p-V曲线斜率增大，势能增大，能量效率降低，可至.05。&lt;&#x2F;li&gt;
+&lt;li&gt;后负荷：动脉收缩压。后负荷增加时，耗能增加。作为代偿，向心性肥大、纤维化（减小半径，降低维持一定势能所需能量）。能量效率降低。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Frank-Starling机制
+&lt;ul&gt;
+&lt;li&gt;回心血量增加时，心肌拉伸，长度更适合收缩，收缩力增加&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;xun-huan-gong-neng&quot;&gt;循环功能&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;心输出量几乎取决于回心血量：Frank-Starling机制；Bainbridge反射&lt;&#x2F;li&gt;
+&lt;li&gt;高钾血症可致去极化，使动作电位时程、有效不应期缩短，导致心肌力减弱、心律失常。&lt;&#x2F;li&gt;
+&lt;li&gt;高钙血症可致心肌痉挛；低钙血症可致心肌力减弱。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>体液复习</title>
+          <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251226-body-fluid-review/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251226-body-fluid-review/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251226-body-fluid-review/">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;液体输入主要源自摄入和代谢。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;生理液体输出=蒸发+汗+粪便+尿液&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;体液量评估：重水&#x2F;安替比林扩散试验&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;细胞外液评估：放射性钠&#x2F;氯&#x2F;碘&#x2F;硫代硫酸根&#x2F;菊粉扩散试验&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;血浆体积评估：125碘-白蛋白&#x2F;伊文斯蓝扩散试验&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;血容量=血浆体积&#x2F;(1-红细胞比容)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;滤过分数=滤过率&#x2F;肾血流量（正常为.2）&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;动脉血压、血流量均可影响&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;排泄=球滤过-管重吸收+管分泌&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;滤过=滤过率*血浆浓度&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;水重吸收分数=滤过率&#x2F;尿量&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;肾血流量评估：对氨基马尿酸清除试验&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;滤过率：菊粉&#x2F;碘酞酸盐&#x2F;EDTA铬&#x2F;胱抑素C&#x2F;肌酐清除率。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;ye-ti-fen-bu-xi-tong&quot;&gt;液体分布系统&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;主要由渗透和静压的力学平衡决定。&lt;&#x2F;li&gt;
+&lt;li&gt;顺应性低的部位不易积聚大量体液，顺应性高的部位易。&lt;&#x2F;li&gt;
+&lt;li&gt;组织间质在负压范围内，由于蛋白多糖的黏性，顺应性低。正压范围内，形成自由流体，顺应性增高。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;shen-xi-tong&quot;&gt;肾系统&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;yi-xie-fan-kui-kong-zhi-bian-liang&quot;&gt;一些反馈控制变量&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;肾血流量：升高时肌源性收缩增加阻力&lt;&#x2F;li&gt;
+&lt;li&gt;滤过分数
+&lt;ul&gt;
+&lt;li&gt;~肾血流量：胶体渗透压缓冲
+&lt;ul&gt;
+&lt;li&gt;毛细血管血浆胶体渗透压随滤过而增加。增加幅度与血流量负相关。增加又与滤过率负相关。因此滤过率与血流量正相关。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;致密斑远侧钠浓度：
+&lt;ul&gt;
+&lt;li&gt;~滤过率：管球反馈，依赖RAAS系统，滤过率减少时增加滤过分数&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;近端小管、髓袢重吸收率占滤过率的比值：球管平衡&lt;&#x2F;li&gt;
+&lt;li&gt;静脉流量：低血压等致滤过分数升高时，出球小动脉血浆胶体渗透压升高，血管收缩使管旁毛细血管静压降低，增加重吸收&lt;&#x2F;li&gt;
+&lt;li&gt;血容量：稳定的滤过率、RAAS系统、ADH系统、ANP系统、直小血管系统、钠通道内化、交感轴、小管α受体
+&lt;ul&gt;
+&lt;li&gt;肾近端小管重吸收障碍时，管球反馈使滤过分数降低，对抗上述作用&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;pai-niao-xi-tong&quot;&gt;排尿系统&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;输尿管、膀胱的平滑肌由副交感支配。&lt;&#x2F;li&gt;
+&lt;li&gt;肾盏扩张后，平滑肌自发放电产生蠕动。&lt;&#x2F;li&gt;
+&lt;li&gt;输尿管在逼尿肌（膀胱平滑肌）中走行几厘米，逼尿肌收缩时关闭。如不能关闭，造成膀胱输尿管反流，可造成尿路压增高，对肾盏、肾髓质等产生损害。&lt;&#x2F;li&gt;
+&lt;li&gt;输尿管梗阻时，产生疼痛，激活输尿管肾反射，即交感使尿量减少。&lt;&#x2F;li&gt;
+&lt;li&gt;膀胱充盈时，激活排尿反射，经盆神经、骶丛至S1、S2，经盆神经副交感输出。&lt;&#x2F;li&gt;
+&lt;li&gt;高级中枢（脑桥、皮层）可抑制或促进排尿反射，以及控制尿道括约肌（骨骼肌）。&lt;&#x2F;li&gt;
+&lt;li&gt;感觉神经受损时，排尿反射消失，尿只能一滴一滴漏出来。&lt;&#x2F;li&gt;
+&lt;li&gt;骶上脊髓受损时，与中枢断联，脊休克一开始使得反射消失，随后反射回复，出现尿失禁。&lt;&#x2F;li&gt;
+&lt;li&gt;脊髓&#x2F;脑干部分损伤可造成尿失禁。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;adhxi-tong&quot;&gt;ADH系统&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;激活：前下丘脑AV3V区渗透压感受器感受渗透压升高—穹窿下器&#x2F;终板血管器—视前内侧核—视上核；颈动脉窦主动脉体压力感受器&#x2F;心房压力感受器感受压力降低；烟碱；吗啡；环磷酰胺；-乙醇；-可乐定；-氟哌啶醇&lt;&#x2F;li&gt;
+&lt;li&gt;视上核和室旁核合成ADH，经轴突运输在神经垂体轴突末端释放入血&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;bing-li-sheng-li&quot;&gt;病理生理&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;di-na-xie-zheng&quot;&gt;低钠血症&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;血清钠&amp;lt;135mEq&#x2F;L&lt;&#x2F;li&gt;
+&lt;li&gt;病理变化：细胞水肿&lt;&#x2F;li&gt;
+&lt;li&gt;反应：慢性的低钠血症发作可促使组织细胞将离子排出细胞以对抗细胞水肿。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：可无症状。轻度：恶心呕吐。重度：嗜睡、头痛、认知障碍、癫痫发作、昏迷。&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：血检（血清钠&amp;lt;135、比容增高、蛋白增高）、尿检（比重&amp;lt;1.01）&lt;&#x2F;li&gt;
+&lt;li&gt;鉴别诊断：尿钠、渗透压高提示体液调节系统障碍（脑性耗盐综合征、肾上腺缺陷）；尿钠高、渗透压低提示肾外丢钠（呕吐腹泻、烧伤、心衰、肝硬化）&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：计算、纠正、监测。慎用高张盐水。纠正过快可致渗透性脱髓鞘综合征。
+&lt;ul&gt;
+&lt;li&gt;渗透性脱髓鞘综合征
+&lt;ul&gt;
+&lt;li&gt;慢性低钠血症纠正过快，损伤已适应低钠的细胞&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;低容量性低钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：呕吐、腹泻、醛固酮减少（Addison病）、利尿药&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;容量减少后ADH释放导致尿都给浓缩了，失钠&amp;gt;失水，继发低钠血症&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;反应：ADH增加&lt;&#x2F;li&gt;
+&lt;li&gt;临床：低血压，心动过速，尿量减少。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;正常容量性低钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：SIADH、甲减、肺炎、糖皮质激素缺陷、钠摄入不足&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;稀释性低钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：水摄入过多、静脉葡萄糖输液、自来水灌肠、淡水溺水、SSRI、SIADH&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SIADH中，醛固酮在近端调节得好好的，ADH在远端给水全重吸收了，醛固酮也不能代偿啊！感觉血钠异常很多都是这样，或者就是醛固酮本身障碍了&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;治疗：限制水摄入。对SIADH可用ADH受体阻断药。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;高容量性低钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：充血性心衰、肝硬化、肾病综合征&lt;&#x2F;li&gt;
+&lt;li&gt;临床：体重增加、水肿、腹水、颈静脉怒张&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;高张性低钠血症
+&lt;ul&gt;
+&lt;li&gt;水从胞内转移至胞外&lt;&#x2F;li&gt;
+&lt;li&gt;病因：高糖血症、高脂血症、高蛋白血症&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;gao-na-xie-zheng&quot;&gt;高钠血症&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;血清钠&amp;gt;145mEq&#x2F;L&lt;&#x2F;li&gt;
+&lt;li&gt;病理变化：细胞脱水&lt;&#x2F;li&gt;
+&lt;li&gt;临床：虚弱、嗜睡、痉挛、反射亢进，可发生认知障碍、昏迷、癫痫发作&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;锥体束核上都损坏了&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;诊断：血清钠&amp;gt;145、尿比重&amp;gt;1.03&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：口服5%葡萄糖、缓慢纠正、监测、利尿药&lt;&#x2F;li&gt;
+&lt;li&gt;低容量性高钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：袢利尿药、渗透性利尿（高糖血症、甘露醇）、胃肠道失水、肾尿浓缩缺陷&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;正常容量性高钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：水摄入过少、出汗、发热过度通气、烧伤、呕吐、腹泻、尿崩症（中枢性、肾源性）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尿崩症中，无法浓缩尿，只能都通过降低稀释作用来保证血容量，钠都给重吸收了&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;高容量性高钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：高张盐水输液、促皮质激素&#x2F;醛固酮分泌过量（Cushing综合征、肾上腺增生），咸水溺水&lt;&#x2F;li&gt;
+&lt;li&gt;临床：体重增加、水冲脉、血压升高&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xi-bao-shui-zhong&quot;&gt;细胞水肿&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;病因：低钠血症、代谢障碍、缺血、缺氧
+&lt;ul&gt;
+&lt;li&gt;缺血缺氧、代谢障碍导致ATP生成障碍，钠钾泵活性降低，细胞内钠升高，产生渗透&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;病变：器官变大变重变涨苍白；镜检见细胞内空泡，核比较苍白，间质微血管被挤压&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shui-zhong&quot;&gt;水肿&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;组织间质液体过多&lt;&#x2F;li&gt;
+&lt;li&gt;可继发缺血、脱水、休克&lt;&#x2F;li&gt;
+&lt;li&gt;血容量减少激活ADH和RAAS系统，降低ANP，进一步促进水钠潴留&lt;&#x2F;li&gt;
+&lt;li&gt;保护机制：间质在负压范围内顺应性低、淋巴回流储备大、间质蛋白质及时清除&lt;&#x2F;li&gt;
+&lt;li&gt;病因：毛细血管静压增高、血浆胶体渗透压降低、毛细血管渗透性增高、淋巴受阻
+&lt;ul&gt;
+&lt;li&gt;毛细血管静压增高
+&lt;ul&gt;
+&lt;li&gt;病因：静脉受阻（静脉凝血、门静脉高压、右心衰、肢体勒住了、久站）、水钠潴留（右充血性心衰、肾衰、肝硬化）
+&lt;ul&gt;
+&lt;li&gt;右心衰导致肾灌流降低、RAAS系统激活，晚期ADH系统激活，导致水钠潴留&lt;&#x2F;li&gt;
+&lt;li&gt;水钠潴留使血容量增加，静脉压增高&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;血浆胶体渗透压降低
+&lt;ul&gt;
+&lt;li&gt;病因：肝病、蛋白质营养不良、肾病综合征、出血、开放性伤口或烧伤的浆液流出&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;毛细血管渗透性增高
+&lt;ul&gt;
+&lt;li&gt;病因：炎症（烧伤、冲击伤、肿瘤、过敏、感染）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;淋巴受阻，淋巴水肿
+&lt;ul&gt;
+&lt;li&gt;病因：感染（班氏吴策线虫）、肿瘤、腋&#x2F;股淋巴结&#x2F;管切除&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;临床：肿胀、衣服鞋穿不上、活动受限、体重增加&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：抬高水肿肢体、穿戴加压设备、避免久站、限制食盐摄入、用利尿药&lt;&#x2F;li&gt;
+&lt;li&gt;局部水肿
+&lt;ul&gt;
+&lt;li&gt;脑水肿&lt;&#x2F;li&gt;
+&lt;li&gt;肺水肿&lt;&#x2F;li&gt;
+&lt;li&gt;胸腔积液&lt;&#x2F;li&gt;
+&lt;li&gt;喉水肿&lt;&#x2F;li&gt;
+&lt;li&gt;腹水&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;全身水肿
+&lt;ul&gt;
+&lt;li&gt;凹陷性水肿：受重力作用；因为已形成自由流体&lt;&#x2F;li&gt;
+&lt;li&gt;非凹陷性水肿：细胞水肿为主，或水肿部位有纤维蛋白沉积&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Stahl&#x27;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章5笔记</title>
+          <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251219-psychopharmacology-note-chapter-5/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251219-psychopharmacology-note-chapter-5/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251219-psychopharmacology-note-chapter-5/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250919-psychopharmacology-note-index&#x2F;&quot;&gt;&amp;lt; 本书笔记目录&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;5-targeting-dopamine-and-serotonin-receptors-for-psychosis-mood-and-beyond-so-called-antipsychotics-zuo-yong-yu-duo-ba-e-he-5-htshou-ti-zhi-liao-jing-shen-bing-xing-zheng-zhuang-he-xin-jing-zheng-zhuang-deng-de-kang-jing-shen-bing-yao&quot;&gt;5 Targeting Dopamine and Serotonin Receptors for Psychosis, Mood, and Beyond: So-Called &quot;Antipsychotics&quot; 作用于多巴胺和5-HT受体治疗精神病性症状和心境症状等的“抗精神病药”&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1950年代，第1种被偶然发现具有抗精神病作用的非镇静药是氯丙嗪 chlorpromazine ，起初作为抗组胺药被开发。&lt;&#x2F;li&gt;
+&lt;li&gt;1970年代发现药的抗精神病作用由D2阻滞介导。&lt;&#x2F;li&gt;
+&lt;li&gt;新药通常在D2阻滞的基础上加入了5HT2A阻滞或5HT1A部分激动作用，或将D2阻滞优化为D2部分激动，甚至只保留5HT2A阻滞而放弃D2阻滞。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-1-targeting-mesolimbic-mesostriatal-dopamine-d2-receptors-causes-antipsychotic-actions-zuo-yong-yu-zhong-nao-bian-yuan-zhong-nao-wen-zhuang-ti-d2shou-ti-zao-cheng-kang-jing-shen-bing-xiao-ying&quot;&gt;5.1 Targeting Mesolimbic&#x2F;Mesostriatal Dopamine D2 Receptors Causes Antipsychotic Actions 作用于中脑边缘&#x2F;中脑纹状体D2受体造成抗精神病效应&lt;&#x2F;h2&gt;
+&lt;p&gt;请参阅&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#duo-ba-e-shen-jing-di-zhi-wang-luo&quot;&gt;上章&lt;&#x2F;a&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;5-2-targeting-dopamine-d2-receptors-in-mesolimbic-mesostriatal-and-mesocortical-pathways-causes-secondary-negative-symptoms-zuo-yong-yu-zhong-nao-bian-yuan-zhong-nao-wen-zhuang-ti-he-zhong-nao-pi-zhi-d2shou-ti-zao-cheng-ji-fa-xing-yin-xing-zheng-zhuang&quot;&gt;5.2 Targeting Dopamine D2 Receptors in Mesolimbic&#x2F;Mesostriatal and Mesocortical Pathways Causes Secondary Negative Symptoms 作用于中脑边缘&#x2F;中脑纹状体和中脑皮质D2受体造成继发性阴性症状&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;由于中脑边缘&#x2F;中脑纹状体通路介导动机和奖赏，因此本通路D2阻滞可导致淡漠、快感丧失、动机兴趣缺乏等阴性症状，即 &lt;strong&gt;继发性阴性症状 secondary negative symptoms&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;中脑皮质通路D2阻滞可导致继发性阴性症状，以及认知症状和情感症状的加重。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-3-targeting-tuberoinfundibular-dopamine-d2-receptors-causes-elevation-of-prolactin-zuo-yong-yu-jie-jie-lou-dou-d2shou-ti-zao-cheng-cui-ru-su-sheng-gao&quot;&gt;5.3 Targeting Tuberoinfundibular Dopamine D2 Receptors Causes Elevation of Prolactin 作用于结节漏斗D2受体造成催乳素升高&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;由于结节漏斗通路激活抑制泌乳素分泌，因此本通路D2阻滞可造成高泌乳素血症，导致溢乳、乳房女性化、闭经、不育、性功能障碍和体重增加等。在未进行雌激素替代治疗的闭经女性中可造成骨脱矿。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-4-targeting-nigrostriatal-dopamine-d2-receptors-causes-motor-side-effects-zuo-yong-yu-hei-zhi-wen-zhuang-ti-d2shou-ti-zao-cheng-yun-dong-fu-xiao-ying&quot;&gt;5.4 Targeting Nigrostriatal Dopamine D2 Receptors Causes Motor Side Effects 作用于黑质纹状体D2受体造成运动副效应&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;黑质纹状体通路—间接通路D2急性阻滞可造成药源性Parkinson症、静坐不能和肌张力障碍。慢性阻滞可造成迟发性运动障碍。以上统称 &lt;strong&gt;锥体外系症状 extrapyramidal symptoms, EPS&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;yao-yuan-xing-parkinsonzheng&quot;&gt;药源性Parkinson症&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;药源性Parkinson症 drug-induced Parkinsonism, DIP&lt;&#x2F;strong&gt; 是震颤、肌肉僵硬、运动徐缓或运动不能。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;治疗&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：传统上使用抗胆碱药。 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;可能机制&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：黑质纹状体D2阻滞导致纹状体乙酰胆碱能神经元去抑制，由其支配的纹状体GABA能神经元可产生功能异常，进而介导DIP。M（特别是M1）阻滞可对抗该作用。抗胆碱副作用较强，且一些D2阻滞药本身有抗胆碱活性。
+&lt;ul&gt;
+&lt;li&gt;可使用金刚烷胺 amantadine 治疗， &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;可能机制&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：弱NMDA阻滞。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;yao-yuan-xing-ji-xing-ji-zhang-li-zhang-ai&quot;&gt;药源性急性肌张力障碍&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;肌张力障碍 dystonia&lt;&#x2F;strong&gt; 是肌肉阵发性痉挛或持续性收缩。对药源性急性肌张力障碍，肌注抗胆碱药有效。慢性肌张力障碍可能是迟发性运动障碍的表现。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jing-zuo-bu-neng&quot;&gt;静坐不能&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;静坐不能 akathisia&lt;&#x2F;strong&gt; 体验上表现为不安、紧张、不愉快，行为上表现为不安的运动、原地踏步或踱步。可能难以与原发障碍本身导致的激越或不安运动鉴别。抗胆碱药效果不佳，β阻滞药和苯二氮䓬类药有效，5HT2A阻滞药可能有效。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;shen-jing-zu-zhi-ji-e-xing-zong-he-zheng&quot;&gt;神经阻滞剂恶性综合征&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;神经阻滞剂恶性综合征 neuroleptic malignant syndrome&lt;&#x2F;strong&gt; 罕见且致命，表现为肌肉极端僵硬、高烧、昏迷或死亡。需要立即停用D2阻滞药，应用肌松药（如丹曲林 dantrolene）和多巴胺激动药，并进行重症监护。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;chi-fa-xing-yun-dong-zhang-ai&quot;&gt;迟发性运动障碍&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;迟发性运动障碍 tardive dyskinesia, TD&lt;&#x2F;strong&gt; 是长期用D2阻滞药后发病的，可能不可逆的通常面和舌的不随意持续运动，可表现为咀嚼、伸舌、表情痛苦扭曲，或快速、抽动或舞蹈样的肢体运动。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;病理生理&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：间接通路D2阻滞通过神经重塑机制诱发GABA神经元上D2上调。初期，这种上调是可逆的。一段时间后，这种上调是不可逆的。&lt;&#x2F;li&gt;
+&lt;li&gt;可定期进行神经科体检或量表检查。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;治疗&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：可予90% &lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-2&#x2F;#nang-pao-zhuan-yun-ti&quot;&gt;VMAT2&lt;&#x2F;a&gt; 阻滞。VMAT2阻滞药包括丁苯那嗪、氘丁苯那嗪、缬苯那嗪。相较其他单胺，它们主要作用于直接和间接通路，影响多巴胺的转运，
+从而使多巴胺被MAO代谢。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;丁苯那嗪 tetrabenazine&lt;&#x2F;strong&gt; 是前药，经羰基还原酶生成4种有活性的二氢丁苯那嗪，均被CYP2D6代谢。发挥VMAT2阻滞作用的主要是+β-二氢丁苯那嗪。浓度亦较大的–α-和-β-二氢丁苯那嗪具有5HT7阻滞性质。
+适应症：Huntington病相关的舞蹈症。半衰期短，须tid。副作用包括镇静、DIP和抑郁、自杀风险等。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;氘丁苯那嗪 deutetrabenazine&lt;&#x2F;strong&gt; 是被氘代的丁苯那嗪，代谢物同丁苯那嗪，半衰期较丁苯那嗪长（bid），副作用较丁苯那嗪轻微。适应症：与Huntington病有关的舞蹈病；成人迟发性运动障碍。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2025年12月25日，查询得氘丁苯那嗪片价格约为10.691369cny&#x2F;mg。日剂量12mg~48mg，每月约需3848.89cny~15395.57cny。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;缬苯那嗪 valbenazine&lt;&#x2F;strong&gt; 是-α-丁苯那嗪连接了1缬氨酸。代谢：缬氨酸被水解生成-α-丁苯那嗪，经羰基还原酶生成-α-二氢丁苯那嗪，对于VMAT2的选择性最高。适应症、药代学特性类似氘丁苯那嗪，qd。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-5-drugs-targeting-dopamine-d2-receptors-so-called-first-generation-or-conventional-antipsychotics-zuo-yong-yu-d2shou-ti-de-di-yi-dai-dian-xing-kang-jing-shen-bing-yao&quot;&gt;5.5 Drugs Targeting Dopamine D2 Receptors: So-Called First Generation or Conventional &quot;Antipsychotics&quot; 作用于D2受体的“第一代&#x2F;典型抗精神病药”&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-6-drugs-targeting-serotonin-2a-receptors-with-or-without-simultaneously-targeting-dopamine-d2-receptors-zuo-yong-yu-5ht2ashou-ti-he-fei-zuo-yong-yu-d2shou-ti-de-yao&quot;&gt;5.6 Drugs Targeting Serotonin 2A Receptors with or without Simultaneously Targeting Dopamine D2 Receptors 作用于5HT2A受体和&#x2F;非作用于D2受体的药&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-7-drugs-targeting-serotonin-1a-receptors-and-dopamine-d2-receptors-as-partial-agonists-5ht1a-d2bu-fen-ji-dong-yao&quot;&gt;5.7 Drugs Targeting Serotonin 1A Receptors and Dopamine D2 Receptors as Partial Agonists 5HT1A&#x2F;D2部分激动药&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-8-links-between-receptor-binding-properties-of-drugs-used-to-treat-psychosis-and-other-therapeutic-actions-and-side-effects-shou-ti-he-xiao-ying-de-guan-lian&quot;&gt;5.8 Links between Receptor Binding Properties of Drugs Used to Treat Psychosis and Other Therapeutic Actions and Side Effects 受体和效应的关联&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-9-pharmacological-properties-of-selected-individual-first-generation-d2-antagonists-bu-fen-d2zu-zhi-yao-de-yao-li-xue-xing-zhi&quot;&gt;5.9 Pharmacological Properties of Selected Individual First-Generation D2 Antagonists 部分D2阻滞药的药理学性质&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-10-an-overview-of-the-pharmacological-properties-of-individual-5ht2a-d2-antagonists-and-d2-5ht1a-partial-agonists-the-pines-peens-many-dones-and-a-rone-two-pips-and-a-rip-ge-d2-5ht2azu-zhi-yao-he-d2-5ht1abu-fen-ji-dong-yao-de-yao-li-xue-xing-zhi-gai-shu&quot;&gt;5.10 An Overview of the Pharmacological Properties of Individual 5HT2A&#x2F;D2 Antagonists and D2&#x2F;5HT1A Partial Agonists: The Pines (Peens), Many Dones and a Rone, Two Pips and a Rip 各D2&#x2F;5HT2A阻滞药和D2&#x2F;5HT1A部分激动药的药理学性质概述&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-11-future-treatments-for-schizophrenia-jing-shen-fen-lie-zheng-zhi-liao-zhan-wang&quot;&gt;5.11 Future Treatments for Schizophrenia 精神分裂症治疗展望&lt;&#x2F;h2&gt;
+</description>
+      </item>
+      <item>
+          <title>1个小说的构想</title>
+          <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251221-novel-idea/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251221-novel-idea/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251221-novel-idea/">&lt;p&gt;可以每一段前用一个标号，由几个字母或者数字构成，用方括号括起来，这个字符串其实要放在一个隐蔽的符号系统里解释，这个符号系统的主题和内容、形式会形成3条平行线；最后在一些彼此关联较弱的句子中逐渐同时加入情感和无意义符号来结尾&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Stahl&#x27;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章4笔记</title>
+          <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251106-psychopharmacology-note-chapter-4/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251106-psychopharmacology-note-chapter-4/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251106-psychopharmacology-note-chapter-4/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250919-psychopharmacology-note-index&#x2F;&quot;&gt;&amp;lt; 本书笔记目录&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;4-psychosis-schizophrenia-and-the-neurotransmitter-networks-dopamine-serotonin-and-glutamate-jing-shen-bing-xing-zheng-zhuang-jing-shen-fen-lie-zheng-yi-ji-duo-ba-e-5-hthe-gu-an-suan-de-shen-jing-di-zhi-wang-luo&quot;&gt;4 Psychosis, Schizophrenia, and the Neurotransmitter Networks Dopamine, Serotonin, and Glutamate 精神病性症状、精神分裂症以及多巴胺、5-HT和谷氨酸的神经递质网络&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;4-1-symptoms-of-psychosis-jing-shen-bing-xing-zheng-zhuang&quot;&gt;4.1 Symptoms of Psychosis 精神病性症状&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;精神病性症状 psychosis&lt;&#x2F;strong&gt; 是妄想或幻觉，或者言语紊乱、行为紊乱、现实检验的失效或阴性症状（情感表达减少、动机减弱）等症状。
+&lt;ul&gt;
+&lt;li&gt;精神病性症状的出现可以分为妄想性精神病、紊乱&#x2F;激动性精神病和抑郁性精神病。知觉扭曲和运动障碍可出现于每型。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;妄想 delusions&lt;&#x2F;strong&gt; 是不被理性支持的固定信念，且无法被理性改变。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;幻觉 hallucinations&lt;&#x2F;strong&gt; 是缺乏真实外部刺激的知觉体验，其生动、清晰，无法随意控制。&lt;&#x2F;li&gt;
+&lt;li&gt;精神病性 &lt;strong&gt;知觉扭曲 perceptual distortions&lt;&#x2F;strong&gt; 是幻觉、由幻觉导致的压力或者对熟悉人物感到陌生。&lt;&#x2F;li&gt;
+&lt;li&gt;精神病性 &lt;strong&gt;运动障碍 motor disturbances&lt;&#x2F;strong&gt; 是奇怪、刻板的姿势或肢体动作，肌张力增高，不合适的笑容或笑声，自言自语或者仿佛听到声音而左顾右盼。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;妄想性精神病性症状 paranoid psychosis&lt;&#x2F;strong&gt; 是妄想投射、断定敌意及自我夸大，常见于精神分裂症和药源性精神病。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;妄想投射 paranoid projection&lt;&#x2F;strong&gt; 是相信自己被谈论、被迫害、被怀疑或被控制，或者对妄想信念的过度关注。Parkinson病精神病患者可出现伴偶不忠或偷其财物的妄想。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;断定敌意 hostile belligerence&lt;&#x2F;strong&gt; 是敌意或鄙夷的态度或表达、易激惹、批评他人倾向、表达不公正感、挑刺或者怀疑他人。尤见于精神分裂症和药源性精神病。&lt;&#x2F;li&gt;
+&lt;li&gt;妄想性 &lt;strong&gt;自我夸大 grandiose expansiveness&lt;&#x2F;strong&gt; 是相信自己有不寻常的能力或有名或承担神圣的任务、听到夸赞的言语，或者优越的态度。常见于精神分裂症和躁狂性精神病。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;紊乱&#x2F;激动性精神病性症状 disorganized&#x2F;excited psychosis&lt;&#x2F;strong&gt; 是概念紊乱、定向障碍及激动。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;概念紊乱 conceptual disorganization&lt;&#x2F;strong&gt; 是回答不相关或不连贯、偏题、使用 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;生造词 neologisms_ ，或者重复某词。见于任何精神病性障碍。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;定向障碍 disorientation&lt;&#x2F;strong&gt; 是不知道自己在何处、季节、年份或自己的年龄。常见于痴呆相关精神病和药源性精神病。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;兴奋 excitement&lt;&#x2F;strong&gt; 是心境增高，没有限制的情感表达，优越的态度，症状的夸张描述，多动，不安，或者快速、响亮、热情或过多的言语。尤见于躁狂和精神分裂症。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;抑郁性精神病性症状 depressive psychosis&lt;&#x2F;strong&gt; 是精神运动性迟滞、麻木以及自罚自责焦虑。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;精神运动性迟滞 psychomotor retardation&lt;&#x2F;strong&gt; 和 &lt;strong&gt;麻木 apathy&lt;&#x2F;strong&gt; 是言语变慢、受阻、响度低或不能回答问题，运动变慢，对自己、自己的问题或未来不关心或麻木，面部表情固定，近期记忆缺陷或者不整洁。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;自罚自责焦虑 anxious self-punishment and blame&lt;&#x2F;strong&gt; 是自责、自我贬低、负罪感、无价值感，其表达或倾向，对特定事物或未来不确定性的焦虑，抑郁心境，或者对自杀想法、不想要的想法或特定恐惧的过分关注。常见于精神病性抑郁症。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-2-the-three-major-hypotheses-of-psychosis-and-their-neurotransmitter-networks-jing-shen-bing-xing-zheng-zhuang-de-3zhu-yao-jia-shuo-ji-qi-shen-jing-di-zhi-wang-luo&quot;&gt;4.2 The Three Major Hypotheses of Psychosis and Their Neurotransmitter Networks 精神病性症状的3主要假说及其神经递质网络&lt;&#x2F;h2&gt;
+&lt;p&gt;见下。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;4-3-the-classic-dopamine-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-jing-dian-duo-ba-e-jia-shuo&quot;&gt;4.3 The Classic Dopamine Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的经典多巴胺假说&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;duo-ba-e-shen-jing-di-zhi-wang-luo&quot;&gt;多巴胺神经递质网络&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;多巴胺代谢
+&lt;ul&gt;
+&lt;li&gt;多巴胺由多巴胺能神经末梢合成。从血流和细胞外经酪氨酸转运体转运入胞质的酪氨酸经由限速酶酪氨酸羟化酶（TOH）和多巴脱羧酶（DDC）生成多巴胺。TOH, tyrosine hydroxylase; DDC, DOPA decarboxylase。&lt;&#x2F;li&gt;
+&lt;li&gt;细胞内，多巴胺可被单胺氧化酶（MAO）A或MAO-B代谢。细胞外，多巴胺可被儿茶酚-O-甲基转移酶（COMT）代谢。MAO, monoamine oxidase; COMT, catechol-O-methyltransferase。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;多巴胺神经传导
+&lt;ul&gt;
+&lt;li&gt;多巴胺经VMAT2转运至囊泡。突触间隙中的多巴胺在纹状体可被DAT再摄取，而在前额叶，DAT较稀疏，多巴胺主要经由COMT清除，也可扩散而被去甲肾上腺素神经元的NET转运。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;多巴胺受体
+&lt;ul&gt;
+&lt;li&gt;分为D1样受体D1、D5和D2样受体D2、D3、D4。D1样受体激活AC因而是兴奋性的。D2样受体抑制AC因而是抑制性的。AC, adenosine cyclase。&lt;&#x2F;li&gt;
+&lt;li&gt;D2和D3可位于突触前（突触前膜或树突胞体膜）充当自受体，防止多巴胺在突触中蓄积。其中D3较D2敏感。&lt;&#x2F;li&gt;
+&lt;li&gt;中脑皮质通路的多巴胺神经元在VTA的胞体有D2&#x2F;D3自受体，但前额叶没有。同时前额叶的DAT较稀疏，导致多巴胺的扩散半径大；反之，中脑纹状体通路的多巴胺神经元在VTA、黑质的胞体和纹状体的突触前后膜都有D2或D3受体，纹状体还有丰富的DAT，因而作用较局限。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;多巴胺通路
+&lt;ul&gt;
+&lt;li&gt;5经典多巴胺通路是结节漏斗通路、丘脑通路、黑质纹状体通路、中脑边缘通路和中脑皮质通路。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;结节漏斗通路 tuberoinfundibular pathway&lt;&#x2F;strong&gt; 起自下丘脑，终到腺垂体。张性活动抑制催乳素释放。可被D2阻滞药阻滞。&lt;&#x2F;li&gt;
+&lt;li&gt;丘脑通路起自导水管旁灰质、腹侧中脑、多个下丘脑核和外侧臂旁核，终到丘脑。可能通过门控丘脑的信息流参与睡眠觉醒系统。&lt;&#x2F;li&gt;
+&lt;li&gt;（经典的）&lt;strong&gt;黑质纹状体通路 nigrostriatal pathway&lt;&#x2F;strong&gt; 起自黑质，终到背侧纹状体。经过直接通路D1（纹状体—苍白球内侧部&#x2F;黑质网状部，增多运动）和间接通路D2（纹状体—苍白球外侧部—底丘脑—苍白球内侧部&#x2F;黑质网状部，减少运动）调控皮质纹状体丘脑皮质
+（CSTC）环路。激活可表现为运动增多。一些运动障碍如Parkinson病可由本通路多巴胺缺陷引起，表现为僵硬、运动不能、运动徐缓或震颤，此外尚参与静坐不能和肌张力障碍等。可被D2阻滞药阻滞。左旋多巴 levodopa
+的D2慢性激活可致运动过度或运动障碍，称为LID。
+CSTC circuit, cortico-striato-thalamo-cortical circuit; LID, levodopa-induced dyskinesias。&lt;&#x2F;li&gt;
+&lt;li&gt;（经典的）&lt;strong&gt;中脑边缘通路 mesolimbic pathway&lt;&#x2F;strong&gt; 起自腹侧被盖区（VTA），终到腹侧纹状体边缘系统的伏隔核。参与多种生理和病理性情绪行为，如动机、愉悦、奖赏，可能是奖赏和强化的最后通路。高活动水平致阳性症状，可能参与冲动、激越、攻击性及敌意
+症状，见于物质滥用（兴奋药如可卡因、苯丙胺），以及精神分裂症、躁狂、抑郁、Parkinson病、Alzheimer病及其他痴呆相关的精神病性症状。低活动水平致快感缺失、麻木和精力缺乏，见于单双相抑郁和阴性症状。可被D2阻滞药阻滞。VTA, ventral
+tegmental area。&lt;&#x2F;li&gt;
+&lt;li&gt;上述2通路基于啮齿类解剖学、药理学和人类药理学研究。神经成像研究表明，未治疗的精神分裂症患者在背侧和腹侧纹状体之间的 &lt;strong&gt;联络性纹状体 associative striatum&lt;&#x2F;strong&gt; 出现多巴胺升高，即内侧黑质—联络性纹状体通路高活动。因此，上述2通路的区分不当，
+可简化作 &lt;strong&gt;中脑纹状体通路 mesostriatal pathway&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;中脑皮质通路 mesocortical pathway&lt;&#x2F;strong&gt; 起自VTA，终到前额叶。终到背外侧前额叶的通路调控认知和执行功能，低活动可能参与了精神分裂症的认知和一些阴性症状。终到腹内侧前额叶的通路调控情绪和情感，低活动可能参与了精神分裂症的情感和另些阴性症状。
+可能由NMDA系统的神经发育障碍造成。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jing-shen-bing-xing-zheng-zhuang-de-duo-ba-e-jia-shuo&quot;&gt;精神病性症状的多巴胺假说&lt;&#x2F;h3&gt;
+&lt;p&gt;精神分裂症、物质使用、Parkinson病和痴呆及其他因素可通过不同途径导致中脑纹状体通路的高活动，引发妄想、幻觉等阳性症状。精神分裂症可导致中脑皮质通路的低活动，引发认知、情感和阴性症状。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;4-4-the-glutamate-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-gu-an-suan-jia-shuo&quot;&gt;4.4 The Glutamate Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的谷氨酸假说&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;gu-an-suan-shen-jing-di-zhi-wang-luo&quot;&gt;谷氨酸神经递质网络&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;谷氨酸、甘氨酸、D-丝氨酸代谢
+&lt;ul&gt;
+&lt;li&gt;谷氨酸在谷氨酸能神经末梢内形成。谷氨酰胺在线粒体内由谷氨酰胺酶生成谷氨酸。而在胶质细胞内，谷氨酸由谷氨酰胺合成酶生成谷氨酰胺。&lt;&#x2F;li&gt;
+&lt;li&gt;甘氨酸和L-丝氨酸在胶质细胞中经丝氨酸羟甲基转移酶（SHMT）相互转化。SHMT, serine hydroxymethyl transferase。&lt;&#x2F;li&gt;
+&lt;li&gt;D-丝氨酸和L-丝氨酸在胶质细胞中经D-丝氨酸消旋酶相互转化。D-丝氨酸可经D-氨基酸氧化酶（DAO）代谢为羟基丙酮酸。DAO拥有1种激活物DAOA。DAO, D-amino acid oxidase; DAOA, DAO activator。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;谷氨酸神经传导
+&lt;ul&gt;
+&lt;li&gt;谷氨酸经vGluT转运至囊泡。突触间隙中的谷氨酸主要被胶质细胞质膜EAAT再摄取并转化为谷氨酰胺，储存于胞质中。谷氨酰胺经转运体SNAT或ASC-T释放出细胞，经另型的SNAT转运入突触末梢，随后被转化为谷氨酸。SNAT, specific neutral amino acid
+transporter; ASC-T, alanine-serine-cysteine transpoter。&lt;&#x2F;li&gt;
+&lt;li&gt;NMDA受体需要 &lt;strong&gt;协同递质 cotransmitter&lt;&#x2F;strong&gt; 甘氨酸或D-丝氨酸。&lt;&#x2F;li&gt;
+&lt;li&gt;甘氨酸可由甘氨酸能末梢释放，但主要由胶质细胞胞质经GlyT1释放。经胶质质膜上的GlyT1或SNAT或甘氨酸能末梢质膜上的GlyT2再摄取。&lt;&#x2F;li&gt;
+&lt;li&gt;D-丝氨酸在胶质合成后，可能储存在某种囊泡中。经不同方向的D-SER-T释放和再摄取。D-SER-T, D-serine transporter。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;谷氨酸受体
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;谷氨酸的促代谢型受体有至少8亚型，分为3组。组I可能主要位于突触后膜，协助促离子型受体的作用。组II和III可位于突触前作为负反馈自受体。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;促离子型受体有NMDA受体、AMPA受体及kainate受体。其中，AMPA受体及kainate受体可能介导快速去极化，而NMDA受体需要下列条件 &lt;strong&gt;同时&lt;&#x2F;strong&gt; 满足，方可使 &lt;strong&gt;Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;&lt;&#x2F;strong&gt; 流入：&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;存在谷氨酸；&lt;&#x2F;li&gt;
+&lt;li&gt;存在协同递质甘氨酸 &lt;strong&gt;或&lt;&#x2F;strong&gt; D-丝氨酸；&lt;&#x2F;li&gt;
+&lt;li&gt;后膜去极化。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;介导长时增强和突触可塑性。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;谷氨酸通路
+&lt;ul&gt;
+&lt;li&gt;有7通路和精神药理学有关，是皮质脑干通路、皮质纹状体通路、海马伏隔核通路、丘脑皮质通路、皮质丘脑通路、皮质皮质直接通路和皮质皮质间接通路。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质脑干通路 cortico-brainstem pathway&lt;&#x2F;strong&gt; 起自皮质锥体细胞，终到脑干的众多递质核团，包括中缝核（5-HT）、VTA、黑质（多巴胺）和蓝斑（去甲肾上腺素）。可直接与其形成突触增加递质水平，或通过GABA中间神经元减少递质水平。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质纹状体通路 cortico-striatal pathway&lt;&#x2F;strong&gt; 起自皮质锥体细胞，终到纹状体的GABA能神经元，是CSTC环路的一部分。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;海马伏隔核通路 hippocampal-accumbens pathway&lt;&#x2F;strong&gt; 起自海马，终到伏隔核的GABA能神经元，亦前往苍白球。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;丘脑皮质通路 thalamo-cortical pathway&lt;&#x2F;strong&gt; 起自丘脑，终到皮质，常传导感觉信息。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质丘脑通路 cortico-thalamic pathway&lt;&#x2F;strong&gt; 起自皮质，终到丘脑，可能调控丘脑对感觉信息的反应。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质皮质直接通路 direct cortico-cortical pathways&lt;&#x2F;strong&gt; 包含众多皮质内的通路，其中锥体细胞兴奋另锥体细胞。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;皮质皮质间接通路 indirect cortico-cortical pathways&lt;&#x2F;strong&gt; 同上，但锥体细胞间有GAB能中间神经元。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jing-shen-bing-xing-zheng-zhuang-de-gu-an-suan-jia-shuo&quot;&gt;精神病性症状的谷氨酸假说&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;皮质皮质间接通路中，GABA中间神经元上的NMDA受体低活动，造成下游支配多巴胺释放的皮质脑干通路锥体细胞高活动，继而造成中脑纹状体多巴胺通路高活动。&lt;&#x2F;li&gt;
+&lt;li&gt;精神分裂症中，这可能是神经发育障碍所致。同时，一些终到GABA中间神经元的皮质脑干锥体细胞高活动，造成下游中脑皮质多巴胺通路低活动。&lt;&#x2F;li&gt;
+&lt;li&gt;使用氯胺酮或苯环利定 phencyclidine 后，其作为NMDA拮抗剂造成精神病性症状。&lt;&#x2F;li&gt;
+&lt;li&gt;痴呆中，神经退行性病变造成皮质皮质间接通路的锥体细胞或GABA中间神经元损毁，而皮质脑干锥体细胞尚可发挥作用，造成精神病性症状。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-5-the-serotonin-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-5-htjia-shuo&quot;&gt;4.5 The Serotonin Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的5-HT假说&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;5-htshen-jing-di-zhi-wang-luo&quot;&gt;5-HT神经递质网络&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;5-HT代谢
+&lt;ul&gt;
+&lt;li&gt;色氨酸经色氨酸羟化酶（TRY-OH）生成5-羟色氨酸（5-HTP），再经芳香氨基酸脱羧酶（AAADC）生成5-HT。5-HT神经元中，高浓度5-HT可被MAO-B代谢。
+TRY-OH, tryptophan hydroxylase; 5-HTP, 5-hydroxytryptophan; AAADC, aromatic amino acid decarboxylase。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;5-HT神经传导
+&lt;ul&gt;
+&lt;li&gt;5-HT经VMAT2转运至囊泡。突触中的5-HT经SERT再摄取。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;5-HT受体、通路
+&lt;ul&gt;
+&lt;li&gt;5HT1A受体、5HT1B&#x2F;D受体和5HT2B受体可位于突触前，其中5HT1B&#x2F;D受体位于突触前膜，5HT1A受体和5HT2B受体位于树突胞体质膜。所有型受体均可位于突触后膜。&lt;&#x2F;li&gt;
+&lt;li&gt;突触前5HT1A受体位于树突胞体质膜，其接受释放自树突膜的5-HT。起负调控轴突末端释放的作用。5-HT再摄取抑制药的作用依赖本类受体的下调和脱敏。&lt;&#x2F;li&gt;
+&lt;li&gt;突触前5HT1B&#x2F;D受体位于轴突末端，负反馈调节5-HT释放。&lt;&#x2F;li&gt;
+&lt;li&gt;突触前5HT2B受体位于树突胞体质膜，与5HT1A拮抗，正调控轴突末端释放。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT1A受体抑制性，主要位于GABA神经元上，因此促进其他神经递质的释放。如前额叶中含5HT1A受体的GABA神经元可作用于谷氨酸神经元、去甲肾上腺素能突触前膜、多巴胺能突触前膜及乙酰胆碱能突触前膜。众多治疗精神病性症状、心境症状和焦虑的药是5HT1A
+（部分）激动药。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT1B受体抑制性，主要位于去甲肾上腺素能突触前膜、多巴胺能突触前膜、组胺能突触前膜和乙酰胆碱能突触前膜，抑制其释放。一些治疗抑郁症的药是5HT1B拮抗药。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT2A受体兴奋性，可位于谷氨酸神经元和GABA神经元。许多治疗精神病性症状和心境症状的药是5HT2A拮抗药。大部分致幻药是5HT2A激动药。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT2C受体兴奋性，大多位于GABA神经元，抑制去甲肾上腺素和多巴胺等的释放。5HT2C激动药可治疗肥胖。5HT2C拮抗药可治疗精神病性症状和心境障碍。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT3受体兴奋性。
+&lt;ul&gt;
+&lt;li&gt;血脑屏障外的脑干化学感受器触发的区域中，5HT3受体参与恶心和呕吐。&lt;&#x2F;li&gt;
+&lt;li&gt;前额叶中，5HT3受体位于 &lt;strong&gt;小清蛋白 parvalmin&lt;&#x2F;strong&gt; 阴性的GABA神经元上。其可抑制皮质的去甲肾上腺素和乙酰胆碱突触前膜，以及谷氨酸能神经元。5HT3—谷氨酸—中缝核构成了一个负反馈环路。一些治疗抑郁症的药是5HT3拮抗药。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT6受体可能是调节乙酰胆碱和认知的关键受体。5HT6拮抗药可能是促认知药，用以治疗精神分裂症认知症状和Alzheimer病等。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后5HT7受体兴奋性，多位于GABA神经元，在皮质抑制锥体细胞，在中缝核作为负反馈环路抑制5-HT释放。5HT7拮抗药可用作治疗精神病性症状和心境症状。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jing-shen-bing-xing-zheng-zhuang-de-5-htjia-shuo&quot;&gt;精神病性症状的5-HT假说&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;和5-HT失衡有关的精神病性症状常出现幻视，而主要和多巴胺相关的则更多出现幻听。&lt;&#x2F;li&gt;
+&lt;li&gt;5HT2A相对高活动可造成所支配的VTA多巴胺能神经元及视觉皮层高活动。&lt;&#x2F;li&gt;
+&lt;li&gt;致幻药LSD、麦司卡林 mescaline、赛洛西宾 psilocybin 可通过激活前额叶和视觉皮层5HT2A致精神病性症状、解离体验和幻视。这种作用可被5HT2A拮抗药阻断。&lt;&#x2F;li&gt;
+&lt;li&gt;Parkinson病精神病（PDP）患者不仅纹状体的多巴胺能神经末梢减少，前额叶和视皮层的5-HT能神经末梢亦减少。这可导致谷氨酸神经元的5HT2A上调，造成5-HT作用失衡。这过程可被5HT2A拮抗药阻断。PDP, Parkinson&#x27;s disease psychosis。&lt;&#x2F;li&gt;
+&lt;li&gt;痴呆相关精神病的谷氨酸神经元脱抑制后，5HT2A活动相对增高，造成精神病性症状。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-6-schizophrenia-as-the-prototypical-psychotic-disorder-jing-shen-fen-lie-zheng-zuo-wei-dian-xing-jing-shen-bing-xing-zhang-ai&quot;&gt;4.6 Schizophrenia as the Prototypical Psychotic Disorder 精神分裂症作为典型精神病性障碍&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一些反歧视的说教和针对美利坚合众国社会的讨论我就不写了。。。书中的流行病学信息缺乏来源标记又自相矛盾，我也不写了。鉴于不系统以及下节障碍的小篇幅，症状学我也不写了。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;精神障碍易感性是多基因遗传的。可为个体计算 &lt;strong&gt;多基因风险分数 polygenic risk score&lt;&#x2F;strong&gt; 评估易感性的遗传部分。&lt;&#x2F;li&gt;
+&lt;li&gt;环境因素可贡献易感性。对于易感个体，环境可使其发病。环境还可改变正常基因的表观遗传来贡献发病。&lt;&#x2F;li&gt;
+&lt;li&gt;精神分裂症早期可表现为神经发育障碍，因其涉及异常突触形成和脑重构。
+&lt;ul&gt;
+&lt;li&gt;突触形成主要发生于出生～6岁。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;脑重构 brain restructuring&#x2F;remodeling&lt;&#x2F;strong&gt; 终其一生发生，但在童年后期和青春期最活跃。机制为突触彼此竞争存活机会，称为 &lt;strong&gt;竞争性消除 competitive elimination&lt;&#x2F;strong&gt; 。成年时通常存活童年期1&#x2F;2～2&#x2F;3的突触。&lt;&#x2F;li&gt;
+&lt;li&gt;NMDA受体介导的长时增强（LTP）可在突触常用时造成其增强，如通过增加膜AMPA数量、突触形成等过程。精神分裂症的LTP障碍可能造成重要的突触因LTP不足而被错误消除，导致脑 &lt;strong&gt;连接障碍 dysconnectivity&lt;&#x2F;strong&gt; 。这可解释精神分裂症常发于青春期前后。
+LTP, long-time potentiation。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;精神分裂症发病后可表现为神经退行性改变，因为脑重构持续发生，而LTP障碍导致的错误消除以及连接障碍导致的错误突触被增强使得病情逐渐恶化、对治疗的反应降低，甚至脑萎缩。这可解释未治疗的精神分裂症患者病情恶化较严重。
+&lt;ul&gt;
+&lt;li&gt;这体现了1尚发展中的观点，即对症的精神药理学治疗也可能改变疾病本身，从而也是对因的。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;4-7-other-psychotic-illnesses-qi-ta-jing-shen-bing-xing-zhang-ai&quot;&gt;4.7 Other Psychotic Illnesses 其他精神病性障碍&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;懒了。请参阅ICD-11&#x2F;DSM-5-TR。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</description>
+      </item>
+      <item>
+          <title>Stahl&#x27;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章3笔记</title>
+          <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251021-psychopharmacology-note-chapter-3/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251021-psychopharmacology-note-chapter-3/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251021-psychopharmacology-note-chapter-3/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250919-psychopharmacology-note-index&#x2F;&quot;&gt;&amp;lt; 本书笔记目录&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;3-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-chi-zi-tong-dao&quot;&gt;3 Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的离子通道&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;3-1-ligand-gated-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-pei-ti-men-kong-chi-zi-tong-dao&quot;&gt;3.1 Ligand-Gated Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的配体门控离子通道&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;配体门控离子通道 Ligand-gated ion channel_ 、 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;促离子受体 ionotropic receptor_ 和 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;离子通道耦联受体 ion-channel linked receptor_ 是一回事。&lt;&#x2F;li&gt;
+&lt;li&gt;作用于配体门控离子通道的药几乎立即发挥作用。&lt;&#x2F;li&gt;
+&lt;li&gt;配体门控离子通道有通道、递质结合位点和别构结合位点。递质结合位点可位于通道内，但通常位于通道外。&lt;&#x2F;li&gt;
+&lt;li&gt;配体门控离子通道的亚基有不同亚型。一些药作用于特定的亚型。&lt;&#x2F;li&gt;
+&lt;li&gt;5-聚体亚型配体门控离子通道由5亚基构成，每亚基4次跨膜。如GABA-A受体、N受体、5-HT3受体和一些甘氨酸受体。&lt;&#x2F;li&gt;
+&lt;li&gt;4-聚体亚型配体门控离子通道由4亚基构成，每亚基3次跨膜，另有1 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;入膜袢 re-entrant loop_ 。如谷氨酸受体，包括AMPA受体、kainate受体和NMDA受体。&lt;&#x2F;li&gt;
+&lt;li&gt;配体门控离子通道有&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-2&#x2F;#ji-dong-yao-guang-pu&quot;&gt;激动药光谱&lt;&#x2F;a&gt;。&lt;&#x2F;li&gt;
+&lt;li&gt;配体门控离子通道可处于开放状态、静息状态和关闭状态。此外，长期暴露于激动药可致其处于 &lt;strong&gt;脱敏 desensitization&lt;&#x2F;strong&gt; 状态，即不再具有反应性，但除去激动药后恢复反应性。
+&lt;ul&gt;
+&lt;li&gt;若继续暴露于激动药，可致配体门控离子通道处于 &lt;strong&gt;失活 inactivation&lt;&#x2F;strong&gt; 状态，即不再具有反应性，除去激动药后仍需较长时间才能恢复反应性。&lt;&#x2F;li&gt;
+&lt;li&gt;阻动药可作用于配体门控离子通道，使其关闭，随后稳定为失活状态。此作用可被拮抗药迅速取消。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;别构药包括正别构药（PAM）和负别构药（NAM）。其于配体门控离子通道暴露于递质时发挥作用。PAM如GABA-A受体的苯二氮䓬类 benzodiazepines ，NAM如NMDA受体的苯环利定 phencyclidine _abbr.&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; PCP 和氯胺酮 ketamine 等。
+PAM, positive allosteric modulator; NAM, negative allosteric modulator。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;3-2-voltage-sensitive-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-dian-min-chi-zi-tong-dao&quot;&gt;3.2 Voltage-Sensitive Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的电敏离子通道&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍VSSC和VSCC。VSSC, voltage-sensitive sodium channel; VSCC, voltage-sensitive calcium channel。&lt;&#x2F;li&gt;
+&lt;li&gt;VSSC由一些调节亚基（如β）和1成孔亚基（α）构成。α亚基由4亚基连接而成，每亚基6次跨膜，其中跨膜区4对电压敏感，跨膜区5、6间有 &lt;strong&gt;离子滤 ionic filter&lt;&#x2F;strong&gt; 用于选择性过滤离子。
+亚基间在胞内连接，亚基3、4之间的连接段是 &lt;strong&gt;孔栓 pore inactivator&lt;&#x2F;strong&gt;， 可将通道栓住，其他连接段也可发挥调节作用。
+α、β亚基可能是磷酸蛋白质，受到信号转导的调控。
+&lt;ul&gt;
+&lt;li&gt;一些抗癫痫药可作用于α或β亚基。&lt;&#x2F;li&gt;
+&lt;li&gt;VSSC可通过孔栓的作用或构象改变关闭通道。&lt;&#x2F;li&gt;
+&lt;li&gt;VSSC包括不同亚型。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;VSCC的成孔亚基为α1，结构类似VSSC，由4亚基连接而成，每亚基6次跨膜，跨膜区4对电压敏感，跨膜区5、6间有离子滤。亚基间在胞内连接，亚基3、4之间是 &lt;strong&gt;钩 snare&lt;&#x2F;strong&gt; 连接突触囊泡。VSCC的调节亚基包括胞质侧的β、跨膜的γ和α2δ，其中α2在胞外侧，δ跨膜。
+&lt;ul&gt;
+&lt;li&gt;α2δ亚基可调节通道的构象。抗癫痫药普瑞巴林 pregabalin 和加巴喷丁 gabapentin 作用于α2δ。&lt;&#x2F;li&gt;
+&lt;li&gt;VSCC包括L型、N型，P&#x2F;Q型、R型和T型。
+&lt;ul&gt;
+&lt;li&gt;突触前的N型和P&#x2F;Q型VSCC有钩连接突触小泡。钩包括SNAP25、syntaxin、synaptobrevin和synaptotagmin等蛋白质，负责兴奋分泌耦联。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;3-3-ion-channels-and-neurotransmission-chi-zi-tong-dao-he-shen-jing-chuan-shu&quot;&gt;3.3 Ion Channels and Neurotransmission 离子通道和神经传输&lt;&#x2F;h2&gt;
+&lt;p&gt;没有新内容。。。。。&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Stahl&#x27;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章2笔记</title>
+          <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-chapter-2/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-chapter-2/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-chapter-2/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250919-psychopharmacology-note-index&#x2F;&quot;&gt;&amp;lt; 本书笔记目录&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;2-transporters-receptors-and-enzymes-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-zhuan-yun-ti-shou-ti-he-mei&quot;&gt;2 Transporters, Receptors, and Enzymes as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的转运体、受体和酶&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;~30%精神药作用于转运体。&lt;&#x2F;li&gt;
+&lt;li&gt;~30%精神药作用于G蛋白耦联受体。&lt;&#x2F;li&gt;
+&lt;li&gt;~10%精神药作用于酶。&lt;&#x2F;li&gt;
+&lt;li&gt;~20%精神药作用于配体门控离子通道。&lt;&#x2F;li&gt;
+&lt;li&gt;~10%精神药作用于电压门控离子通道。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;2-1-neurotransmitter-transporters-as-targets-of-drug-action-zuo-wei-yao-ba-dian-de-di-zhi-zhuan-yun-ti&quot;&gt;2.1 Neurotransmitter Transporters as Targets of Drug Action 作为药靶点的递质转运体&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;转运体 transporters&lt;&#x2F;strong&gt; 是一类12次跨膜蛋白，与递质结合，随后将其跨膜转运。&lt;&#x2F;li&gt;
+&lt;li&gt;转运体按位置分为（突触前或胶质） &lt;strong&gt;质膜转运体 plasma membrane transporters&lt;&#x2F;strong&gt; 和 &lt;strong&gt;囊泡转运体 vesicular transporters&lt;&#x2F;strong&gt; 。它们是SLC。SLC, solute carrier。&lt;&#x2F;li&gt;
+&lt;li&gt;SLC是协同运输载体。无相应溶质离子时，不能发挥转运功能。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;zhi-mo-zhuan-yun-ti&quot;&gt;质膜转运体&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;质膜转运体包括SLC6及SLC1。SLC6包括单胺、GABA及甘氨酸转运体。SLC1包括兴奋性氨基酸转运体EAAT1~5。EAAT, excitatory amino acid transporter。&lt;&#x2F;li&gt;
+&lt;li&gt;SLC6涉及Na&lt;sup&gt;+&lt;&#x2F;sup&gt;&#x2F;Cl&lt;sup&gt;-&lt;&#x2F;sup&gt;同向运输，而SLC1涉及Na&lt;sup&gt;+&lt;&#x2F;sup&gt;的同向运输和K&lt;sup&gt;+&lt;&#x2F;sup&gt;的对向运输。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;单胺的质膜转运体&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：5-HT的质膜转运体是SERT，去甲肾上腺素的质膜转运体是NET，多巴胺的质膜转运体是DAT。SERT, serotonin transporter; NET, norepinephrine transporter; DAT, dopamine transpoter。
+&lt;ul&gt;
+&lt;li&gt;单胺的质膜转运体对单胺种类特异性不太高。SERT可转运5-HT和MDMA，NET可转运去甲肾上腺素和多巴胺，DAT可转运多巴胺和苯丙胺 amphetamine。&lt;&#x2F;li&gt;
+&lt;li&gt;单胺的转运体有单胺和2Na&lt;sup&gt;+&lt;&#x2F;sup&gt;结合位点。可能是二聚体。有药的别构调节位点。&lt;&#x2F;li&gt;
+&lt;li&gt;药作用于别构调节位点抑制转运。这些药如SSRI以及作用于NET和DAT治疗ADHD的激动药（哌甲酯 methylphenidate 、苯丙胺和可卡因 cocaine 等）。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;_GABA的质膜转运体&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 是SLC6中的GAT1~4。抗癫痫药噻加宾 tiagabine 选择性抑制GAT1。临床上没有其他药作用于此类转运体。GAT, GABA transporter。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;甘氨酸的质膜转运体&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 是SLC6中的GlyT1~2。临床上没有药作用于此类转运体。GlyT, glycine transporter。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;谷氨酸的质膜转运体&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 是SLC1中的EAAT1~5。可能是三聚体。有些关键的EAAT位于胶质细胞质膜上，在胶质细胞内转化为谷氨酰胺，随后谷氨酰胺进入突触前神经元转化回谷氨酸。临床上没有药作用于此类转运体。&lt;&#x2F;li&gt;
+&lt;li&gt;尚未发现组胺和神经肽的质膜转运体，组胺的灭活被认为是酶性的，神经肽的灭活被认为是酶和扩散导致的。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;nang-pao-zhuan-yun-ti&quot;&gt;囊泡转运体&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;囊泡转运体包括SLC18、SLC32及SLC17，还有新发现的、底物未知的SV2A。SLC18包括单胺组胺转运体VMAT及乙酰胆碱转运体VAChT。SLC32包括抑制性氨基酸转运体VIAAT。SLC17包括谷氨酸转运体vGluT1~3。
+VMAT, vesicular monoamine transporter; VAChT, vesicular acetylcholine transporter; VIAAT, vesicular inhibitory amino acid transporter; vGluT, vesicular glutamate transporter。&lt;&#x2F;li&gt;
+&lt;li&gt;囊泡上的质子泵将质子泵出囊泡从而制造电位差，囊泡转运体利用递质的正电荷将其转运入囊泡。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;此处有误。质子泵将质子泵入囊泡。见&lt;a href=&quot;https:&#x2F;&#x2F;pubs.acs.org&#x2F;doi&#x2F;10.1021&#x2F;bi00624a025&quot;&gt;1977 Biochemistry 16, 972-977&lt;&#x2F;a&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;VMAT包括VMAT1和VMAT2。VMAT1位于中枢和周围，VMAT2则只见于中枢。
+&lt;ul&gt;
+&lt;li&gt;利血平 reserpine 不可逆阻滞VMAT1和VMAT2。&lt;&#x2F;li&gt;
+&lt;li&gt;一些药作用于VMAT2，如苯丙胺、MDMA（作为底物）和丁苯那嗪 tetrabenazine 及其衍生药（作为可逆阻滞药）。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;临床上没有药作用于VAChT、SLC32和SLC17。&lt;&#x2F;li&gt;
+&lt;li&gt;SV2A与抗癫痫药左乙拉西坦 levetiracetam 结合。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;2-2-g-protein-linked-receptors-gdan-bai-ou-lian-shou-ti&quot;&gt;2.2 G-Protein-Linked Receptors G蛋白耦联受体&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;G蛋白耦联受体是一类7次跨膜蛋白，跨膜区围绕递质结合位点。药可作用于递质结合位点或别构调节位点。&lt;&#x2F;li&gt;
+&lt;li&gt;某递质的受体可分为不同的 &lt;strong&gt;药理学亚型 pharmacological subtypes&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;ji-dong-yao-guang-pu&quot;&gt;激动药光谱&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;无激动药&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 时，一些受体仍会表现微弱的活性，称为 &lt;strong&gt;组成性活性 constitutive activity&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;激动药 agonist&lt;&#x2F;strong&gt; 与受体结合时，受体表现全部活性，下游效应达到最大。递质是激动药。药可直接作用于递质结合位点发挥激动作用，或作用于递质转运体或灭活酶发挥激动作用。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;部分激动药 partial agonist&lt;&#x2F;strong&gt; 与受体结合时，受体表现的活性位于组成性活性和全部活性之间。有时称为 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;稳定药 stabilizer_ 。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;拮抗药 antagonist&lt;&#x2F;strong&gt; 与受体结合时，受体的构象与无激动药时相同，因而表现组成性活性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;阻动药 inverse agonist&lt;&#x2F;strong&gt; 与受体结合时，受体完全失活。其与拮抗药的区分可能有或没有临床意义。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;2-3-enzymes-as-sites-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-mei&quot;&gt;2.3 Enzymes as Sites of Psychopharmacological Drug Action 作为精神药理学药靶点的酶&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;药作用于酶时，可发挥不可逆抑制作用或可逆抑制作用。可逆抑制作用即竞争性抑制，作用强度取决于药和底物的浓度和亲和力。&lt;&#x2F;li&gt;
+&lt;li&gt;一些酶是临床用药的靶点，包括MAO、乙酰胆碱酯酶及GSK。锂可能通过抑制神经营养因子通路上的GSK发挥神经保护作用、长时的神经重塑作用以及心境稳定作用。丙戊酸盐和ECT可能亦作用于GSK-3。MAO, monoamine oxidase; ECT, electroconvulsive therapy。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;2-4-cytochrome-p450-drug-metabolizing-enzymes-as-targets-of-psychotropic-drugs-zuo-wei-jing-shen-yao-ba-dian-de-yao-dai-xie-mei-cyp450&quot;&gt;2.4 Cytochrome P450 Drug Metabolizing Enzymes as Targets of Psychotropic Drugs 作为精神药靶点的药代谢酶CYP450&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一些精神药是CYP450的底物、抑制药或诱导药。CYP450, cytochrome P450。&lt;&#x2F;li&gt;
+&lt;li&gt;CYP450基因型的个体差异使得标准剂量下个体的血药浓度不同。可有药物基因检测确定。药物基因检测可与血药检测协同用于病人管理。&lt;&#x2F;li&gt;
+&lt;li&gt;CYP450分为家族；家族分为亚型；亚型分为基因产物，以3位字符串表示。重要的CYP450包括1A2、2B6、2D6、2C9、2C19和3A4。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Stahl&#x27;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章1笔记</title>
+          <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-chapter-1/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-chapter-1/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-chapter-1/">&lt;p&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-index&quot;&gt;&amp;lt; 本书笔记目录&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;本篇笔记将作为对&lt;a href=&quot;&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#46-organization-of-the-nervous-system-basic-functions-of-synapses-and-neurotransmitters-shen-jing-xi-tong-de-zu-zhi-tu-hong-de-ji-ben-gong-neng-shen-jing-di-zhi&quot;&gt;生理学章46笔记&lt;&#x2F;a&gt;的扩充。&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;1-chemical-neurotransmission-hua-xue-shen-jing-chuan-dao&quot;&gt;1 Chemical Neurotransmission 化学神经传导&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-1-anatomical-versus-chemical-basis-of-neurotransmission-shen-jing-chuan-dao-de-ji-chu-cong-jie-pou-xue-dao-hua-xue&quot;&gt;1.1 Anatomical versus Chemical Basis of Neurotransmission 神经传导的基础：从解剖学到化学&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;解剖学神经系统 anatomically addressed nervous system&lt;&#x2F;strong&gt; 处理了神经元和突触，将它们作为一个有向图。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;化学神经系统 chemically addressed nervous system&lt;&#x2F;strong&gt; 处理了化学信号的编码、解码、传输和发送。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;1-2-principles-of-chemical-neurotransmission-hua-xue-shen-jing-chuan-dao-de-yuan-li&quot;&gt;1.2 Principles of Chemical Neurotransmission 化学神经传导的原理&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;任何神经元和神经环路的输入都涉及多种递质。这是理解配伍的基础。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;逆向神经传输 Retrograde neurotransmission&lt;&#x2F;strong&gt; 指的是突触后膜向突触前末端传递信息的过程。逆向的递质如内源性大麻素、NO及神经生长因子（NGF）。NGF需经逆向轴突运输至胞体作用于基因调控。NGF, nerve growth factor。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;扩散性神经传输 Volume neurotranmission&lt;&#x2F;strong&gt; 是不经突触的神经传输。释放的递质扩散形成浓度梯度，从而作用于一定 &lt;strong&gt;扩散半径 diffusion radius&lt;&#x2F;strong&gt; 内的受体。药可能主要通过该方式影响神经传输。&lt;&#x2F;li&gt;
+&lt;li&gt;扩散性神经传输的例子如前额叶（PFC）的多巴胺。PFC的多巴胺转运体少，因此多巴胺形成扩散性神经传播。另如一些单胺神经元的树突释放出单胺，作用于树突的 &lt;strong&gt;自受体 autoreceptors&lt;&#x2F;strong&gt; 。PFC, prefrontal cortex。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;1-3-signal-transduction-cascades-xin-hao-zhuan-dao&quot;&gt;1.3 Signal Transduction Cascades 信号转导&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;信号转导使得突触前后的神经元可以在基因表达层面产生交流。有4条主要的信号转导通路，即G蛋白耦联受体、配体门控钙通道、激素受体和神经营养因子受体。&lt;&#x2F;li&gt;
+&lt;li&gt;G蛋白耦联受体和配体门控钙通道是递质的受体，它们激活各自的第2信使（cAMP，通过G蛋白和酶，或Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;）。cAMP, circular AMP; AMP, adenosine monophosphate。&lt;&#x2F;li&gt;
+&lt;li&gt;第3信使可作为激酶（cAMP）和蛋白磷酸酶（Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;-calcineurin）继续信号转导过程。此处，cAMP和Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;的作用是拮抗的。&lt;&#x2F;li&gt;
+&lt;li&gt;第4信使可能是磷酸蛋白或去磷酸化的蛋白，它们可调控递质合成或释放、通道电导或者维持化学神经传导的就绪状态。&lt;&#x2F;li&gt;
+&lt;li&gt;第4信使中，PKA（cAMP）和CaMK（Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;-钙调蛋白）可磷酸化CREB，发挥转录因子作用。此处，cAMP和Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;的作用是协同的。PKA, protein kinase A; CREB, cAMP response element binding protein。&lt;&#x2F;li&gt;
+&lt;li&gt;激素如雌激素、甲状腺素和皮质醇可与核受体结合形成第2信使，发挥转录因子作用。其调控的基因称为HRE。HRE, hormone response element。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;神经营养因子 neurotrophins_ 可有多种蛋白第2信使。一些神经营养因子激活Ras-Raf-MEK-MAPK&#x2F;ERK&#x2F;RSK&#x2F;GSK-3通路，最终调控基因表达。这些基因可介导 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;突触形成 synaptogenesis_ 、 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;细胞存活 cell survival_ 及作为学习记忆或疾病基础的神经可塑性。
+MEK, MAPK&#x2F;ERK kinase; MAPK, mitogen-associated protein kinase; ERK, extracellular regulated kinase; RSK, ribosomal S6 kinase; GSK-3, glycogen synthase kinase-3。&lt;&#x2F;li&gt;
+&lt;li&gt;递质合成酶、生长因子、细胞骨架、细胞黏附分子、离子通道、受体和信号转导蛋白等可被所有4条通路共同调控。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;即刻早期基因 Immediate early gene&lt;&#x2F;strong&gt; 在神经传导发生后15min内启动，包括 &lt;em&gt;cFos&lt;&#x2F;em&gt; 和 &lt;em&gt;cJun&lt;&#x2F;em&gt; ，它们产生的蛋白质Fos和Jun可作为第5信使。&lt;&#x2F;li&gt;
+&lt;li&gt;Fos和Jun产生 &lt;strong&gt;亮氨酸拉链 leucine zipper&lt;&#x2F;strong&gt; ，作为转录因子启动晚期基因的转录。具体效应取决于递质种类和作用模式。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;1-4-epigenetics-biao-guan-yi-chuan&quot;&gt;1.4 Epigenetics 表观遗传&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;组蛋白和DNA的甲基化和组蛋白去乙酰基化导致基因沉默。DNMT, DNA Methyltransferase; HDAC, histone deacetylase。&lt;&#x2F;li&gt;
+&lt;li&gt;DNMT1维持细胞现状，DNMT2和DNMT3通过沉默原先表达的基因改变细胞现状。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;1-5-a-brief-word-about-rna-rnajian-jie&quot;&gt;1.5 A Brief Word about RNA RNA简介&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;pre-miRNA可形成发夹结构，转位至胞质后被Dicer剪切形成miRNA，随后与RISC结合，随后与mRNA结合阻遏翻译。RISC, RNA-induced silencing complex。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Stahl&#x27;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 笔记目录</title>
+          <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-index/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-index/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250919-psychopharmacology-note-index/">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-1&quot;&gt;1 Chemical Neurotransmission 化学神经传导&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-1&#x2F;#1-1-anatomical-versus-chemical-basis-of-neurotransmission-shen-jing-chuan-dao-de-ji-chu-cong-jie-pou-xue-dao-hua-xue&quot;&gt;1.1 Anatomical versus Chemical Basis of Neurotransmission 神经传导的基础：从解剖学到化学&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-1&#x2F;#1-2-principles-of-chemical-neurotransmission-hua-xue-shen-jing-chuan-dao-de-yuan-li&quot;&gt;1.2 Principles of Chemical Neurotransmission 化学神经传导的原理&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-1&#x2F;#1-3-signal-transduction-cascades-xin-hao-zhuan-dao&quot;&gt;1.3 Signal Transduction Cascades 信号转导&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-1&#x2F;#1-4-epigenetics-biao-guan-yi-chuan&quot;&gt;1.4 Epigenetics 表观遗传&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-1&#x2F;#1-5-a-brief-word-about-rna-rnajian-jie&quot;&gt;1.5 A Brief Word about RNA RNA简介&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-2&quot;&gt;2 Transporters, Receptors, and Enzymes as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的转运体、受体和酶&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-2&#x2F;#2-1-neurotransmitter-transporters-as-targets-of-drug-action-zuo-wei-yao-ba-dian-de-di-zhi-zhuan-yun-ti&quot;&gt;2.1 Neurotransmitter Transporters as Targets of Drug Action 作为药靶点的递质转运体&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-2&#x2F;#2-2-g-protein-linked-receptors-gdan-bai-ou-lian-shou-ti&quot;&gt;2.2 G-Protein-Linked Receptors G蛋白耦联受体&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-2&#x2F;#2-3-enzymes-as-sites-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-mei&quot;&gt;2.3 Enzymes as Sites of Psychopharmacological Drug Action 作为精神药理学药靶点的酶&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-2&#x2F;#2-4-cytochrome-p450-drug-metabolizing-enzymes-as-targets-of-psychotropic-drugs-zuo-wei-jing-shen-yao-ba-dian-de-yao-dai-xie-mei-cyp450&quot;&gt;2.4 Cytochrome P450 Drug Metabolizing Enzymes as Targets of Psychotropic Drugs 作为精神药靶点的药代谢酶CYP450&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251021-psychopharmacology-note-chapter-3&#x2F;&quot;&gt;3 Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的离子通道&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;20251021-psychopharmacology-note-chapter-3&#x2F;#3-1-ligand-gated-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-pei-ti-men-kong-chi-zi-tong-dao&quot;&gt;3.1 Ligand-Gated Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的配体门控离子通道&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251021-psychopharmacology-note-chapter-3&#x2F;#3-2-voltage-sensitive-ion-channels-as-targets-of-psychopharmacological-drug-action-zuo-wei-jing-shen-yao-li-xue-yao-ba-dian-de-dian-min-chi-zi-tong-dao&quot;&gt;3.2 Voltage-Sensitive Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的电敏离子通道&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251021-psychopharmacology-note-chapter-3&#x2F;#3-3-ion-channels-and-neurotransmission-chi-zi-tong-dao-he-shen-jing-chuan-shu&quot;&gt;3.3 Ion Channels and Neurotransmission 离子通道和神经传输&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;&quot;&gt;4 Psychosis, Schizophrenia, and the Neurotransmitter Networks Dopamine, Serotonin, and Glutamate 精神病性症状、精神分裂症以及多巴胺、5-HT和谷氨酸的神经递质网络&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#4-1-symptoms-of-psychosis-jing-shen-bing-xing-zheng-zhuang&quot;&gt;4.1 Symptoms of Psychosis 精神病性症状&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#4-2-the-three-major-hypotheses-of-psychosis-and-their-neurotransmitter-networks-jing-shen-bing-xing-zheng-zhuang-de-3zhu-yao-jia-shuo-ji-qi-shen-jing-di-zhi-wang-luo&quot;&gt;4.2 The Three Major Hypotheses of Psychosis and Their Neurotransmitter Networks 精神病性症状的3主要假说及其神经递质网络&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250919-psychopharmacology-note-index&#x2F;=&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#4-3-the-classic-dopamine-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-jing-dian-duo-ba-e-jia-shuo&quot;&gt;4.3 The Classic Dopamine Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的经典多巴胺假说&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#4-4-the-glutamate-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-gu-an-suan-jia-shuo&quot;&gt;4.4 The Glutamate Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的谷氨酸假说&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#4-5-the-serotonin-hypothesis-of-psychosis-and-schizophrenia-jing-shen-bing-xing-zheng-zhuang-he-jing-shen-fen-lie-zheng-de-5-htjia-shuo&quot;&gt;4.5 The Serotonin Hypothesis of Psychosis and Schizophrenia 精神病性症状和精神分裂症的5-HT假说&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#4-6-schizophrenia-as-the-prototypical-psychotic-disorder-jing-shen-fen-lie-zheng-zuo-wei-dian-xing-jing-shen-bing-xing-zhang-ai&quot;&gt;4.6 Schizophrenia as the Prototypical Psychotic Disorder 精神分裂症作为典型精神病性障碍&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#4-7-other-psychotic-illnesses-qi-ta-jing-shen-bing-xing-zhang-ai&quot;&gt;4.7 Other Psychotic Illnesses 其他精神病性障碍&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;&quot;&gt;5 Targeting Dopamine and Serotonin Receptors for Psychosis, Mood, and Beyond: So-Called &quot;Antipsychotics&quot; 作用于多巴胺和5-HT受体治疗精神病性症状和心境症状等的“抗精神病药”&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-1-targeting-mesolimbic-mesostriatal-dopamine-d2-receptors-causes-antipsychotic-actions-zuo-yong-yu-zhong-nao-bian-yuan-zhong-nao-wen-zhuang-ti-d2shou-ti-zao-cheng-kang-jing-shen-bing-xiao-ying&quot;&gt;5.1 Targeting Mesolimbic&#x2F;Mesostriatal Dopamine D2 Receptors Causes Antipsychotic Actions 作用于中脑边缘&#x2F;中脑纹状体D2受体造成抗精神病效应&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-2-targeting-dopamine-d2-receptors-in-mesolimbic-mesostriatal-and-mesocortical-pathways-causes-secondary-negative-symptoms-zuo-yong-yu-zhong-nao-bian-yuan-zhong-nao-wen-zhuang-ti-he-zhong-nao-pi-zhi-d2shou-ti-zao-cheng-ji-fa-xing-yin-xing-zheng-zhuang&quot;&gt;5.2 Targeting Dopamine D2 Receptors in Mesolimbic&#x2F;Mesostriatal and Mesocortical Pathways Causes Secondary Negative Symptoms 作用于中脑边缘&#x2F;中脑纹状体和中脑皮质D2受体造成继发性阴性症状&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-3-targeting-tuberoinfundibular-dopamine-d2-receptors-causes-elevation-of-prolactin-zuo-yong-yu-jie-jie-lou-dou-d2shou-ti-zao-cheng-cui-ru-su-sheng-gao&quot;&gt;5.3 Targeting Tuberoinfundibular Dopamine D2 Receptors Causes Elevation of Prolactin 作用于结节漏斗D2受体造成催乳素升高&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-4-targeting-nigrostriatal-dopamine-d2-receptors-causes-motor-side-effects-zuo-yong-yu-hei-zhi-wen-zhuang-ti-d2shou-ti-zao-cheng-yun-dong-fu-xiao-ying&quot;&gt;5.4 Targeting Nigrostriatal Dopamine D2 Receptors Causes Motor Side Effects 作用于黑质纹状体D2受体造成运动副效应&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-5-drugs-targeting-dopamine-d2-receptors-so-called-first-generation-or-conventional-antipsychotics-zuo-yong-yu-d2shou-ti-de-di-yi-dai-dian-xing-kang-jing-shen-bing-yao&quot;&gt;5.5 Drugs Targeting Dopamine D2 Receptors: So-Called First Generation or Conventional &quot;Antipsychotics&quot; 作用于D2受体的“第一代&#x2F;典型抗精神病药”&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-6-drugs-targeting-serotonin-2a-receptors-with-or-without-simultaneously-targeting-dopamine-d2-receptors-zuo-yong-yu-5ht2ashou-ti-he-fei-zuo-yong-yu-d2shou-ti-de-yao&quot;&gt;5.6 Drugs Targeting Serotonin 2A Receptors with or without Simultaneously Targeting Dopamine D2 Receptors 作用于5HT2A受体和&#x2F;非作用于D2受体的药&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-7-drugs-targeting-serotonin-1a-receptors-and-dopamine-d2-receptors-as-partial-agonists-5ht1a-d2bu-fen-ji-dong-yao&quot;&gt;5.7 Drugs Targeting Serotonin 1A Receptors and Dopamine D2 Receptors as Partial Agonists 5HT1A&#x2F;D2部分激动药&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-8-links-between-receptor-binding-properties-of-drugs-used-to-treat-psychosis-and-other-therapeutic-actions-and-side-effects-shou-ti-he-xiao-ying-de-guan-lian&quot;&gt;5.8 Links between Receptor Binding Properties of Drugs Used to Treat Psychosis and Other Therapeutic Actions and Side Effects 受体和效应的关联&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-9-pharmacological-properties-of-selected-individual-first-generation-d2-antagonists-bu-fen-d2zu-zhi-yao-de-yao-li-xue-xing-zhi&quot;&gt;5.9 Pharmacological Properties of Selected Individual First-Generation D2 Antagonists 部分D2阻滞药的药理学性质&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-10-an-overview-of-the-pharmacological-properties-of-individual-5ht2a-d2-antagonists-and-d2-5ht1a-partial-agonists-the-pines-peens-many-dones-and-a-rone-two-pips-and-a-rip-ge-d2-5ht2azu-zhi-yao-he-d2-5ht1abu-fen-ji-dong-yao-de-yao-li-xue-xing-zhi-gai-shu&quot;&gt;5.10 An Overview of the Pharmacological Properties of Individual 5HT2A&#x2F;D2 Antagonists and D2&#x2F;5HT1A Partial Agonists: The Pines (Peens), Many Dones and a Rone, Two Pips and a Rip 各D2&#x2F;5HT2A阻滞药和D2&#x2F;5HT1A部分激动药的药理学性质概述&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20251219-psychopharmacology-note-chapter-5&#x2F;#5-11-future-treatments-for-schizophrenia-jing-shen-fen-lie-zheng-zhi-liao-zhan-wang&quot;&gt;5.11 Future Treatments for Schizophrenia 精神分裂症治疗展望&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;6 Mood Disorders and the Neurotransmitter Networks Norepinephrine and γ-Aminobutyric Acid (GABA) 心境障碍以及去甲肾上腺素和GABA的神经递质网络&lt;&#x2F;li&gt;
+&lt;li&gt;7 Treatment for Mood Disorders: So-Called &quot;Antidepressants&quot; and &quot;Mood Stabilizers&quot; 治疗心境障碍的“抗抑郁药”和“心境稳定药”&lt;&#x2F;li&gt;
+&lt;li&gt;8 Anxiety, Trauma, and Treatment 焦虑和创伤及其治疗&lt;&#x2F;li&gt;
+&lt;li&gt;9 Chronic Pain and Its Treatment 慢性疼痛及其治疗&lt;&#x2F;li&gt;
+&lt;li&gt;10 Disorders of Sleep and Wakefulness and Their Treatment: Neurotransmitter Networks for Histamin and Orexin 睡眠觉醒障碍、其治疗以及组胺和食欲素的神经递质网络&lt;&#x2F;li&gt;
+&lt;li&gt;11 Attention Deficit Hyperactivity Disorder and Its Treatment 注意缺陷多动障碍及其治疗&lt;&#x2F;li&gt;
+&lt;li&gt;12 Dementia: Causes, Symptomatic Treatments, and the Neurotransmitter Network Acetylcholine 痴呆的病因、对症治疗以及乙酰胆碱的神经递质网络&lt;&#x2F;li&gt;
+&lt;li&gt;13 Impulsivity, Compulsivity, and Addiction 冲动、强迫和成瘾&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>论层级</title>
+          <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/">&lt;p&gt;经常提到“功能层级”、“结构层级”、“抽象层级”。它们到底是什么？&lt;&#x2F;p&gt;
+&lt;p&gt;传统的做法要先考虑“我们说这些术语时，我们在说什么”。但是那样就有点主流了。为了契合我的口味，先来形式化地看一下。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;xing-shi-hua&quot;&gt;形式化&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;jie-gou-ceng-ji&quot;&gt;结构层级&lt;&#x2F;h2&gt;
+&lt;p&gt;上层的结构可以被分为下层的结构。因此结构层级是一个树\( T&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{struct} \)，每个节点都是一个结构。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gong-neng-ceng-ji&quot;&gt;功能层级&lt;&#x2F;h2&gt;
+&lt;p&gt;功能是一个结构的属性，把它看作一个理论：\( \Sigma&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func}(a)\subseteq\mathcal L&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func} \)，其中\( a \)满足存在结构层级\( T&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{struct} \)使得\( a\in T&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{struct} \)。&lt;&#x2F;p&gt;
+&lt;p&gt;理想情况下下层结构的功能支持了上层结构的功能，这里的支持不妨考虑为逻辑\( \vdash&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func} \)。即\( \Sigma&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func}(b)=\{ \varphi\in\mathcal L&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func}:\cup&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{a\prec b}\Sigma&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func}(a)\vdash&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func}\varphi \} \)，
+其中\( a\prec b \)的含义是\( a \)在\( b \)的下层。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chou-xiang-ceng-ji&quot;&gt;抽象层级&lt;&#x2F;h2&gt;
+&lt;p&gt;呃这个其实是来自oo的。涉及一个偏序\( \prec&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{concept} \)。其中的元素是概念，它们要作为形式语言的常元\( \prec&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{concept}\subseteq constant(\mathcal L&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{abstact}) \)。&lt;&#x2F;p&gt;
+&lt;p&gt;当然有一个逻辑\( \vdash&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{abstract} \)。假设\( a, b\in\prec&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{concept}; a\prec b \)，我们有\( \forall\varphi(x)\in\mathcal L&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{abstract}, \vdash&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{abstract}\varphi(b)\Rightarrow\vdash&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{abstract}\varphi(a) \)。
+这里还有量词的问题。。。。。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;s&quot;&gt;Σ&lt;&#x2F;h2&gt;
+&lt;p&gt;综上，功能层级和抽象层级没什么关联。。。。。。。。。。。。。。功能是在命题的层面，抽象是在变元的层面，而且二者的蕴含方向是相反的。&lt;&#x2F;p&gt;
+&lt;p&gt;接下来我们再回到实践中我们怎么运用“功能”“抽象”等术语的。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;shi-jian&quot;&gt;实践&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;jie-gou-gong-neng&quot;&gt;结构-功能&lt;&#x2F;h2&gt;
+&lt;p&gt;我们首先把一个大结构分为比如形态学上小结构。然后我们会先给最大的结构即\( T&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{struct} \)的树根指派一些功能，然后我们目的论地给小结构指派功能，这些功能是为了满足大结构的功能，并最终满足树根的功能。&lt;&#x2F;p&gt;
+&lt;p&gt;这种指派是合理的吗？有时候，例如在生物学中，这种合理性是由进化论保障的。看来有些特异。对于人造物来说，可能有（一些实用的工具），可能没有（出于传统、直觉etc.）。&lt;&#x2F;p&gt;
+&lt;p&gt;这种指派在实践中有什么意义？在生物学等科学中，呃，其实我认为意义在于为我们提供了一个方便记忆的语义网络的骨架，我们的人类实践可以锚定在这个骨架上，这样，它们才能被组织起来。由此可见\( T&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{struct, science} \)必须是符合人类自然认知的，
+否则，例如一个结构的功能很难描述的时候，我们可能要对整个结构树进行再排布。嗯，“科学结构”作为一个人造物的功能也就在此了。注意这个想法还是很循证的，可能不容易满足，需要再退一步。&lt;&#x2F;p&gt;
+&lt;p&gt;还有问题在于\( \vdash&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func} \)也不是那个符号逻辑的后承，我们当然并不严格地证明它，或者把\( \Sigma&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{func}(x) \)详尽地列出来。正是这里的让步导致形式化意义不大，只能回到为了实践的认知上（有点打脸）。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chou-xiang&quot;&gt;抽象&lt;&#x2F;h2&gt;
+&lt;p&gt;那么科学抽象就比较直白了，它的组织（\( \prec&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{concept} \)）本来就很随意了，明摆着就是要怎么方便认知怎么来。只不过是形式上（或者语义组织的种类，反应为逻辑形式）有所不同。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;s-1&quot;&gt;Σ&lt;&#x2F;h1&gt;
+&lt;p&gt;总结就是，科学学者不用区分这两者。。。。。阿姨一哦哦a哎呀嗯哟&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Guyton and Hall Textbook of Medical Physiology 单元9笔记</title>
+          <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250823-physiology-note-unit-9/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250823-physiology-note-unit-9/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250823-physiology-note-unit-9/">&lt;p&gt;下学期有《神经生物学》和《精神药理学》课程，紧急来看一下。这本书看起来真的爽。
+下面的章节不太紧要，应该会停更许久orz&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;unit-9-the-nervous-system-a-general-principles-and-sensory-physiology-shen-jing-xi-tong-a-yuan-li-he-gan-jue-sheng-li-xue&quot;&gt;Unit 9 The Nervous System: A. General Principles and Sensory Physiology 神经系统A：原理和感觉生理学&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;46-organization-of-the-nervous-system-basic-functions-of-synapses-and-neurotransmitters-shen-jing-xi-tong-de-zu-zhi-tu-hong-de-ji-ben-gong-neng-shen-jing-di-zhi&quot;&gt;46 Organization of the Nervous System, Basic Functions of Synapses, and Neurotransmitters 神经系统的组织，突触的基本功能，神经递质&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;span class=&quot;crossref&quot;&gt;章46要和CompCogNeuro互相链接一下。另外再有生之年能不能学到信号系统呢…。&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本书基本立场：神经系统是信息处理系统（认知主义）。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;46-1-general-design-of-the-nervous-system-shen-jing-xi-tong-de-yun-xing-mo-shi&quot;&gt;46.1 General Design of the Nervous System 神经系统的运行模式&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;化学突触是单向传导的。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;但：见&lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-1&#x2F;#1-2-principles-of-chemical-neurotransmission-hua-xue-shen-jing-chuan-dao-de-yuan-li&quot;&gt;逆向神经传输&lt;&#x2F;a&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;神经元接受数百至200,000个输入，输出信号则经单个轴突。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单个神经元接受广泛的信息传入，对这些信息进行整合输出。即，信息流是 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;收敛的 convergent_。在这个意义上，神经元可类比为 &lt;strong&gt;探测器 detector&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;感觉区分布于脊髓、网状结构、小脑、丘脑、皮层。&lt;&#x2F;li&gt;
+&lt;li&gt;运动功能包括骨骼肌收缩、平滑肌收缩、内分泌、外分泌。&lt;&#x2F;li&gt;
+&lt;li&gt;骨骼肌可被脊髓、网状结构、基底核、小脑和运动皮层控制。
+&lt;span class=&quot;crossref&quot;&gt;详见CogNeuroBio的运动那一章。&lt;&#x2F;span&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;不同突触传递信息的难易程度不同。
+&lt;span class=&quot;crossref&quot;&gt;见CompCogNeuro layer权重。&lt;&#x2F;span&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;突触对信息有选择性：阻断弱信号，或增强弱信号，并导至广泛的区域。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;权重不同造成的？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;感觉记忆的机制：感觉信息经过一串突触导致其被 &lt;strong&gt;易化 facilitated&lt;&#x2F;strong&gt; 。多次易化后，来自脑内的信号即可导致感觉经验产生。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;46-2-major-levels-of-central-nervous-system-function-zhong-shu-shen-jing-xi-tong-de-zhu-yao-gong-neng-ceng-ji&quot;&gt;46.2 Major Levels of Central Nervous System Function 中枢神经系统的主要功能层级&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;高位离断脊髓功能包括走路、从疼痛处缩回的反射、腿使劲站立的反射、控制血管、胃肠道运动和排尿的反射。脊髓通常中继高层级发出的信号。&lt;&#x2F;li&gt;
+&lt;li&gt;皮层下（延髓～下丘脑、丘脑、基底节）控制多数无意识活动。如血压和呼吸的控制、平衡的控制、进食相关反射（进食时泌涎、舔唇等）、情绪等。&lt;&#x2F;li&gt;
+&lt;li&gt;皮层储存记忆，使得下层功能更精准，思考等。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“更精准”由于记忆的范畴化和认知控制？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;46-3-comparison-of-the-nervous-system-to-a-computer-shen-jing-xi-tong-yu-ji-suan-ji-de-dui-bi&quot;&gt;46.3 Comparison of the Nervous System to a Computer 神经系统与计算机的对比&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这节文本很短，但能说的还挺多，涉及到计算主义等。待我至少熟悉了认知控制系统，或许还有读完了CompCogNeuro之后，再来展开这个话题。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;46-4-central-nervous-system-synapses-zhong-shu-shen-jing-xi-tong-zhong-de-tu-hong&quot;&gt;46.4 Central Nervous System Synapses 中枢神经系统中的突触&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;电突触是双向传导的。可用于探测相连神经元的多个阈下去极化事件的同时出现，以提高敏感性，同时促进神经元的 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;共时 synchronous_ 激活。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能介导&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#47-3-signal-intensity-transmission-in-nerve-tracts-sptial-and-temporal-summation-shen-jing-zhong-de-xin-hao-qiang-du-bian-ma-kong-jian-he-shi-jian-jia-he&quot;&gt;下章&lt;&#x2F;a&gt;讲到的平行通路，这样在输出端就能通过空间加和产生比较强的兴奋。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;并不是。。。下章是感觉通路上的&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;注意以上叙述和典型的“树突传导电扩布，轴突传导动作电位”的二分是不相容的。突触两侧的膜对称？电突触又分布在神经元的何处？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;qian-mo&quot;&gt;前膜&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;突触前末端膜上有电压门控Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;通道，在动作电位到达时开放。前膜释放的递质量与Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;进入的量直接相关。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;小分子递质&lt;&#x2F;strong&gt; 多在前末端胞质内合成，通过主动运输进入囊泡，Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;介导释放； &lt;strong&gt;NO&lt;&#x2F;strong&gt; 在需要时合成，扩散入后膜； &lt;strong&gt;神经肽 neuropeptides&lt;&#x2F;strong&gt; 在胞体核糖体合成，经内质网在Golgi体剪切后经轴浆运输转运至前膜。&lt;&#x2F;li&gt;
+&lt;li&gt;包含小分子递质的囊泡释放后，原先的囊泡膜重又凹回胞质并形成新的囊泡，其膜仍保留酶和转运蛋白。神经肽囊泡不再重利用。&lt;&#x2F;li&gt;
+&lt;li&gt;小分子递质和神经肽可在一个神经元内同时存在，分为 &lt;strong&gt;共释放 co-release&lt;&#x2F;strong&gt; 和 &lt;strong&gt;信号协同传导 co-transmission&lt;&#x2F;strong&gt; 。共释放的递质存在于共同的囊泡中。协同传导的递质存在于各自的囊泡中，它们可通过Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;
+或定位于不同的轴突末端被 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;有差别地&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 释放。
+如中缝核的5-HT谷氨酸共释放负责觉醒周期。&lt;&#x2F;li&gt;
+&lt;li&gt;突触前抑制是突触前末端的超极化，主要由GABA引起，如感觉侧抑制。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;di-zhi&quot;&gt;递质&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;除气体分子外，小分子递质（包括乙酰胆碱、胺和氨基酸）作用较迅速，通常在2ms内完成，效应通常为改变离子通道电导。气体分子（如NO）和神经肽可产生 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;长期&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 效应。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;乙酰胆碱 acetylcholine&lt;&#x2F;strong&gt; 由运动皮层锥体细胞、基底节的一些神经元、支配骨骼肌的运动神经元、节前神经元、副交感节后神经元和一些交感节后神经元分泌。大多兴奋性，一些副交感末梢抑制性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;去甲肾上腺素 norepinephrine&lt;&#x2F;strong&gt; 在中枢由脑干和下丘脑的众多神经元分泌。脑桥的 &lt;strong&gt;蓝斑 locus coeruleus&lt;&#x2F;strong&gt; 的去甲肾上腺素能突触在脑中分布广泛，控制意识和情绪。大多兴奋性，有些抑制性。在周围，由多数交感节后神经元分泌，有些兴奋性，有些抑制性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;多巴胺 dopamine&lt;&#x2F;strong&gt; 由 &lt;strong&gt;黑质 substantia nigra&lt;&#x2F;strong&gt; 分泌。突触主要位于基底节的 &lt;strong&gt;纹状体 striatum&lt;&#x2F;strong&gt; 。通常抑制性。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;奖赏通路是不是在纹状体来着？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;甘氨酸 glycine&lt;&#x2F;strong&gt; 能突触主要位于脊髓。抑制性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;GABA&lt;&#x2F;strong&gt; 能突触位于脊髓、小脑、基底节和皮层的众多区域。成人中枢中是主要的抑制性递质。在胚胎和产后1w内，GABA可能是兴奋性的。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;谷氨酸 glutamate&lt;&#x2F;strong&gt; 能突触位于感觉通路上和皮层的众多区域。可能总是兴奋性的。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;5-HT&lt;&#x2F;strong&gt; 由 &lt;strong&gt;中缝核 median raphe&lt;&#x2F;strong&gt; 分泌，投射至许多脑、脊髓区，尤其是脊髓后角和下丘脑。在脊髓中抑制痛觉通路，在高级中枢抑制性，调控情绪，可能催眠。&lt;&#x2F;li&gt;
+&lt;li&gt;NO能突触分布于长时行为和记忆的脑区。&lt;&#x2F;li&gt;
+&lt;li&gt;神经肽的数量远少于小分子递质，但效应通常&amp;gt;1kx。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;hou-mo&quot;&gt;后膜&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;递质受体本身是通道受体，或激活第二信使系统。&lt;&#x2F;li&gt;
+&lt;li&gt;后膜离子通道的开启与关闭均在1ms内完成，持续(1~2)ms。数mV的E&#x2F;IPSP约经15ms回到静息电位。长期效应由促代谢受体介导。&lt;&#x2F;li&gt;
+&lt;li&gt;前角运动神经元（其他神经元仅由量的差异）胞体静息电位为-65mV，比神经纤维和骨骼肌正。这使其去极化和超极化均有较大的调节空间。&lt;&#x2F;li&gt;
+&lt;li&gt;由Nernst公式，前角运动神经元Na&lt;sup&gt;+&lt;&#x2F;sup&gt;平衡电位为61mV，K&lt;sup&gt;+&lt;&#x2F;sup&gt;平衡电位为-86mV，Cl&lt;sup&gt;-&lt;&#x2F;sup&gt;平衡电位为-70mV。&lt;&#x2F;li&gt;
+&lt;li&gt;轴丘Na&lt;sup&gt;+&lt;&#x2F;sup&gt;通道较多，因此阈电位比胞体其他部位低，是动作电位的起点。树突几乎无Na&lt;sup&gt;+&lt;&#x2F;sup&gt;通道，因此动作电位难以沿树突传播。&lt;&#x2F;li&gt;
+&lt;li&gt;前角运动神经元(80~95)%突触在树突上，(5~20)%突触在胞体上。树突可自胞体向各方向延伸(500~1k)μm。&lt;&#x2F;li&gt;
+&lt;li&gt;由于树突膜绝缘不完全以及胞质的电阻，电扩布的电位发生衰减，因此树突上的突触距离胞体越远， &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;权重&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 就越低。&lt;&#x2F;li&gt;
+&lt;li&gt;神经元越兴奋，放电频率就越高。不同神经元的阈电位和最大频率不同，功能也就不同。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;resources&#x2F;frequency-excitation-relationship.png&quot; alt=&quot;频率—兴奋关系&quot; &#x2F;&gt; 图片来自原书&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;G蛋白耦联受体激活后开放胞内结合位点，无活性的GDP-G蛋白与受体结合后，可结合GTP，释放的能量使G蛋白裂解，有活性的GTP-α游离于胞质发挥效应。β和γ是调节亚基。GTP-α可开放离子通道（如较慢的K&lt;sup&gt;+&lt;&#x2F;sup&gt;通道），激活cAMP&#x2F;cGMP通路，
+激活酶或基因转录来改变神经元的代谢或结构状态。&lt;&#x2F;li&gt;
+&lt;li&gt;长期的激活或抑制效应可通过后膜受体 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;数量&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 介导，神经肽也可致Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;通道的长时关闭、代谢的变化和基因的开关等。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;46-5-special-characteristics-of-synaptic-trnasmission-tu-hong-chuan-dao-de-te-xing&quot;&gt;46.5 Special Characteristics of Synaptic Trnasmission 突触传导的特性&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特性的话。。。应该就是一些功能性描述，然后对更高层的功能有贡献的意思吧？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;碱中毒极大地增加了神经元兴奋性。如癫痫风险者在短期过度通气后可能引发癫痫发作。酸中毒极大地降低了神经元兴奋性。如糖尿病或尿毒症引起的严重酸中毒可导致昏迷。&lt;&#x2F;li&gt;
+&lt;li&gt;突触依赖氧。数s缺氧造成一些神经元的完全失活。&lt;&#x2F;li&gt;
+&lt;li&gt;突触延搁是化学突触传递的最小延搁，约.5ms。通过测量神经环路的最小延搁，可估算环路中输入到输出经过的突触数量。&lt;&#x2F;li&gt;
+&lt;li&gt;突触后发放&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#shen-jing-yuan-chi-dui-xin-hao-de-yan-chang-hou-fa-fang-afterdischarge&quot;&gt;见下&lt;&#x2F;a&gt;。&lt;&#x2F;li&gt;
+&lt;li&gt;突触疲劳&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#47-5-instability-and-stability-of-neuronal-circuits-shen-jing-huan-lu-de-wen-ding-xing&quot;&gt;见下&lt;&#x2F;a&gt;。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;yao-dui-tu-hong-chuan-dao-de-ying-xiang&quot;&gt;药对突触传导的影响&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;咖啡因 caffeine&lt;&#x2F;strong&gt; 、 &lt;strong&gt;茶碱 theophylline&lt;&#x2F;strong&gt; 、 &lt;strong&gt;可可碱 theobromine&lt;&#x2F;strong&gt; 通过降低阈电位提高神经元兴奋性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;士的宁 strychnine&lt;&#x2F;strong&gt; 通过抑制抑制性递质，尤其是甘氨酸，来提升神经元兴奋性。&lt;&#x2F;li&gt;
+&lt;li&gt;多数麻醉药通过提升阈电位减少突触传导。一些脂溶性麻醉药通过改变神经元质膜的物理性质达到麻醉作用。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;47-sensory-receptors-neuronal-circuits-for-processing-information-gan-jue-shou-ti-chu-li-xin-xi-de-shen-jing-huan-lu&quot;&gt;47 Sensory Receptors, Neuronal Circuits for Processing Information 感觉受体，处理信息的神经环路&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;47-1-types-of-sensory-receptors-and-the-stimuli-they-detect-gan-jue-shou-ti-ji-qi-tan-ce-ci-ji-de-fen-xing&quot;&gt;47.1 Types of Sensory Receptors and the Stimuli They Detect 感觉受体及其探测刺激的分型&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;机械感受器 mechanoreceptors&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;表皮和真皮触觉感受器&lt;&#x2F;li&gt;
+&lt;li&gt;深部感觉&lt;&#x2F;li&gt;
+&lt;li&gt;听觉&lt;&#x2F;li&gt;
+&lt;li&gt;平衡觉&lt;&#x2F;li&gt;
+&lt;li&gt;血压&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;温度感受器 thermoreceptors&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;冷觉&lt;&#x2F;li&gt;
+&lt;li&gt;温觉&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;痛觉感受器 nociceptors&lt;&#x2F;strong&gt; ：游离神经末梢&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;电磁感受器 electromagnetic receptors&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;视觉&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;化学感受器 chemoreceptors&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;味觉&lt;&#x2F;li&gt;
+&lt;li&gt;嗅觉&lt;&#x2F;li&gt;
+&lt;li&gt;动脉氧&lt;&#x2F;li&gt;
+&lt;li&gt;渗透压&lt;&#x2F;li&gt;
+&lt;li&gt;血CO&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;血葡萄糖、氨基酸、脂肪酸&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;感觉具有不同 &lt;strong&gt;模态 modalities&lt;&#x2F;strong&gt; 因为传导它们的神经在中枢的终点不同。这是 &lt;strong&gt;labeled line principle&lt;&#x2F;strong&gt; 。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个结构功能对应。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;47-2-transduction-of-sensory-stimuli-into-nerve-impulses-gan-jue-ci-ji-xiang-shen-jing-chong-dong-de-chuan-dao&quot;&gt;47.2 Transduction of Sensory Stimuli into Nerve Impulses 感觉刺激向神经冲动的传导&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;感觉刺激通过改变膜的通透性产生 &lt;strong&gt;受体电位 receptor potentials&lt;&#x2F;strong&gt; 。受体电位达到阈电位后产生动作电位。&lt;&#x2F;li&gt;
+&lt;li&gt;随着刺激强度增大，动作电位频率增加的速度逐渐减慢。这使得受体感受的刺激强度范围很宽。&lt;&#x2F;li&gt;
+&lt;li&gt;感觉受体可对持续的刺激进行适应 adaptation 。不同受体适应的速度和程度不同。如 &lt;strong&gt;环层小体 Pacinian corpuscle&lt;&#x2F;strong&gt; 在数cs内完全适应，而化学感受器和痛觉感受器可能永不完全适应。&lt;&#x2F;li&gt;
+&lt;li&gt;适应的机制对受体类型是特异的。对机械感受器来说，适应的机制包括受体 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;结构&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 的改变及可能缘于Na&lt;sup&gt;+&lt;&#x2F;sup&gt;通道失活的 &lt;strong&gt;accommodation 调定&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tonic 张型受体&lt;&#x2F;strong&gt; 即慢适应受体持续探测刺激强度。包括肌梭、腱器、前庭器的椭圆囊斑及球囊斑、痛觉感受器、动脉压力感受器和颈动脉窦与主动脉体的化学感受器。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Rate receptors 变化率受体&lt;&#x2F;strong&gt; 、 &lt;strong&gt;movement receptors 运动受体&lt;&#x2F;strong&gt; 或曰 &lt;strong&gt;phasic receptors 相型受体&lt;&#x2F;strong&gt; 即快适应受体探测刺激强度的变化率。具有预测功能。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;变化率受体大概相当于刺激强度的 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;微分器&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ，所以可以用来近似求未来的刺激强度值。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;神经纤维可分为有髓鞘的 &lt;strong&gt;A型&lt;&#x2F;strong&gt; 和无髓鞘的 &lt;strong&gt;C型&lt;&#x2F;strong&gt; 。A型按照直径由大到小或传输速度由快到慢可分为 &lt;strong&gt;Aα型&lt;&#x2F;strong&gt; 、 &lt;strong&gt;Aβ型&lt;&#x2F;strong&gt; 、 &lt;strong&gt;Aγ型&lt;&#x2F;strong&gt; 和 &lt;strong&gt;Aδ型&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;神经纤维也被分为 &lt;strong&gt;Ia&lt;&#x2F;strong&gt; 、 &lt;strong&gt;Ib&lt;&#x2F;strong&gt; 、 &lt;strong&gt;II&lt;&#x2F;strong&gt; 、 &lt;strong&gt;III&lt;&#x2F;strong&gt; 和 &lt;strong&gt;IV&lt;&#x2F;strong&gt; 等5组。Ia纤维来自肌梭螺旋末梢，Ib纤维来自腱器，它们是Aα型。II纤维来自大多数皮肤触觉受体和肌梭花蕊末梢，它们是Aβ型、Aγ型。III纤维传输温度觉、粗触觉和尖锐痛觉，它们是Aδ型。
+IV纤维传输痛觉、氧觉、温度觉和粗触觉，它们是C型。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;47-3-signal-intensity-transmission-in-nerve-tracts-sptial-and-temporal-summation-shen-jing-zhong-de-xin-hao-qiang-du-bian-ma-kong-jian-he-shi-jian-jia-he&quot;&gt;47.3 Signal Intensity Transmission in Nerve Tracts — Sptial and Temporal Summation 神经中的信号强度编码——空间和时间加和&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;为叙述方便，定义一块空间A对数量特性p是 &lt;strong&gt;羽的&lt;&#x2F;strong&gt; :⇔ A的中心部分p最大，越是周围的部分p越小，直到A的边界p趋于0。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;空间加和 spatial summation&lt;&#x2F;strong&gt; 指信号越强，激活的并行神经纤维越多的现象。这些纤维对于激活度是羽的。
+&lt;ul&gt;
+&lt;li&gt;空间加和的机制是每个纤维的 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;感受野 receptive field_ 相互重叠，并且感受野对于感受性是羽的。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;时间加和 temporal summation&lt;&#x2F;strong&gt; 指信号越强，单个神经纤维放电频率越高的现象。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;47-4-transmission-and-processing-of-signals-in-neuronal-pools-shen-jing-yuan-chi-zhong-xin-hao-de-chuan-shu-he-chu-li&quot;&gt;47.4 Transmission and Processing of Signals in Neuronal Pools 神经元池中信号的传输和处理&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;神经元池 neuronal pools&lt;&#x2F;strong&gt; 是对神经系统中紧密关联的神经元集合的称谓。如皮层、核团和脊髓背侧的灰质。神经元池包括输入和输出。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;shen-jing-yuan-chi-dui-xin-hao-de-zhong-ji&quot;&gt;神经元池对信号的中继&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;输入纤维的 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;刺激野 stimulatory field_ 是羽的。中心部位接受了纤维足够的刺激而仅需该纤维兴奋即可产生动作电位的胞体构成了纤维的 &lt;strong&gt;discharge zone 放电区&lt;&#x2F;strong&gt; 、 &lt;strong&gt;excited zone 兴奋区&lt;&#x2F;strong&gt; 或曰 &lt;strong&gt;liminal zone 阈区&lt;&#x2F;strong&gt; ；
+周围不属于阈区的胞体构成了 &lt;strong&gt;facilitated zone 易化区&lt;&#x2F;strong&gt; 、 &lt;strong&gt;subthreshold zone&lt;&#x2F;strong&gt; 或曰 &lt;strong&gt;subliminal zone 阈下区&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;_Inhibitory zone 抑制区&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; 和刺激野相似，是羽的。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;发散的 divergent_ 神经元池分为输出纤维并行的放大型，如皮质脊髓通路；以及输出纤维前往不同区域的类型，如脊髓背侧束的感觉信息被投射至小脑和丘脑，在丘脑又前往丘脑的深层结构以及大脑皮层。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;收敛的 convergent_ 神经元池分为输入纤维并行的类型，可完成并行纤维的空间加和过程；以及兴奋性和抑制性输入来源不同的类型，如脊髓中间神经元接受来自周围神经、脊髓固有纤维、皮质脊髓纤维和其他来自脑的纤维传入。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Reciprocal inhibition circuits 拮抗抑制环路&lt;&#x2F;strong&gt; 是指某些输出是兴奋性的，而某些输出是抑制性的神经元池，其中抑制性输出通路上有一个专门的抑制神经元发出抑制性突触。用于控制拮抗肌。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;shen-jing-yuan-chi-dui-xin-hao-de-yan-chang-hou-fa-fang-afterdischarge&quot;&gt;神经元池对信号的延长——后发放 Afterdischarge&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;后发放可在输入的信号终止后持续数ms~数min。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Synaptic afterdischarge 突触后发放&lt;&#x2F;strong&gt; 是单个突触的后发放。通常突触的递质是较为长效的，在突触兴奋时，突触后神经元反复放电，可将信号延长至数ms。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;反响环路 reverberatory circuit&lt;&#x2F;strong&gt; 或曰 &lt;strong&gt;振荡环路 oscillatory circuit&lt;&#x2F;strong&gt; 是存在正反馈的环路，可导致长时间的后发放。&lt;&#x2F;li&gt;
+&lt;li&gt;振荡环路的复杂性不等，可仅为单纤维的反馈至后方神经元的突触，但多数振荡环路由并行的纤维构成，其中参与振荡的纤维数量可以编码振荡强度。&lt;&#x2F;li&gt;
+&lt;li&gt;振荡和后发放的终止由突触疲劳介导。其他来源的易化或抑制输入可控制后发放的总时程。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;某些环路的持续输出可由于疲劳较小的持续的振荡信号或持续的神经元 &lt;strong&gt;自发放电 intrinsic discharge&lt;&#x2F;strong&gt; 。
+&lt;ul&gt;
+&lt;li&gt;自发放电即正常膜电位高于阈电位的神经元持续放电，如小脑的许多神经元和脊髓的中间神经元。&lt;&#x2F;li&gt;
+&lt;li&gt;这种持续输出的信号强度可由兴奋或抑制信号调控，抑制信号可致输出停止。这类似于 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;载波 carrier wave_ ，用于控制一些自主神经系统功能如血管紧张、消化道紧张、虹膜收缩及心率。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;节律性 rhythmical&lt;&#x2F;strong&gt; 信号，如呼吸和搔抓，几乎均由振荡环路产生。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;47-5-instability-and-stability-of-neuronal-circuits-shen-jing-huan-lu-de-wen-ding-xing&quot;&gt;47.5 Instability and Stability of Neuronal Circuits 神经环路的稳定性&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;span class=&quot;crossref&quot;&gt;此事在CompCogNeuro亦有提及。&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;抑制环路和突触疲劳可防止神经系统的过度激活。过度激活可妨碍信息的正常传播，&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;降低信息熵？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;从而导致癫痫发作。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;抑制环路包括感觉通路上的负反馈环路和投射至脑的广泛区域的神经元池，如基底节的很多部分。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;突触疲劳 synaptic fatigue&lt;&#x2F;strong&gt; 即兴奋性突触快速反复激活后，突触后神经元放电频率会在数ms~数min后减小。机制主要是突触前末端递质消耗或耗竭，此外还有突触后神经元受体失活或离子异常。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;过度激活的通路很快就疲劳了，而得到休息的通路则敏感性增加。这种快速调节机制维持通路敏感性的稳定。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;当突触过度激活时，受体数量将会下调，反之亦然。这是由于受体与过多递质结合后会失活并脱离突触后膜。这提供了敏感性稳定的长期机制。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Handbook of the Protists 章1笔记</title>
+          <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250820-protistology-note-chapter-1/">&lt;p&gt;在复习《医学寄生虫学》的补考，实在无趣，就开始读了。 Springer Reference 的 &lt;em&gt;Handbook of the Protists&lt;&#x2F;em&gt; 版2。像这样看一看生物多样性不是很好吗。&lt;&#x2F;p&gt;
+&lt;p&gt;因为汉语音节更好记，所以我会随便翻译成汉语。真的是随便翻译的哦，千万别参考。&lt;s&gt;虽然查到很多通用译名但我还是要直译&lt;&#x2F;s&gt; &lt;s&gt;结果大部分时间花在查单词上了囧&lt;&#x2F;s&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;1-protist-diversity-and-eukaryote-phylogeny-yuan-sheng-sheng-wu-duo-yang-xing-he-zhen-he-sheng-wu-de-xi-tong-fa-sheng&quot;&gt;1 Protist Diversity and Eukaryote Phylogeny 原生生物多样性和真核生物的系统发生&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-1-introduction-xu-lun&quot;&gt;1.1 Introduction 绪论&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;fang-fa-lun&quot;&gt;方法论&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;分子系统发生学 molecular phylogenetics 技术：起初是单个的子单位线粒体RNA测序。后来系统发生基因组学 phylogenomics 分析可综合上百个基因数据。&lt;&#x2F;li&gt;
+&lt;li&gt;转录物组学和电镜研究也促进了对系统发生的理解。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;zhen-he-sheng-wu-xi-tong-fa-sheng-shu-gai-shu&quot;&gt;真核生物系统发生树概述&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大体被解决，仍有少量不确定。&lt;&#x2F;li&gt;
+&lt;li&gt;真核生物可分为(4~8)称作超类群 supergroups 的单系群，其阶在界之上。&lt;&#x2F;li&gt;
+&lt;li&gt;光合原生生物，即藻 algae ，以及异养原生生物，即原生动物 protozoans ，交错分散于各超类群中。&lt;&#x2F;li&gt;
+&lt;li&gt;原生动物中鞭毛虫 flagellates 亦分散于各超类群中。&lt;&#x2F;li&gt;
+&lt;li&gt;以上事实佐证了真核生物共同祖先是被覆鞭毛的异养生物。&lt;&#x2F;li&gt;
+&lt;li&gt;变形虫 amoebae 由多次独立的进化产生，在树上各自显示为放射状的子树。&lt;&#x2F;li&gt;
+&lt;li&gt;黏菌 slime molds 同变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;经孢子传播的寄生原生动物同变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;类真菌在树上分布于多处，通常远离真菌。&lt;&#x2F;li&gt;
+&lt;li&gt;古虫 excavates 是否是单系群是有争议的，包括后单门与Malawi单科的位置等。&lt;&#x2F;li&gt;
+&lt;li&gt;质体&#x2F;叶绿体的进化史不甚明了。大多数光合真核生物的质体来自真核藻的内共生；该种真核-真核内共生的次数、次序、方向尚未阐明。&lt;&#x2F;li&gt;
+&lt;li&gt;树根附近的系统发生需要较强的假设或复杂的基因组分析才能解释，且有一些不相容的解释。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;1-2-an-overview-of-protist-diversity-yuan-sheng-sheng-wu-duo-yang-xing-gai-lun&quot;&gt;1.2 An Overview of Protist Diversity 原生生物多样性概论&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;gu-zhi-ti-jie-yuan-shi-se-su-ti-jie-archaeplastida-lit-ancient-plastids&quot;&gt;古质体界&#x2F;原始色素体界 Archaeplastida lit. ancient plastids&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;指含有初等质体的光合生物，即其质体来源于蓝细菌的内共生。&lt;&#x2F;li&gt;
+&lt;li&gt;强证据表明古质体界是单系群，上述内共生事件只发生了1次。&lt;&#x2F;li&gt;
+&lt;li&gt;分为灰植门&#x2F;灰藻门 Glaucophyta lit. gray plants 、红植门&#x2F;红藻门 Rhodophyta lit. red plants 和叶绿体亚界&#x2F;绿色植物亚界 Chloroplastida lit. green plastids&#x2F;Viridiplantae lit. green plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;灰植门是罕见的淡水藻，通常位于水体表面。&lt;&#x2F;li&gt;
+&lt;li&gt;红植门有上千种被描述的藻种，通常为海水藻。形态既有单细胞，又有各种丝状形态，还有复杂的红色水草。&lt;&#x2F;li&gt;
+&lt;li&gt;叶绿体亚界包括绿藻和陆生植物。&lt;&#x2F;li&gt;
+&lt;li&gt;叶绿体亚界分为链形植物 streptophytes lit. twisted plants 和绿植门&#x2F;绿藻门 chlorophytes lit. green plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;链形植物包括一些绿藻和陆生植物；链形植物中的绿藻称为另类植门&#x2F;轮藻门 charophytes lit. altered plants 。&lt;&#x2F;li&gt;
+&lt;li&gt;另类植门包括偶线植纲&#x2F;双星藻纲 Zygnematophyta lit. paired threaded plants ，单细胞或线状的淡水藻，与陆生植物亲缘较近；另类藻纲&#x2F;轮藻纲 Charophyceae lit. altered algae ，多细胞的淡水藻；绿方藻纲 Chlorokybophyceae lit. green cubic algae ;
+Klebs小链藻纲&#x2F;克里藻纲 Klebsormidiophyceae lit. little-chained algae of Klebs ；鞘毛藻纲 Coleochaetophyceae lit. sheathed haired algae 以及中斑纲&#x2F;中眼藻纲 Mesostigma lit. middle marks 。&lt;&#x2F;li&gt;
+&lt;li&gt;绿植门包括大量的含或不含鞭毛的单细胞或群落，及丝状和复杂的巨藻 macroalgae ，包括绿色水草。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;gan-qiang-gen-chao-lei-qun-sar&quot;&gt;秆腔根超类群 Sar&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;秆腔根超类群通过系统发生基因组学分析被发现，分为秆毛界&#x2F;不等鞭毛界&#x2F;绒鞭界 Stramenopiles lit. straw hairs 、 腔虫界&#x2F;囊泡虫界 Alveolata lit. little cavities 以及生根界&#x2F;有孔虫界&#x2F;根足虫界 Rhizaria lit. root producers。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;gan-mao-jie&quot;&gt;秆毛界&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;形态特征为有坚硬管状鞭毛；然而一些种和子类群中此特征已退化，如生杆植纲和褐植纲的营养期。&lt;&#x2F;li&gt;
+&lt;li&gt;包括一些光合和异养生物。&lt;&#x2F;li&gt;
+&lt;li&gt;秆毛界的光合成员构成单系群，称作赭植门&#x2F;淡色藻门 ochrophytes lit. yellow plants ，其质体来源于红藻的内共生。&lt;&#x2F;li&gt;
+&lt;li&gt;赭植门包括生杆植纲&#x2F;硅藻纲 diatoms lit. cuts through&#x2F;Bacillariophyta lit. small rod producing plants ，呈单细胞或种群，有含硅的“细胞壁”，具有巨大生态价值；褐植纲&#x2F;褐藻纲 Phaeophyta lit. dark gray plants ，丝状或多细胞；
+针藻纲&#x2F;针胞藻纲 Raphidophyceae lit. needle algae ，具鞭毛；金植纲&#x2F;金藻纲 Chrysophyta lit. golden plants ，具鞭毛，有些呈种群，多数不再光合；真斑藻纲&#x2F;真眼点藻纲 Eustigmatophyceae lit. algae of true mark ；
+黄藻纲 Xanthophyceae lit. yellow algae ，上述2纲通常为丝状，与褐藻亲缘较近。此外有一些不清晰的类群，如辐眉虫目&#x2F;太阳虫目 Actinophryida lit. little radial eyebrows ，异养原生动物。&lt;&#x2F;li&gt;
+&lt;li&gt;秆毛界的异养成员包括一些类真菌和原生动物。丝壶菌门 Hyphochytriomycota lit. pot-like fungi with hyphae 和卵菌门 Oomycota lit. egg-like fungi 很像真菌，产生有隔、有壁的菌丝，通常寄生植物和水生生物。马铃薯晚疫病由卵菌引起。
+小迷路菌门&#x2F;网黏菌门 Labyrinthulomycota lit. little tortuous fungi 无壁，形成质外网络 ectoplasmic networks 。Pirson虫目 Pirsoniida 与卵菌和丝壶菌有关，是类寄生虫的藻。此外，有很多具2或1鞭毛的异养秆毛虫。海洋中有许多称为MAST的未被描述的秆毛虫种。
+最后宝亚门&#x2F;蛙片虫亚门 Opalinata lit. jewels 包括一些栖居在动物肠道的虫，具(2~4)或多个鞭毛的虫，或包括芽囊属&#x2F;芽囊原虫属 &lt;em&gt;Blastocystis&lt;&#x2F;em&gt; lit. bladder with buds 的无鞭毛厌氧生物。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;qiang-chong-jie&quot;&gt;腔虫界&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;包括顶系门&#x2F;顶复门 Apicomplexa lit. top complexes 、奇异鞭毛门&#x2F;甲藻门 Dinoflagellata lit. awesome flagellates 和有纤毛门&#x2F;纤毛虫门 Ciliophora lit. cilia carriers 。&lt;&#x2F;li&gt;
+&lt;li&gt;典型的顶系门寄生，包括质虫属&#x2F;疟原虫属 &lt;em&gt;Plasmodium&lt;&#x2F;em&gt; lit. little plasma 、Gond毒质&#x2F;刚地弓形虫 &lt;em&gt;Toxoplasma gondii&lt;&#x2F;em&gt; lit. toxic plasma of Gond 以及小隐孢虫&#x2F;小隐孢子虫 &lt;em&gt;Cryptosporidium parvum&lt;&#x2F;em&gt; lit. small little hidden spores 。
+阴虫目 colpodellids lit. little hollows 、色虫藻目 chromerids lit. little colours 是顶系门的姐妹系，阴虫目寄生或捕食其他种原生生物，而色虫藻目是顶系门光合祖先的后代。2系可能交错组成色阴虫目 chrompodellids 。&lt;&#x2F;li&gt;
+&lt;li&gt;奇异鞭毛门是海洋微浮游生态的重要成分，肉眼可见，可营自养或异养生活。奇异鞭毛门参与的生态现象包括赤潮、与珊瑚虫的共生以及动物和其他原生生物的寄生。Perkins动物 Perkinsozoa 与奇异鞭毛门有密切关系。顶系门与奇异鞭毛门亦关系密切，其不甚清晰的边界包括一些异养鞭毛虫，
+如沙虫 &lt;em&gt;Psammosa&lt;&#x2F;em&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;有纤毛门大多自由生活，异养。大多含有大量纤毛，呈现特征性的核2-态性，即体细胞含大核 macronuclei 而生殖细胞含小核 micronuclei 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;sheng-gen-jie&quot;&gt;生根界&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大多为变形虫、鞭毛虫或变形鞭毛虫，亦存在孢子寄生虫和藻。通常有线状或网状的伪足，可由微丝&#x2F;肌动蛋白或微管支撑。&lt;&#x2F;li&gt;
+&lt;li&gt;无形态特征，仅由分子系统发生学分析确定。&lt;&#x2F;li&gt;
+&lt;li&gt;有孔虫 Foraminifera lit. foramen bearers 和生小辐门&#x2F;放射虫门 radiolarians lit. little ray producers 是有名的生根虫，多数是大型大量存在的伪足由微管支持的海洋变形虫。&lt;&#x2F;li&gt;
+&lt;li&gt;多数有孔虫栖居在多室的壳中，因此留下众多化石记录。&lt;&#x2F;li&gt;
+&lt;li&gt;生小辐门分为多囊纲&#x2F;多孔虫纲 Polycystinea lit. multiple cysts ，通常有硅骨架，以及棘纲&#x2F;等辐骨虫纲 Acanthanrea lit. thorns ，有硫酸锶骨架。&lt;&#x2F;li&gt;
+&lt;li&gt;有孔虫、多囊纲、棘纲以及类似生小辐门的行尖属 &lt;em&gt;Sticholonche&lt;&#x2F;em&gt; lit. spearheads in a row 有联系，但它们的关系尚不明了。&lt;&#x2F;li&gt;
+&lt;li&gt;线状虫 Filosa 极多样。包括很多自由生活的鞭毛虫和一些变形虫系。鞭毛虫线状虫大多使用细小的伪足摄食，附着于表面，有些寄生。变形虫线状虫有壳或裸。有2个光合系，其中绿蛛植 chlorarachniophytes lit. green spider-like plants 质体来源于绿藻的内共生，
+而有色Pauli虫 &lt;em&gt;Paulinella chromatophora&lt;&#x2F;em&gt; lit. little Pauli carrying colours 的载色体 chromatophore 来源于蓝细菌的内共生，但与古质体界的内共生是分离的。&lt;&#x2F;li&gt;
+&lt;li&gt;除有孔虫、生小辐门及线状虫之外的生根界主要为变形虫和寄生虫。寄生虫如植黏纲 Phytomyxea lit. plant mucus ，植物和秆毛界的病原；副黏目 Paramyxida lit. abnormal mucus 和单孢虫纲&#x2F;单孢子纲 Haplosporidia lit. little single spores ，寄生于海洋无脊椎动物。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;qi-ta-gu-zhi-ti-jie-he-gan-qiang-gen-chao-lei-qun-xiang-guan-de-xi-qun&quot;&gt;其他古质体界和秆腔根超类群相关的系群&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;狭义隐界&#x2F;狭义隐藻界 Cryptista lit. hidden (sensu stricto) 包括隐植门&#x2F;隐藻门 Cryptophyta lit. hidden plants ，大多单细胞，有2鞭毛，有红藻来源的质体，很多不再光合；下睑目 katablepharids lit. down eyelids 和
+搏单属 &lt;em&gt;Palpitomonas&lt;&#x2F;em&gt; lit. thrombing flagellates ，2鞭毛异养。&lt;&#x2F;li&gt;
+&lt;li&gt;定植门&#x2F;定鞭藻门 Haptophyta lit. fastened plants 是单细胞藻，质体来源于红藻，主要在海洋中。其中有球石目&#x2F;颗石藻目 coccolithophorids lit. globular stone bearers 产生的钙鳞在碳循环中有重要意义。&lt;&#x2F;li&gt;
+&lt;li&gt;中日目 Centrohelida lit. central suns 是异养变形虫，有长辐状轴足 axopodia 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;pan-kobya-jie-pan-ji-ya-jie-discoba&quot;&gt;盘kob亚界&#x2F;盘嵴亚界 Discoba&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;包括Jakob目&#x2F;雅各巴虫目 Jakobida ，异养鞭毛虫，线粒体基因组像细菌；筑波单属 &lt;em&gt;Tsukubamonas&lt;&#x2F;em&gt; ；以及盘嵴总门 Discicristata lit. disk-shaped cristae 。&lt;&#x2F;li&gt;
+&lt;li&gt;盘嵴总门分为异圆纲&#x2F;异叶足纲 Heterolobosea ，变形虫、鞭毛虫或变形鞭毛虫，其中混目 acrasids lit. chaos 是黏菌；真窝动物门&#x2F;眼虫门 Euglenozoa lit. true depressed animals 。&lt;&#x2F;li&gt;
+&lt;li&gt;真窝动物门分为真窝目&#x2F;眼虫目 Euglenida ，在表面上滑行捕食，或藻，质体来源于绿藻；动质纲&#x2F;动质体纲 Kinetoplastea ，包括锥虫，自由生活或寄生鞭毛虫；双线纲 Diplonemea lit. 2 threads ，动质体纲的姐妹群，具有独特的线粒体基因表达系统。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;hou-dan-men-hou-di-men-metamonada-lit-flagellates-after&quot;&gt;后单门&#x2F;后滴门 Metamonada lit. flagellates after&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;是厌氧原生动物，几乎均为鞭毛虫。&lt;&#x2F;li&gt;
+&lt;li&gt;后单门在系统发生树上的位置有争议，一些分析支持其与盘kob亚界的关系，而另一些支持其与Malawi单科的关系。&lt;&#x2F;li&gt;
+&lt;li&gt;包括前轴笔纲&#x2F;前轴柱纲 Preaxostyla lit. axial styli before ，其中锐单目&#x2F;锐滴虫目 oxymonads lit. sharp flagellates 肠道共生，三鞭目&#x2F;三鞭毛虫目 trimastigids lit. 3 whips 自由生活；
+副基纲&#x2F;副基体纲 Parabasalia ，几乎体内共生，包括鞘毛单&#x2F;阴道毛滴虫 &lt;em&gt;Trichomonas vaginalis&lt;&#x2F;em&gt; ；拱纲&#x2F;拱形虫纲 Fornicata 。&lt;&#x2F;li&gt;
+&lt;li&gt;拱纲包括双单目&#x2F;双滴虫目 Diplomonadida ，有2核和2鞭毛器，如Lamblgiard&#x2F;蓝氏贾第虫 &lt;em&gt;Giardia lamblia&lt;&#x2F;em&gt; 和肠giard &lt;em&gt;Giardia intestinalis&lt;&#x2F;em&gt; ；后扭单目&#x2F;曲滴虫目 retortamonads 和腔单科 Caviomonadidae ，互利共生或寄生；
+类捕摄单属生物 &lt;em&gt;Carpediemonas&lt;&#x2F;em&gt;-like organisms ，如捕摄单属 &lt;em&gt;Carpediemonas&lt;&#x2F;em&gt; 、错连属 &lt;em&gt;Dysnectes&lt;&#x2F;em&gt; 和新月酥属 &lt;em&gt;Kipferlia&lt;&#x2F;em&gt; 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>为什么要摘抄文学文本呢</title>
+          <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250822-dairy/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250822-dairy/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250822-dairy/">&lt;p&gt;把那些概括的句子收集起来，背下来，然后在侃侃而谈的时候引用来赋予言语文化背景，也显得自己博学。看起来很俗吧。但是随口说出来一句全世界不超过10人记得的句子真的很酷呢。就算是我也是有文化的啊！&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>催眠药</title>
+          <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250820-dairy/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250820-dairy/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250820-dairy/">&lt;p&gt;催眠药真的能带来安心感啊，可以掌握自己死亡的感觉w&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>姚宁远《初等模型论》章1习题</title>
+          <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250819-model-theory-exercise-chapter-1/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250819-model-theory-exercise-chapter-1/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250819-model-theory-exercise-chapter-1/">&lt;p&gt;打字好麻烦，慢慢写了&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;zhu-bo-shang-xue-mei-na-zhe-ben-shu-yi-han-xia-bo-yi-hou-huan-xiang-xue-shu-xue-ke-neng-huan-shi-lao-shi-di-kan-xian-dai-qu-liao&quot;&gt;主播上学没拿这本书，遗憾下播，以后还想学数学可能还是老实地看线代去了&lt;&#x2F;h1&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;练习1.1.1.&lt;&#x2F;strong&gt; 设\( I \)是一个集合，\( \{\mathcal M_i|i\in I\} \)是\( \mathcal L \)-结构\( \mathcal N \)的一族子结构。证明\( \bigcap&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{i\in I}\mathcal M_i \)也是\( \mathcal N \)的子结构。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 设\( \mathcal M=\bigcap&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{i\in I}\mathcal M_i \)。对所有\( i\in I \)，由于\( \mathcal M_i\subseteq\mathcal N \)，则有每个常元符号\( c\in\mathcal C \)满足\( c^{\mathcal M_i}=c^\mathcal N \)，
+因此\( c^\mathcal N\in\mathcal M \)且\( c^\mathcal M=c^\mathcal N \)；每个\( n \)-元函数符号满足\( \forall\overline a\in\mathcal M_i^n, f^{\mathcal M_i}(\overline a)=f^\mathcal N(\overline a \))，
+因此\( \forall\overline a\in\mathcal M^n, f^\mathcal M(\overline a)=f^\mathcal N(\overline a) \)；每个\( n \)-元关系符号\( R\in\mathcal R \)满足
+\( \forall\overline a\in\mathcal M_i^n, R^\mathcal M_i(\overline a)\Leftrightarrow R^\mathcal N(\overline a) \)，因此
+\( \forall\overline a\in\mathcal M^n, R^\mathcal M(\overline a)\Leftrightarrow R^\mathcal N(\overline a) \)。因此，\( \mathcal M\subseteq\mathcal N \)。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;练习1.1.2.&lt;&#x2F;strong&gt; 设\( \mathcal M \)是论域为\( M \)的\( \mathcal L \)-结构。证明对任意的\( S\subseteq M \)，存在一个论域包含\( S \)的\( \mathcal M \)的子结构\( \mathcal A \)，使得对任意论域包含\( S \)的\( \mathcal M \)的
+子结构\( \mathcal B \)，都有\( \mathcal A \)是\( \mathcal B \)的子结构。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 令\( A_0=S\cup\{c^\mathcal M\}&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{c\in\mathcal C} \)，\( A_n=A&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{n-1}\cup\{f^\mathcal M(\overline a)\}&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{f\in\mathcal F, \overline a\in A_{n-1}^{n_f}} \)，\( A=\bigcup_{n\in\omega}A_n \)
+且\( \mathcal A=\mathcal M\upharpoonright A \)。
+由注1.1.2(i)，
+\( \mathcal A\subseteq\mathcal M \)。设论域为\( B \)的\( \mathcal B\subseteq\mathcal M \)，且\( S\subseteq B \)。下面对\( n \)归纳证明\( A_n\subseteq B \)，从而\( A\subseteq B \)。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( n=0 \)。由\( \mathcal B\subseteq\mathcal M \)，我们有\( \{c^\mathcal M\}&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{c\in\mathcal C}\subseteq B \)。又\( S\subseteq B \)，从而\( A_n\subseteq B \)。&lt;&#x2F;li&gt;
+&lt;li&gt;\( n&amp;gt;0 \)。由归纳假设，\( A_{n-1}\subseteq B \)。又因为\( \mathcal B\subseteq\mathcal M \)，所以对所有\( f\in\mathcal F \)以及\( \overline a\in A_{n-1}^{n_f} \)，我们有
+\( f^\mathcal B(\overline a)=f^\mathcal M(\overline a) \)。从而，\( f^\mathcal M(\overline a)\in B \)，所以\( A_n\subseteq B \)。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;另外，对所有\( c\in\mathcal C \)，
+\( c^\mathcal A=c^\mathcal M=c^\mathcal B \)；对所有\( f\in\mathcal F \)以及\( \overline a\in A^{n_f} \)，\( f^\mathcal A(\overline a)=f^\mathcal M(\overline a)=f^\mathcal B(\overline a) \)；对所有
+\( R\in\mathcal R \)以及\( \overline a\in A^{n_R} \)，\( R^\mathcal A(\overline a)\Leftrightarrow R^\mathcal M(\overline a)\Leftrightarrow R^\mathcal B(\overline a) \)。因此，\( \mathcal A\subseteq\mathcal B \)。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;练习1.1.3.&lt;&#x2F;strong&gt; 设论域为\( M \)的\( \mathcal L \)-结构\( \mathcal M \)是由子集\( S\subseteq M \)生成的。证明对任意的\( \mathcal L \)-结构\( \mathcal N \)，同态\( h:\mathcal M\rightarrow\mathcal N \)仅由
+\( h\upharpoonright S \)确定。即两个同态\( h_1:\mathcal M\rightarrow\mathcal N \)和\( h_2:\mathcal M\rightarrow\mathcal N \)，如果对任意的\( s\in S \)都有\( h_1(s)=h_2(s) \)，则\( h_1=h_2 \)。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 对\( n \)归纳证明若\( a\in M_n \)，则\( h_1(a)=h_2(a) \)。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( n=0 \)。若\( a\in S \)，则\( h_1(a)=h_2(a) \)。若\( a=c^\mathcal M \)，则\( h_1(a)=c^\mathcal N=h_2(a) \)。&lt;&#x2F;li&gt;
+&lt;li&gt;\( n&amp;gt;0 \)。\( a=f^\mathcal M(\overline m) \)，其中\( \overline m\in M_{n-1}^{n_f} \)。\( h_k \)为同态，所以
+\( h_k(a)=f^\mathcal N(h_k(\overline m)) \)。由归纳假设，\( h_1(\overline m)=h_2(\overline m) \)。因此，\( h_1(a)=h_2(a) \)。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;练习.1.2.4.&lt;&#x2F;strong&gt; 设\( \mathcal M \)和\( \mathcal N \)分别是论域为\( M \)和\( N \)的结构，证明\( h:\mathcal M\rightarrow\mathcal N \)是一个嵌入当且仅当：对任意的无量词的公式\( \phi(x&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{m_1},\cdots,x&amp;lt;span class=&quot;&quot;&amp;gt;&lt;&#x2F;span&gt;{m_n}) \)，
+对任意的\( a_1,\cdots,a_n\in M \)，都有
+$$\mathcal M\Vdash\phi(a_1,\cdots,a_n)\Leftrightarrow\mathcal N\Vdash\phi(h(a_1),\cdots,h(a_n))$$。&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Test.title</title>
+          <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20250816-test/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20250816-test/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20250816-test/">&lt;h1 id=&quot;test&quot;&gt;Test&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1&lt;&#x2F;li&gt;
+&lt;li&gt;2&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;3&lt;&#x2F;li&gt;
+&lt;li&gt;4&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;A paragraph&lt;&#x2F;em&gt; &lt;strong&gt;bold&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>秋槭与石桥都消失不见 - 抗精神病药</title>
+      <link>https://maple-and-stonebridge.github.io</link>
+      <description>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</description>
+      <generator>Zola</generator>
+      <language>zh-cn</language>
+      <atom:link href="https://maple-and-stonebridge.github.io/tag/kang-jing-shen-bing-yao/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Stahl&#x27;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications 章5笔记</title>
+          <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251219-psychopharmacology-note-chapter-5/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251219-psychopharmacology-note-chapter-5/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251219-psychopharmacology-note-chapter-5/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20250919-psychopharmacology-note-index&#x2F;&quot;&gt;&amp;lt; 本书笔记目录&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;5-targeting-dopamine-and-serotonin-receptors-for-psychosis-mood-and-beyond-so-called-antipsychotics-zuo-yong-yu-duo-ba-e-he-5-htshou-ti-zhi-liao-jing-shen-bing-xing-zheng-zhuang-he-xin-jing-zheng-zhuang-deng-de-kang-jing-shen-bing-yao&quot;&gt;5 Targeting Dopamine and Serotonin Receptors for Psychosis, Mood, and Beyond: So-Called &quot;Antipsychotics&quot; 作用于多巴胺和5-HT受体治疗精神病性症状和心境症状等的“抗精神病药”&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1950年代，第1种被偶然发现具有抗精神病作用的非镇静药是氯丙嗪 chlorpromazine ，起初作为抗组胺药被开发。&lt;&#x2F;li&gt;
+&lt;li&gt;1970年代发现药的抗精神病作用由D2阻滞介导。&lt;&#x2F;li&gt;
+&lt;li&gt;新药通常在D2阻滞的基础上加入了5HT2A阻滞或5HT1A部分激动作用，或将D2阻滞优化为D2部分激动，甚至只保留5HT2A阻滞而放弃D2阻滞。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-1-targeting-mesolimbic-mesostriatal-dopamine-d2-receptors-causes-antipsychotic-actions-zuo-yong-yu-zhong-nao-bian-yuan-zhong-nao-wen-zhuang-ti-d2shou-ti-zao-cheng-kang-jing-shen-bing-xiao-ying&quot;&gt;5.1 Targeting Mesolimbic&#x2F;Mesostriatal Dopamine D2 Receptors Causes Antipsychotic Actions 作用于中脑边缘&#x2F;中脑纹状体D2受体造成抗精神病效应&lt;&#x2F;h2&gt;
+&lt;p&gt;请参阅&lt;a href=&quot;&#x2F;blog&#x2F;20251106-psychopharmacology-note-chapter-4&#x2F;#duo-ba-e-shen-jing-di-zhi-wang-luo&quot;&gt;上章&lt;&#x2F;a&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;5-2-targeting-dopamine-d2-receptors-in-mesolimbic-mesostriatal-and-mesocortical-pathways-causes-secondary-negative-symptoms-zuo-yong-yu-zhong-nao-bian-yuan-zhong-nao-wen-zhuang-ti-he-zhong-nao-pi-zhi-d2shou-ti-zao-cheng-ji-fa-xing-yin-xing-zheng-zhuang&quot;&gt;5.2 Targeting Dopamine D2 Receptors in Mesolimbic&#x2F;Mesostriatal and Mesocortical Pathways Causes Secondary Negative Symptoms 作用于中脑边缘&#x2F;中脑纹状体和中脑皮质D2受体造成继发性阴性症状&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;由于中脑边缘&#x2F;中脑纹状体通路介导动机和奖赏，因此本通路D2阻滞可导致淡漠、快感丧失、动机兴趣缺乏等阴性症状，即 &lt;strong&gt;继发性阴性症状 secondary negative symptoms&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;li&gt;中脑皮质通路D2阻滞可导致继发性阴性症状，以及认知症状和情感症状的加重。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-3-targeting-tuberoinfundibular-dopamine-d2-receptors-causes-elevation-of-prolactin-zuo-yong-yu-jie-jie-lou-dou-d2shou-ti-zao-cheng-cui-ru-su-sheng-gao&quot;&gt;5.3 Targeting Tuberoinfundibular Dopamine D2 Receptors Causes Elevation of Prolactin 作用于结节漏斗D2受体造成催乳素升高&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;由于结节漏斗通路激活抑制泌乳素分泌，因此本通路D2阻滞可造成高泌乳素血症，导致溢乳、乳房女性化、闭经、不育、性功能障碍和体重增加等。在未进行雌激素替代治疗的闭经女性中可造成骨脱矿。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-4-targeting-nigrostriatal-dopamine-d2-receptors-causes-motor-side-effects-zuo-yong-yu-hei-zhi-wen-zhuang-ti-d2shou-ti-zao-cheng-yun-dong-fu-xiao-ying&quot;&gt;5.4 Targeting Nigrostriatal Dopamine D2 Receptors Causes Motor Side Effects 作用于黑质纹状体D2受体造成运动副效应&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;黑质纹状体通路—间接通路D2急性阻滞可造成药源性Parkinson症、静坐不能和肌张力障碍。慢性阻滞可造成迟发性运动障碍。以上统称 &lt;strong&gt;锥体外系症状 extrapyramidal symptoms, EPS&lt;&#x2F;strong&gt; 。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;yao-yuan-xing-parkinsonzheng&quot;&gt;药源性Parkinson症&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;药源性Parkinson症 drug-induced Parkinsonism, DIP&lt;&#x2F;strong&gt; 是震颤、肌肉僵硬、运动徐缓或运动不能。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;治疗&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：传统上使用抗胆碱药。 &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;可能机制&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：黑质纹状体D2阻滞导致纹状体乙酰胆碱能神经元去抑制，由其支配的纹状体GABA能神经元可产生功能异常，进而介导DIP。M（特别是M1）阻滞可对抗该作用。抗胆碱副作用较强，且一些D2阻滞药本身有抗胆碱活性。
+&lt;ul&gt;
+&lt;li&gt;可使用金刚烷胺 amantadine 治疗， &lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;可能机制&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：弱NMDA阻滞。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;yao-yuan-xing-ji-xing-ji-zhang-li-zhang-ai&quot;&gt;药源性急性肌张力障碍&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;肌张力障碍 dystonia&lt;&#x2F;strong&gt; 是肌肉阵发性痉挛或持续性收缩。对药源性急性肌张力障碍，肌注抗胆碱药有效。慢性肌张力障碍可能是迟发性运动障碍的表现。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jing-zuo-bu-neng&quot;&gt;静坐不能&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;静坐不能 akathisia&lt;&#x2F;strong&gt; 体验上表现为不安、紧张、不愉快，行为上表现为不安的运动、原地踏步或踱步。可能难以与原发障碍本身导致的激越或不安运动鉴别。抗胆碱药效果不佳，β阻滞药和苯二氮䓬类药有效，5HT2A阻滞药可能有效。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;shen-jing-zu-zhi-ji-e-xing-zong-he-zheng&quot;&gt;神经阻滞剂恶性综合征&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;神经阻滞剂恶性综合征 neuroleptic malignant syndrome&lt;&#x2F;strong&gt; 罕见且致命，表现为肌肉极端僵硬、高烧、昏迷或死亡。需要立即停用D2阻滞药，应用肌松药（如丹曲林 dantrolene）和多巴胺激动药，并进行重症监护。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;chi-fa-xing-yun-dong-zhang-ai&quot;&gt;迟发性运动障碍&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;迟发性运动障碍 tardive dyskinesia, TD&lt;&#x2F;strong&gt; 是长期用D2阻滞药后发病的，可能不可逆的通常面和舌的不随意持续运动，可表现为咀嚼、伸舌、表情痛苦扭曲，或快速、抽动或舞蹈样的肢体运动。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;病理生理&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：间接通路D2阻滞通过神经重塑机制诱发GABA神经元上D2上调。初期，这种上调是可逆的。一段时间后，这种上调是不可逆的。&lt;&#x2F;li&gt;
+&lt;li&gt;可定期进行神经科体检或量表检查。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt;治疗&lt;span class=&quot;&quot;&gt;&lt;&#x2F;span&gt; ：可予90% &lt;a href=&quot;&#x2F;blog&#x2F;20250919-psychopharmacology-note-chapter-2&#x2F;#nang-pao-zhuan-yun-ti&quot;&gt;VMAT2&lt;&#x2F;a&gt; 阻滞。VMAT2阻滞药包括丁苯那嗪、氘丁苯那嗪、缬苯那嗪。相较其他单胺，它们主要作用于直接和间接通路，影响多巴胺的转运，
+从而使多巴胺被MAO代谢。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;丁苯那嗪 tetrabenazine&lt;&#x2F;strong&gt; 是前药，经羰基还原酶生成4种有活性的二氢丁苯那嗪，均被CYP2D6代谢。发挥VMAT2阻滞作用的主要是+β-二氢丁苯那嗪。浓度亦较大的–α-和-β-二氢丁苯那嗪具有5HT7阻滞性质。
+适应症：Huntington病相关的舞蹈症。半衰期短，须tid。副作用包括镇静、DIP和抑郁、自杀风险等。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;氘丁苯那嗪 deutetrabenazine&lt;&#x2F;strong&gt; 是被氘代的丁苯那嗪，代谢物同丁苯那嗪，半衰期较丁苯那嗪长（bid），副作用较丁苯那嗪轻微。适应症：与Huntington病有关的舞蹈病；成人迟发性运动障碍。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2025年12月25日，查询得氘丁苯那嗪片价格约为10.691369cny&#x2F;mg。日剂量12mg~48mg，每月约需3848.89cny~15395.57cny。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;缬苯那嗪 valbenazine&lt;&#x2F;strong&gt; 是-α-丁苯那嗪连接了1缬氨酸。代谢：缬氨酸被水解生成-α-丁苯那嗪，经羰基还原酶生成-α-二氢丁苯那嗪，对于VMAT2的选择性最高。适应症、药代学特性类似氘丁苯那嗪，qd。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;5-5-drugs-targeting-dopamine-d2-receptors-so-called-first-generation-or-conventional-antipsychotics-zuo-yong-yu-d2shou-ti-de-di-yi-dai-dian-xing-kang-jing-shen-bing-yao&quot;&gt;5.5 Drugs Targeting Dopamine D2 Receptors: So-Called First Generation or Conventional &quot;Antipsychotics&quot; 作用于D2受体的“第一代&#x2F;典型抗精神病药”&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-6-drugs-targeting-serotonin-2a-receptors-with-or-without-simultaneously-targeting-dopamine-d2-receptors-zuo-yong-yu-5ht2ashou-ti-he-fei-zuo-yong-yu-d2shou-ti-de-yao&quot;&gt;5.6 Drugs Targeting Serotonin 2A Receptors with or without Simultaneously Targeting Dopamine D2 Receptors 作用于5HT2A受体和&#x2F;非作用于D2受体的药&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-7-drugs-targeting-serotonin-1a-receptors-and-dopamine-d2-receptors-as-partial-agonists-5ht1a-d2bu-fen-ji-dong-yao&quot;&gt;5.7 Drugs Targeting Serotonin 1A Receptors and Dopamine D2 Receptors as Partial Agonists 5HT1A&#x2F;D2部分激动药&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-8-links-between-receptor-binding-properties-of-drugs-used-to-treat-psychosis-and-other-therapeutic-actions-and-side-effects-shou-ti-he-xiao-ying-de-guan-lian&quot;&gt;5.8 Links between Receptor Binding Properties of Drugs Used to Treat Psychosis and Other Therapeutic Actions and Side Effects 受体和效应的关联&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-9-pharmacological-properties-of-selected-individual-first-generation-d2-antagonists-bu-fen-d2zu-zhi-yao-de-yao-li-xue-xing-zhi&quot;&gt;5.9 Pharmacological Properties of Selected Individual First-Generation D2 Antagonists 部分D2阻滞药的药理学性质&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-10-an-overview-of-the-pharmacological-properties-of-individual-5ht2a-d2-antagonists-and-d2-5ht1a-partial-agonists-the-pines-peens-many-dones-and-a-rone-two-pips-and-a-rip-ge-d2-5ht2azu-zhi-yao-he-d2-5ht1abu-fen-ji-dong-yao-de-yao-li-xue-xing-zhi-gai-shu&quot;&gt;5.10 An Overview of the Pharmacological Properties of Individual 5HT2A&#x2F;D2 Antagonists and D2&#x2F;5HT1A Partial Agonists: The Pines (Peens), Many Dones and a Rone, Two Pips and a Rip 各D2&#x2F;5HT2A阻滞药和D2&#x2F;5HT1A部分激动药的药理学性质概述&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;5-11-future-treatments-for-schizophrenia-jing-shen-fen-lie-zheng-zhi-liao-zhan-wang&quot;&gt;5.11 Future Treatments for Schizophrenia 精神分裂症治疗展望&lt;&#x2F;h2&gt;
+</description>
+      </item>
+    </channel>
+</rss>
