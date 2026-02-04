@@ -13,17 +13,17 @@ tag = []
 ---
 # 3 Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的离子通道
 ## 3.1 Ligand-Gated Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的配体门控离子通道
-* _配体门控离子通道 Ligand-gated ion channel_ 、 _促离子受体 ionotropic receptor_ 和 _离子通道耦联受体 ion-channel linked receptor_ 是一回事。
+* <span class=""></span>配体门控离子通道 Ligand-gated ion channel_ 、 <span class=""></span>促离子受体 ionotropic receptor_ 和 <span class=""></span>离子通道耦联受体 ion-channel linked receptor_ 是一回事。
 * 作用于配体门控离子通道的药几乎立即发挥作用。
 * 配体门控离子通道有通道、递质结合位点和别构结合位点。递质结合位点可位于通道内，但通常位于通道外。
 * 配体门控离子通道的亚基有不同亚型。一些药作用于特定的亚型。
 * 5-聚体亚型配体门控离子通道由5亚基构成，每亚基4次跨膜。如GABA-A受体、N受体、5-HT3受体和一些甘氨酸受体。
-* 4-聚体亚型配体门控离子通道由4亚基构成，每亚基3次跨膜，另有1 _入膜袢 re-entrant loop_ 。如谷氨酸受体，包括AMPA受体、kainate受体和NMDA受体。
+* 4-聚体亚型配体门控离子通道由4亚基构成，每亚基3次跨膜，另有1 <span class=""></span>入膜袢 re-entrant loop_ 。如谷氨酸受体，包括AMPA受体、kainate受体和NMDA受体。
 * 配体门控离子通道有[激动药光谱](/blog/20250919-psychopharmacology-note-chapter-2/#ji-dong-yao-guang-pu)。
 * 配体门控离子通道可处于开放状态、静息状态和关闭状态。此外，长期暴露于激动药可致其处于 __脱敏 desensitization__ 状态，即不再具有反应性，但除去激动药后恢复反应性。
     * 若继续暴露于激动药，可致配体门控离子通道处于 __失活 inactivation__ 状态，即不再具有反应性，除去激动药后仍需较长时间才能恢复反应性。
     * 阻动药可作用于配体门控离子通道，使其关闭，随后稳定为失活状态。此作用可被拮抗药迅速取消。
-* 别构药包括正别构药（PAM）和负别构药（NAM）。其于配体门控离子通道暴露于递质时发挥作用。PAM如GABA-A受体的苯二氮䓬类 benzodiazepines ，NAM如NMDA受体的苯环利定 phencyclidine _abbr._ PCP 和氯胺酮 ketamine 等。
+* 别构药包括正别构药（PAM）和负别构药（NAM）。其于配体门控离子通道暴露于递质时发挥作用。PAM如GABA-A受体的苯二氮䓬类 benzodiazepines ，NAM如NMDA受体的苯环利定 phencyclidine _abbr.<span class=""></span> PCP 和氯胺酮 ketamine 等。
 PAM, positive allosteric modulator; NAM, negative allosteric modulator。
 
 ## 3.2 Voltage-Sensitive Ion Channels as Targets of Psychopharmacological Drug Action 作为精神药理学药靶点的电敏离子通道

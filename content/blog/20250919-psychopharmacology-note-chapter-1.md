@@ -32,7 +32,7 @@ tag = ["突触", "神经递质", "化学神经传导", "信号转导"]
 * 第4信使可能是磷酸蛋白或去磷酸化的蛋白，它们可调控递质合成或释放、通道电导或者维持化学神经传导的就绪状态。
 * 第4信使中，PKA（cAMP）和CaMK（Ca<sup>++</sup>-钙调蛋白）可磷酸化CREB，发挥转录因子作用。此处，cAMP和Ca<sup>++</sup>的作用是协同的。PKA, protein kinase A; CREB, cAMP response element binding protein。
 * 激素如雌激素、甲状腺素和皮质醇可与核受体结合形成第2信使，发挥转录因子作用。其调控的基因称为HRE。HRE, hormone response element。
-* _神经营养因子 neurotrophins_ 可有多种蛋白第2信使。一些神经营养因子激活Ras-Raf-MEK-MAPK/ERK/RSK/GSK-3通路，最终调控基因表达。这些基因可介导 _突触形成 synaptogenesis_ 、 _细胞存活 cell survival_ 及作为学习记忆或疾病基础的神经可塑性。
+* <span class=""></span>神经营养因子 neurotrophins_ 可有多种蛋白第2信使。一些神经营养因子激活Ras-Raf-MEK-MAPK/ERK/RSK/GSK-3通路，最终调控基因表达。这些基因可介导 <span class=""></span>突触形成 synaptogenesis_ 、 <span class=""></span>细胞存活 cell survival_ 及作为学习记忆或疾病基础的神经可塑性。
 MEK, MAPK/ERK kinase; MAPK, mitogen-associated protein kinase; ERK, extracellular regulated kinase; RSK, ribosomal S6 kinase; GSK-3, glycogen synthase kinase-3。
 * 递质合成酶、生长因子、细胞骨架、细胞黏附分子、离子通道、受体和信号转导蛋白等可被所有4条通路共同调控。
 * __即刻早期基因 Immediate early gene__ 在神经传导发生后15min内启动，包括 _cFos_ 和 _cJun_ ，它们产生的蛋白质Fos和Jun可作为第5信使。

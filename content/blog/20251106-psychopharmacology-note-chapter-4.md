@@ -24,7 +24,7 @@ tag = ["精神病性症状", "精神病性障碍", "精神分裂症", "Parkinson
     * __断定敌意 hostile belligerence__ 是敌意或鄙夷的态度或表达、易激惹、批评他人倾向、表达不公正感、挑刺或者怀疑他人。尤见于精神分裂症和药源性精神病。
     * 妄想性 __自我夸大 grandiose expansiveness__ 是相信自己有不寻常的能力或有名或承担神圣的任务、听到夸赞的言语，或者优越的态度。常见于精神分裂症和躁狂性精神病。
 * __紊乱/激动性精神病性症状 disorganized/excited psychosis__ 是概念紊乱、定向障碍及激动。
-    * __概念紊乱 conceptual disorganization__ 是回答不相关或不连贯、偏题、使用 _生造词 neologisms_ ，或者重复某词。见于任何精神病性障碍。
+    * __概念紊乱 conceptual disorganization__ 是回答不相关或不连贯、偏题、使用 <span class=""></span>生造词 neologisms_ ，或者重复某词。见于任何精神病性障碍。
     * __定向障碍 disorientation__ 是不知道自己在何处、季节、年份或自己的年龄。常见于痴呆相关精神病和药源性精神病。
     * __兴奋 excitement__ 是心境增高，没有限制的情感表达，优越的态度，症状的夸张描述，多动，不安，或者快速、响亮、热情或过多的言语。尤见于躁狂和精神分裂症。
 * __抑郁性精神病性症状 depressive psychosis__ 是精神运动性迟滞、麻木以及自罚自责焦虑。

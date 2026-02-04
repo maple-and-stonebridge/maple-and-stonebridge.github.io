@@ -33,12 +33,29 @@ sources：
 ## 量效应的类型
 * 取决于信号处理程序
 * 信号强度效应关系上，可有近似双曲线形、S-形、全或无反应。
-    > 受到不同信号调控的效应，通常是合取性的（与），此时效应是各自效应的积。当一个信号分子需要（共价情况下）在\\(n\\)处被同一信号激活或（非共价情况下）被\\(n\\)个上游信号分子激活时，或某信号的\\(n\\)不同通路分支汇合时，效应就\\(\\approx信号强度\^n\\)，即S-形量效关系。
+    > 受到不同信号调控的效应，通常是合取性的（与），此时效应是各自效应的积*上游信号独立系数。
+    * 当一个信号分子需要（共价情况下）在多处被同一信号激活或（非共价情况下）被多个上游信号分子激活时，或某信号的多不同通路分支汇合时，效应就呈现S-形量效关系。
+    * <div class="proof">假设上游信号分子Sig激活效应信号分子Eff需经2步：
+
+        1. Eff + Sig -> EffSig；
+        2. EffSig + Sig -> EffSig<sub>2</sub>。
+
+        设Sig浓度（即信号强度）为\\(x\\)，EffSig<sub>2</sub>浓度（即效应量）为\\(y\\)。证明\\( y \sim x \\)可呈S-形量效关系。
+
+        __证明.__ 设2步反应平衡常数分别为\\(K\_1\\)、\\(K\_2\\)，EffSig浓度为\\(m\\)，Eff、EffSig、EffSig<sub>2</sub>总浓度为\\(t\\)。有
+        $$ \begin{align}
+        \frac{m}{x(t-y-m)} &= K\_1 \\\\
+        \frac{y}{xm} &= K\_2 \end{align}$$
+        解得\\( y=\frac{K\_1K\_2x^2}{K\_1K\_2x^2+K\_1x+1}\cdot t \\)。令\\(K\_1=10, K\_2=10\\)，画图
+
+        ![S-形曲线](/resources/sigmoidal_curve.png)
+
+        即证。</div>
     * 此外正反馈也可产生全或无反应。
 * 当正反馈产生的全或无反应不能自发而必须由另信号消除时，此效应即形成了记忆（如命运选择后的终末分化状态）。
 * 负反馈过程速率慢时，可产生效应的明显振荡（如某些生物的昼夜节律）。速率快时，迅速达成稳态，可造成适应。
 ## 对信号的适应
-> 沿用[生理学](/blog/20250823-physiology-note-unit-9/#47-2-transduction-of-sensory-stimuli-into-nerve-impulses-gan-jue-ci-ji-xiang-shen-jing-chong-dong-de-chuan-dao)的术语，快适应是相性的，慢适应是张性的
+> 沿用<span class="crossref">[生理学](/blog/20250823-physiology-note-unit-9/#47-2-transduction-of-sensory-stimuli-into-nerve-impulses-gan-jue-ci-ji-xiang-shen-jing-chong-dong-de-chuan-dao)</span>的术语，快适应是相性的，慢适应是张性的
 * 相性适应是微分器，使得能产生有效反应的信号强度区间宽（如视觉）。
 * 机制
     * 负反馈
@@ -69,10 +86,6 @@ sources：
 * SH2、PTB结合磷酸化酪氨酸。SH, Src homology; PTB, phosphotyrosine-binding。
 * SH3结合富含脯氨酸的短序列。
 * PH结合一些磷酸肌醇。PH, pleckstrin homology。
-## 效应的属性的维度
-* 效应产生的时间快慢
-* 信号的有效区间
-* 持续性
 
 # GPCR
 

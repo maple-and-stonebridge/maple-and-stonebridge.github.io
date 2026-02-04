@@ -1,0 +1,3 @@
+m4_changecom()m4_dnl
+m4_define(`_', `<span class="$1">$2</span>')m4_dnl
+m4_define(`__', `<div class="$1">$2</div>')m4_dnl

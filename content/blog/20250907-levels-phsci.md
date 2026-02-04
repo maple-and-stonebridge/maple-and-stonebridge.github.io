@@ -15,20 +15,20 @@ tag = ["功能", "抽象", "层级", "结构"]
 # 形式化
 ## 结构层级
 
-上层的结构可以被分为下层的结构。因此结构层级是一个树\\( T\_{struct} \\)，每个节点都是一个结构。
+上层的结构可以被分为下层的结构。因此结构层级是一个树\\( T\<span class=""></span>{struct} \\)，每个节点都是一个结构。
 
 ## 功能层级
 
-功能是一个结构的属性，把它看作一个理论：\\( \Sigma\_{func}(a)\subseteq\mathcal L\_{func} \\)，其中\\( a \\)满足存在结构层级\\( T\_{struct} \\)使得\\( a\in T\_{struct} \\)。
+功能是一个结构的属性，把它看作一个理论：\\( \Sigma\<span class=""></span>{func}(a)\subseteq\mathcal L\<span class=""></span>{func} \\)，其中\\( a \\)满足存在结构层级\\( T\<span class=""></span>{struct} \\)使得\\( a\in T\<span class=""></span>{struct} \\)。
 
-理想情况下下层结构的功能支持了上层结构的功能，这里的支持不妨考虑为逻辑\\( \vdash\_{func} \\)。即\\( \Sigma\_{func}(b)=\\{ \varphi\in\mathcal L\_{func}:\cup\_{a\prec b}\Sigma\_{func}(a)\vdash\_{func}\varphi \\} \\)，
+理想情况下下层结构的功能支持了上层结构的功能，这里的支持不妨考虑为逻辑\\( \vdash\<span class=""></span>{func} \\)。即\\( \Sigma\<span class=""></span>{func}(b)=\\{ \varphi\in\mathcal L\<span class=""></span>{func}:\cup\<span class=""></span>{a\prec b}\Sigma\<span class=""></span>{func}(a)\vdash\<span class=""></span>{func}\varphi \\} \\)，
 其中\\( a\prec b \\)的含义是\\( a \\)在\\( b \\)的下层。
 
 ## 抽象层级
 
-呃这个其实是来自oo的。涉及一个偏序\\( \prec\_{concept} \\)。其中的元素是概念，它们要作为形式语言的常元\\( \prec\_{concept}\subseteq constant(\mathcal L\_{abstact}) \\)。
+呃这个其实是来自oo的。涉及一个偏序\\( \prec\<span class=""></span>{concept} \\)。其中的元素是概念，它们要作为形式语言的常元\\( \prec\<span class=""></span>{concept}\subseteq constant(\mathcal L\<span class=""></span>{abstact}) \\)。
 
-当然有一个逻辑\\( \vdash\_{abstract} \\)。假设\\( a, b\in\prec\_{concept}; a\prec b \\)，我们有\\( \forall\varphi(x)\in\mathcal L\_{abstract}, \vdash\_{abstract}\varphi(b)\Rightarrow\vdash\_{abstract}\varphi(a) \\)。
+当然有一个逻辑\\( \vdash\<span class=""></span>{abstract} \\)。假设\\( a, b\in\prec\<span class=""></span>{concept}; a\prec b \\)，我们有\\( \forall\varphi(x)\in\mathcal L\<span class=""></span>{abstract}, \vdash\<span class=""></span>{abstract}\varphi(b)\Rightarrow\vdash\<span class=""></span>{abstract}\varphi(a) \\)。
 这里还有量词的问题。。。。。
 
 ## Σ
@@ -40,18 +40,18 @@ tag = ["功能", "抽象", "层级", "结构"]
 # 实践
 ## 结构-功能
 
-我们首先把一个大结构分为比如形态学上小结构。然后我们会先给最大的结构即\\( T\_{struct} \\)的树根指派一些功能，然后我们目的论地给小结构指派功能，这些功能是为了满足大结构的功能，并最终满足树根的功能。
+我们首先把一个大结构分为比如形态学上小结构。然后我们会先给最大的结构即\\( T\<span class=""></span>{struct} \\)的树根指派一些功能，然后我们目的论地给小结构指派功能，这些功能是为了满足大结构的功能，并最终满足树根的功能。
 
 这种指派是合理的吗？有时候，例如在生物学中，这种合理性是由进化论保障的。看来有些特异。对于人造物来说，可能有（一些实用的工具），可能没有（出于传统、直觉etc.）。
 
-这种指派在实践中有什么意义？在生物学等科学中，呃，其实我认为意义在于为我们提供了一个方便记忆的语义网络的骨架，我们的人类实践可以锚定在这个骨架上，这样，它们才能被组织起来。由此可见\\( T\_{struct, science} \\)必须是符合人类自然认知的，
+这种指派在实践中有什么意义？在生物学等科学中，呃，其实我认为意义在于为我们提供了一个方便记忆的语义网络的骨架，我们的人类实践可以锚定在这个骨架上，这样，它们才能被组织起来。由此可见\\( T\<span class=""></span>{struct, science} \\)必须是符合人类自然认知的，
 否则，例如一个结构的功能很难描述的时候，我们可能要对整个结构树进行再排布。嗯，“科学结构”作为一个人造物的功能也就在此了。注意这个想法还是很循证的，可能不容易满足，需要再退一步。
 
-还有问题在于\\( \vdash\_{func} \\)也不是那个符号逻辑的后承，我们当然并不严格地证明它，或者把\\( \Sigma\_{func}(x) \\)详尽地列出来。正是这里的让步导致形式化意义不大，只能回到为了实践的认知上（有点打脸）。
+还有问题在于\\( \vdash\<span class=""></span>{func} \\)也不是那个符号逻辑的后承，我们当然并不严格地证明它，或者把\\( \Sigma\<span class=""></span>{func}(x) \\)详尽地列出来。正是这里的让步导致形式化意义不大，只能回到为了实践的认知上（有点打脸）。
 
 ## 抽象
 
-那么科学抽象就比较直白了，它的组织（\\( \prec\_{concept} \\)）本来就很随意了，明摆着就是要怎么方便认知怎么来。只不过是形式上（或者语义组织的种类，反应为逻辑形式）有所不同。
+那么科学抽象就比较直白了，它的组织（\\( \prec\<span class=""></span>{concept} \\)）本来就很随意了，明摆着就是要怎么方便认知怎么来。只不过是形式上（或者语义组织的种类，反应为逻辑形式）有所不同。
 
 # Σ
 
