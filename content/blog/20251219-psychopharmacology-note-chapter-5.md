@@ -29,26 +29,26 @@ tag = ["抗精神病药"]
 ## 5.4 Targeting Nigrostriatal Dopamine D2 Receptors Causes Motor Side Effects 作用于黑质纹状体D2受体造成运动副效应
 * 黑质纹状体通路—间接通路D2急性阻滞可造成药源性Parkinson症、静坐不能和肌张力障碍。慢性阻滞可造成迟发性运动障碍。以上统称 __锥体外系症状 extrapyramidal symptoms, EPS__ 。
 ### 药源性Parkinson症
-* __药源性Parkinson症 drug-induced Parkinsonism, DIP__ 是震颤、肌肉僵硬、运动徐缓或运动不能。
-* <span class=""></span>治疗<span class=""></span> ：传统上使用抗胆碱药。 <span class=""></span>可能机制<span class=""></span> ：黑质纹状体D2阻滞导致纹状体乙酰胆碱能神经元去抑制，由其支配的纹状体GABA能神经元可产生功能异常，进而介导DIP。M（特别是M1）阻滞可对抗该作用。抗胆碱副作用较强，且一些D2阻滞药本身有抗胆碱活性。
-    * 可使用金刚烷胺 amantadine 治疗， <span class=""></span>可能机制<span class=""></span> ：弱NMDA阻滞。
+* **药源性Parkinson症 drug-induced Parkinsonism, DIP**是震颤、肌肉僵硬、运动徐缓或运动不能。
+* *治疗*：传统上使用抗胆碱药。*可能机制*：黑质纹状体D2阻滞导致纹状体乙酰胆碱能神经元去抑制，由其支配的纹状体GABA能神经元可产生功能异常，进而介导DIP。M（特别是M1）阻滞可对抗该作用。抗胆碱副作用较强，且一些D2阻滞药本身有抗胆碱活性。
+    * 可使用金刚烷胺 amantadine 治疗，*可能机制*：弱NMDA阻滞。
 ### 药源性急性肌张力障碍
-* __肌张力障碍 dystonia__ 是肌肉阵发性痉挛或持续性收缩。对药源性急性肌张力障碍，肌注抗胆碱药有效。慢性肌张力障碍可能是迟发性运动障碍的表现。
+* **肌张力障碍 dystonia**是肌肉阵发性痉挛或持续性收缩。对药源性急性肌张力障碍，肌注抗胆碱药有效。慢性肌张力障碍可能是迟发性运动障碍的表现。
 ### 静坐不能
-* __静坐不能 akathisia__ 体验上表现为不安、紧张、不愉快，行为上表现为不安的运动、原地踏步或踱步。可能难以与原发障碍本身导致的激越或不安运动鉴别。抗胆碱药效果不佳，β阻滞药和苯二氮䓬类药有效，5HT2A阻滞药可能有效。
+* **静坐不能 akathisia**体验上表现为不安、紧张、不愉快，行为上表现为不安的运动、原地踏步或踱步。可能难以与原发障碍本身导致的激越或不安运动鉴别。抗胆碱药效果不佳，β阻滞药和苯二氮䓬类药有效，5HT2A阻滞药可能有效。
 ### 神经阻滞剂恶性综合征
-* __神经阻滞剂恶性综合征 neuroleptic malignant syndrome__ 罕见且致命，表现为肌肉极端僵硬、高烧、昏迷或死亡。需要立即停用D2阻滞药，应用肌松药（如丹曲林 dantrolene）和多巴胺激动药，并进行重症监护。
+* **神经阻滞剂恶性综合征 neuroleptic malignant syndrome**罕见且致命，表现为肌肉极端僵硬、高烧、昏迷或死亡。需要立即停用D2阻滞药，应用肌松药（如丹曲林 dantrolene）和多巴胺激动药，并进行重症监护。
 ### 迟发性运动障碍
-* __迟发性运动障碍 tardive dyskinesia, TD__ 是长期用D2阻滞药后发病的，可能不可逆的通常面和舌的不随意持续运动，可表现为咀嚼、伸舌、表情痛苦扭曲，或快速、抽动或舞蹈样的肢体运动。
-* <span class=""></span>病理生理<span class=""></span> ：间接通路D2阻滞通过神经重塑机制诱发GABA神经元上D2上调。初期，这种上调是可逆的。一段时间后，这种上调是不可逆的。
+* **迟发性运动障碍 tardive dyskinesia, TD**是长期用D2阻滞药后发病的，可能不可逆的通常面和舌的不随意持续运动，可表现为咀嚼、伸舌、表情痛苦扭曲，或快速、抽动或舞蹈样的肢体运动。
+* *病理生理*：间接通路D2阻滞通过神经重塑机制诱发GABA神经元上D2上调。初期，这种上调是可逆的。一段时间后，这种上调是不可逆的。
 * 可定期进行神经科体检或量表检查。
-* <span class=""></span>治疗<span class=""></span> ：可予90\% [VMAT2](/blog/20250919-psychopharmacology-note-chapter-2/#nang-pao-zhuan-yun-ti) 阻滞。VMAT2阻滞药包括丁苯那嗪、氘丁苯那嗪、缬苯那嗪。相较其他单胺，它们主要作用于直接和间接通路，影响多巴胺的转运，
+* *治疗*：可予90\% [VMAT2](/blog/20250919-psychopharmacology-note-chapter-2/#nang-pao-zhuan-yun-ti) 阻滞。VMAT2阻滞药包括丁苯那嗪、氘丁苯那嗪、缬苯那嗪。相较其他单胺，它们主要作用于直接和间接通路，影响多巴胺的转运，
 从而使多巴胺被MAO代谢。
-    * __丁苯那嗪 tetrabenazine__ 是前药，经羰基还原酶生成4种有活性的二氢丁苯那嗪，均被CYP2D6代谢。发挥VMAT2阻滞作用的主要是+β-二氢丁苯那嗪。浓度亦较大的–α-和-β-二氢丁苯那嗪具有5HT7阻滞性质。
+    * **丁苯那嗪 tetrabenazine**是前药，经羰基还原酶生成4种有活性的二氢丁苯那嗪，均被CYP2D6代谢。发挥VMAT2阻滞作用的主要是+β-二氢丁苯那嗪。浓度亦较大的–α-和-β-二氢丁苯那嗪具有5HT7阻滞性质。
     适应症：Huntington病相关的舞蹈症。半衰期短，须tid。副作用包括镇静、DIP和抑郁、自杀风险等。
-    * __氘丁苯那嗪 deutetrabenazine__ 是被氘代的丁苯那嗪，代谢物同丁苯那嗪，半衰期较丁苯那嗪长（bid），副作用较丁苯那嗪轻微。适应症：与Huntington病有关的舞蹈病；成人迟发性运动障碍。
+    * **氘丁苯那嗪 deutetrabenazine**是被氘代的丁苯那嗪，代谢物同丁苯那嗪，半衰期较丁苯那嗪长（bid），副作用较丁苯那嗪轻微。适应症：与Huntington病有关的舞蹈病；成人迟发性运动障碍。
     > 2025年12月25日，查询得氘丁苯那嗪片价格约为10.691369cny/mg。日剂量12mg~48mg，每月约需3848.89cny~15395.57cny。
-    * __缬苯那嗪 valbenazine__ 是-α-丁苯那嗪连接了1缬氨酸。代谢：缬氨酸被水解生成-α-丁苯那嗪，经羰基还原酶生成-α-二氢丁苯那嗪，对于VMAT2的选择性最高。适应症、药代学特性类似氘丁苯那嗪，qd。
+    * **缬苯那嗪 valbenazine**是-α-丁苯那嗪连接了1缬氨酸。代谢：缬氨酸被水解生成-α-丁苯那嗪，经羰基还原酶生成-α-二氢丁苯那嗪，对于VMAT2的选择性最高。适应症、药代学特性类似氘丁苯那嗪，qd。
 
 ## 5.5 Drugs Targeting Dopamine D2 Receptors: So-Called First Generation or Conventional "Antipsychotics" 作用于D2受体的“第一代/典型抗精神病药”
 ## 5.6 Drugs Targeting Serotonin 2A Receptors with or without Simultaneously Targeting Dopamine D2 Receptors 作用于5HT2A受体和/非作用于D2受体的药

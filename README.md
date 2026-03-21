@@ -19,7 +19,7 @@ tag = ["Tag"]
 在正文中，使用下列语法：
 ```
 _(name_of_env,
-    `your content within this semantic environment/context _can [nest other structure](#)_' _(another_env, `like this')
+    `your content within this semantic environment/context *can [nest other structure](#)*' _(another_env, `like this')
 )
 ```
 运行deploy.sh，将其替换为
