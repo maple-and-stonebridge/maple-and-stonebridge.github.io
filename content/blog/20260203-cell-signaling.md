@@ -1,7 +1,7 @@
 +++
 title = "信号转导"
 description = "信号转导的原理、各种通路及其效应，大概作为一片综合笔记"
-date = 2026-03-21
+date = 2026-03-25
 [taxonomies]
 category = ["笔记"]
 field = ["生物学", "分子生物学", "细胞学", "药理学"]
@@ -37,12 +37,12 @@ sources：
     * 当一个信号分子需要（共价情况下）在多处被同一信号激活或（非共价情况下）被多个上游信号分子激活时，或某信号的多不同通路分支汇合时，效应就呈现S形量效关系。
         * <div class="proof">假设上游信号分子Sig激活效应信号分子Eff需经2步：
 
-            1. Eff + Sig -> EffSig；
-            2. EffSig + Sig -> EffSig<sub>2</sub>。
+            1. Eff + Sig → EffSig；
+            2. EffSig + Sig → EffSig<sub>2</sub>。
 
             设Sig浓度（即信号强度）为\\(x\\)，EffSig<sub>2</sub>浓度（即效应量）为\\(y\\)。证明\\( y \sim x \\)可呈S形量效关系。
 
-            `__证明.__ 设2步反应平衡常数分别为\\(K\_1\\)、\\(K\_2\\)，EffSig浓度为\\(m\\)，Eff、EffSig、EffSig<sub>2</sub>总浓度为\\(t\\)。有
+            __证明.__ 设2步反应平衡常数分别为\\(K\_1\\)、\\(K\_2\\)，EffSig浓度为\\(m\\)，Eff、EffSig、EffSig<sub>2</sub>总浓度为\\(t\\)。有
             $$ \begin{align}
             \frac{m}{x(t-y-m)} &= K\_1 \\\\
             \frac{y}{xm} &= K\_2 \end{align}$$
@@ -50,7 +50,7 @@ sources：
 
             ![S-形曲线](/resources/sigmoidal_curve.png)
 
-            即证。'</div>
+            即证。</div>
     * 此外正反馈也可产生全或无反应。
 * 当正反馈产生的全或无反应不能自发而必须由另信号消除时，此效应即形成了记忆（如命运决定后的终末分化状态）。
 * 负反馈过程速率慢时，可产生效应的明显振荡（如某些生物的昼夜节律）。速率快时，迅速达成稳态，可造成适应。
@@ -71,18 +71,18 @@ sources：
             * 激活状态GTP结合蛋白将GTP水解，转化为无活性状态；无活性状态蛋白释放GDP以结合GTP转化为激活状态。
             > omg，这个GTP结合蛋白有组成性活性
             * GEF加速GDP释放，从而加速激活；GAP加速GTP水解，从而加速失活。GEF, guanine nucleotide exchange factor; GAP, GTPase activating protein。
-            * 包括异源三聚体GTP结合蛋白/G蛋白，以及单体GTP酶/单体GTP结合蛋白。
+            * 包括异源三聚体GTP结合蛋白/G蛋白，以及单体GTP酶/单体GTP结合蛋白/小G蛋白。
     * 泛素化等
 * 非共价结合
     * cAMP、Ca<sup>++</sup>等第2信使
     * 其他信号蛋白
 ## 信号转导复合体
-* **支架蛋白 scaffold proteins**同时结合若干信号蛋白使其靠近，从而形成信号转导复合体。
+* **支架蛋白 Scaffold proteins**同时结合若干信号蛋白使其靠近，从而形成信号转导复合体。
 * 通常形成于受体附近，或膜上一些特别的磷脂附近（如磷酸肌醇）
 ## 非共价结合结构域
 * 它们还要在周围的结构上也匹配才能结合
 * 通常位于蛋白质非结构化的区域，其插入不影响原蛋白质的折叠
-* 接头蛋白是只由结合结构域组成的信号蛋白，参与局部微环境的形成
+* **接头蛋白 Adaptor proteins**是只由结合结构域组成的信号蛋白，参与局部微环境的形成
 * SH2、PTB结合磷酸化酪氨酸。SH, Src homology; PTB, phosphotyrosine-binding。
 * SH3结合富含脯氨酸的短序列。
 * PH结合一些磷酸肌醇。PH, pleckstrin homology。
@@ -90,18 +90,18 @@ sources：
 # GPCR
 * **GPCR**单肽链7次跨膜，形成圆柱形结构，配体结合位点位于深处。
     * 各型GPCR在功能上有异质性。
-    * 负反馈：GPCR适应由其磷酸化介导，可被PKA、PKC或GRK磷酸化。随后可能结合**arrestin**，其可能发挥如下效应：
-        1. 阻止G蛋白的结合，从而介导适应；
-        1. 介导依赖clathrin的入胞，从而介导适应，随后或者GPCR去磷酸化而转位至质膜再利用，或者被溶酶体降解；
-        1. 激活其他信号转导通路。
+    * 结合配体后产生跨膜α螺旋的相对方向改变，从而将信号转导入胞。
+    * 灭活步：GPCR灭活由其磷酸化介导，可被PKA、PKC或GRK磷酸化。随后可能结合**arrestin**，其可能发挥如下效应：
+        1. 阻止G蛋白的结合，从而介导灭活；
+        1. 介导依赖clathrin的内化，随后或者GPCR去磷酸化而转位至质膜再利用，或者被溶酶体降解；
+            * 胞内囊泡上的GPCR仍可发挥效应。
+        1. 激活其他信号转导通路；
     GRK, GPCR kinase。
 * **G蛋白**概述[见上](/blog/20260203-cell-signaling/#jue-ding-xin-hao-dan-bai-huo-xing-de-yin-su)。
     * 各型G蛋白有特定的GPCR结合性质和效应蛋白结合性质。
     * 有活性的GPCR是G蛋白的GEF。
     * 有活性的α被特定的RGS或效应蛋白灭活。RGS, regulator of G-protein signaling。
 ## some GPCRs → Gs → αs → AC → cAMP↑ → PKA → CREB
-见下
-## some GPCRs → Gi → αi →| AC
 * **AC**多次跨膜，大多受G蛋白和Ca<sup>++</sup>的调节。
 * **cAMP**周转率高，由AC自ATP合成，由磷酸二酯酶水解。
     * 嗅觉感受器中，G蛋白是**G<sub>olf</sub>**，此通路的cAMP开启cAMP门控阳离子通道，以此去极化。
@@ -109,16 +109,19 @@ sources：
     * 无活性PKA由2调节亚基和2催化亚基构成。调节亚基与AKAP结合，后者又与细胞骨架或膜结合，以定位PKA；AKAP又可与其他信号分子结合形成信号转导复合体。AKAP, A-kinase anchoring protein。
     * cAMP结合调节亚基使其与催化亚基解离，以激活PKA。PKA可磷酸化附近的磷酸二酯酶，形成迅速的负反馈。
 * **CREB**是转录调节因子，识别CRE序列。被PKA在1丝氨酸磷酸化后，招募转录激活物CBP，启动转录，介导信号的长时效应。CRE, cAMP response element; CREB, CRE binding protein; CBP, CREB binding protein。
-## some GPCRs → Gq → αq → PLCβ → IP<sub>3</sub>↑ → ER-IP<sub>3</sub> receptor → Ca<sup>++</sup>↑ → Ca<sup>++</sup>-calmodulin → CaMK
-* 磷脂酰肌醇-4,5-二磷酸（phosphotidylinositol-4,5-bisphosphate, **PI(4,5)P<sub>2</sub>**）在质膜内层少量存在。
+## some GPCRs → Gi → αi ⊣ AC
+如题
+## some GPCRs → Gq → αq → PLCβ → IP<sub>3</sub>↑ → ER-IP<sub>3</sub> receptor → Ca<sup>++</sup>↑ → Ca<sup>++</sup>-calmodulin → CaM激酶
+* **磷脂酰肌醇-4,5-二磷酸**（phosphotidylinositol-4,5-bisphosphate, **PI(4,5)P<sub>2</sub>**/**PIP<sub>2</sub>**）在质膜内层少量存在。
 * **PLCβ**与质膜相连但不跨膜。可被αq激活。
-    * PI(4,5)P<sub>2</sub>中，磷脂酰肌醇本身的磷酸基作为连于1-位的磷酸进入肌醇-1,4,5-三磷酸（inositol-1,4,5-trisphosphate, Ins(1,4,5)P<sub>3</sub>/IP<sub>3</sub>），而磷脂剩余部分则成为甘油二酯/二脂酰甘油（diacylglycerol, DAG）。
+    * PIP<sub>2</sub>中，磷脂酰肌醇本身的磷酸基作为连于1-位的磷酸进入肌醇-1,4,5-三磷酸（inositol-1,4,5-trisphosphate, Ins(1,4,5)P<sub>3</sub>/IP<sub>3</sub>），而磷脂剩余部分则成为甘油二酯/二脂酰甘油（diacylglycerol, DAG）。
+    * [PLCγ](#rtk)发挥同效应。
 * **IP<sub>3</sub>** 具有水溶性，扩散至内质网边缘。
 * **IP<sub>3</sub>受体**是内质网膜上的配体门控Ca<sup>++</sup>通道。
     * IP<sub>3</sub>受体与IP<sub>3</sub>结合后暴露出Ca<sup>++</sup>结合位点，同时与IP<sub>3</sub>、Ca<sup>++</sup>结合即可使通道打开，使内质网中Ca<sup>++</sup>流入胞浆。
 * **Ca<sup>++</sup>** 是广泛存在的第2信使。
     * 膜去极化、膜机械拉伸、一些胞外信号可开启质膜Ca<sup>++</sup>通道。
-    * 质膜、内质网膜上的Ca<sup>++</sup>-ATP酶使胞浆Ca<sup>++</sup>水平下降，还有些细胞质膜上存在Na<sup>+</sup>-Ca<sup>++</sup>交换体。
+    * 灭活步：质膜、内质网膜上的Ca<sup>++</sup>-ATP酶使胞浆Ca<sup>++</sup>水平下降，还有些细胞质膜上存在Na<sup>+</sup>-Ca<sup>++</sup>交换体。
     * Ca<sup>++</sup>水平时间模式
         * 内质网膜上的AP<sub>3</sub>受体和雷诺丁受体在胞浆Ca<sup>++</sup>水平低至中时被其激活（**Ca<sup>++</sup>诱导Ca<sup>++</sup>释放**），但在胞浆Ca<sup>++</sup>水平高时被抑制。
         * 正反馈：信号强度高时兴奋可沿内质网膜传播。
@@ -132,22 +135,82 @@ sources：
     * Ca<sup>++</sup>-calmodulin即可作用于多种效应蛋白，如激活质膜Ca<sup>++</sup>-ATP酶。
 * **CaM激酶 CaM kinases**是一个家族，其中CaM激酶II是12聚体。
     * CaM激酶II调节段被Ca<sup>++</sup>-calmodulin结合后可使激酶结构域暴露，相邻2酶互相磷酸化彼此的调节段，维持活性，因此具有记忆功能。
-    * 蛋白磷酸酶可将CaM激酶II灭活。
+    * 灭活步：蛋白磷酸酶可将CaM激酶II灭活。
     * Ca<sup>++</sup>振荡的频率翻译为CaM激酶II活性。
     > 可能由于CaM激酶II激活比较难，再加上蛋白磷酸酶的拮抗和记忆功能
 ## PLCβ → DAG↑ → PKC
 * **DAG**形成后镶嵌于质膜。
 * **PKC**与（IP<sub>3</sub>介导释放的）Ca<sup>++</sup>结合后，转位至质膜；与DAG、Ca<sup>++</sup>、磷脂酰丝氨酸同时结合后即被激活。
 ## G<sub>12</sub> → Rho
-如标题。
+如标题。Rho系统[见下](#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong)。
 ## some GPCRs → βγ
 * 心肌细胞M受体是Gi，其αi激活上述通路，而βγ则直接开启质膜上某种K<sup>+</sup>通道导致超极化。
+* βγq可激活Ib型PI 3-激酶。
 ## 视紫红质 → cGMP↓ → 超极化
 * **视紫红质 Rhodopsin**是GPCR，11-顺视黄醛接受光子后转化为全反视黄醛，造成视紫红质构象改变而激活。
-    * **视紫红质激酶**（**RK**）是GRK，磷酸化视紫红质后，后者难以激活transducin而与arrestin结合。RK, rhodopsin kinase。
+    * 灭活步：**视紫红质激酶**（**RK**）是GRK，磷酸化视紫红质后，后者难以激活transducin而与arrestin结合。RK, rhodopsin kinase。
 * **Transducin**（**Gt**）是被视紫红质激活的G蛋白，其α激活cGMP磷酸二酯酶。
 * **cGMP**周转率高，由GC合成，cGMP磷酸二酯酶水解。其可使cGMP门控阳离子通道开放。
     * 阳离子通道关闭后，胞质Ca<sup>++</sup>降低，增强一种Ca<sup>++</sup>敏感蛋白的活性，后者激活GC形成负反馈。
         * 此负反馈支持了视杆细胞的适应。大家学心理学的都知道这有多重要吧！！！！！！！
 
 # 酶耦联受体
+* 酶耦联受体胞质部分有酶活性或与直接酶产生联系。
+* 每亚基通常1次跨膜。
+# RTK
+* RTK胞外侧结合配体后，胞质侧酪氨酸激酶域被激活。随后这些域磷酸化受体的胞质侧（通常在不定形部分）的多位点。如：
+    1. PDGF使受体胞外侧2聚，使胞质侧激酶域相互靠近彼此磷酸化；
+    1. 胰岛素受体未结合胰岛素时即为2聚体，结合胰岛素后胞质侧激酶域相互靠近彼此磷酸化；
+    1. EGF使受体胞外侧2聚，但胞质侧产生不对称的构象变化，1受体的激酶域被激活而磷酸化2受体；
+    * 灭活步：酪氨酸特异的蛋白磷酸酶迅速水解磷酸，因此信号持续较短。
+* 信号蛋白可借助SH2或PTB域结合在特定的磷酸酪氨酸位点。其可能被磷酸化，可能产生构象变化。即使构象变化不介导信号蛋白的激活，受体也可形成信号转导复合体激活下游信号通路。
+    * 还可结合接头蛋白（如胰岛素受体结合IRS1）形成介导多步的信号转导复合体，或产生更多的磷酸酪氨酸位点。IRS, insulin receptor substrate。
+    * 一些酶结合后可作为信号转导复合体的末端产生胞质效应，如PLCγ生成[IP<sub>3</sub>](#some-gpcrs-gq-aq-plcb-ip3-er-ip3-receptor-ca-ca-calmodulin-camji-mei)、Src磷酸化酪氨酸（包括RTK自身）、[PI 3-激酶生成PIP<sub>3</sub>](#rtk-pi-3-ji-mei-pip3-akt)等。
+    * **Ras超家族**是单体GTP酶，其中的[Ras](#rtk-grb2-sos-ras-mapji-mei-xi-tong)、[Rho](#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong)家族可参与信号转导。一些GEF或GAP结合于信号转导复合体后可作为末端产生胞质效应。
+    * 一些信号蛋白结合后可降低信号水平形成负反馈。如c-Cbl结合后可泛素化受体介导其内化和降解。
+        * TRK内化后仍可发挥效应，如TrkA在轴突末端结合NGF后需内化并转运至胞体才能发挥效应。
+## RTK → Grb2 → Sos → Ras → MAP激酶系统
+* **Ras**包括H-、K-和N-Ras。与脂连接锚定于质膜胞质侧。
+    * RTK间接结合Ras的GEF而激活Ras。有时GEF也作为支架蛋白选择下游信号通路。
+        * *Drosophila*中，一种RTK Sev可结合Grb2的SH2域，Grb2的SH3域又可结合一种Ras GEF Sos，进而激活Ras。
+            * 哺乳动物中也存在RTK → Grb2 → Sos → Ras通路。
+    * 灭活步：GAP迅速灭活Ras，因此信号持续时间较短。
+* **MAP激酶系统 MAP kinase module**包含3序贯的丝苏氨酸激酶：（Ras → ）MAPKKK → MAPKK → MAPK。有多种。
+    * 哺乳动物中，Raf=MAPKKK，Mek=MAPKK，Erk=MAPK。
+    * Erk可入核磷酸化转录因子启动*即刻早期基因 immediate early genes*的转录，有些即刻早期基因编码的转录因子启动其他基因的转录，包括G1 cyclin。
+        * 即刻早期基因的转录可在RTK与配体结合后数min内启动。
+    * 负反馈：MAP激酶系统可增加蛋白磷酸酶的表达或稳定，灭活系统中的激酶。Erk可磷酸化Raf而灭活之。
+    * 系统内的激酶可结合至支架蛋白以形成信号转导复合体以提高特异性，因此可同时介导平行而互不干扰的信号转导通路。
+* 随配体种类和受体不同，通路激活模式不同。如神经前体细胞中，EGF可使Erk活性快速升高，随后快速下降，细胞分裂。NGF则使Erk活性持续增强数h，细胞分化。
+## RTK →→ Rho → 细胞骨架（微管系统和肌动蛋白丝系统）
+* **Rho**无活性时通常在胞浆中与**鸟苷酸分解抑制素 guanine nucleotide dissociation inhibitors, GDIs**结合，使其稳定。
+    * 效应包括众多与细胞骨架相关的，包括细胞形状、极性、运动、迁移、黏附、细胞周期、基因转录、膜运输等。
+* Ephrin通路中，**ephrin**是一种胞外信号，识别质膜**Eph** RTK。Eph激活后结合Rho GEF **ephexin**和一种酪氨酸激酶，后者磷酸化ephexin激活之，随后ephexin激活**RhoA**。RhoA调控肌动蛋白丝系统使附近的生长锥被破坏，从而介导轴突生长。
+## RTK → PI 3-激酶 → PIP<sub>3</sub> → Akt
+* **PI 3-激酶 PI 3-kinase**与质膜结合，可在磷脂酰肌醇中的肌醇3-位结合磷酸基团。其作用于PI(4,5)P<sub>2</sub>时生成**磷脂酰肌醇-3,4,5-三磷酸**（phosphotidylinositide-3,4,5-trisphosphate, **PI(3,4,5)P<sub>3</sub>**/**PIP<sub>3</sub>**）。
+    * 灭活步：**磷酸磷脂酰肌醇磷酸酶 phosphoinositide phosphate**水解PIP<sub>3</sub>，如**PTEN**可水解3-位磷酸基。
+    * I型PI 3-激酶是异2聚体，其中催化亚基均等同，调节亚基不同。
+        * Ia型PI 3-激酶借结合亚基SH2域结合于RTK而被激活，而Ib型PI 3-激酶结合βγq后被激活。[Ras](#rtk-grb2-sos-ras-mapji-mei-xi-tong)直接结合催化亚基也可激活之。
+* PIP<sub>3</sub>可招募含PH域的信号蛋白以形成信号转导复合体，如Sos和Akt。
+* **mTORC2**是结合在膜上的复合体，包括激酶mTOR和rictor；**PDK1**含PH域。mTORC2磷酸化Akt后，Akt被PDK1再磷酸化，从而脱离质膜。TOR, target of rapamycin; mTOR, mammalian TOR; mTORC, mTOR complex; PDK, phosphoinositide dependent protein kinase。
+    * mTORC2也调控[Rho系统](#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong)。
+* **Akt**/PKB是激酶，功能是促进细胞存活和生长。
+* 胰岛素和胰岛素样生长因子主要激活本通路。
+## Akt/MAPK ⊣ TSC ⊣ Rheb → mTORC1
+* 生长因子作用于RTK激活Akt或MAPK。
+* **TSC**是Rheb的GAP。被Akt或MAPK磷酸化而灭活。TSC, tuberous sclerosis complex。
+* **Rag**是单体GTP酶；**Ragulator**是Rag的GEF，位于溶酶体膜；**Gator1**是Rag的GAP。Rag感受氨基酸浓度，机制为：溶酶体氨基酸 → Ragulator；胞质氨基酸 ⊣ 受体 ⊣ Gator2 ⊣ Gator1。
+* **mTORC1**包括mTOR和raptor，被Rheb和Rag共同激活后，介导细胞生长。
+# 酪氨酸激酶耦联受体
+* 受体胞质侧结合胞质酪氨酸激酶，其2聚，相互磷酸化而激活。
+    * 激活后胞质酪氨酸激酶上有磷酸酪氨酸位点，因此RTK通路中的一些信号蛋白也可结合于胞质酪氨酸激酶。
+* 不同的胞质酪氨酸激酶和RTK靠近时也可能相互磷酸化而激活。
+* **Src家族**是胞质酪氨酸激酶，具有SH2、SH3域，共价结合于脂且被受体锚定于周围。
+    * 一些成员结合RTK或胞质酪氨酸激酶后与其相互磷酸化形成正反馈。
+* **FAK**是胞质酪氨酸激酶，可借其他蛋白质与integrin结合。Integrin结合ECM激活后可形成与Src的正反馈，介导细胞存活、生长、繁殖、迁移等。FAK, focal adhesion kinase。
+## JAK-STAT
+* 细胞因子、生长激素、催乳素受体是2聚体或3聚体。
+* **JAKs**是胞质酪氨酸激酶，静息时与受体稳定结合，包括JAK1~3和Tyk2。互相磷酸化激活后磷酸化受体。JAK, Janus kinase。
+* **STATs**是转录调控因子，位于胞浆，具有SH2域，结合于受体的磷酸酪氨酸位点被JAK磷酸化。随后进入胞质，彼此借助SH2域与磷酸酪氨酸形成2聚体，入核与其他调控因子调控转录。可直接结合顺式作用元件增强转录。STAT, signal transducer and activator of transcription。
+    * 负反馈：STAT可启动本通路抑制蛋白的转录。其结合于受体或STATs而抑制。增益较小。
+* 如催乳素经本通路增强乳汁蛋白转录。
