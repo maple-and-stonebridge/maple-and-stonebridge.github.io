@@ -145,7 +145,7 @@ sources：
 如标题。Rho系统[见下](#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong)。
 ## GPCR → βγ
 * 心肌细胞M受体是Gi，其αi激活上述通路，而βγ则直接开启质膜上某种K<sup>+</sup>通道导致超极化。
-* βγq可激活Ib型PI 3-激酶。
+* βγq可激活Ib型[PI 3-激酶](#rtk-pi-3-ji-mei-pip3-akt)。
 ## 视紫红质 → cGMP↓ → 超极化
 * **视紫红质 Rhodopsin**是GPCR，11-顺视黄醛接受光子后转化为全反视黄醛，造成视紫红质构象改变而激活。
     * 灭活步：**视紫红质激酶**（**RK**）是GRK，磷酸化视紫红质后，后者难以激活transducin而与arrestin结合。RK, rhodopsin kinase。
@@ -165,10 +165,10 @@ sources：
     * 灭活步：酪氨酸特异的蛋白磷酸酶迅速水解磷酸，因此信号持续较短。
 * 信号蛋白可借助SH2或PTB域结合在特定的磷酸酪氨酸位点。其可能被磷酸化，可能产生构象变化。即使构象变化不介导信号蛋白的激活，受体也可形成信号转导复合体激活下游信号通路。
     * 还可结合接头蛋白（如胰岛素受体结合IRS1）形成介导多步的信号转导复合体，或产生更多的磷酸酪氨酸位点。IRS, insulin receptor substrate。
-    * 一些酶结合后可作为信号转导复合体的末端产生胞质效应，如PLCγ生成[IP<sub>3</sub>](#gpcr-gq-aq-plcb-ip3-er-ip3shou-ti-ca-ca-gai-diao-dan-bai-camji-mei)、Src磷酸化酪氨酸（包括RTK自身）、[PI 3-激酶生成PIP<sub>3</sub>](#rtk-pi-3-ji-mei-pip3-akt)等。
+    * 一些酶结合后可作为信号转导复合体的末端产生胞质效应，如PLCγ生成[IP<sub>3</sub>](#gpcr-gq-aq-plcb-ip3-er-ip3shou-ti-ca-ca-gai-diao-dan-bai-camji-mei)、[Src磷酸化酪氨酸（包括RTK自身）](#luo-an-suan-ji-mei-ou-lian-shou-ti)、[PI 3-激酶生成PIP<sub>3</sub>](#rtk-pi-3-ji-mei-pip3-akt)等。
         * **Ras超家族**是单体GTP酶，其中的[Ras](#rtk-grb2-sos-ras-mapji-mei-xi-tong)、[Rho](#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong)家族可参与信号转导。一些GEF或GAP结合于信号转导复合体后可作为末端产生胞质效应。
     * 一些信号蛋白结合后可降低信号水平形成负反馈。如c-Cbl结合后可泛素化受体介导其内化和降解。
-        * TRK内化后仍可发挥效应，如TrkA在轴突末端结合NGF后需内化并转运至胞体才能发挥效应。
+        * TRK内化后仍可发挥效应，如TrkA在神经元轴突末端结合NGF后需内化并转运至胞体才能发挥效应。
 ## RTK → Grb2 → Sos → Ras → MAP激酶系统
 * **Ras**包括H-、K-和N-Ras。与脂连接锚定于质膜胞质侧。
     * RTK间接结合Ras的GEF而激活Ras。有时GEF也作为支架蛋白选择下游信号通路。
@@ -190,7 +190,7 @@ sources：
 * **PI 3-激酶 PI 3-kinase**与质膜结合，可在磷脂酰肌醇中的肌醇3-位结合磷酸基团。其作用于PI(4,5)P<sub>2</sub>时生成**磷脂酰肌醇-3,4,5-三磷酸**（phosphotidylinositide-3,4,5-trisphosphate, **PI(3,4,5)P<sub>3</sub>**/**PIP<sub>3</sub>**）。
     * 灭活步：**磷酸磷脂酰肌醇磷酸酶 phosphoinositide phosphate**水解PIP<sub>3</sub>，如**PTEN**可水解3-位磷酸基。
     * I型PI 3-激酶是异2聚体，其中催化亚基均等同，调节亚基不同。
-        * Ia型PI 3-激酶借结合亚基SH2域结合于RTK而被激活，而Ib型PI 3-激酶结合βγq后被激活。[Ras](#rtk-grb2-sos-ras-mapji-mei-xi-tong)直接结合催化亚基也可激活之。
+        * Ia型PI 3-激酶借调节亚基SH2域结合于RTK而被激活，而Ib型PI 3-激酶结合βγq后被激活。[Ras](#rtk-grb2-sos-ras-mapji-mei-xi-tong)直接结合催化亚基也可激活之。
 * PIP<sub>3</sub>可招募含PH域的信号蛋白以形成信号转导复合体，如Sos和Akt。
 * **mTORC2**是结合在膜上的复合体，包括激酶mTOR和rictor；**PDK1**含PH域。mTORC2磷酸化Akt后，Akt被PDK1再磷酸化，从而脱离质膜。TOR, target of rapamycin; mTOR, mammalian TOR; mTORC, mTOR complex; PDK, phosphoinositide dependent protein kinase。
     * mTORC2也调控[Rho系统](#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong)。
