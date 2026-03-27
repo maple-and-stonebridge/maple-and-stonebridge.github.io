@@ -1,0 +1,25 @@
+blockquote {
+    padding-left: 1em;
+    padding-right: 1em;
+
+    border: 1px solid;
+    border-radius: 0.5em;
+
+    background: rgb(255 0 0 / 5%);
+}
+
+code, .crossref {
+    border-radius: 0.3em;
+    font-size: 0.8em;
+
+    background: rgb(0 0 255 / 5%);
+}
+
+.proof {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 40px;
+
+    border:2px solid;
+    background: rgb(0 255 0 / 5%);
+}

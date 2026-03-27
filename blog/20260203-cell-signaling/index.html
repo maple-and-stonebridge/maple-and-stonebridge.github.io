@@ -1,0 +1,752 @@
+<!doctype html>
+
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon@16x16.png" />
+
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+		<title>
+			
+秋槭与石桥都消失不见 - 信号转导
+
+		</title>
+
+		<link rel="stylesheet" href="/font.css" />
+		<link rel="stylesheet" href="/base.css" />
+		
+<link rel="stylesheet" href="/page.css" />
+
+	</head>
+
+	<body>
+		
+<nav>
+    <ul>
+        <li>
+            <a href="/">home</a>
+        </li>
+        <li>
+            <a href="/blog/">blog</a>
+        </li>
+        <li>
+            <a>gallery</a>
+        </li>
+        <li>
+            <a href="/about">about</a>
+        </li>
+    </ul>
+</nav>
+
+<section>
+    <h1>
+        信号转导
+    </h1>
+</section>
+
+<section>
+    <p>
+        信号转导的原理、各种通路及其效应，大概作为一片综合笔记
+    </p>
+</section>
+
+
+    <section class="bordered">
+        <ul>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#intro"> Intro </a>
+                    
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#xin-hao-zhuan-dao-de-te-yi-xing-he-robustxing"> 信号转导的特异性和robust性 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#liang-xiao-ying-de-lei-xing"> 量效应的类型 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#dui-xin-hao-de-gua-ying"> 对信号的适应 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#jue-ding-xin-hao-dan-bai-huo-xing-de-yin-su"> 决定信号蛋白活性的因素 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#xin-hao-zhuan-dao-fu-he-ti"> 信号转导复合体 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#fei-gong-jia-jie-he-jie-gou-yu"> 非共价结合结构域 </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#gpcr"> GPCR </a>
+                    
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#gpcr-gs-as-ac-camp-pka-creb"> GPCR → Gs → αs → AC → cAMP↑ → PKA → CREB </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#gpcr-gi-ai-ac"> GPCR → Gi → αi ⊣ AC </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#gpcr-gq-aq-plcb-ip3-er-ip3shou-ti-ca-ca-gai-diao-dan-bai-camji-mei"> GPCR → Gq → αq → PLCβ → IP3↑ → ER-IP3受体 → Ca++↑ → Ca++&#x2F;钙调蛋白 → CaM激酶 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#plcb-dag-pkc"> PLCβ → DAG↑ → PKC </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#g12-rho"> G12 → Rho </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#gpcr-bg"> GPCR → βγ </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#shi-zi-hong-zhi-cgmp-chao-ji-hua"> 视紫红质 → cGMP↓ → 超极化 </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#mei-ou-lian-shou-ti"> 酶耦联受体 </a>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk"> RTK </a>
+                    
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-grb2-sos-ras-mapji-mei-xi-tong"> RTK → Grb2 → Sos → Ras → MAP激酶系统 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong"> RTK →→ Rho → 细胞骨架（微管系统和肌动蛋白丝系统） </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-pi-3-ji-mei-pip3-akt"> RTK → PI 3-激酶 → PIP3 → Akt </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#akt-mapk-tsc-rheb-mtorc1"> Akt&#x2F;MAPK ⊣ TSC ⊣ Rheb → mTORC1 </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#luo-an-suan-ji-mei-ou-lian-shou-ti"> 酪氨酸激酶耦联受体 </a>
+                    
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#jak-stat"> JAK–STAT </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#shou-ti-xing-si-su-an-suan-ji-mei"> 受体型丝苏氨酸激酶 </a>
+                    
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#tgfb-smad"> TGFβ–Smad </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#yi-lai-dan-bai-shui-jie-de-xin-hao-zhuan-dao"> 依赖蛋白水解的信号转导 </a>
+                    
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#notch"> Notch </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#wnt-b-catenin"> Wnt–β-catenin </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#hedgehog-patched-smoothened-gli2-hedgehogba-ji-yin-hedgehog-patched-gpr161-pka-gli3pian-duan-hedgehogba-ji-yin"> Hedgehog ⊣ Patched ⊣ Smoothened → Gli2 → Hedgehog靶基因；Hedgehog ⊣ Patched → Gpr161 → PKA → Gli3片段 ⊣ Hedgehog靶基因 </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#nfkb"> NFκB </a>
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#he-shou-ti"> 核受体 </a>
+                    
+                </li>
+            
+        </ul>
+    </section>
+
+
+<section class="bordered">
+    <p>sources：</p>
+<ul>
+<li>Alberts B, Heald R, Johnson A, Morgan D, Raff M, Roberts K, Walter P, Molecular Biology of the Cells, 7th ed. Ch. 15, Cell Signaling</li>
+</ul>
+<hr />
+<h1 id="intro">Intro</h1>
+<ul>
+<li>范畴们：胞外信号/配体、受体、胞内信号蛋白、第2信使、效应蛋白</li>
+<li>转导通路中，连续的2抑制步等效于1激活步。</li>
+<li>1种信号可以在转导通路中产生分支，从而造成多种效应的协调。</li>
+</ul>
+<blockquote>
+<p>是不是能说这反映了信号通路的进化论地位，从而正当化对其进行功能描述，见<a href="/blog/20250907-levels-phsci/#jie-gou-gong-neng">这个</a></p>
+</blockquote>
+<ul>
+<li>效应产生快慢取决于信号分子的周转率</li>
+</ul>
+<blockquote>
+<p>大意是为了维持信号分子的稳态，激活速率和灭活速率一定相等是周转率；周转率快说明激活灭活都很快，效应产生快，不应期短。</p>
+<p>所以灭活步很重要的！</p>
+</blockquote>
+<ul>
+<li>对信号的敏感性与信号放大过程的增益有关</li>
+</ul>
+<h2 id="xin-hao-zhuan-dao-de-te-yi-xing-he-robustxing">信号转导的特异性和robust性</h2>
+<ul>
+<li>非共价结合本身亲和力、特异性高
+<ul>
+<li>信号转导的地点限制，如信号转导复合体的形成，进一步提高特异性</li>
+</ul>
+</li>
+<li>背景噪声的消除：<strong>噪滤 noise filter</strong>
+<ul>
+<li>S-形强度效应曲线。如某蛋白2位点均磷酸化方被激活</li>
+<li>阈。如蛋白磷酸化后被蛋白磷酸酶迅速灭活，只有当信号强度超过蛋白磷酸酶灭活能力时方可产生有意义的效应</li>
+</ul>
+</li>
+<li>同类信号效应单位（细胞或信号分子）性质变异引发的噪声，其消除：
+<ul>
+<li>平行通路</li>
+</ul>
+</li>
+</ul>
+<h2 id="liang-xiao-ying-de-lei-xing">量效应的类型</h2>
+<ul>
+<li>取决于信号处理程序</li>
+<li>信号强度效应关系上，可有近似双曲线形、S形、全或无反应。
+<blockquote>
+<p>受到不同信号调控的效应，通常是合取性的（与），此时效应是各自效应的积*上游信号独立系数。</p>
+</blockquote>
+<ul>
+<li>当一个信号分子需要（共价情况下）在多处被同一信号激活或（非共价情况下）被多个上游信号分子激活时，或某信号的多不同通路分支汇合时，效应就呈现S形量效关系。
+<ul>
+<li><div class="proof">假设上游信号分子Sig激活效应信号分子Eff需经2步：
+<ol>
+<li>Eff + Sig → EffSig；</li>
+<li>EffSig + Sig → EffSig<sub>2</sub>。</li>
+</ol>
+<p>设Sig浓度（即信号强度）为\(x\)，EffSig<sub>2</sub>浓度（即效应量）为\(y\)。证明\( y \sim x \)可呈S形量效关系。</p>
+<p><strong>证明.</strong> 设2步反应平衡常数分别为\(K_1\)、\(K_2\)，EffSig浓度为\(m\)，Eff、EffSig、EffSig<sub>2</sub>总浓度为\(t\)。有
+$$ \begin{align}
+\frac{m}{x(t-y-m)} &amp;= K_1 \\
+\frac{y}{xm} &amp;= K_2 \end{align}$$
+解得\( y=\frac{K_1K_2x^2}{K_1K_2x^2+K_1x+1}\cdot t \)。令\(K_1=10, K_2=10\)，画图</p>
+<p><img src="/resources/sigmoidal_curve.png" alt="S-形曲线" /></p>
+<p>即证。</div></p>
+</li>
+</ul>
+</li>
+<li>此外正反馈也可产生全或无反应。</li>
+</ul>
+</li>
+<li>当正反馈产生的全或无反应不能自发而必须由另信号消除时，此效应即形成了记忆（如命运决定后的终末分化状态）。</li>
+<li>负反馈过程速率慢时，可产生效应的明显振荡（如某些生物的昼夜节律）。速率快时，迅速达成稳态，可造成适应。</li>
+</ul>
+<h2 id="dui-xin-hao-de-gua-ying">对信号的适应</h2>
+<blockquote>
+<p>沿用<span class="crossref"><a href="/blog/20250823-physiology-note-unit-9/#47-2-transduction-of-sensory-stimuli-into-nerve-impulses-gan-jue-ci-ji-xiang-shen-jing-chong-dong-de-chuan-dao">生理学</a></span>的术语，快适应是相性的，慢适应是张性的</p>
+</blockquote>
+<ul>
+<li>相性适应是微分器，使得能产生有效反应的信号强度区间宽（如视觉），其效应是脉冲性的。</li>
+<li>机制
+<ul>
+<li>负反馈</li>
+<li>延迟前馈环，即较慢的前馈通路拮抗较快的前馈通路</li>
+<li>受体灭活、内化、或降解</li>
+</ul>
+</li>
+</ul>
+<h2 id="jue-ding-xin-hao-dan-bai-huo-xing-de-yin-su">决定信号蛋白活性的因素</h2>
+<ul>
+<li>共价修饰
+<ul>
+<li>磷酸化
+<ul>
+<li>蛋白激酶包括丝氨酸/苏氨酸激酶以及酪氨酸激酶（主要存在于多细胞生物）。</li>
+<li>蛋白磷酸酶也包括丝氨酸/苏氨酸磷酸酶以及酪氨酸磷酸酶。</li>
+</ul>
+</li>
+<li>GTP/GDP结合
+<ul>
+<li>GTP结合蛋白：激活状态结合GTP，无活性状态结合GDP。
+<ul>
+<li>激活状态GTP结合蛋白将GTP水解，转化为无活性状态；无活性状态蛋白释放GDP以结合GTP转化为激活状态。</li>
+</ul>
+<blockquote>
+<p>omg，这个GTP结合蛋白有组成性活性</p>
+</blockquote>
+<ul>
+<li>GEF加速GDP释放，从而加速激活；GAP加速GTP水解，从而加速失活。GEF, guanine nucleotide exchange factor; GAP, GTPase activating protein。</li>
+<li>包括异源三聚体GTP结合蛋白/G蛋白，以及单体GTP酶/单体GTP结合蛋白/小G蛋白。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>泛素化等</li>
+</ul>
+</li>
+<li>非共价结合
+<ul>
+<li>cAMP、Ca<sup>++</sup>等第2信使</li>
+<li>其他信号蛋白</li>
+</ul>
+</li>
+</ul>
+<h2 id="xin-hao-zhuan-dao-fu-he-ti">信号转导复合体</h2>
+<ul>
+<li><strong>支架蛋白 Scaffold proteins</strong>同时结合若干信号蛋白使其靠近，从而形成信号转导复合体。</li>
+<li>通常形成于受体附近，或膜上一些特别的磷脂附近（如磷酸肌醇）</li>
+</ul>
+<h2 id="fei-gong-jia-jie-he-jie-gou-yu">非共价结合结构域</h2>
+<ul>
+<li>它们还要在周围的结构上也匹配才能结合</li>
+<li>通常位于蛋白质非结构化的区域，其插入不影响原蛋白质的折叠</li>
+<li><strong>接头蛋白 Adaptor proteins</strong>是只由结合结构域组成的信号蛋白，参与局部微环境的形成</li>
+<li>SH2、PTB结合磷酸化酪氨酸。SH, Src homology; PTB, phosphotyrosine-binding。</li>
+<li>SH3结合富含脯氨酸的短序列。</li>
+<li>PH结合一些磷酸肌醇。PH, pleckstrin homology。</li>
+</ul>
+<h1 id="gpcr">GPCR</h1>
+<ul>
+<li><strong>GPCR</strong>单肽链7次跨膜，形成圆柱形结构，配体结合位点位于深处。
+<ul>
+<li>各型GPCR在功能上有异质性。</li>
+<li>结合配体后产生跨膜α螺旋的相对方向改变，从而将信号转导入胞。</li>
+<li>灭活步：GPCR灭活由其磷酸化介导，可被PKA、PKC或GRK磷酸化。随后可能结合<strong>arrestin</strong>，其可能发挥如下效应：
+<ol>
+<li>阻止G蛋白的结合，从而介导灭活；</li>
+<li>介导依赖网格蛋白的内化，随后或者GPCR去磷酸化而转位至质膜再利用，或者被溶酶体降解；
+<ul>
+<li>胞内囊泡上的GPCR仍可发挥效应。</li>
+</ul>
+</li>
+<li>激活其他信号转导通路；
+GRK, GPCR kinase。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><strong>G蛋白</strong>概述<a href="/blog/20260203-cell-signaling/#jue-ding-xin-hao-dan-bai-huo-xing-de-yin-su">见上</a>。
+<ul>
+<li>各型G蛋白有特定的GPCR结合性质和效应蛋白结合性质。</li>
+<li>有活性的GPCR是G蛋白的GEF。</li>
+<li>有活性的α被特定的RGS或效应蛋白灭活。RGS, regulator of G-protein signaling。</li>
+</ul>
+</li>
+</ul>
+<h2 id="gpcr-gs-as-ac-camp-pka-creb">GPCR → Gs → αs → AC → cAMP↑ → PKA → CREB</h2>
+<ul>
+<li><strong>AC</strong>多次跨膜，大多受G蛋白和Ca<sup>++</sup>的调节。</li>
+<li><strong>cAMP</strong>周转率高，由AC自ATP合成，由磷酸二酯酶水解。
+<ul>
+<li>嗅觉感受器中，G蛋白是<strong>G<sub>olf</sub></strong>，此通路的cAMP开启cAMP门控阳离子通道，以此去极化。</li>
+</ul>
+</li>
+<li><strong>PKA</strong>是丝氨酸/苏氨酸蛋白激酶，其效应蛋白集取决于细胞类型。
+<ul>
+<li>无活性PKA由2调节亚基和2催化亚基构成。调节亚基与AKAP结合，后者又与细胞骨架或膜结合，以定位PKA；AKAP又可与其他信号分子结合形成信号转导复合体。AKAP, A-kinase anchoring protein。</li>
+<li>cAMP结合调节亚基使其与催化亚基解离，以激活PKA。PKA可磷酸化附近的磷酸二酯酶，形成迅速的负反馈。</li>
+</ul>
+</li>
+<li><strong>CREB</strong>是转录调节因子，识别CRE序列。被PKA在1丝氨酸磷酸化后，招募转录激活物CBP，启动转录，介导信号的长时效应。CRE, cAMP response element; CREB, CRE binding protein; CBP, CREB binding protein。</li>
+</ul>
+<h2 id="gpcr-gi-ai-ac">GPCR → Gi → αi ⊣ AC</h2>
+<p>如题</p>
+<h2 id="gpcr-gq-aq-plcb-ip3-er-ip3shou-ti-ca-ca-gai-diao-dan-bai-camji-mei">GPCR → Gq → αq → PLCβ → IP<sub>3</sub>↑ → ER-IP<sub>3</sub>受体 → Ca<sup>++</sup>↑ → Ca<sup>++</sup>/钙调蛋白 → CaM激酶</h2>
+<ul>
+<li><strong>磷脂酰肌醇-4,5-二磷酸</strong>（phosphotidylinositol-4,5-bisphosphate, <strong>PI(4,5)P<sub>2</sub></strong>/<strong>PIP<sub>2</sub></strong>）在质膜内层少量存在。</li>
+<li><strong>PLCβ</strong>与质膜相连但不跨膜。可被αq激活。
+<ul>
+<li>PIP<sub>2</sub>中，磷脂酰肌醇本身的磷酸基作为连于1-位的磷酸进入肌醇-1,4,5-三磷酸（inositol-1,4,5-trisphosphate, Ins(1,4,5)P<sub>3</sub>/IP<sub>3</sub>），而磷脂剩余部分则成为甘油二酯/二脂酰甘油（diacylglycerol, DAG）。</li>
+<li><a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk">PLCγ</a>发挥同效应。</li>
+</ul>
+</li>
+<li><strong>IP<sub>3</sub></strong> 具有水溶性，扩散至内质网边缘。</li>
+<li><strong>IP<sub>3</sub>受体</strong>是内质网膜上的配体门控Ca<sup>++</sup>通道。
+<ul>
+<li>IP<sub>3</sub>受体与IP<sub>3</sub>结合后暴露出Ca<sup>++</sup>结合位点，同时与IP<sub>3</sub>、Ca<sup>++</sup>结合即可使通道打开，使内质网中Ca<sup>++</sup>流入胞质。</li>
+</ul>
+</li>
+<li><strong>Ca<sup>++</sup></strong> 是广泛存在的第2信使。
+<ul>
+<li>膜去极化、膜机械拉伸、一些胞外信号可开启质膜Ca<sup>++</sup>通道。</li>
+<li>灭活步：质膜、内质网膜上的Ca<sup>++</sup>-ATP酶使胞质Ca<sup>++</sup>水平下降，还有些细胞质膜上存在Na<sup>+</sup>-Ca<sup>++</sup>交换体。</li>
+<li>Ca<sup>++</sup>水平时间模式
+<ul>
+<li>内质网膜上的AP<sub>3</sub>受体和雷诺丁受体在胞质Ca<sup>++</sup>水平低至中时被其激活（<strong>Ca<sup>++</sup>诱导Ca<sup>++</sup>释放</strong>），但在胞质Ca<sup>++</sup>水平高时被抑制。</li>
+<li>正反馈：信号强度高时兴奋可沿内质网膜传播。</li>
+</ul>
+<blockquote>
+<p>类比动作电位</p>
+</blockquote>
+<ul>
+<li>负反馈：产生Ca<sup>++</sup>振荡。
+<ul>
+<li>信号强度翻译为振荡频率。</li>
+</ul>
+<blockquote>
+<p>类比神经元放电频率</p>
+</blockquote>
+</li>
+<li>内皮细胞中，Ca<sup>++</sup>可激活eNOS合成NO。eNOS, endothelial NO synthase。
+<ul>
+<li>NO扩散入平滑肌细胞后，可激活GC升高cGMP，介导血管舒张。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>钙调蛋白 Calmodulin</strong>是单肽链，结合2Ca<sup>++</sup>后被激活，量效关系呈S形。
+<ul>
+<li>Ca<sup>++</sup>/钙调蛋白即可作用于多种效应蛋白，如激活质膜Ca<sup>++</sup>-ATP酶。</li>
+</ul>
+</li>
+<li><strong>CaM激酶 CaM kinases</strong>是一个家族，其中CaM激酶II是12聚体。
+<ul>
+<li>CaM激酶II调节段被Ca<sup>++</sup>/钙调蛋白结合后可使激酶结构域暴露，相邻2酶互相磷酸化彼此的调节段，维持活性，因此具有记忆功能。</li>
+<li>灭活步：蛋白磷酸酶可将CaM激酶II灭活。</li>
+<li>Ca<sup>++</sup>振荡的频率翻译为CaM激酶II活性。</li>
+</ul>
+<blockquote>
+<p>可能由于CaM激酶II激活比较难，再加上蛋白磷酸酶的拮抗和记忆功能</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="plcb-dag-pkc">PLCβ → DAG↑ → PKC</h2>
+<ul>
+<li><strong>DAG</strong>形成后镶嵌于质膜。</li>
+<li><strong>PKC</strong>与（IP<sub>3</sub>介导释放的）Ca<sup>++</sup>结合后，转位至质膜；与DAG、Ca<sup>++</sup>、磷脂酰丝氨酸同时结合后即被激活。</li>
+</ul>
+<h2 id="g12-rho">G<sub>12</sub> → Rho</h2>
+<p>如标题。Rho系统<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong">见下</a>。</p>
+<h2 id="gpcr-bg">GPCR → βγ</h2>
+<ul>
+<li>心肌细胞M受体是Gi，其αi激活上述通路，而βγ则直接开启质膜上某种K<sup>+</sup>通道导致超极化。</li>
+<li>βγq可激活Ib型<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-pi-3-ji-mei-pip3-akt">PI 3-激酶</a>。</li>
+</ul>
+<h2 id="shi-zi-hong-zhi-cgmp-chao-ji-hua">视紫红质 → cGMP↓ → 超极化</h2>
+<ul>
+<li><strong>视紫红质 Rhodopsin</strong>是GPCR，11-顺视黄醛接受光子后转化为全反视黄醛，造成视紫红质构象改变而激活。
+<ul>
+<li>灭活步：<strong>视紫红质激酶</strong>（<strong>RK</strong>）是GRK，磷酸化视紫红质后，后者难以激活transducin而与arrestin结合。RK, rhodopsin kinase。</li>
+</ul>
+</li>
+<li><strong>Transducin</strong>（<strong>Gt</strong>）是被视紫红质激活的G蛋白，其α激活cGMP磷酸二酯酶。</li>
+<li><strong>cGMP</strong>周转率高，由GC合成，cGMP磷酸二酯酶水解。其可使cGMP门控阳离子通道开放。
+<ul>
+<li>阳离子通道关闭后，胞质Ca<sup>++</sup>降低，增强一种Ca<sup>++</sup>敏感蛋白的活性，后者激活GC形成负反馈。
+<ul>
+<li>此负反馈支持了视杆细胞的适应。大家学心理学的都知道这有多重要吧！！！！！！！</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="mei-ou-lian-shou-ti">酶耦联受体</h1>
+<ul>
+<li>酶耦联受体胞质部分有酶活性或与直接酶产生联系。</li>
+<li>每亚基通常1次跨膜。</li>
+</ul>
+<h1 id="rtk">RTK</h1>
+<ul>
+<li>RTK胞外侧结合配体后，胞质侧酪氨酸激酶域被激活。随后这些域磷酸化受体的胞质侧（通常在不定形部分）的多位点。如：
+<ol>
+<li>PDGF使受体胞外侧2聚，使胞质侧激酶域相互靠近彼此磷酸化；</li>
+<li>胰岛素受体未结合胰岛素时即为2聚体，结合胰岛素后胞质侧激酶域相互靠近彼此磷酸化；</li>
+<li>EGF使受体胞外侧2聚，但胞质侧产生不对称的构象变化，1受体的激酶域被激活而磷酸化2受体；</li>
+</ol>
+<ul>
+<li>灭活步：酪氨酸特异的蛋白磷酸酶迅速水解磷酸，因此信号持续较短。</li>
+</ul>
+</li>
+<li>信号蛋白可借助SH2或PTB域结合在特定的磷酸酪氨酸位点。其可能被磷酸化，可能产生构象变化。即使构象变化不介导信号蛋白的激活，受体也可形成信号转导复合体激活下游信号通路。
+<ul>
+<li>还可结合接头蛋白（如胰岛素受体结合IRS1）形成介导多步的信号转导复合体，或产生更多的磷酸酪氨酸位点。IRS, insulin receptor substrate。</li>
+<li>一些酶结合后可作为信号转导复合体的末端产生胞质效应，如PLCγ生成<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#gpcr-gq-aq-plcb-ip3-er-ip3shou-ti-ca-ca-gai-diao-dan-bai-camji-mei">IP<sub>3</sub></a>、<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#luo-an-suan-ji-mei-ou-lian-shou-ti">Src磷酸化酪氨酸（包括RTK自身）</a>、<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-pi-3-ji-mei-pip3-akt">PI 3-激酶生成PIP<sub>3</sub></a>等。
+<ul>
+<li><strong>Ras超家族</strong>是单体GTP酶，其中的<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-grb2-sos-ras-mapji-mei-xi-tong">Ras</a>、<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong">Rho</a>家族可参与信号转导。一些GEF或GAP结合于信号转导复合体后可作为末端产生胞质效应。</li>
+</ul>
+</li>
+<li>一些信号蛋白结合后可降低信号水平形成负反馈。如c-Cbl结合后可泛素化受体介导其内化和降解。
+<ul>
+<li>TRK内化后仍可发挥效应，如TrkA在神经元轴突末端结合NGF后需内化并转运至胞体才能发挥效应。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="rtk-grb2-sos-ras-mapji-mei-xi-tong">RTK → Grb2 → Sos → Ras → MAP激酶系统</h2>
+<ul>
+<li><strong>Ras</strong>包括H-、K-和N-Ras。与脂连接锚定于质膜胞质侧。
+<ul>
+<li>RTK间接结合Ras的GEF而激活Ras。有时GEF也作为支架蛋白选择下游信号通路。
+<ul>
+<li><em>Drosophila</em>中，一种RTK Sev可结合Grb2的SH2域，Grb2的SH3域又可结合一种Ras GEF Sos，进而激活Ras。
+<ul>
+<li>哺乳动物中也存在RTK → Grb2 → Sos → Ras通路。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>灭活步：GAP迅速灭活Ras，因此信号持续时间较短。</li>
+</ul>
+</li>
+<li><strong>MAP激酶系统 MAP kinase module</strong>包含3序贯的丝苏氨酸激酶：（Ras → ）MAPKKK → MAPKK → MAPK。有多种。
+<ul>
+<li>哺乳动物中，Raf=MAPKKK，Mek=MAPKK，Erk=MAPK。</li>
+<li>Erk可入核磷酸化转录因子启动<em>即刻早期基因 immediate early genes</em>的转录，有些即刻早期基因编码的转录因子启动其他基因的转录，包括G1 cyclin。
+<ul>
+<li>即刻早期基因的转录可在RTK与配体结合后数min内启动。</li>
+</ul>
+</li>
+<li>负反馈：MAP激酶系统可增加蛋白磷酸酶的表达或稳定，灭活系统中的激酶。Erk可磷酸化Raf而灭活之。</li>
+<li>系统内的激酶可结合至支架蛋白以形成信号转导复合体以提高特异性，因此可同时介导平行而互不干扰的信号转导通路。</li>
+</ul>
+</li>
+<li>随配体种类和受体不同，通路激活模式不同。如神经前体细胞中，EGF可使Erk活性快速升高，随后快速下降，细胞分裂。NGF则使Erk活性持续增强数h，细胞分化。</li>
+</ul>
+<h2 id="rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong">RTK →→ Rho → 细胞骨架（微管系统和肌动蛋白丝系统）</h2>
+<ul>
+<li><strong>Rho</strong>无活性时通常在胞质中与<strong>鸟苷酸分解抑制素 guanine nucleotide dissociation inhibitors, GDIs</strong>结合，使其稳定。
+<ul>
+<li>效应包括众多与细胞骨架相关的，包括细胞形状、极性、运动、迁移、黏附、细胞周期、基因转录、膜运输等。</li>
+</ul>
+</li>
+<li>Ephrin通路中，<strong>ephrin</strong>是一种胞外信号，识别质膜<strong>Eph</strong> RTK。Eph激活后结合Rho GEF <strong>ephexin</strong>和一种酪氨酸激酶，后者磷酸化ephexin激活之，随后ephexin激活<strong>RhoA</strong>。RhoA调控肌动蛋白丝系统使附近的生长锥被破坏，从而介导轴突生长。</li>
+</ul>
+<h2 id="rtk-pi-3-ji-mei-pip3-akt">RTK → PI 3-激酶 → PIP<sub>3</sub> → Akt</h2>
+<ul>
+<li><strong>PI 3-激酶 PI 3-kinase</strong>与质膜结合，可在磷脂酰肌醇中的肌醇3-位结合磷酸基团。其作用于PI(4,5)P<sub>2</sub>时生成<strong>磷脂酰肌醇-3,4,5-三磷酸</strong>（phosphotidylinositide-3,4,5-trisphosphate, <strong>PI(3,4,5)P<sub>3</sub></strong>/<strong>PIP<sub>3</sub></strong>）。
+<ul>
+<li>灭活步：<strong>磷酸磷脂酰肌醇磷酸酶 phosphoinositide phosphate</strong>水解PIP<sub>3</sub>，如<strong>PTEN</strong>可水解3-位磷酸基。</li>
+<li>I型PI 3-激酶是异2聚体，其中催化亚基均等同，调节亚基不同。
+<ul>
+<li>Ia型PI 3-激酶借调节亚基SH2域结合于RTK而被激活，而Ib型PI 3-激酶结合βγq后被激活。<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-grb2-sos-ras-mapji-mei-xi-tong">Ras</a>直接结合催化亚基也可激活之。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>PIP<sub>3</sub>可招募含PH域的信号蛋白以形成信号转导复合体，如Sos和Akt。</li>
+<li><strong>mTORC2</strong>是结合在膜上的复合体，包括激酶mTOR和rictor；<strong>PDK1</strong>含PH域。mTORC2磷酸化Akt后，Akt被PDK1再磷酸化，从而脱离质膜。TOR, target of rapamycin; mTOR, mammalian TOR; mTORC, mTOR complex; PDK, phosphoinositide dependent protein kinase。
+<ul>
+<li>mTORC2也调控<a href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong">Rho系统</a>。</li>
+</ul>
+</li>
+<li><strong>Akt</strong>/PKB是激酶，功能是促进细胞存活和生长。</li>
+<li>胰岛素和胰岛素样生长因子主要激活本通路。</li>
+</ul>
+<h2 id="akt-mapk-tsc-rheb-mtorc1">Akt/MAPK ⊣ TSC ⊣ Rheb → mTORC1</h2>
+<ul>
+<li>生长因子作用于RTK激活Akt或MAPK。</li>
+<li><strong>TSC</strong>是Rheb的GAP。被Akt或MAPK磷酸化而灭活。TSC, tuberous sclerosis complex。</li>
+<li><strong>Rag</strong>是单体GTP酶；<strong>Ragulator</strong>是Rag的GEF，位于溶酶体膜；<strong>Gator1</strong>是Rag的GAP。Rag感受氨基酸浓度，机制为：溶酶体氨基酸 → Ragulator；胞质氨基酸 ⊣ 受体 ⊣ Gator2 ⊣ Gator1。</li>
+<li><strong>mTORC1</strong>包括mTOR和raptor，被Rheb和Rag共同激活后，介导细胞生长。</li>
+</ul>
+<h1 id="luo-an-suan-ji-mei-ou-lian-shou-ti">酪氨酸激酶耦联受体</h1>
+<ul>
+<li>受体胞质侧结合胞质酪氨酸激酶，其2聚，相互磷酸化而激活。
+<ul>
+<li>激活后胞质酪氨酸激酶上有磷酸酪氨酸位点，因此RTK通路中的一些信号蛋白也可结合于胞质酪氨酸激酶。</li>
+</ul>
+</li>
+<li>不同的胞质酪氨酸激酶和RTK靠近时也可能相互磷酸化而激活。</li>
+<li><strong>Src家族</strong>是胞质酪氨酸激酶，具有SH2、SH3域，共价结合于脂且被受体锚定于周围。
+<ul>
+<li>一些成员结合RTK或胞质酪氨酸激酶后与其相互磷酸化形成正反馈。</li>
+</ul>
+</li>
+<li><strong>FAK</strong>是胞质酪氨酸激酶，可借其他蛋白质与integrin结合。Integrin结合ECM激活后可形成与Src的正反馈，介导细胞存活、生长、繁殖、迁移等。FAK, focal adhesion kinase。</li>
+</ul>
+<h2 id="jak-stat">JAK–STAT</h2>
+<ul>
+<li>受体 → JAK → STAT</li>
+<li>细胞因子、生长激素、催乳素受体是2聚体或3聚体。</li>
+<li><strong>JAKs</strong>是胞质酪氨酸激酶，静息时与上述受体稳定结合，包括JAK1~3和Tyk2。互相磷酸化激活后磷酸化受体。JAK, Janus kinase。</li>
+<li><strong>STATs</strong>是转录调控因子，位于胞质，具有SH2域，结合于受体的磷酸酪氨酸位点被JAK磷酸化。随后进入胞质，彼此借助SH2域与磷酸酪氨酸形成2聚体，入核与其他调控因子调控转录。可直接结合顺式作用元件增强转录。STAT, signal transducer and activator of transcription。
+<ul>
+<li>负反馈：STAT可启动本通路抑制蛋白的转录。其结合于受体或STATs而抑制。增益较小。</li>
+</ul>
+</li>
+<li>如催乳素经本通路增强乳汁蛋白转录。</li>
+</ul>
+<h1 id="shou-ti-xing-si-su-an-suan-ji-mei">受体型丝苏氨酸激酶</h1>
+<h2 id="tgfb-smad">TGFβ–Smad</h2>
+<ul>
+<li>TGFβ受体 → Smad → Rbpsuh</li>
+<li><strong>TGFβ超家族</strong>包括<strong>TGFβ/activin家族</strong>和<strong>BMP家族</strong>，均为2聚体分泌蛋白。在发展中介导细胞增殖分化死亡和ECM产生，从而介导模式形成；成人中介导组织修复和免疫调控。BMP, bone morphogenetic protein。</li>
+<li><strong>TGFβ受体</strong>是受体型丝苏氨酸激酶，1次跨膜，胞质侧有激酶域。活性受体是4聚体，包括2 I型受体和2 II型受体，受体复合体结合配体后II型受体磷酸化I型受体而激活。活性I型受体直接结合并磷酸化R-Smad。R-Smad, receptor-activated Smad。</li>
+<li><strong>Smads</strong>中R-Smads包括Smad1~3、5、8，co-Smad是Smad4，而抑制性Smads包括Smad6、7。R-Smad中，Smad2、3被TGFβ/activin受体或Smad1、5、8被BMP受体磷酸化后，结合co-Smad Smad4并入核发挥转录调控作用。
+<ul>
+<li>配体结合后可诱导入胞。经网格蛋白/内体途径入胞后持续激活通路。早期内体中富集SARA可增强信号。经caveolae途径入胞后被泛素化经蛋白酶体灭活。SARA, Smad anchor for receptor activation。</li>
+<li>磷酸化的R-Smad入核后磷酸被水解，随后出核可再参与信号转导。因此TGFβ的作用可在时空上加和。</li>
+<li>负反馈：R-Smads启动抑制性Smads的转录。抑制性Smads结合于受体或co-Smad而起竞争性抑制作用，也可招募泛素连接酶Smurf泛素化受体、Smads，还可招募蛋白磷酸酶水解活性R-Smads的磷酸。Smurf, Smad ubiquitylation regulatory factor。</li>
+</ul>
+</li>
+</ul>
+<h1 id="yi-lai-dan-bai-shui-jie-de-xin-hao-zhuan-dao">依赖蛋白水解的信号转导</h1>
+<h2 id="notch">Notch</h2>
+<ul>
+<li><strong>Notch</strong> 1次跨膜，结合Delta后胞外蛋白酶对Notch胞外侧进行剪切，随后跨膜区被<strong>γ-分泌酶 γ-secretase</strong>剪切，胞质侧C端的片段转位至核发挥转录调控作用。
+<ul>
+<li>γ-分泌酶的亚基<strong>早老素 presenilin</strong>突变时可剪切APP，在胞外造成Aβ的聚集，导致Alzheimer病。</li>
+</ul>
+</li>
+<li><strong>Rbpsuh</strong>是DNA结合蛋白，结合Notch尾后，由转录阻遏蛋白转为转录激活蛋白。</li>
+<li>一旦启动是不可逆的。</li>
+<li>在发展时广泛介导细胞命运决定和模式形成。</li>
+</ul>
+<h2 id="wnt-b-catenin">Wnt–β-catenin</h2>
+<ul>
+<li>Wnt → Frizzled/LRP ⊣ APC/degradation复合体 ⊣ β-catenin → LEF1/TCF</li>
+<li><strong>Wnt–β-catenin通路</strong>是众多Wnt通路之1，又称<strong>经典Wnt通路 canonical Wnt pathway</strong>。</li>
+<li><strong>Wnts</strong>是分泌脂蛋白，因此具有疏水性而主要发挥局部调节作用，在发展时作用广泛。</li>
+<li>Wnt受体之1 <strong>Frizzled</strong> 7次跨膜，胞外受体域有疏水口袋，高亲和结合Wnt的脂；之2 <strong>LRP</strong> 1次跨膜。Wnt导致2受体形成受体复合体。LRP, LDL receptor related protein。</li>
+<li><strong>Degradation复合体 Degradation complex</strong>除β-catenin外有&gt;4蛋白，包括蛋白激酶<strong>CK1</strong>，其磷酸化β-catenin的丝氨酸使其被另蛋白激酶<strong>GSK3</strong>磷酸化进而泛素化经蛋白酶体降解。<strong>Axin</strong>和<strong>APC</strong>是复合体中的支架蛋白。Wnt受体复合体形成后，CK1和GSK3磷酸化LRP，随后Frizzled招募支架蛋白<strong>Dishevelled</strong>。APC结合至活性LRP和Dishevelled被灭活，从而导致degredation复合体解散。CK, casein kinase; GSK, glycogen synthase kinase; APC, adenomatous polyposis coli。</li>
+<li><strong>β-catenin</strong>可调节细胞连接，而胞质β-catenin是转录调控因子，不稳定易被degradation复合体结合促进降解。Degradation复合体解散后β-catenin稳定化，入核发挥转录调控作用。</li>
+<li><strong>LEF1/TCF</strong>静息状态下结合阻遏蛋白<strong>Groucho</strong>被抑制。β-Catenin入核后结合LEF1/TCF而释放Groucho启动转录。
+<ul>
+<li><strong>Myc</strong>的转录受本通路调控，促进细胞生长繁殖。APC突变时功能异常致Myc活性增强，可致结肠癌。</li>
+</ul>
+</li>
+<li>负反馈：β-Catenin可启动分泌酶<strong>Notum</strong>的转录，后者在胞外切除Wnt的脂而灭活之；亦可启动跨质膜泛素连接酶<strong>Rnf43</strong>的转录，后者泛素化Frizzled。
+<ul>
+<li>胞外信号<strong>R-spondin</strong>作用于GPCR <strong>Lgr</strong>可灭活Rnf43，调控本通路。</li>
+</ul>
+</li>
+</ul>
+<h2 id="hedgehog-patched-smoothened-gli2-hedgehogba-ji-yin-hedgehog-patched-gpr161-pka-gli3pian-duan-hedgehogba-ji-yin">Hedgehog ⊣ Patched ⊣ Smoothened → Gli2 → Hedgehog靶基因；Hedgehog ⊣ Patched → Gpr161 → PKA → Gli3片段 ⊣ Hedgehog靶基因</h2>
+<ul>
+<li><strong>Hedgehogs</strong>包括Sonic、Desert和Indian hedgehog。连接胆固醇和脂肪酸链。作为发展中的旁分泌调节因子。</li>
+<li>脊椎动物细胞通常具有单个<strong>初级纤毛 primary cilium</strong>，其中有个微管轴，起运输路的作用。初级纤毛是本通路前部步骤的场所。</li>
+<li><strong>Patched</strong>是Hedgehog质膜受体，静息时位于初级纤毛膜，将胆固醇排出胞外。结合Hedgehog后可能失去此功能。本通路激活后，转位至纤毛外。</li>
+<li><strong>Smoothened</strong> 7次跨膜，胞外有脂结合域，结合胆固醇后可激活。静息时位于纤毛外，被Patched抑制。当Patched结合Hedgehog后，Smoothened去抑制而激活并转位至纤毛。</li>
+<li><strong>Gpr161</strong>是位于纤毛膜的具有组成性活性的孤GPCR，纤毛静息态下使胞质cAMP水平升高，PKA活性增强，其磷酸化Gli3使后者被剪切。Gli3片段入核阻遏Hedgehog靶基因表达。本通路激活后转位至纤毛外因此不能作用于纤毛内的Gli3。</li>
+<li><strong>Glis</strong>是转录调控因子，静息时结合抑制性蛋白SuFu。本通路激活后Gli2释放入核促进靶基因表达，而Gli3不再发挥阻遏作用。</li>
+</ul>
+<h2 id="nfkb">NFκB</h2>
+<ul>
+<li>TLR、TNFR和IL-1R均激活本通路，介导炎症反应和发育。</li>
+<li><strong>NFκBs</strong>是同或异源2聚体转录调控因子，静息时结合<strong>IκB</strong>而不具活性。</li>
+<li><strong>IKK</strong>是异源3聚体，包括IKKα、IKKβ和NEMO。受体激活导致IKK激活，随后IKKβ磷酸化IκB，导致其被泛素化，从而释放NFκB入核发挥转录调控功能。IKK, IκB kinase kinase。</li>
+<li>负反馈：NFκB可增强IκBα的表达。</li>
+</ul>
+<h1 id="he-shou-ti">核受体</h1>
+<ul>
+<li><strong>核受体超家族 Nuclear receptor superfamily</strong>成员是转录调节因子，包括孤核受体以及位于胞内的各种受体，其配体包括细胞自身代谢产物，如PPAR结合脂代谢产物；以及可结合核受体的亲脂信号分子，如类固醇激素、甲状腺激素、类视黄素和维生素D。PPAR, perxisome proliferation activated receptor。
+<ul>
+<li>静息状态下，有些核受体定位于胞质，结合配体后入核发挥转录调节作用；另些核受体与DNA结合。</li>
+<li>静息状态下核受体通常与抑制性蛋白结合。结合配体后，抑制性蛋白释放，而协同转录的蛋白结合以启动基因转录；相反的情况可能，即静息状态下的核受体可增强基因表达，而结合配体后转而抑制基因表达。</li>
+</ul>
+</li>
+</ul>
+
+</section>
+
+<section>
+    2026-03-27
+</section>
+
+<section>
+    
+        # <a href="https://maple-and-stonebridge.github.io/category/bi-ji/"> 笔记 </a>
+    
+    
+        
+            # <a href="https://maple-and-stonebridge.github.io/field/sheng-wu-xue/"> 生物学 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/field/fen-zi-sheng-wu-xue/"> 分子生物学 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/field/xi-bao-xue/"> 细胞学 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/field/yao-li-xue/"> 药理学 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/field/xi-bao-sheng-li-xue/"> 细胞生理学 </a>
+        
+    
+    
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/gpcr/"> GPCR </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/trk/"> TRK </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/ras/"> Ras </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/rho/"> Rho </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/mapk/"> MAPK </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/mtorc1/"> mTORC1 </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/jak-stat/"> JAK-STAT </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/smad/"> Smad </a>
+        
+            # <a href="https://maple-and-stonebridge.github.io/tag/xin-hao-zhuan-dao/"> 信号转导 </a>
+        
+    
+</section>
+
+
+		<footer>
+			<p>除非另有说明，本站所有本人创作内容均通过CC0协议释放至公共领域～ Unless other specified, all content by me is released into public domain under CC0 license~~<br /> Maple_Wizen &amp; chsungyesuzuki 2025 no rights reserved</p>
+			<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode"><img src="/cc0.png" alt="CC0 Legal Code" /></a>
+			<a href="/rss.xml"> <img src="/rss-icon.png" alt="RSS" /> </a>
+		</footer>
+	</body>
+</html>
+

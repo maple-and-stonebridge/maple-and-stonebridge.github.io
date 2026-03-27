@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - mTORC1</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/tag/mtorc1/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-27T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/tag/mtorc1/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>信号转导</title>
+        <published>2026-03-27T00:00:00+00:00</published>
+        <updated>2026-03-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20260203-cell-signaling/">&lt;p&gt;sources：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alberts B, Heald R, Johnson A, Morgan D, Raff M, Roberts K, Walter P, Molecular Biology of the Cells, 7th ed. Ch. 15, Cell Signaling&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;范畴们：胞外信号&#x2F;配体、受体、胞内信号蛋白、第2信使、效应蛋白&lt;&#x2F;li&gt;
+&lt;li&gt;转导通路中，连续的2抑制步等效于1激活步。&lt;&#x2F;li&gt;
+&lt;li&gt;1种信号可以在转导通路中产生分支，从而造成多种效应的协调。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;是不是能说这反映了信号通路的进化论地位，从而正当化对其进行功能描述，见&lt;a href=&quot;&#x2F;blog&#x2F;20250907-levels-phsci&#x2F;#jie-gou-gong-neng&quot;&gt;这个&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;效应产生快慢取决于信号分子的周转率&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大意是为了维持信号分子的稳态，激活速率和灭活速率一定相等是周转率；周转率快说明激活灭活都很快，效应产生快，不应期短。&lt;&#x2F;p&gt;
+&lt;p&gt;所以灭活步很重要的！&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;对信号的敏感性与信号放大过程的增益有关&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xin-hao-zhuan-dao-de-te-yi-xing-he-robustxing&quot;&gt;信号转导的特异性和robust性&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;非共价结合本身亲和力、特异性高
+&lt;ul&gt;
+&lt;li&gt;信号转导的地点限制，如信号转导复合体的形成，进一步提高特异性&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;背景噪声的消除：&lt;strong&gt;噪滤 noise filter&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;S-形强度效应曲线。如某蛋白2位点均磷酸化方被激活&lt;&#x2F;li&gt;
+&lt;li&gt;阈。如蛋白磷酸化后被蛋白磷酸酶迅速灭活，只有当信号强度超过蛋白磷酸酶灭活能力时方可产生有意义的效应&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;同类信号效应单位（细胞或信号分子）性质变异引发的噪声，其消除：
+&lt;ul&gt;
+&lt;li&gt;平行通路&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;liang-xiao-ying-de-lei-xing&quot;&gt;量效应的类型&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;取决于信号处理程序&lt;&#x2F;li&gt;
+&lt;li&gt;信号强度效应关系上，可有近似双曲线形、S形、全或无反应。
+&lt;blockquote&gt;
+&lt;p&gt;受到不同信号调控的效应，通常是合取性的（与），此时效应是各自效应的积*上游信号独立系数。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;当一个信号分子需要（共价情况下）在多处被同一信号激活或（非共价情况下）被多个上游信号分子激活时，或某信号的多不同通路分支汇合时，效应就呈现S形量效关系。
+&lt;ul&gt;
+&lt;li&gt;&lt;div class=&quot;proof&quot;&gt;假设上游信号分子Sig激活效应信号分子Eff需经2步：
+&lt;ol&gt;
+&lt;li&gt;Eff + Sig → EffSig；&lt;&#x2F;li&gt;
+&lt;li&gt;EffSig + Sig → EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;设Sig浓度（即信号强度）为\(x\)，EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;浓度（即效应量）为\(y\)。证明\( y \sim x \)可呈S形量效关系。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;证明.&lt;&#x2F;strong&gt; 设2步反应平衡常数分别为\(K_1\)、\(K_2\)，EffSig浓度为\(m\)，Eff、EffSig、EffSig&lt;sub&gt;2&lt;&#x2F;sub&gt;总浓度为\(t\)。有
+$$ \begin{align}
+\frac{m}{x(t-y-m)} &amp;amp;= K_1 \\
+\frac{y}{xm} &amp;amp;= K_2 \end{align}$$
+解得\( y=\frac{K_1K_2x^2}{K_1K_2x^2+K_1x+1}\cdot t \)。令\(K_1=10, K_2=10\)，画图&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;resources&#x2F;sigmoidal_curve.png&quot; alt=&quot;S-形曲线&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;即证。&lt;&#x2F;div&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;此外正反馈也可产生全或无反应。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;当正反馈产生的全或无反应不能自发而必须由另信号消除时，此效应即形成了记忆（如命运决定后的终末分化状态）。&lt;&#x2F;li&gt;
+&lt;li&gt;负反馈过程速率慢时，可产生效应的明显振荡（如某些生物的昼夜节律）。速率快时，迅速达成稳态，可造成适应。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;dui-xin-hao-de-gua-ying&quot;&gt;对信号的适应&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;沿用&lt;span class=&quot;crossref&quot;&gt;&lt;a href=&quot;&#x2F;blog&#x2F;20250823-physiology-note-unit-9&#x2F;#47-2-transduction-of-sensory-stimuli-into-nerve-impulses-gan-jue-ci-ji-xiang-shen-jing-chong-dong-de-chuan-dao&quot;&gt;生理学&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;的术语，快适应是相性的，慢适应是张性的&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;相性适应是微分器，使得能产生有效反应的信号强度区间宽（如视觉），其效应是脉冲性的。&lt;&#x2F;li&gt;
+&lt;li&gt;机制
+&lt;ul&gt;
+&lt;li&gt;负反馈&lt;&#x2F;li&gt;
+&lt;li&gt;延迟前馈环，即较慢的前馈通路拮抗较快的前馈通路&lt;&#x2F;li&gt;
+&lt;li&gt;受体灭活、内化、或降解&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;jue-ding-xin-hao-dan-bai-huo-xing-de-yin-su&quot;&gt;决定信号蛋白活性的因素&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;共价修饰
+&lt;ul&gt;
+&lt;li&gt;磷酸化
+&lt;ul&gt;
+&lt;li&gt;蛋白激酶包括丝氨酸&#x2F;苏氨酸激酶以及酪氨酸激酶（主要存在于多细胞生物）。&lt;&#x2F;li&gt;
+&lt;li&gt;蛋白磷酸酶也包括丝氨酸&#x2F;苏氨酸磷酸酶以及酪氨酸磷酸酶。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;GTP&#x2F;GDP结合
+&lt;ul&gt;
+&lt;li&gt;GTP结合蛋白：激活状态结合GTP，无活性状态结合GDP。
+&lt;ul&gt;
+&lt;li&gt;激活状态GTP结合蛋白将GTP水解，转化为无活性状态；无活性状态蛋白释放GDP以结合GTP转化为激活状态。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;omg，这个GTP结合蛋白有组成性活性&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;GEF加速GDP释放，从而加速激活；GAP加速GTP水解，从而加速失活。GEF, guanine nucleotide exchange factor; GAP, GTPase activating protein。&lt;&#x2F;li&gt;
+&lt;li&gt;包括异源三聚体GTP结合蛋白&#x2F;G蛋白，以及单体GTP酶&#x2F;单体GTP结合蛋白&#x2F;小G蛋白。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;泛素化等&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;非共价结合
+&lt;ul&gt;
+&lt;li&gt;cAMP、Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;等第2信使&lt;&#x2F;li&gt;
+&lt;li&gt;其他信号蛋白&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xin-hao-zhuan-dao-fu-he-ti&quot;&gt;信号转导复合体&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;支架蛋白 Scaffold proteins&lt;&#x2F;strong&gt;同时结合若干信号蛋白使其靠近，从而形成信号转导复合体。&lt;&#x2F;li&gt;
+&lt;li&gt;通常形成于受体附近，或膜上一些特别的磷脂附近（如磷酸肌醇）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;fei-gong-jia-jie-he-jie-gou-yu&quot;&gt;非共价结合结构域&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;它们还要在周围的结构上也匹配才能结合&lt;&#x2F;li&gt;
+&lt;li&gt;通常位于蛋白质非结构化的区域，其插入不影响原蛋白质的折叠&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;接头蛋白 Adaptor proteins&lt;&#x2F;strong&gt;是只由结合结构域组成的信号蛋白，参与局部微环境的形成&lt;&#x2F;li&gt;
+&lt;li&gt;SH2、PTB结合磷酸化酪氨酸。SH, Src homology; PTB, phosphotyrosine-binding。&lt;&#x2F;li&gt;
+&lt;li&gt;SH3结合富含脯氨酸的短序列。&lt;&#x2F;li&gt;
+&lt;li&gt;PH结合一些磷酸肌醇。PH, pleckstrin homology。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;gpcr&quot;&gt;GPCR&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GPCR&lt;&#x2F;strong&gt;单肽链7次跨膜，形成圆柱形结构，配体结合位点位于深处。
+&lt;ul&gt;
+&lt;li&gt;各型GPCR在功能上有异质性。&lt;&#x2F;li&gt;
+&lt;li&gt;结合配体后产生跨膜α螺旋的相对方向改变，从而将信号转导入胞。&lt;&#x2F;li&gt;
+&lt;li&gt;灭活步：GPCR灭活由其磷酸化介导，可被PKA、PKC或GRK磷酸化。随后可能结合&lt;strong&gt;arrestin&lt;&#x2F;strong&gt;，其可能发挥如下效应：
+&lt;ol&gt;
+&lt;li&gt;阻止G蛋白的结合，从而介导灭活；&lt;&#x2F;li&gt;
+&lt;li&gt;介导依赖网格蛋白的内化，随后或者GPCR去磷酸化而转位至质膜再利用，或者被溶酶体降解；
+&lt;ul&gt;
+&lt;li&gt;胞内囊泡上的GPCR仍可发挥效应。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;激活其他信号转导通路；
+GRK, GPCR kinase。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;G蛋白&lt;&#x2F;strong&gt;概述&lt;a href=&quot;&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#jue-ding-xin-hao-dan-bai-huo-xing-de-yin-su&quot;&gt;见上&lt;&#x2F;a&gt;。
+&lt;ul&gt;
+&lt;li&gt;各型G蛋白有特定的GPCR结合性质和效应蛋白结合性质。&lt;&#x2F;li&gt;
+&lt;li&gt;有活性的GPCR是G蛋白的GEF。&lt;&#x2F;li&gt;
+&lt;li&gt;有活性的α被特定的RGS或效应蛋白灭活。RGS, regulator of G-protein signaling。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;gpcr-gs-as-ac-camp-pka-creb&quot;&gt;GPCR → Gs → αs → AC → cAMP↑ → PKA → CREB&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AC&lt;&#x2F;strong&gt;多次跨膜，大多受G蛋白和Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;的调节。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;cAMP&lt;&#x2F;strong&gt;周转率高，由AC自ATP合成，由磷酸二酯酶水解。
+&lt;ul&gt;
+&lt;li&gt;嗅觉感受器中，G蛋白是&lt;strong&gt;G&lt;sub&gt;olf&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt;，此通路的cAMP开启cAMP门控阳离子通道，以此去极化。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;PKA&lt;&#x2F;strong&gt;是丝氨酸&#x2F;苏氨酸蛋白激酶，其效应蛋白集取决于细胞类型。
+&lt;ul&gt;
+&lt;li&gt;无活性PKA由2调节亚基和2催化亚基构成。调节亚基与AKAP结合，后者又与细胞骨架或膜结合，以定位PKA；AKAP又可与其他信号分子结合形成信号转导复合体。AKAP, A-kinase anchoring protein。&lt;&#x2F;li&gt;
+&lt;li&gt;cAMP结合调节亚基使其与催化亚基解离，以激活PKA。PKA可磷酸化附近的磷酸二酯酶，形成迅速的负反馈。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;CREB&lt;&#x2F;strong&gt;是转录调节因子，识别CRE序列。被PKA在1丝氨酸磷酸化后，招募转录激活物CBP，启动转录，介导信号的长时效应。CRE, cAMP response element; CREB, CRE binding protein; CBP, CREB binding protein。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;gpcr-gi-ai-ac&quot;&gt;GPCR → Gi → αi ⊣ AC&lt;&#x2F;h2&gt;
+&lt;p&gt;如题&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gpcr-gq-aq-plcb-ip3-er-ip3shou-ti-ca-ca-gai-diao-dan-bai-camji-mei&quot;&gt;GPCR → Gq → αq → PLCβ → IP&lt;sub&gt;3&lt;&#x2F;sub&gt;↑ → ER-IP&lt;sub&gt;3&lt;&#x2F;sub&gt;受体 → Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;↑ → Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;&#x2F;钙调蛋白 → CaM激酶&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;磷脂酰肌醇-4,5-二磷酸&lt;&#x2F;strong&gt;（phosphotidylinositol-4,5-bisphosphate, &lt;strong&gt;PI(4,5)P&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt;&#x2F;&lt;strong&gt;PIP&lt;sub&gt;2&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt;）在质膜内层少量存在。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;PLCβ&lt;&#x2F;strong&gt;与质膜相连但不跨膜。可被αq激活。
+&lt;ul&gt;
+&lt;li&gt;PIP&lt;sub&gt;2&lt;&#x2F;sub&gt;中，磷脂酰肌醇本身的磷酸基作为连于1-位的磷酸进入肌醇-1,4,5-三磷酸（inositol-1,4,5-trisphosphate, Ins(1,4,5)P&lt;sub&gt;3&lt;&#x2F;sub&gt;&#x2F;IP&lt;sub&gt;3&lt;&#x2F;sub&gt;），而磷脂剩余部分则成为甘油二酯&#x2F;二脂酰甘油（diacylglycerol, DAG）。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#rtk&quot;&gt;PLCγ&lt;&#x2F;a&gt;发挥同效应。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;IP&lt;sub&gt;3&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt; 具有水溶性，扩散至内质网边缘。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;IP&lt;sub&gt;3&lt;&#x2F;sub&gt;受体&lt;&#x2F;strong&gt;是内质网膜上的配体门控Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;通道。
+&lt;ul&gt;
+&lt;li&gt;IP&lt;sub&gt;3&lt;&#x2F;sub&gt;受体与IP&lt;sub&gt;3&lt;&#x2F;sub&gt;结合后暴露出Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;结合位点，同时与IP&lt;sub&gt;3&lt;&#x2F;sub&gt;、Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;结合即可使通道打开，使内质网中Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;流入胞质。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;&lt;&#x2F;strong&gt; 是广泛存在的第2信使。
+&lt;ul&gt;
+&lt;li&gt;膜去极化、膜机械拉伸、一些胞外信号可开启质膜Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;通道。&lt;&#x2F;li&gt;
+&lt;li&gt;灭活步：质膜、内质网膜上的Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;-ATP酶使胞质Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;水平下降，还有些细胞质膜上存在Na&lt;sup&gt;+&lt;&#x2F;sup&gt;-Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;交换体。&lt;&#x2F;li&gt;
+&lt;li&gt;Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;水平时间模式
+&lt;ul&gt;
+&lt;li&gt;内质网膜上的AP&lt;sub&gt;3&lt;&#x2F;sub&gt;受体和雷诺丁受体在胞质Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;水平低至中时被其激活（&lt;strong&gt;Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;诱导Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;释放&lt;&#x2F;strong&gt;），但在胞质Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;水平高时被抑制。&lt;&#x2F;li&gt;
+&lt;li&gt;正反馈：信号强度高时兴奋可沿内质网膜传播。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;类比动作电位&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;负反馈：产生Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;振荡。
+&lt;ul&gt;
+&lt;li&gt;信号强度翻译为振荡频率。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;类比神经元放电频率&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;内皮细胞中，Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;可激活eNOS合成NO。eNOS, endothelial NO synthase。
+&lt;ul&gt;
+&lt;li&gt;NO扩散入平滑肌细胞后，可激活GC升高cGMP，介导血管舒张。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;钙调蛋白 Calmodulin&lt;&#x2F;strong&gt;是单肽链，结合2Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;后被激活，量效关系呈S形。
+&lt;ul&gt;
+&lt;li&gt;Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;&#x2F;钙调蛋白即可作用于多种效应蛋白，如激活质膜Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;-ATP酶。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;CaM激酶 CaM kinases&lt;&#x2F;strong&gt;是一个家族，其中CaM激酶II是12聚体。
+&lt;ul&gt;
+&lt;li&gt;CaM激酶II调节段被Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;&#x2F;钙调蛋白结合后可使激酶结构域暴露，相邻2酶互相磷酸化彼此的调节段，维持活性，因此具有记忆功能。&lt;&#x2F;li&gt;
+&lt;li&gt;灭活步：蛋白磷酸酶可将CaM激酶II灭活。&lt;&#x2F;li&gt;
+&lt;li&gt;Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;振荡的频率翻译为CaM激酶II活性。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能由于CaM激酶II激活比较难，再加上蛋白磷酸酶的拮抗和记忆功能&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;plcb-dag-pkc&quot;&gt;PLCβ → DAG↑ → PKC&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DAG&lt;&#x2F;strong&gt;形成后镶嵌于质膜。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;PKC&lt;&#x2F;strong&gt;与（IP&lt;sub&gt;3&lt;&#x2F;sub&gt;介导释放的）Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;结合后，转位至质膜；与DAG、Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;、磷脂酰丝氨酸同时结合后即被激活。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;g12-rho&quot;&gt;G&lt;sub&gt;12&lt;&#x2F;sub&gt; → Rho&lt;&#x2F;h2&gt;
+&lt;p&gt;如标题。Rho系统&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong&quot;&gt;见下&lt;&#x2F;a&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gpcr-bg&quot;&gt;GPCR → βγ&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;心肌细胞M受体是Gi，其αi激活上述通路，而βγ则直接开启质膜上某种K&lt;sup&gt;+&lt;&#x2F;sup&gt;通道导致超极化。&lt;&#x2F;li&gt;
+&lt;li&gt;βγq可激活Ib型&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#rtk-pi-3-ji-mei-pip3-akt&quot;&gt;PI 3-激酶&lt;&#x2F;a&gt;。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shi-zi-hong-zhi-cgmp-chao-ji-hua&quot;&gt;视紫红质 → cGMP↓ → 超极化&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;视紫红质 Rhodopsin&lt;&#x2F;strong&gt;是GPCR，11-顺视黄醛接受光子后转化为全反视黄醛，造成视紫红质构象改变而激活。
+&lt;ul&gt;
+&lt;li&gt;灭活步：&lt;strong&gt;视紫红质激酶&lt;&#x2F;strong&gt;（&lt;strong&gt;RK&lt;&#x2F;strong&gt;）是GRK，磷酸化视紫红质后，后者难以激活transducin而与arrestin结合。RK, rhodopsin kinase。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Transducin&lt;&#x2F;strong&gt;（&lt;strong&gt;Gt&lt;&#x2F;strong&gt;）是被视紫红质激活的G蛋白，其α激活cGMP磷酸二酯酶。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;cGMP&lt;&#x2F;strong&gt;周转率高，由GC合成，cGMP磷酸二酯酶水解。其可使cGMP门控阳离子通道开放。
+&lt;ul&gt;
+&lt;li&gt;阳离子通道关闭后，胞质Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;降低，增强一种Ca&lt;sup&gt;++&lt;&#x2F;sup&gt;敏感蛋白的活性，后者激活GC形成负反馈。
+&lt;ul&gt;
+&lt;li&gt;此负反馈支持了视杆细胞的适应。大家学心理学的都知道这有多重要吧！！！！！！！&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;mei-ou-lian-shou-ti&quot;&gt;酶耦联受体&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;酶耦联受体胞质部分有酶活性或与直接酶产生联系。&lt;&#x2F;li&gt;
+&lt;li&gt;每亚基通常1次跨膜。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;rtk&quot;&gt;RTK&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;RTK胞外侧结合配体后，胞质侧酪氨酸激酶域被激活。随后这些域磷酸化受体的胞质侧（通常在不定形部分）的多位点。如：
+&lt;ol&gt;
+&lt;li&gt;PDGF使受体胞外侧2聚，使胞质侧激酶域相互靠近彼此磷酸化；&lt;&#x2F;li&gt;
+&lt;li&gt;胰岛素受体未结合胰岛素时即为2聚体，结合胰岛素后胞质侧激酶域相互靠近彼此磷酸化；&lt;&#x2F;li&gt;
+&lt;li&gt;EGF使受体胞外侧2聚，但胞质侧产生不对称的构象变化，1受体的激酶域被激活而磷酸化2受体；&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;灭活步：酪氨酸特异的蛋白磷酸酶迅速水解磷酸，因此信号持续较短。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;信号蛋白可借助SH2或PTB域结合在特定的磷酸酪氨酸位点。其可能被磷酸化，可能产生构象变化。即使构象变化不介导信号蛋白的激活，受体也可形成信号转导复合体激活下游信号通路。
+&lt;ul&gt;
+&lt;li&gt;还可结合接头蛋白（如胰岛素受体结合IRS1）形成介导多步的信号转导复合体，或产生更多的磷酸酪氨酸位点。IRS, insulin receptor substrate。&lt;&#x2F;li&gt;
+&lt;li&gt;一些酶结合后可作为信号转导复合体的末端产生胞质效应，如PLCγ生成&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#gpcr-gq-aq-plcb-ip3-er-ip3shou-ti-ca-ca-gai-diao-dan-bai-camji-mei&quot;&gt;IP&lt;sub&gt;3&lt;&#x2F;sub&gt;&lt;&#x2F;a&gt;、&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#luo-an-suan-ji-mei-ou-lian-shou-ti&quot;&gt;Src磷酸化酪氨酸（包括RTK自身）&lt;&#x2F;a&gt;、&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#rtk-pi-3-ji-mei-pip3-akt&quot;&gt;PI 3-激酶生成PIP&lt;sub&gt;3&lt;&#x2F;sub&gt;&lt;&#x2F;a&gt;等。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ras超家族&lt;&#x2F;strong&gt;是单体GTP酶，其中的&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#rtk-grb2-sos-ras-mapji-mei-xi-tong&quot;&gt;Ras&lt;&#x2F;a&gt;、&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong&quot;&gt;Rho&lt;&#x2F;a&gt;家族可参与信号转导。一些GEF或GAP结合于信号转导复合体后可作为末端产生胞质效应。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;一些信号蛋白结合后可降低信号水平形成负反馈。如c-Cbl结合后可泛素化受体介导其内化和降解。
+&lt;ul&gt;
+&lt;li&gt;TRK内化后仍可发挥效应，如TrkA在神经元轴突末端结合NGF后需内化并转运至胞体才能发挥效应。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;rtk-grb2-sos-ras-mapji-mei-xi-tong&quot;&gt;RTK → Grb2 → Sos → Ras → MAP激酶系统&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ras&lt;&#x2F;strong&gt;包括H-、K-和N-Ras。与脂连接锚定于质膜胞质侧。
+&lt;ul&gt;
+&lt;li&gt;RTK间接结合Ras的GEF而激活Ras。有时GEF也作为支架蛋白选择下游信号通路。
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Drosophila&lt;&#x2F;em&gt;中，一种RTK Sev可结合Grb2的SH2域，Grb2的SH3域又可结合一种Ras GEF Sos，进而激活Ras。
+&lt;ul&gt;
+&lt;li&gt;哺乳动物中也存在RTK → Grb2 → Sos → Ras通路。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;灭活步：GAP迅速灭活Ras，因此信号持续时间较短。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;MAP激酶系统 MAP kinase module&lt;&#x2F;strong&gt;包含3序贯的丝苏氨酸激酶：（Ras → ）MAPKKK → MAPKK → MAPK。有多种。
+&lt;ul&gt;
+&lt;li&gt;哺乳动物中，Raf=MAPKKK，Mek=MAPKK，Erk=MAPK。&lt;&#x2F;li&gt;
+&lt;li&gt;Erk可入核磷酸化转录因子启动&lt;em&gt;即刻早期基因 immediate early genes&lt;&#x2F;em&gt;的转录，有些即刻早期基因编码的转录因子启动其他基因的转录，包括G1 cyclin。
+&lt;ul&gt;
+&lt;li&gt;即刻早期基因的转录可在RTK与配体结合后数min内启动。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;负反馈：MAP激酶系统可增加蛋白磷酸酶的表达或稳定，灭活系统中的激酶。Erk可磷酸化Raf而灭活之。&lt;&#x2F;li&gt;
+&lt;li&gt;系统内的激酶可结合至支架蛋白以形成信号转导复合体以提高特异性，因此可同时介导平行而互不干扰的信号转导通路。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;随配体种类和受体不同，通路激活模式不同。如神经前体细胞中，EGF可使Erk活性快速升高，随后快速下降，细胞分裂。NGF则使Erk活性持续增强数h，细胞分化。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong&quot;&gt;RTK →→ Rho → 细胞骨架（微管系统和肌动蛋白丝系统）&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rho&lt;&#x2F;strong&gt;无活性时通常在胞质中与&lt;strong&gt;鸟苷酸分解抑制素 guanine nucleotide dissociation inhibitors, GDIs&lt;&#x2F;strong&gt;结合，使其稳定。
+&lt;ul&gt;
+&lt;li&gt;效应包括众多与细胞骨架相关的，包括细胞形状、极性、运动、迁移、黏附、细胞周期、基因转录、膜运输等。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Ephrin通路中，&lt;strong&gt;ephrin&lt;&#x2F;strong&gt;是一种胞外信号，识别质膜&lt;strong&gt;Eph&lt;&#x2F;strong&gt; RTK。Eph激活后结合Rho GEF &lt;strong&gt;ephexin&lt;&#x2F;strong&gt;和一种酪氨酸激酶，后者磷酸化ephexin激活之，随后ephexin激活&lt;strong&gt;RhoA&lt;&#x2F;strong&gt;。RhoA调控肌动蛋白丝系统使附近的生长锥被破坏，从而介导轴突生长。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;rtk-pi-3-ji-mei-pip3-akt&quot;&gt;RTK → PI 3-激酶 → PIP&lt;sub&gt;3&lt;&#x2F;sub&gt; → Akt&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PI 3-激酶 PI 3-kinase&lt;&#x2F;strong&gt;与质膜结合，可在磷脂酰肌醇中的肌醇3-位结合磷酸基团。其作用于PI(4,5)P&lt;sub&gt;2&lt;&#x2F;sub&gt;时生成&lt;strong&gt;磷脂酰肌醇-3,4,5-三磷酸&lt;&#x2F;strong&gt;（phosphotidylinositide-3,4,5-trisphosphate, &lt;strong&gt;PI(3,4,5)P&lt;sub&gt;3&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt;&#x2F;&lt;strong&gt;PIP&lt;sub&gt;3&lt;&#x2F;sub&gt;&lt;&#x2F;strong&gt;）。
+&lt;ul&gt;
+&lt;li&gt;灭活步：&lt;strong&gt;磷酸磷脂酰肌醇磷酸酶 phosphoinositide phosphate&lt;&#x2F;strong&gt;水解PIP&lt;sub&gt;3&lt;&#x2F;sub&gt;，如&lt;strong&gt;PTEN&lt;&#x2F;strong&gt;可水解3-位磷酸基。&lt;&#x2F;li&gt;
+&lt;li&gt;I型PI 3-激酶是异2聚体，其中催化亚基均等同，调节亚基不同。
+&lt;ul&gt;
+&lt;li&gt;Ia型PI 3-激酶借调节亚基SH2域结合于RTK而被激活，而Ib型PI 3-激酶结合βγq后被激活。&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#rtk-grb2-sos-ras-mapji-mei-xi-tong&quot;&gt;Ras&lt;&#x2F;a&gt;直接结合催化亚基也可激活之。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;PIP&lt;sub&gt;3&lt;&#x2F;sub&gt;可招募含PH域的信号蛋白以形成信号转导复合体，如Sos和Akt。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;mTORC2&lt;&#x2F;strong&gt;是结合在膜上的复合体，包括激酶mTOR和rictor；&lt;strong&gt;PDK1&lt;&#x2F;strong&gt;含PH域。mTORC2磷酸化Akt后，Akt被PDK1再磷酸化，从而脱离质膜。TOR, target of rapamycin; mTOR, mammalian TOR; mTORC, mTOR complex; PDK, phosphoinositide dependent protein kinase。
+&lt;ul&gt;
+&lt;li&gt;mTORC2也调控&lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260203-cell-signaling&#x2F;#rtk-rho-xi-bao-gu-jia-wei-guan-xi-tong-he-ji-dong-dan-bai-si-xi-tong&quot;&gt;Rho系统&lt;&#x2F;a&gt;。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Akt&lt;&#x2F;strong&gt;&#x2F;PKB是激酶，功能是促进细胞存活和生长。&lt;&#x2F;li&gt;
+&lt;li&gt;胰岛素和胰岛素样生长因子主要激活本通路。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;akt-mapk-tsc-rheb-mtorc1&quot;&gt;Akt&#x2F;MAPK ⊣ TSC ⊣ Rheb → mTORC1&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;生长因子作用于RTK激活Akt或MAPK。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;TSC&lt;&#x2F;strong&gt;是Rheb的GAP。被Akt或MAPK磷酸化而灭活。TSC, tuberous sclerosis complex。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Rag&lt;&#x2F;strong&gt;是单体GTP酶；&lt;strong&gt;Ragulator&lt;&#x2F;strong&gt;是Rag的GEF，位于溶酶体膜；&lt;strong&gt;Gator1&lt;&#x2F;strong&gt;是Rag的GAP。Rag感受氨基酸浓度，机制为：溶酶体氨基酸 → Ragulator；胞质氨基酸 ⊣ 受体 ⊣ Gator2 ⊣ Gator1。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;mTORC1&lt;&#x2F;strong&gt;包括mTOR和raptor，被Rheb和Rag共同激活后，介导细胞生长。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;luo-an-suan-ji-mei-ou-lian-shou-ti&quot;&gt;酪氨酸激酶耦联受体&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;受体胞质侧结合胞质酪氨酸激酶，其2聚，相互磷酸化而激活。
+&lt;ul&gt;
+&lt;li&gt;激活后胞质酪氨酸激酶上有磷酸酪氨酸位点，因此RTK通路中的一些信号蛋白也可结合于胞质酪氨酸激酶。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;不同的胞质酪氨酸激酶和RTK靠近时也可能相互磷酸化而激活。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Src家族&lt;&#x2F;strong&gt;是胞质酪氨酸激酶，具有SH2、SH3域，共价结合于脂且被受体锚定于周围。
+&lt;ul&gt;
+&lt;li&gt;一些成员结合RTK或胞质酪氨酸激酶后与其相互磷酸化形成正反馈。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;FAK&lt;&#x2F;strong&gt;是胞质酪氨酸激酶，可借其他蛋白质与integrin结合。Integrin结合ECM激活后可形成与Src的正反馈，介导细胞存活、生长、繁殖、迁移等。FAK, focal adhesion kinase。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;jak-stat&quot;&gt;JAK–STAT&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;受体 → JAK → STAT&lt;&#x2F;li&gt;
+&lt;li&gt;细胞因子、生长激素、催乳素受体是2聚体或3聚体。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;JAKs&lt;&#x2F;strong&gt;是胞质酪氨酸激酶，静息时与上述受体稳定结合，包括JAK1~3和Tyk2。互相磷酸化激活后磷酸化受体。JAK, Janus kinase。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;STATs&lt;&#x2F;strong&gt;是转录调控因子，位于胞质，具有SH2域，结合于受体的磷酸酪氨酸位点被JAK磷酸化。随后进入胞质，彼此借助SH2域与磷酸酪氨酸形成2聚体，入核与其他调控因子调控转录。可直接结合顺式作用元件增强转录。STAT, signal transducer and activator of transcription。
+&lt;ul&gt;
+&lt;li&gt;负反馈：STAT可启动本通路抑制蛋白的转录。其结合于受体或STATs而抑制。增益较小。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;如催乳素经本通路增强乳汁蛋白转录。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;shou-ti-xing-si-su-an-suan-ji-mei&quot;&gt;受体型丝苏氨酸激酶&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;tgfb-smad&quot;&gt;TGFβ–Smad&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TGFβ受体 → Smad → Rbpsuh&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;TGFβ超家族&lt;&#x2F;strong&gt;包括&lt;strong&gt;TGFβ&#x2F;activin家族&lt;&#x2F;strong&gt;和&lt;strong&gt;BMP家族&lt;&#x2F;strong&gt;，均为2聚体分泌蛋白。在发展中介导细胞增殖分化死亡和ECM产生，从而介导模式形成；成人中介导组织修复和免疫调控。BMP, bone morphogenetic protein。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;TGFβ受体&lt;&#x2F;strong&gt;是受体型丝苏氨酸激酶，1次跨膜，胞质侧有激酶域。活性受体是4聚体，包括2 I型受体和2 II型受体，受体复合体结合配体后II型受体磷酸化I型受体而激活。活性I型受体直接结合并磷酸化R-Smad。R-Smad, receptor-activated Smad。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Smads&lt;&#x2F;strong&gt;中R-Smads包括Smad1~3、5、8，co-Smad是Smad4，而抑制性Smads包括Smad6、7。R-Smad中，Smad2、3被TGFβ&#x2F;activin受体或Smad1、5、8被BMP受体磷酸化后，结合co-Smad Smad4并入核发挥转录调控作用。
+&lt;ul&gt;
+&lt;li&gt;配体结合后可诱导入胞。经网格蛋白&#x2F;内体途径入胞后持续激活通路。早期内体中富集SARA可增强信号。经caveolae途径入胞后被泛素化经蛋白酶体灭活。SARA, Smad anchor for receptor activation。&lt;&#x2F;li&gt;
+&lt;li&gt;磷酸化的R-Smad入核后磷酸被水解，随后出核可再参与信号转导。因此TGFβ的作用可在时空上加和。&lt;&#x2F;li&gt;
+&lt;li&gt;负反馈：R-Smads启动抑制性Smads的转录。抑制性Smads结合于受体或co-Smad而起竞争性抑制作用，也可招募泛素连接酶Smurf泛素化受体、Smads，还可招募蛋白磷酸酶水解活性R-Smads的磷酸。Smurf, Smad ubiquitylation regulatory factor。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;yi-lai-dan-bai-shui-jie-de-xin-hao-zhuan-dao&quot;&gt;依赖蛋白水解的信号转导&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;notch&quot;&gt;Notch&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Notch&lt;&#x2F;strong&gt; 1次跨膜，结合Delta后胞外蛋白酶对Notch胞外侧进行剪切，随后跨膜区被&lt;strong&gt;γ-分泌酶 γ-secretase&lt;&#x2F;strong&gt;剪切，胞质侧C端的片段转位至核发挥转录调控作用。
+&lt;ul&gt;
+&lt;li&gt;γ-分泌酶的亚基&lt;strong&gt;早老素 presenilin&lt;&#x2F;strong&gt;突变时可剪切APP，在胞外造成Aβ的聚集，导致Alzheimer病。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Rbpsuh&lt;&#x2F;strong&gt;是DNA结合蛋白，结合Notch尾后，由转录阻遏蛋白转为转录激活蛋白。&lt;&#x2F;li&gt;
+&lt;li&gt;一旦启动是不可逆的。&lt;&#x2F;li&gt;
+&lt;li&gt;在发展时广泛介导细胞命运决定和模式形成。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;wnt-b-catenin&quot;&gt;Wnt–β-catenin&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Wnt → Frizzled&#x2F;LRP ⊣ APC&#x2F;degradation复合体 ⊣ β-catenin → LEF1&#x2F;TCF&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Wnt–β-catenin通路&lt;&#x2F;strong&gt;是众多Wnt通路之1，又称&lt;strong&gt;经典Wnt通路 canonical Wnt pathway&lt;&#x2F;strong&gt;。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Wnts&lt;&#x2F;strong&gt;是分泌脂蛋白，因此具有疏水性而主要发挥局部调节作用，在发展时作用广泛。&lt;&#x2F;li&gt;
+&lt;li&gt;Wnt受体之1 &lt;strong&gt;Frizzled&lt;&#x2F;strong&gt; 7次跨膜，胞外受体域有疏水口袋，高亲和结合Wnt的脂；之2 &lt;strong&gt;LRP&lt;&#x2F;strong&gt; 1次跨膜。Wnt导致2受体形成受体复合体。LRP, LDL receptor related protein。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Degradation复合体 Degradation complex&lt;&#x2F;strong&gt;除β-catenin外有&amp;gt;4蛋白，包括蛋白激酶&lt;strong&gt;CK1&lt;&#x2F;strong&gt;，其磷酸化β-catenin的丝氨酸使其被另蛋白激酶&lt;strong&gt;GSK3&lt;&#x2F;strong&gt;磷酸化进而泛素化经蛋白酶体降解。&lt;strong&gt;Axin&lt;&#x2F;strong&gt;和&lt;strong&gt;APC&lt;&#x2F;strong&gt;是复合体中的支架蛋白。Wnt受体复合体形成后，CK1和GSK3磷酸化LRP，随后Frizzled招募支架蛋白&lt;strong&gt;Dishevelled&lt;&#x2F;strong&gt;。APC结合至活性LRP和Dishevelled被灭活，从而导致degredation复合体解散。CK, casein kinase; GSK, glycogen synthase kinase; APC, adenomatous polyposis coli。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;β-catenin&lt;&#x2F;strong&gt;可调节细胞连接，而胞质β-catenin是转录调控因子，不稳定易被degradation复合体结合促进降解。Degradation复合体解散后β-catenin稳定化，入核发挥转录调控作用。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;LEF1&#x2F;TCF&lt;&#x2F;strong&gt;静息状态下结合阻遏蛋白&lt;strong&gt;Groucho&lt;&#x2F;strong&gt;被抑制。β-Catenin入核后结合LEF1&#x2F;TCF而释放Groucho启动转录。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Myc&lt;&#x2F;strong&gt;的转录受本通路调控，促进细胞生长繁殖。APC突变时功能异常致Myc活性增强，可致结肠癌。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;负反馈：β-Catenin可启动分泌酶&lt;strong&gt;Notum&lt;&#x2F;strong&gt;的转录，后者在胞外切除Wnt的脂而灭活之；亦可启动跨质膜泛素连接酶&lt;strong&gt;Rnf43&lt;&#x2F;strong&gt;的转录，后者泛素化Frizzled。
+&lt;ul&gt;
+&lt;li&gt;胞外信号&lt;strong&gt;R-spondin&lt;&#x2F;strong&gt;作用于GPCR &lt;strong&gt;Lgr&lt;&#x2F;strong&gt;可灭活Rnf43，调控本通路。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;hedgehog-patched-smoothened-gli2-hedgehogba-ji-yin-hedgehog-patched-gpr161-pka-gli3pian-duan-hedgehogba-ji-yin&quot;&gt;Hedgehog ⊣ Patched ⊣ Smoothened → Gli2 → Hedgehog靶基因；Hedgehog ⊣ Patched → Gpr161 → PKA → Gli3片段 ⊣ Hedgehog靶基因&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hedgehogs&lt;&#x2F;strong&gt;包括Sonic、Desert和Indian hedgehog。连接胆固醇和脂肪酸链。作为发展中的旁分泌调节因子。&lt;&#x2F;li&gt;
+&lt;li&gt;脊椎动物细胞通常具有单个&lt;strong&gt;初级纤毛 primary cilium&lt;&#x2F;strong&gt;，其中有个微管轴，起运输路的作用。初级纤毛是本通路前部步骤的场所。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Patched&lt;&#x2F;strong&gt;是Hedgehog质膜受体，静息时位于初级纤毛膜，将胆固醇排出胞外。结合Hedgehog后可能失去此功能。本通路激活后，转位至纤毛外。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Smoothened&lt;&#x2F;strong&gt; 7次跨膜，胞外有脂结合域，结合胆固醇后可激活。静息时位于纤毛外，被Patched抑制。当Patched结合Hedgehog后，Smoothened去抑制而激活并转位至纤毛。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Gpr161&lt;&#x2F;strong&gt;是位于纤毛膜的具有组成性活性的孤GPCR，纤毛静息态下使胞质cAMP水平升高，PKA活性增强，其磷酸化Gli3使后者被剪切。Gli3片段入核阻遏Hedgehog靶基因表达。本通路激活后转位至纤毛外因此不能作用于纤毛内的Gli3。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Glis&lt;&#x2F;strong&gt;是转录调控因子，静息时结合抑制性蛋白SuFu。本通路激活后Gli2释放入核促进靶基因表达，而Gli3不再发挥阻遏作用。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;nfkb&quot;&gt;NFκB&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TLR、TNFR和IL-1R均激活本通路，介导炎症反应和发育。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;NFκBs&lt;&#x2F;strong&gt;是同或异源2聚体转录调控因子，静息时结合&lt;strong&gt;IκB&lt;&#x2F;strong&gt;而不具活性。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;IKK&lt;&#x2F;strong&gt;是异源3聚体，包括IKKα、IKKβ和NEMO。受体激活导致IKK激活，随后IKKβ磷酸化IκB，导致其被泛素化，从而释放NFκB入核发挥转录调控功能。IKK, IκB kinase kinase。&lt;&#x2F;li&gt;
+&lt;li&gt;负反馈：NFκB可增强IκBα的表达。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;he-shou-ti&quot;&gt;核受体&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;核受体超家族 Nuclear receptor superfamily&lt;&#x2F;strong&gt;成员是转录调节因子，包括孤核受体以及位于胞内的各种受体，其配体包括细胞自身代谢产物，如PPAR结合脂代谢产物；以及可结合核受体的亲脂信号分子，如类固醇激素、甲状腺激素、类视黄素和维生素D。PPAR, perxisome proliferation activated receptor。
+&lt;ul&gt;
+&lt;li&gt;静息状态下，有些核受体定位于胞质，结合配体后入核发挥转录调节作用；另些核受体与DNA结合。&lt;&#x2F;li&gt;
+&lt;li&gt;静息状态下核受体通常与抑制性蛋白结合。结合配体后，抑制性蛋白释放，而协同转录的蛋白结合以启动基因转录；相反的情况可能，即静息状态下的核受体可增强基因表达，而结合配体后转而抑制基因表达。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

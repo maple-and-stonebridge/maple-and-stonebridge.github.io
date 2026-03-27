@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - 发想</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/category/fa-xiang/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-05T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/category/fa-xiang/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>干预论自我</title>
+        <published>2026-02-05T00:00:00+00:00</published>
+        <updated>2026-02-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20260205-interventionist-self/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20260205-interventionist-self/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20260205-interventionist-self/">&lt;p&gt;按照认知学派的观点，一种自我是自我图式。图式可能按照因果网组织起来，而被众科学广泛接受的因果理论是 &lt;em&gt;干预论 interventionism&lt;&#x2F;em&gt; 。
+因此设想有一种自我可被描述为 &lt;strong&gt;干预论自我&lt;&#x2F;strong&gt; ，即在自我探索实践中，通过设计并实施干预而形成的自我图式。&lt;&#x2F;p&gt;
+&lt;p&gt;理由：&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;实用&lt;&#x2F;li&gt;
+&lt;li&gt;承认自我的结构&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;问题：&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;心智相关问题，如体验&#x2F;自省而得的现象是否具有特殊地位，从而将这种干预与行为学及其他科学的干预差别开？&lt;&#x2F;li&gt;
+&lt;li&gt;方法论问题，如何在复杂条件下实施干预，即避免混杂偏倚？&lt;&#x2F;li&gt;
+&lt;li&gt;上述方法如何及在多大程度上是有效的，尤其在样本量极小，仅为个体或少数几次干预的情况下？&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh-cn">
+        <title>论层级</title>
+        <published>2025-09-14T00:00:00+00:00</published>
+        <updated>2025-09-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20250907-levels-phsci/">&lt;p&gt;`经常提到“功能层级”、“结构层级”、“抽象层级”。它们到底是什么？&lt;&#x2F;p&gt;
+&lt;p&gt;传统的做法要先考虑“我们说这些术语时，我们在说什么”。但是那样就有点主流了。为了契合我的口味，先来形式化地看一下。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;xing-shi-hua&quot;&gt;形式化&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;jie-gou-ceng-ji&quot;&gt;结构层级&lt;&#x2F;h2&gt;
+&lt;p&gt;上层的结构可以被分为下层的结构。因此结构层级是一个树\( T_{struct} \)，每个节点都是一个结构。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gong-neng-ceng-ji&quot;&gt;功能层级&lt;&#x2F;h2&gt;
+&lt;p&gt;功能是一个结构的属性，把它看作一个理论：\( \Sigma_{func}(a)\subseteq\mathcal L_{func} \)，其中\( a \)满足存在结构层级\( T_{struct} \)使得\( a\in T_{struct} \)。&lt;&#x2F;p&gt;
+&lt;p&gt;理想情况下下层结构的功能支持了上层结构的功能，这里的支持不妨考虑为逻辑\( \vdash_{func} \)。即\( \Sigma_{func}(b)=\{ \varphi\in\mathcal L_{func}:\cup_{a\prec b}\Sigma_{func}(a)\vdash_{func}\varphi \} \)，
+其中\( a\prec b \)的含义是\( a \)在\( b \)的下层。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chou-xiang-ceng-ji&quot;&gt;抽象层级&lt;&#x2F;h2&gt;
+&lt;p&gt;呃这个其实是来自oo的。涉及一个偏序\( \prec_{concept} \)。其中的元素是概念，它们要作为形式语言的常元\( \prec_{concept}\subseteq constant(\mathcal L_{abstract}) \)。&lt;&#x2F;p&gt;
+&lt;p&gt;当然有一个逻辑\( \vdash_{abstract} \)。假设\( a, b\in\prec_{concept}; a\prec b \)，我们有\( \forall\varphi(x)\in\mathcal L_{abstract}, \vdash_{abstract}\varphi(b)\Rightarrow\vdash_{abstract}\varphi(a) \)。
+这里还有量词的问题。。。。。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;s&quot;&gt;Σ&lt;&#x2F;h2&gt;
+&lt;p&gt;综上，功能层级和抽象层级没什么关联。。。。。。。。。。。。。。功能是在命题的层面，抽象是在变元的层面，而且二者的蕴含方向是相反的。&lt;&#x2F;p&gt;
+&lt;p&gt;接下来我们再回到实践中我们怎么运用“功能”“抽象”等术语的。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;shi-jian&quot;&gt;实践&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;jie-gou-gong-neng&quot;&gt;结构-功能&lt;&#x2F;h2&gt;
+&lt;p&gt;我们首先把一个大结构分为比如形态学上小结构。然后我们会先给最大的结构即\( T_{struct} \)的树根指派一些功能，然后我们目的论地给小结构指派功能，这些功能是为了满足大结构的功能，并最终满足树根的功能。&lt;&#x2F;p&gt;
+&lt;p&gt;这种指派是合理的吗？有时候，例如在生物学中，这种合理性是由进化论保障的。看来有些特异。对于人造物来说，可能有（一些实用的工具），可能没有（出于传统、直觉etc.）。&lt;&#x2F;p&gt;
+&lt;p&gt;这种指派在实践中有什么意义？在生物学等科学中，呃，其实我认为意义在于为我们提供了一个方便记忆的语义网络的骨架，我们的人类实践可以锚定在这个骨架上，这样，它们才能被组织起来。由此可见\( T_{struct, science} \)必须是符合人类自然认知的，
+否则，例如一个结构的功能很难描述的时候，我们可能要对整个结构树进行再排布。嗯，“科学结构”作为一个人造物的功能也就在此了。注意这个想法还是很循证的，可能不容易满足，需要再退一步。&lt;&#x2F;p&gt;
+&lt;p&gt;还有问题在于\( \vdash_{func} \)也不是那个符号逻辑的后承，我们当然并不严格地证明它，或者把\( \Sigma_{func}(x) \)详尽地列出来。正是这里的让步导致形式化意义不大，只能回到为了实践的认知上（有点打脸）。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chou-xiang&quot;&gt;抽象&lt;&#x2F;h2&gt;
+&lt;p&gt;那么科学抽象就比较直白了，它的组织（\( \prec_{concept} \)）本来就很随意了，明摆着就是要怎么方便认知怎么来。只不过是形式上（或者语义组织的种类，反应为逻辑形式）有所不同。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;s-1&quot;&gt;Σ&lt;&#x2F;h1&gt;
+&lt;p&gt;总结就是，科学学者不用区分这两者。。。。。阿姨一哦哦a哎呀嗯哟&#x27;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
