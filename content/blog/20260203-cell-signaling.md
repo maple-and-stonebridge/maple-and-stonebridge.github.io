@@ -1,7 +1,7 @@
 +++
 title = "信号转导"
 description = "信号转导的原理、各种通路及其效应，大概作为一片综合笔记"
-date = 2026-03-26
+date = 2026-03-27
 [taxonomies]
 category = ["笔记"]
 field = ["生物学", "分子生物学", "细胞学", "药理学", "细胞生理学"]
@@ -118,12 +118,12 @@ sources：
     * [PLCγ](#rtk)发挥同效应。
 * **IP<sub>3</sub>** 具有水溶性，扩散至内质网边缘。
 * **IP<sub>3</sub>受体**是内质网膜上的配体门控Ca<sup>++</sup>通道。
-    * IP<sub>3</sub>受体与IP<sub>3</sub>结合后暴露出Ca<sup>++</sup>结合位点，同时与IP<sub>3</sub>、Ca<sup>++</sup>结合即可使通道打开，使内质网中Ca<sup>++</sup>流入胞浆。
+    * IP<sub>3</sub>受体与IP<sub>3</sub>结合后暴露出Ca<sup>++</sup>结合位点，同时与IP<sub>3</sub>、Ca<sup>++</sup>结合即可使通道打开，使内质网中Ca<sup>++</sup>流入胞质。
 * **Ca<sup>++</sup>** 是广泛存在的第2信使。
     * 膜去极化、膜机械拉伸、一些胞外信号可开启质膜Ca<sup>++</sup>通道。
-    * 灭活步：质膜、内质网膜上的Ca<sup>++</sup>-ATP酶使胞浆Ca<sup>++</sup>水平下降，还有些细胞质膜上存在Na<sup>+</sup>-Ca<sup>++</sup>交换体。
+    * 灭活步：质膜、内质网膜上的Ca<sup>++</sup>-ATP酶使胞质Ca<sup>++</sup>水平下降，还有些细胞质膜上存在Na<sup>+</sup>-Ca<sup>++</sup>交换体。
     * Ca<sup>++</sup>水平时间模式
-        * 内质网膜上的AP<sub>3</sub>受体和雷诺丁受体在胞浆Ca<sup>++</sup>水平低至中时被其激活（**Ca<sup>++</sup>诱导Ca<sup>++</sup>释放**），但在胞浆Ca<sup>++</sup>水平高时被抑制。
+        * 内质网膜上的AP<sub>3</sub>受体和雷诺丁受体在胞质Ca<sup>++</sup>水平低至中时被其激活（**Ca<sup>++</sup>诱导Ca<sup>++</sup>释放**），但在胞质Ca<sup>++</sup>水平高时被抑制。
         * 正反馈：信号强度高时兴奋可沿内质网膜传播。
         > 类比动作电位
         * 负反馈：产生Ca<sup>++</sup>振荡。
@@ -183,7 +183,7 @@ sources：
     * 系统内的激酶可结合至支架蛋白以形成信号转导复合体以提高特异性，因此可同时介导平行而互不干扰的信号转导通路。
 * 随配体种类和受体不同，通路激活模式不同。如神经前体细胞中，EGF可使Erk活性快速升高，随后快速下降，细胞分裂。NGF则使Erk活性持续增强数h，细胞分化。
 ## RTK →→ Rho → 细胞骨架（微管系统和肌动蛋白丝系统）
-* **Rho**无活性时通常在胞浆中与**鸟苷酸分解抑制素 guanine nucleotide dissociation inhibitors, GDIs**结合，使其稳定。
+* **Rho**无活性时通常在胞质中与**鸟苷酸分解抑制素 guanine nucleotide dissociation inhibitors, GDIs**结合，使其稳定。
     * 效应包括众多与细胞骨架相关的，包括细胞形状、极性、运动、迁移、黏附、细胞周期、基因转录、膜运输等。
 * Ephrin通路中，**ephrin**是一种胞外信号，识别质膜**Eph** RTK。Eph激活后结合Rho GEF **ephexin**和一种酪氨酸激酶，后者磷酸化ephexin激活之，随后ephexin激活**RhoA**。RhoA调控肌动蛋白丝系统使附近的生长锥被破坏，从而介导轴突生长。
 ## RTK → PI 3-激酶 → PIP<sub>3</sub> → Akt
@@ -209,14 +209,16 @@ sources：
     * 一些成员结合RTK或胞质酪氨酸激酶后与其相互磷酸化形成正反馈。
 * **FAK**是胞质酪氨酸激酶，可借其他蛋白质与integrin结合。Integrin结合ECM激活后可形成与Src的正反馈，介导细胞存活、生长、繁殖、迁移等。FAK, focal adhesion kinase。
 ## JAK–STAT
+* 受体 → JAK → STAT
 * 细胞因子、生长激素、催乳素受体是2聚体或3聚体。
 * **JAKs**是胞质酪氨酸激酶，静息时与上述受体稳定结合，包括JAK1~3和Tyk2。互相磷酸化激活后磷酸化受体。JAK, Janus kinase。
-* **STATs**是转录调控因子，位于胞浆，具有SH2域，结合于受体的磷酸酪氨酸位点被JAK磷酸化。随后进入胞质，彼此借助SH2域与磷酸酪氨酸形成2聚体，入核与其他调控因子调控转录。可直接结合顺式作用元件增强转录。STAT, signal transducer and activator of transcription。
+* **STATs**是转录调控因子，位于胞质，具有SH2域，结合于受体的磷酸酪氨酸位点被JAK磷酸化。随后进入胞质，彼此借助SH2域与磷酸酪氨酸形成2聚体，入核与其他调控因子调控转录。可直接结合顺式作用元件增强转录。STAT, signal transducer and activator of transcription。
     * 负反馈：STAT可启动本通路抑制蛋白的转录。其结合于受体或STATs而抑制。增益较小。
 * 如催乳素经本通路增强乳汁蛋白转录。
 # 受体型丝苏氨酸激酶
 ## TGFβ–Smad
-* **TGFβ超家族**包括**TGFβ/activin家族**和**BMP家族**，均为2聚体分泌蛋白。在发展中介导细胞增殖分化死亡和ECM产生，从而介导模型形成；成人中介导组织修复和免疫调控。BMP, bone morphogenetic protein。
+* TGFβ受体 → Smad → Rbpsuh
+* **TGFβ超家族**包括**TGFβ/activin家族**和**BMP家族**，均为2聚体分泌蛋白。在发展中介导细胞增殖分化死亡和ECM产生，从而介导模式形成；成人中介导组织修复和免疫调控。BMP, bone morphogenetic protein。
 * **TGFβ受体**是受体型丝苏氨酸激酶，1次跨膜，胞质侧有激酶域。活性受体是4聚体，包括2 I型受体和2 II型受体，受体复合体结合配体后II型受体磷酸化I型受体而激活。活性I型受体直接结合并磷酸化R-Smad。R-Smad, receptor-activated Smad。
 * **Smads**中R-Smads包括Smad1~3、5、8，co-Smad是Smad4，而抑制性Smads包括Smad6、7。R-Smad中，Smad2、3被TGFβ/activin受体或Smad1、5、8被BMP受体磷酸化后，结合co-Smad Smad4并入核发挥转录调控作用。
     * 配体结合后可诱导入胞。经网格蛋白/内体途径入胞后持续激活通路。早期内体中富集SARA可增强信号。经caveolae途径入胞后被泛素化经蛋白酶体灭活。SARA, Smad anchor for receptor activation。
@@ -224,8 +226,35 @@ sources：
     * 负反馈：R-Smads启动抑制性Smads的转录。抑制性Smads结合于受体或co-Smad而起竞争性抑制作用，也可招募泛素连接酶Smurf泛素化受体、Smads，还可招募蛋白磷酸酶水解活性R-Smads的磷酸。Smurf, Smad ubiquitylation regulatory factor。
 # 依赖蛋白水解的信号转导
 ## Notch
-* **Notch**1次跨膜，结合Delta后胞外蛋白酶对Notch胞外侧进行剪切，随后跨膜区被**γ-分泌酶 γ-secretase**剪切，胞质侧C端的片段转位至核发挥转录调控作用。
+* **Notch** 1次跨膜，结合Delta后胞外蛋白酶对Notch胞外侧进行剪切，随后跨膜区被**γ-分泌酶 γ-secretase**剪切，胞质侧C端的片段转位至核发挥转录调控作用。
     * γ-分泌酶的亚基**早老素 presenilin**突变时可剪切APP，在胞外造成Aβ的聚集，导致Alzheimer病。
+* **Rbpsuh**是DNA结合蛋白，结合Notch尾后，由转录阻遏蛋白转为转录激活蛋白。
 * 一旦启动是不可逆的。
 * 在发展时广泛介导细胞命运决定和模式形成。
 ## Wnt–β-catenin
+* Wnt → Frizzled/LRP ⊣ APC/degradation复合体 ⊣ β-catenin → LEF1/TCF
+* **Wnt–β-catenin通路**是众多Wnt通路之1，又称**经典Wnt通路 canonical Wnt pathway**。
+* **Wnts**是分泌脂蛋白，因此具有疏水性而主要发挥局部调节作用，在发展时作用广泛。
+* Wnt受体之1 **Frizzled** 7次跨膜，胞外受体域有疏水口袋，高亲和结合Wnt的脂；之2 **LRP** 1次跨膜。Wnt导致2受体形成受体复合体。LRP, LDL receptor related protein。
+* **Degradation复合体 Degradation complex**除β-catenin外有>4蛋白，包括蛋白激酶**CK1**，其磷酸化β-catenin的丝氨酸使其被另蛋白激酶**GSK3**磷酸化进而泛素化经蛋白酶体降解。**Axin**和**APC**是复合体中的支架蛋白。Wnt受体复合体形成后，CK1和GSK3磷酸化LRP，随后Frizzled招募支架蛋白**Dishevelled**。APC结合至活性LRP和Dishevelled被灭活，从而导致degredation复合体解散。CK, casein kinase; GSK, glycogen synthase kinase; APC, adenomatous polyposis coli。
+* **β-catenin**可调节细胞连接，而胞质β-catenin是转录调控因子，不稳定易被degradation复合体结合促进降解。Degradation复合体解散后β-catenin稳定化，入核发挥转录调控作用。
+* **LEF1/TCF**静息状态下结合阻遏蛋白**Groucho**被抑制。β-Catenin入核后结合LEF1/TCF而释放Groucho启动转录。
+    * **Myc**的转录受本通路调控，促进细胞生长繁殖。APC突变时功能异常致Myc活性增强，可致结肠癌。
+* 负反馈：β-Catenin可启动分泌酶**Notum**的转录，后者在胞外切除Wnt的脂而灭活之；亦可启动跨质膜泛素连接酶**Rnf43**的转录，后者泛素化Frizzled。
+    * 胞外信号**R-spondin**作用于GPCR **Lgr**可灭活Rnf43，调控本通路。
+## Hedgehog ⊣ Patched ⊣ Smoothened → Gli2 → Hedgehog靶基因；Hedgehog ⊣ Patched → Gpr161 → PKA → Gli3片段 ⊣ Hedgehog靶基因
+* **Hedgehogs**包括Sonic、Desert和Indian hedgehog。连接胆固醇和脂肪酸链。作为发展中的旁分泌调节因子。
+* 脊椎动物细胞通常具有单个**初级纤毛 primary cilium**，其中有个微管轴，起运输路的作用。初级纤毛是本通路前部步骤的场所。
+* **Patched**是Hedgehog质膜受体，静息时位于初级纤毛膜，将胆固醇排出胞外。结合Hedgehog后可能失去此功能。本通路激活后，转位至纤毛外。
+* **Smoothened** 7次跨膜，胞外有脂结合域，结合胆固醇后可激活。静息时位于纤毛外，被Patched抑制。当Patched结合Hedgehog后，Smoothened去抑制而激活并转位至纤毛。
+* **Gpr161**是位于纤毛膜的具有组成性活性的孤GPCR，纤毛静息态下使胞质cAMP水平升高，PKA活性增强，其磷酸化Gli3使后者被剪切。Gli3片段入核阻遏Hedgehog靶基因表达。本通路激活后转位至纤毛外因此不能作用于纤毛内的Gli3。
+* **Glis**是转录调控因子，静息时结合抑制性蛋白SuFu。本通路激活后Gli2释放入核促进靶基因表达，而Gli3不再发挥阻遏作用。
+## NFκB
+* TLR、TNFR和IL-1R均激活本通路，介导炎症反应和发育。
+* **NFκBs**是同或异源2聚体转录调控因子，静息时结合**IκB**而不具活性。
+* **IKK**是异源3聚体，包括IKKα、IKKβ和NEMO。受体激活导致IKK激活，随后IKKβ磷酸化IκB，导致其被泛素化，从而释放NFκB入核发挥转录调控功能。IKK, IκB kinase kinase。
+* 负反馈：NFκB可增强IκBα的表达。
+# 核受体
+* **核受体超家族 Nuclear receptor superfamily**成员是转录调节因子，包括孤核受体以及位于胞内的各种受体，其配体包括细胞自身代谢产物，如PPAR结合脂代谢产物；以及可结合核受体的亲脂信号分子，如类固醇激素、甲状腺激素、类视黄素和维生素D。PPAR, perxisome proliferation activated receptor。
+    * 静息状态下，有些核受体定位于胞质，结合配体后入核发挥转录调节作用；另些核受体与DNA结合。
+    * 静息状态下核受体通常与抑制性蛋白结合。结合配体后，抑制性蛋白释放，而协同转录的蛋白结合以启动基因转录；相反的情况可能，即静息状态下的核受体可增强基因表达，而结合配体后转而抑制基因表达。
