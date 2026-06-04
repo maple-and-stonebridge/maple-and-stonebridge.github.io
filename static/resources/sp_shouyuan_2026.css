@@ -37,7 +37,6 @@ ul.sp {
     color: rgb(90 120 120);
     list-style-type: '★';
     list-style-position: inside;
-    line-height: .7;
     margin-bottom: 0px;
 }
 @media (min-aspect-ratio: 1) {
@@ -50,6 +49,7 @@ ul.sp p {
     font-size: 20px;
     color: black;
 
+    margin-top: 0;
     margin-bottom: 0px;
     padding-bottom: 20px;
 }
