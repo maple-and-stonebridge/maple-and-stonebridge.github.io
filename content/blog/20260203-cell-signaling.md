@@ -108,6 +108,9 @@ sources：
 * **PKA**是丝氨酸/苏氨酸蛋白激酶，其效应蛋白集取决于细胞类型。
     * 无活性PKA由2调节亚基和2催化亚基构成。调节亚基与AKAP结合，后者又与细胞骨架或膜结合，以定位PKA；AKAP又可与其他信号分子结合形成信号转导复合体。AKAP, A-kinase anchoring protein。
     * cAMP结合调节亚基使其与催化亚基解离，以激活PKA。PKA可磷酸化附近的磷酸二酯酶，形成迅速的负反馈。
+    * 心肌细胞中，PKA可磷酸化L型Ca<sup>++</sup>通道，使其开放增强，从而介导β受体的正性肌力作用\[Sperelakis et al., 1994\]。
+        * PKA可磷酸化肌质网上的phospholamban，促进肌质网Ca<sup>++</sup>-ATP酶，介导心肌快速舒张。
+    * 平滑肌中，PKA可磷酸化MLCK降低其活性，介导β受体的舒张作用\[Adelstein, Hathaway, 1979\]。MLCK, myosin light chain kinase。
 * **CREB**是转录调节因子，识别CRE序列。被PKA在1丝氨酸磷酸化后，招募转录激活物CBP，启动转录，介导信号的长时效应。CRE, cAMP response element; CREB, CRE binding protein; CBP, CREB binding protein。
 ## GPCR → Gi → αi ⊣ AC
 如题
@@ -123,7 +126,7 @@ sources：
     * 膜去极化、膜机械拉伸、一些胞外信号可开启质膜Ca<sup>++</sup>通道。
     * 灭活步：质膜、内质网膜上的Ca<sup>++</sup>-ATP酶使胞质Ca<sup>++</sup>水平下降，还有些细胞质膜上存在Na<sup>+</sup>-Ca<sup>++</sup>交换体。
     * Ca<sup>++</sup>水平时间模式
-        * 内质网膜上的AP<sub>3</sub>受体和雷诺丁受体在胞质Ca<sup>++</sup>水平低至中时被其激活（**Ca<sup>++</sup>诱导Ca<sup>++</sup>释放**），但在胞质Ca<sup>++</sup>水平高时被抑制。
+        * 内质网膜上的IP<sub>3</sub>受体和雷诺丁受体在胞质Ca<sup>++</sup>水平低至中时被其激活（**Ca<sup>++</sup>诱导Ca<sup>++</sup>释放**），但在胞质Ca<sup>++</sup>水平高时被抑制。
         * 正反馈：信号强度高时兴奋可沿内质网膜传播。
         > 类比动作电位
         * 负反馈：产生Ca<sup>++</sup>振荡。
@@ -133,6 +136,7 @@ sources：
             * NO扩散入平滑肌细胞后，可激活GC升高cGMP，介导血管舒张。
 * **钙调蛋白 Calmodulin**是单肽链，结合2Ca<sup>++</sup>后被激活，量效关系呈S形。
     * Ca<sup>++</sup>/钙调蛋白即可作用于多种效应蛋白，如激活质膜Ca<sup>++</sup>-ATP酶。
+    * 平滑肌中，Ca<sup>++</sup>/钙调蛋白结合MLCK可磷酸化肌动蛋白轻链，介导兴奋收缩耦联\[Adelstein, Hathaway, 1979\]。
 * **CaM激酶 CaM kinases**是一个家族，其中CaM激酶II是12聚体。
     * CaM激酶II调节段被Ca<sup>++</sup>/钙调蛋白结合后可使激酶结构域暴露，相邻2酶互相磷酸化彼此的调节段，维持活性，因此具有记忆功能。
     * 灭活步：蛋白磷酸酶可将CaM激酶II灭活。
@@ -236,7 +240,7 @@ sources：
 * **Wnt–β-catenin通路**是众多Wnt通路之1，又称**经典Wnt通路 canonical Wnt pathway**。
 * **Wnts**是分泌脂蛋白，因此具有疏水性而主要发挥局部调节作用，在发展时作用广泛。
 * Wnt受体之1 **Frizzled** 7次跨膜，胞外受体域有疏水口袋，高亲和结合Wnt的脂；之2 **LRP** 1次跨膜。Wnt导致2受体形成受体复合体。LRP, LDL receptor related protein。
-* **Degradation复合体 Degradation complex**除β-catenin外有>4蛋白，包括蛋白激酶**CK1**，其磷酸化β-catenin的丝氨酸使其被另蛋白激酶**GSK3**磷酸化进而泛素化经蛋白酶体降解。**Axin**和**APC**是复合体中的支架蛋白。Wnt受体复合体形成后，CK1和GSK3磷酸化LRP，随后Frizzled招募支架蛋白**Dishevelled**。APC结合至活性LRP和Dishevelled被灭活，从而导致degredation复合体解散。CK, casein kinase; GSK, glycogen synthase kinase; APC, adenomatous polyposis coli。
+* **Degradation复合体 Degradation complex**除β-catenin外有>4蛋白，包括蛋白激酶**CK1**，其磷酸化β-catenin的丝氨酸使其被另蛋白激酶**GSK3**磷酸化进而泛素化经蛋白酶体降解。**Axin**和**APC**是复合体中的支架蛋白。Wnt受体复合体形成后，CK1和GSK3磷酸化LRP，随后Frizzled招募支架蛋白**Dishevelled**。APC结合至活性LRP和Dishevelled被灭活，从而导致degradation复合体解散。CK, casein kinase; GSK, glycogen synthase kinase; APC, adenomatous polyposis coli。
 * **β-catenin**可调节细胞连接，而胞质β-catenin是转录调控因子，不稳定易被degradation复合体结合促进降解。Degradation复合体解散后β-catenin稳定化，入核发挥转录调控作用。
 * **LEF1/TCF**静息状态下结合阻遏蛋白**Groucho**被抑制。β-Catenin入核后结合LEF1/TCF而释放Groucho启动转录。
     * **Myc**的转录受本通路调控，促进细胞生长繁殖。APC突变时功能异常致Myc活性增强，可致结肠癌。
@@ -258,3 +262,6 @@ sources：
 * **核受体超家族 Nuclear receptor superfamily**成员是转录调节因子，包括孤核受体以及位于胞内的各种受体，其配体包括细胞自身代谢产物，如PPAR结合脂代谢产物；以及可结合核受体的亲脂信号分子，如类固醇激素、甲状腺激素、类视黄素和维生素D。PPAR, perxisome proliferation activated receptor。
     * 静息状态下，有些核受体定位于胞质，结合配体后入核发挥转录调节作用；另些核受体与DNA结合。
     * 静息状态下核受体通常与抑制性蛋白结合。结合配体后，抑制性蛋白释放，而协同转录的蛋白结合以启动基因转录；相反的情况可能，即静息状态下的核受体可增强基因表达，而结合配体后转而抑制基因表达。
+# 参考文献
+* [Adelstein RS, Hathaway DR. Role of calcium and cyclic adenosine 3':5' monophosphate in regulating smooth muscle contraction. Mechanisms of excitation-contraction coupling in smooth muscle. Am J Cardiol. 1979 Oct 22;44(5):783-7. doi: 10.1016/0002-9149(79)90197-8. PMID: 227262.](https://www.sciencedirect.com/science/article/abs/pii/0002914979901978)
+* [Sperelakis N, Xiong Z, Haddad G, Masuda H. Regulation of slow calcium channels of myocardial cells and vascular smooth muscle cells by cyclic nucleotides and phosphorylation. Mol Cell Biochem. 1994 Nov 23;140(2):103-17. doi: 10.1007/BF00926749. PMID: 7898483.](https://link.springer.com/article/10.1007/BF00926749)

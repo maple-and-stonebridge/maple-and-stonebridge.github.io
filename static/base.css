@@ -1,3 +1,10 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .bordered {
     border: 2px solid;
     border-radius: 1em;
@@ -18,4 +25,18 @@ footer {
     background-color: black;
     color: white;
     padding-top: 1px;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #0060ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #b000b0;
 }

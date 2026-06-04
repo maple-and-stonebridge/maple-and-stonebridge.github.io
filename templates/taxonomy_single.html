@@ -1,18 +1,19 @@
-{% extends "paginator.html" %}
-    {% block title %}
-        秋槭与石桥都消失不见 - {{ term.name }}
-    {% endblock title %}
+{% extends "t_paginator.html" %}
 
-    {% block meta %}
-        <section>
-            <h1>
-                {{ taxonomy.name }}：{{ term.name }}
-            </h1>
+{% block title %}
+    秋槭与石桥都消失不见 - {{ term.name }}
+{% endblock title %}
 
-            <a href="/{{ taxonomy.name }}/{{ term.name }}/rss.xml"> <img src="/rss-icon.png" alt="RSS" /> </a>
-        </section>
+{% block meta %}
+    <section>
+        <h1>
+            {{ taxonomy.name }}：{{ term.name }}
+        </h1>
 
-        <section>
-            <a href="/{{ taxonomy.name }}">View all {{ taxonomy.name }} categories...</a>
-        </section>
-    {% endblock meta %}
+        <a href="/{{ taxonomy.name }}/{{ term.name }}/rss.xml"> <img src="/rss-icon.png" alt="RSS" /> </a>
+    </section>
+
+    <section>
+        <a href="/{{ taxonomy.name }}">View all {{ taxonomy.name }} categories...</a>
+    </section>
+{% endblock meta %}

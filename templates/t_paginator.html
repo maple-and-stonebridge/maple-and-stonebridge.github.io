@@ -1,4 +1,8 @@
-{% extends "base_with_nav.html" %}
+{% extends "t_base_with_nav.html" %}
+
+{% block head_base_with_nav %}
+    {% block head_paginator %} {% endblock head_paginator %}
+{% endblock head_base_with_nav %}
 
 {% block content %}
     {% block meta %} {% endblock meta %}

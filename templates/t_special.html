@@ -1,0 +1,11 @@
+{% extends "t_base_wo_footer.html" %}
+
+{% block head_base_wo_footer %}
+    {% block head_special %} {% endblock head_special %}
+{% endblock head_base_wo_footer %}
+
+{% block body_base_wo_footer %}
+    <div class="special">
+        {% block content %} {% endblock content %}
+    </div>
+{% endblock body_base_wo_footer %}

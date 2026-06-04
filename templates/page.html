@@ -1,68 +1,68 @@
-{% extends "base_with_nav.html" %}
+{% extends "t_base_with_nav.html" %}
 
 {% block title %}
-秋槭与石桥都消失不见 - {{ page.title }}
+    秋槭与石桥都消失不见 - {{ page.title }}
 {% endblock title %}
 
-{% block head %}
-<link rel="stylesheet" href="/page.css" />
-{% endblock head %}
+{% block head_base_with_nav %}
+    <link rel="stylesheet" href="/page.css" />
+{% endblock head_base_with_nav %}
 
 {% block content %}
-<section>
-    <h1>
-        {{ page.title }}
-    </h1>
-</section>
-
-<section>
-    <p>
-        {{ page.description }}
-    </p>
-</section>
-
-{% if page.toc %}
-    <section class="bordered">
-        <ul>
-            {% for h1 in page.toc %}
-                <li>
-                    <a href="{{ h1.permalink | safe }}"> {{ h1.title }} </a>
-                    {% if h1.children %}
-                        <ul>
-                            {% for h2 in h1.children %}
-                                <li>
-                                    <a href="{{ h2.permalink | safe }}"> {{ h2.title }} </a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                </li>
-            {% endfor %}
-        </ul>
+    <section>
+        <h1>
+            {{ page.title }}
+        </h1>
     </section>
-{% endif %}
 
-<section class="bordered">
-    {{ page.content | safe }}
-</section>
+    <section>
+        <p>
+            {{ page.description }}
+        </p>
+    </section>
 
-<section>
-    {{ page.date }}
-</section>
-
-<section>
-    {% for category in page.taxonomies.category %}
-        # <a href="{{ get_taxonomy_url(kind='category', name=category) }}"> {{ category }} </a>
-    {% endfor %}
-    {% if page.taxonomies.field %}
-        {% for field in page.taxonomies.field %}
-            # <a href="{{ get_taxonomy_url(kind='field', name=field) }}"> {{ field }} </a>
-        {% endfor %}
+    {% if page.toc %}
+        <section class="bordered">
+            <ul>
+                {% for h1 in page.toc %}
+                    <li>
+                        <a href="{{ h1.permalink | safe }}"> {{ h1.title }} </a>
+                        {% if h1.children %}
+                            <ul>
+                                {% for h2 in h1.children %}
+                                    <li>
+                                        <a href="{{ h2.permalink | safe }}"> {{ h2.title }} </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
     {% endif %}
-    {% if page.taxonomies.tag %}
-        {% for tag in page.taxonomies.tag %}
-            # <a href="{{ get_taxonomy_url(kind='tag', name=tag) }}"> {{ tag }} </a>
+
+    <section class="bordered content">
+        {{ page.content | safe }}
+    </section>
+
+    <section>
+        {{ page.date }}
+    </section>
+
+    <section>
+        {% for category in page.taxonomies.category %}
+            # <a href="{{ get_taxonomy_url(kind='category', name=category) }}"> {{ category }} </a>
         {% endfor %}
-    {% endif %}
-</section>
+        {% if page.taxonomies.field %}
+            {% for field in page.taxonomies.field %}
+                # <a href="{{ get_taxonomy_url(kind='field', name=field) }}"> {{ field }} </a>
+            {% endfor %}
+        {% endif %}
+        {% if page.taxonomies.tag %}
+            {% for tag in page.taxonomies.tag %}
+                # <a href="{{ get_taxonomy_url(kind='tag', name=tag) }}"> {{ tag }} </a>
+            {% endfor %}
+        {% endif %}
+    </section>
 {% endblock content %}

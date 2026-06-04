@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'DisciplineNotes';
+    src: local('Discipline Notes'), url('/resources/Discipline Notes.otf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nyagaji";
+    src: local('NYAGAJI'), url('/resources/NYAGAJI.otf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+div.special {
+    background-image: url("/resources/shouyuan_2026_bg.png");
+    font-family: sans-serif;
+}
+
+#frontmatter {
+    padding-left:100px;
+    padding-top: 50px;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+ul.sp {
+    font-family: 'DisciplineNotes', 'Nyagaji';
+    font-weight: 200;
+    font-size: 40px;
+    color: rgb(90 120 120);
+    list-style-type: '★';
+    list-style-position: inside;
+    line-height: .7;
+    padding-left: 200px;
+
+    margin-bottom: 0px;
+}
+
+ul.sp p {
+    font-size: 20px;
+    color: black;
+
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.artist {
+    font-size: 20px;
+    color: rgb(90 120 120);
+}
+
+.title {
+    font-size: 40px;
+    color: rgb(200 100 100);
+}
+
+img.sp {
+    height: 40px;
+}

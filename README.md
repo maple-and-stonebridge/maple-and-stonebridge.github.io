@@ -39,6 +39,27 @@ _(name_of_env,
 * 反斜线后紧跟可escape字符的，需要escape：`$$ p \\\\ q $$`。
 * 反斜线后紧跟无法escape字符的，无须escape：`\\( \forall x \in A, p \\)`。
 
+## html模板
+* `t_`开头的表示并非暴露给zola的模板，而是用来生成zola模板的tera模板。
+    * 其中必须有以下内容：
+    ```
+    {% block head_(parent name) %}
+        <!-- something -->
+        {% block head_(this name) %} {% endblock head_(this name) %}
+    {% endblock head_(parent name) %}
+    ```
+* 无`t_`或`sp_`开头的表示暴露给zola的模板。
+* `sp_`开头的是真正的html文档，用于特殊页面。
+    * 特殊页面作法：/template里写好这个html后，确定页面想要的url路径，在/content里创建之。新建_index.md，内容为
+    ```
+    +++
+    template = "sp_(html name).html"
+    generate_feeds = false
+    +++
+    ```
+    * /template/t_special.html是一个tera模板，可以用来生成sp_ html。
+    * title：秋槭与石桥都消失不见 - name
+
 ## 相关文档
 * [Zola](https://www.getzola.org/documentation/getting-started/overview/)
 * [Tera](https://keats.github.io/tera/docs/)
