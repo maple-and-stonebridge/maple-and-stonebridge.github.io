@@ -20,10 +20,14 @@ div.special {
 }
 
 #frontmatter {
-    padding-left:100px;
     padding-top: 50px;
     margin-top: 0;
     font-size: 20px;
+}
+@media (width >= 900px) {
+    #frontmatter {
+        padding-left:100px;
+    }
 }
 
 ul.sp {
@@ -34,9 +38,12 @@ ul.sp {
     list-style-type: '★';
     list-style-position: inside;
     line-height: .7;
-    padding-left: 200px;
-
     margin-bottom: 0px;
+}
+@media (width >= 900px) {
+    ul.sp {
+        padding-left: 200px;
+    }
 }
 
 ul.sp p {
