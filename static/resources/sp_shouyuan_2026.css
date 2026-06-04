@@ -24,7 +24,7 @@ div.special {
     margin-top: 0;
     font-size: 20px;
 }
-@media (width >= 900px) {
+@media (min-aspect-ratio: 1) {
     #frontmatter {
         padding-left:100px;
     }
@@ -40,7 +40,7 @@ ul.sp {
     line-height: .7;
     margin-bottom: 0px;
 }
-@media (width >= 900px) {
+@media (min-aspect-ratio: 1) {
     ul.sp {
         padding-left: 200px;
     }
