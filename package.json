@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@mathjax/mathjax-newcm-font": "^4.1.2"
+  }
+}
