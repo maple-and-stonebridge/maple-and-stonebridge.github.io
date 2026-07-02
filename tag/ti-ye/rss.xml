@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>秋槭与石桥都消失不见 - 体液</title>
+      <link>https://maple-and-stonebridge.github.io</link>
+      <description>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</description>
+      <generator>Zola</generator>
+      <language>zh-cn</language>
+      <atom:link href="https://maple-and-stonebridge.github.io/tag/ti-ye/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>体液复习</title>
+          <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20251226-body-fluid-review/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20251226-body-fluid-review/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20251226-body-fluid-review/">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;液体输入主要源自摄入和代谢。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;生理液体输出=蒸发+汗+粪便+尿液&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;体液量评估：重水&#x2F;安替比林扩散试验&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;细胞外液评估：放射性钠&#x2F;氯&#x2F;碘&#x2F;硫代硫酸根&#x2F;菊粉扩散试验&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;血浆体积评估：125碘-白蛋白&#x2F;伊文斯蓝扩散试验&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;血容量=血浆体积&#x2F;(1-红细胞比容)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;滤过分数=滤过率&#x2F;肾血流量（正常为.2）&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;动脉血压、血流量均可影响&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;排泄=球滤过-管重吸收+管分泌&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;滤过=滤过率*血浆浓度&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;水重吸收分数=滤过率&#x2F;尿量&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;肾血流量评估：对氨基马尿酸清除试验&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;滤过率：菊粉&#x2F;碘酞酸盐&#x2F;EDTA铬&#x2F;胱抑素C&#x2F;肌酐清除率。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;ye-ti-fen-bu-xi-tong&quot;&gt;液体分布系统&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;主要由渗透和静压的力学平衡决定。&lt;&#x2F;li&gt;
+&lt;li&gt;顺应性低的部位不易积聚大量体液，顺应性高的部位易。&lt;&#x2F;li&gt;
+&lt;li&gt;组织间质在负压范围内，由于蛋白多糖的黏性，顺应性低。正压范围内，形成自由流体，顺应性增高。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;shen-xi-tong&quot;&gt;肾系统&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;yi-xie-fan-kui-kong-zhi-bian-liang&quot;&gt;一些反馈控制变量&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;肾血流量：升高时肌源性收缩增加阻力&lt;&#x2F;li&gt;
+&lt;li&gt;滤过分数
+&lt;ul&gt;
+&lt;li&gt;~肾血流量：胶体渗透压缓冲
+&lt;ul&gt;
+&lt;li&gt;毛细血管血浆胶体渗透压随滤过而增加。增加幅度与血流量负相关。增加又与滤过率负相关。因此滤过率与血流量正相关。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;致密斑远侧钠浓度：
+&lt;ul&gt;
+&lt;li&gt;~滤过率：管球反馈，依赖RAAS系统，滤过率减少时增加滤过分数&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;近端小管、髓袢重吸收率占滤过率的比值：球管平衡&lt;&#x2F;li&gt;
+&lt;li&gt;静脉流量：低血压等致滤过分数升高时，出球小动脉血浆胶体渗透压升高，血管收缩使管旁毛细血管静压降低，增加重吸收&lt;&#x2F;li&gt;
+&lt;li&gt;血容量：稳定的滤过率、RAAS系统、ADH系统、ANP系统、直小血管系统、钠通道内化、交感轴、小管α受体
+&lt;ul&gt;
+&lt;li&gt;肾近端小管重吸收障碍时，管球反馈使滤过分数降低，对抗上述作用&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;pai-niao-xi-tong&quot;&gt;排尿系统&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;输尿管、膀胱的平滑肌由副交感支配。&lt;&#x2F;li&gt;
+&lt;li&gt;肾盏扩张后，平滑肌自发放电产生蠕动。&lt;&#x2F;li&gt;
+&lt;li&gt;输尿管在逼尿肌（膀胱平滑肌）中走行几厘米，逼尿肌收缩时关闭。如不能关闭，造成膀胱输尿管反流，可造成尿路压增高，对肾盏、肾髓质等产生损害。&lt;&#x2F;li&gt;
+&lt;li&gt;输尿管梗阻时，产生疼痛，激活输尿管肾反射，即交感使尿量减少。&lt;&#x2F;li&gt;
+&lt;li&gt;膀胱充盈时，激活排尿反射，经盆神经、骶丛至S1、S2，经盆神经副交感输出。&lt;&#x2F;li&gt;
+&lt;li&gt;高级中枢（脑桥、皮层）可抑制或促进排尿反射，以及控制尿道括约肌（骨骼肌）。&lt;&#x2F;li&gt;
+&lt;li&gt;感觉神经受损时，排尿反射消失，尿只能一滴一滴漏出来。&lt;&#x2F;li&gt;
+&lt;li&gt;骶上脊髓受损时，与中枢断联，脊休克一开始使得反射消失，随后反射回复，出现尿失禁。&lt;&#x2F;li&gt;
+&lt;li&gt;脊髓&#x2F;脑干部分损伤可造成尿失禁。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;adhxi-tong&quot;&gt;ADH系统&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;激活：前下丘脑AV3V区渗透压感受器感受渗透压升高—穹窿下器&#x2F;终板血管器—视前内侧核—视上核；颈动脉窦主动脉体压力感受器&#x2F;心房压力感受器感受压力降低；烟碱；吗啡；环磷酰胺；-乙醇；-可乐定；-氟哌啶醇&lt;&#x2F;li&gt;
+&lt;li&gt;视上核和室旁核合成ADH，经轴突运输在神经垂体轴突末端释放入血&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;bing-li-sheng-li&quot;&gt;病理生理&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;di-na-xie-zheng&quot;&gt;低钠血症&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;血清钠&amp;lt;135mEq&#x2F;L&lt;&#x2F;li&gt;
+&lt;li&gt;病理变化：细胞水肿&lt;&#x2F;li&gt;
+&lt;li&gt;反应：慢性的低钠血症发作可促使组织细胞将离子排出细胞以对抗细胞水肿。&lt;&#x2F;li&gt;
+&lt;li&gt;临床：可无症状。轻度：恶心呕吐。重度：嗜睡、头痛、认知障碍、癫痫发作、昏迷。&lt;&#x2F;li&gt;
+&lt;li&gt;诊断：血检（血清钠&amp;lt;135、比容增高、蛋白增高）、尿检（比重&amp;lt;1.01）&lt;&#x2F;li&gt;
+&lt;li&gt;鉴别诊断：尿钠、渗透压高提示体液调节系统障碍（脑性耗盐综合征、肾上腺缺陷）；尿钠高、渗透压低提示肾外丢钠（呕吐腹泻、烧伤、心衰、肝硬化）&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：计算、纠正、监测。慎用高张盐水。纠正过快可致渗透性脱髓鞘综合征。
+&lt;ul&gt;
+&lt;li&gt;渗透性脱髓鞘综合征
+&lt;ul&gt;
+&lt;li&gt;慢性低钠血症纠正过快，损伤已适应低钠的细胞&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;低容量性低钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：呕吐、腹泻、醛固酮减少（Addison病）、利尿药&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;容量减少后ADH释放导致尿都给浓缩了，失钠&amp;gt;失水，继发低钠血症&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;反应：ADH增加&lt;&#x2F;li&gt;
+&lt;li&gt;临床：低血压，心动过速，尿量减少。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;正常容量性低钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：SIADH、甲减、肺炎、糖皮质激素缺陷、钠摄入不足&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;稀释性低钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：水摄入过多、静脉葡萄糖输液、自来水灌肠、淡水溺水、SSRI、SIADH&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SIADH中，醛固酮在近端调节得好好的，ADH在远端给水全重吸收了，醛固酮也不能代偿啊！感觉血钠异常很多都是这样，或者就是醛固酮本身障碍了&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;治疗：限制水摄入。对SIADH可用ADH受体阻断药。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;高容量性低钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：充血性心衰、肝硬化、肾病综合征&lt;&#x2F;li&gt;
+&lt;li&gt;临床：体重增加、水肿、腹水、颈静脉怒张&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;高张性低钠血症
+&lt;ul&gt;
+&lt;li&gt;水从胞内转移至胞外&lt;&#x2F;li&gt;
+&lt;li&gt;病因：高糖血症、高脂血症、高蛋白血症&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;gao-na-xie-zheng&quot;&gt;高钠血症&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;血清钠&amp;gt;145mEq&#x2F;L&lt;&#x2F;li&gt;
+&lt;li&gt;病理变化：细胞脱水&lt;&#x2F;li&gt;
+&lt;li&gt;临床：虚弱、嗜睡、痉挛、反射亢进，可发生认知障碍、昏迷、癫痫发作&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;锥体束核上都损坏了&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;诊断：血清钠&amp;gt;145、尿比重&amp;gt;1.03&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：口服5%葡萄糖、缓慢纠正、监测、利尿药&lt;&#x2F;li&gt;
+&lt;li&gt;低容量性高钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：袢利尿药、渗透性利尿（高糖血症、甘露醇）、胃肠道失水、肾尿浓缩缺陷&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;正常容量性高钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：水摄入过少、出汗、发热过度通气、烧伤、呕吐、腹泻、尿崩症（中枢性、肾源性）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尿崩症中，无法浓缩尿，只能都通过降低稀释作用来保证血容量，钠都给重吸收了&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;高容量性高钠血症
+&lt;ul&gt;
+&lt;li&gt;病因：高张盐水输液、促皮质激素&#x2F;醛固酮分泌过量（Cushing综合征、肾上腺增生），咸水溺水&lt;&#x2F;li&gt;
+&lt;li&gt;临床：体重增加、水冲脉、血压升高&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xi-bao-shui-zhong&quot;&gt;细胞水肿&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;病因：低钠血症、代谢障碍、缺血、缺氧
+&lt;ul&gt;
+&lt;li&gt;缺血缺氧、代谢障碍导致ATP生成障碍，钠钾泵活性降低，细胞内钠升高，产生渗透&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;病变：器官变大变重变涨苍白；镜检见细胞内空泡，核比较苍白，间质微血管被挤压&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shui-zhong&quot;&gt;水肿&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;组织间质液体过多&lt;&#x2F;li&gt;
+&lt;li&gt;可继发缺血、脱水、休克&lt;&#x2F;li&gt;
+&lt;li&gt;血容量减少激活ADH和RAAS系统，降低ANP，进一步促进水钠潴留&lt;&#x2F;li&gt;
+&lt;li&gt;保护机制：间质在负压范围内顺应性低、淋巴回流储备大、间质蛋白质及时清除&lt;&#x2F;li&gt;
+&lt;li&gt;病因：毛细血管静压增高、血浆胶体渗透压降低、毛细血管渗透性增高、淋巴受阻
+&lt;ul&gt;
+&lt;li&gt;毛细血管静压增高
+&lt;ul&gt;
+&lt;li&gt;病因：静脉受阻（静脉凝血、门静脉高压、右心衰、肢体勒住了、久站）、水钠潴留（右充血性心衰、肾衰、肝硬化）
+&lt;ul&gt;
+&lt;li&gt;右心衰导致肾灌流降低、RAAS系统激活，晚期ADH系统激活，导致水钠潴留&lt;&#x2F;li&gt;
+&lt;li&gt;水钠潴留使血容量增加，静脉压增高&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;血浆胶体渗透压降低
+&lt;ul&gt;
+&lt;li&gt;病因：肝病、蛋白质营养不良、肾病综合征、出血、开放性伤口或烧伤的浆液流出&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;毛细血管渗透性增高
+&lt;ul&gt;
+&lt;li&gt;病因：炎症（烧伤、冲击伤、肿瘤、过敏、感染）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;淋巴受阻，淋巴水肿
+&lt;ul&gt;
+&lt;li&gt;病因：感染（班氏吴策线虫）、肿瘤、腋&#x2F;股淋巴结&#x2F;管切除&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;临床：肿胀、衣服鞋穿不上、活动受限、体重增加&lt;&#x2F;li&gt;
+&lt;li&gt;治疗：抬高水肿肢体、穿戴加压设备、避免久站、限制食盐摄入、用利尿药&lt;&#x2F;li&gt;
+&lt;li&gt;局部水肿
+&lt;ul&gt;
+&lt;li&gt;脑水肿&lt;&#x2F;li&gt;
+&lt;li&gt;肺水肿&lt;&#x2F;li&gt;
+&lt;li&gt;胸腔积液&lt;&#x2F;li&gt;
+&lt;li&gt;喉水肿&lt;&#x2F;li&gt;
+&lt;li&gt;腹水&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;全身水肿
+&lt;ul&gt;
+&lt;li&gt;凹陷性水肿：受重力作用；因为已形成自由流体&lt;&#x2F;li&gt;
+&lt;li&gt;非凹陷性水肿：细胞水肿为主，或水肿部位有纤维蛋白沉积&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+    </channel>
+</rss>

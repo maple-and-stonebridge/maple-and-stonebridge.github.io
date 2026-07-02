@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>秋槭与石桥都消失不见 - MINOCA</title>
+      <link>https://maple-and-stonebridge.github.io</link>
+      <description>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</description>
+      <generator>Zola</generator>
+      <language>zh-cn</language>
+      <atom:link href="https://maple-and-stonebridge.github.io/tag/minoca/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>心肌梗死</title>
+          <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20260416-mi-question/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20260416-mi-question/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20260416-mi-question/">&lt;h1 id=&quot;bing-li&quot;&gt;病例&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1&quot;&gt;1&lt;&#x2F;h2&gt;
+&lt;p&gt;A 52-year-old man presents to a non-PCI hospital with 2 hours of chest pain. His ECG shows anterior ST-segment elevation.
+His blood pressure is 109&#x2F;67 and his heart rate is 105. He has no known contraindication to thrombolysis. The closest PCI hospital is
+90 miles away and no community transfer system is in place. The best reperfusion strategy for this patient is:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;A.&lt;&#x2F;em&gt; No administration of thrombolysis. Transfer for primary PCI&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;B.&lt;&#x2F;em&gt; Immediate thrombolysis and immediate transfer to a PCI hospital for consideration of routine early PCI within 24 hours of presentation
+or for rescue PCI if thrombolysis fails&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;C.&lt;&#x2F;em&gt; Immediate thrombolysis. Transfer to the PCI center only if thrombolysis fails at 90 min after starting therapy&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;D.&lt;&#x2F;em&gt; Administer aspirin, heparin and clopidogrel 300 mg before transfer&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;E.&lt;&#x2F;em&gt; &lt;em&gt;B&lt;&#x2F;em&gt; and &lt;em&gt;D&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;F.&lt;&#x2F;em&gt; &lt;em&gt;C&lt;&#x2F;em&gt; and &lt;em&gt;D&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;分析.&lt;&#x2F;strong&gt; 诊断前壁STEMI，早期诊断（溶栓获益高），DTB&amp;gt;120min，风险较高（心动过速、前壁MI；需及时处理）。&lt;strong&gt;When DTB is expected to be &amp;gt;120 minutes, administer primary fibrinolytic therapy and immediately transfer the patient to allow the
+performance of routine early PCI 2–24 hours later.&lt;&#x2F;strong&gt; 因此选&lt;em&gt;B&lt;&#x2F;em&gt;。&lt;strong&gt;Beside fibrinolytics, the patient should receive aspirin, heparin bolus and infusion, and 300 mg of clopidogrel.&lt;&#x2F;strong&gt; 因此选&lt;em&gt;E&lt;&#x2F;em&gt;。（总是应该立即开始抗板）&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;2&quot;&gt;2&lt;&#x2F;h2&gt;
+&lt;p&gt;A 49-year-old man presents with progressive dyspnea over the last week. He recalls having 2 hours of mild chest discomfort
+and nausea 10 days ago. No chest pain is currently reported. His ECG shows anterior Q waves with 1 mm ST elevation and T inversion. The
+exam and X-ray suggest pulmonary edema. The echo shows anteroapical akinesis and thinning. Beside diuresis and medical therapy, what
+is the appropriate management?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;A.&lt;&#x2F;em&gt; Coronary angiography emergently&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;B.&lt;&#x2F;em&gt; Coronary angiography is not urgent but should be performed before discharge. Attempt to open an occluded LAD&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;C.&lt;&#x2F;em&gt; Perform stress SPECT before discharge, then perform coronary angiography if there is evidence of severe ischemia&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;D.&lt;&#x2F;em&gt; Test for viability of anterior wall. If viable, perform coronary angiography and attempt to open an occluded LAD&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;分析.&lt;&#x2F;strong&gt; 诊断前壁Q波MI，晚期诊断；HF、心室壁运动障碍（提示严重缺血）。&lt;strong&gt;Patients who did not receive emergent reperfusion (late presenters &amp;gt;24 hours) may still undergo angiography later than
+24 hours in case of persistent HF after initial therapy (high-risk case with stress test contraindication).&lt;&#x2F;strong&gt; 因此选&lt;em&gt;B&lt;&#x2F;em&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;3&quot;&gt;3&lt;&#x2F;h2&gt;
+&lt;p&gt;A 76-year-old female presents with 2 hours of chest pain to a non-PCI hospital. The closest PCI hospital is 100 miles away.
+ECG shows anterior ST-segment elevation. BP = 170&#x2F;85, weight 62 kg. She has not had any recent bleed, surgery, fall, or history of stroke.
+A recent hemoglobin is 12 g&#x2F;dl. What is the next step?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;A.&lt;&#x2F;em&gt; Administer fibrinolytics then transfer for routine early PCI&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;B.&lt;&#x2F;em&gt; Do not administer fibrinolytics, transfer for primary PCI&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;分析.&lt;&#x2F;strong&gt; 诊断前壁STEMI，早期诊断；严重慢性高血压（急性高血压SBP&amp;gt;180&#x2F;DBP&amp;gt;110）。具有高血压的溶栓相对禁忌症，但前壁MI、老年的风险以及早期诊断倾向于溶栓。考虑溶栓，选&lt;em&gt;A&lt;&#x2F;em&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;4&quot;&gt;4&lt;&#x2F;h2&gt;
+&lt;p&gt;A 72-year-old man presents with 3–4 hours of chest pain and respiratory distress. BP = 80&#x2F;60, heart rate = 120. He is intubated
+by paramedics and transferred to a non-PCI-capable hospital. ECG shows 5 mm ST elevation anterior leads. The closest cath lab is 3 hours
+away. What is the next step?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;A.&lt;&#x2F;em&gt; Emergent transfer for PCI; thrombolysis is not helpful in cardiogenic shock&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;B.&lt;&#x2F;em&gt; Thrombolysis and emergent transfer for PCI&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;C.&lt;&#x2F;em&gt; IABP and emergent transfer&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;D.&lt;&#x2F;em&gt; Thrombolysis, IABP, and emergent transfer for PCI&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;分析.&lt;&#x2F;strong&gt; 诊断前壁STEMI，早期诊断；风险包括老年、HF、LV源性休克指征（低血压、心动过速、肺水肿）。&lt;strong&gt;Emergent revascularization of the infarct-related artery only, irrespective of the time of presentation (even &amp;gt;24 hours after MI onset). In patients presenting to non-PCI- capable hospitals within 12 hours of MI onset, administer fibrinolytics whenever transfer delays are
+expected. IABP may be placed during or before the revascularization procedure.&lt;&#x2F;strong&gt; 因此选&lt;em&gt;D&lt;&#x2F;em&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;5&quot;&gt;5&lt;&#x2F;h2&gt;
+&lt;p&gt;The patient in &lt;a href=&quot;https:&#x2F;&#x2F;maple-and-stonebridge.github.io&#x2F;blog&#x2F;20260416-mi-question&#x2F;#4&quot;&gt;Question 4&lt;&#x2F;a&gt; arrives to the cath lab. He still has ST elevation and is in shock. He is found to have thrombotic 100%
+proximal LAD, CTO of mid RCA, and 80% stenosis of mid LCx. What is the next step?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;A&lt;&#x2F;em&gt;. PCI of LAD only&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;B.&lt;&#x2F;em&gt; PCI of LAD and LCx&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;C.&lt;&#x2F;em&gt; PCI of LAD initially. If no hemodynamic improvement, proceed with PCI of LCx&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;D.&lt;&#x2F;em&gt; Emergent CABG&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;分析.&lt;&#x2F;strong&gt; &lt;strong&gt;CABG is rarely required acutely in STEMI (~0.2-1%),62,63 but may be more frequently required in patients with cardiogenic shock and
+severe left main or three-vessel disease. Severe three-vessel CAD (&amp;gt;90%) or critical left main disease dictates immediate CABG if possible in patients with multivessel CAD on angiography (and LV-related shock).&lt;&#x2F;strong&gt; 故选&lt;em&gt;D&lt;&#x2F;em&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;6&quot;&gt;6&lt;&#x2F;h2&gt;
+&lt;p&gt;A 68-year-old man presents with inferior and lateral STEMI. He undergoes primary PCI of a large, thrombotic, codominant
+proximal LCx. While he has been doing well, he suddenly develops near syncope on day 2. BP 70&#x2F;40, pulse 35, and no murmur is heard.
+ECG shows sinus bradycardia with re-elevation of ST segments in the inferior leads. What is the most important next step?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;A.&lt;&#x2F;em&gt; Immediate coronary angiography ± PCI&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;B.&lt;&#x2F;em&gt; Immediate echocardiography&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;C.&lt;&#x2F;em&gt; Immediate placement of a transvenous pacemaker&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;分析.&lt;&#x2F;strong&gt; &lt;strong&gt;Mechanical complications are responsible for
+12% of cases of cardiogenic shock. In the reperfusion era, myocardial rupture is most
+frequently seen in the first 24 hours. Free wall rupture often leads to tamponade and a bradycardic pulseless electrical activity. It commonly has one of the following prodromes: chest pain, re-elevation of ST segments, bradycardia, or syncope from a vagal shock. TTE may show a pericardial
+effusion with layered echodensities, corresponding to blood, in free wall rupture.&lt;&#x2F;strong&gt; 因此，需诊断心室壁破裂，选&lt;em&gt;B&lt;&#x2F;em&gt;。&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

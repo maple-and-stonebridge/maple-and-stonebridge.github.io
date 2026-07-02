@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - 学习术</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/field/xue-xi-shu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-28T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/field/xue-xi-shu/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>本站与Zettelkasten方法</title>
+        <published>2026-03-28T00:00:00+00:00</published>
+        <updated>2026-03-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              chsungyesuzuki
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20260328-zettelkasten/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20260328-zettelkasten/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20260328-zettelkasten/">&lt;p&gt;本来我通过写blog进行学习的动机是“工作记忆如此有限，还是要形成书面的思考才能构建复杂的关联”，今天发现和zettelkasten有点像。但大部分中文介绍都不必要地强调了细节，我觉得数字化的zettelkasten-like，地址、标号显然不重要；原子化也是不重要的，
+首先，这个概念分析起来很可疑，而且我们可以在页面里搜索，页面也没有大小限制；而数字化的zettelkasten-like可以上网，可以随时参考、复习，只要需要用又忘了就复习，帮助记忆（我接受不了anki有点，算法太禁锢了，而且需要很不自然地去设置优先级什么的；这种网站只要手机上的浏览器就可以复习，不依赖anki的软件和服务器什么的）&lt;&#x2F;p&gt;
+&lt;p&gt;我设计本站的系统时完全不知道zettelkasten，而是出于实际需要，可能比较好吧，事实上我总是讨厌别人（包括通过文章）在日常上（包括学习）指导我&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

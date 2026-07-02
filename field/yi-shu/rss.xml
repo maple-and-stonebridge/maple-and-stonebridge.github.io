@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>秋槭与石桥都消失不见 - 艺术</title>
+      <link>https://maple-and-stonebridge.github.io</link>
+      <description>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</description>
+      <generator>Zola</generator>
+      <language>zh-cn</language>
+      <atom:link href="https://maple-and-stonebridge.github.io/field/yi-shu/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>作品的阅读</title>
+          <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+          <author>chsungyesuzuki</author>
+          <link>https://maple-and-stonebridge.github.io/blog/20260624-reading-of-design/</link>
+          <guid>https://maple-and-stonebridge.github.io/blog/20260624-reading-of-design/</guid>
+          <description xml:base="https://maple-and-stonebridge.github.io/blog/20260624-reading-of-design/">&lt;p&gt;有点想把私的设计原则套用到作品中了，以此对作者的思路进行一个构拟。因为想对这些原则进行测试。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;si-de-she-ji-yuan-ze&quot;&gt;私的设计原则&lt;&#x2F;h1&gt;
+&lt;ol&gt;
+&lt;li&gt;作品的效果必须能使读者感受到作者对此作品是认真的。&lt;&#x2F;li&gt;
+&lt;li&gt;作品必须符合脑科学。&lt;&#x2F;li&gt;
+&lt;li&gt;作品必须具有作者的独特性。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h1 id=&quot;si-lu-gou-ni&quot;&gt;思路构拟&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;考虑一个递归过程
+&lt;ul&gt;
+&lt;li&gt;一些动机，这些动机如何可能“凭空”产生、存在并且嵌入母作品中&lt;&#x2F;li&gt;
+&lt;li&gt;每一步末，作品的状态和下一步状态转移的关系&lt;&#x2F;li&gt;
+&lt;li&gt;状态转移中可能的技艺性处理、（作者的）认知成分、语义成分&lt;&#x2F;li&gt;
+&lt;li&gt;结构&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;以上如何符合私的设计原则&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+    </channel>
+</rss>

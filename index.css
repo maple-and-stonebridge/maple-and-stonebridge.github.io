@@ -1,0 +1,17 @@
+h1 {
+    padding: 0;
+    margin-top: 0;
+}
+
+nav {
+    font-size: 3rem;
+    font-family: 'XiaoXueSiNianJi';
+    font-weight: 400;
+}
+
+nav li {
+    margin-top: 100px;
+    margin-left: 200px;
+
+    list-style-type: none;
+}
