@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title>秋槭与石桥都消失不见 - 表观遗传学</title>
+    <subtitle>发布医、哲、科、数相关笔记、发想和建构的博客，还有日常的分享！~</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://maple-and-stonebridge.github.io/field/biao-guan-yi-chuan-xue/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-09-02T00:00:00+00:00</updated>
+    <id>https://maple-and-stonebridge.github.io/field/biao-guan-yi-chuan-xue/atom.xml</id>
+    <entry xml:lang="zh-cn">
+        <title>染色质及其调控</title>
+        <published>2026-09-02T00:00:00+00:00</published>
+        <updated>2026-09-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>chsungyesuzuki</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://maple-and-stonebridge.github.io/blog/20260902-chromatin-and-their-modifications/"/>
+        <id>https://maple-and-stonebridge.github.io/blog/20260902-chromatin-and-their-modifications/</id>
+        
+        <content type="html" xml:base="https://maple-and-stonebridge.github.io/blog/20260902-chromatin-and-their-modifications/">&lt;p&gt;sources：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alberts B, Heald R, Johnson A, Morgan D, Raff M, Roberts K, Walter P, Molecular Biology of the Cells, 7th ed. Ch. 4, DNA, Chromosomes, and Genomes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;he-xiao-ti&quot;&gt;核小体&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;常见的核小体由147bp DNA以左手螺旋围绕2 H2A、2 H2B、2 H3和2 H4组成的组蛋白8聚体1.7圈形成。&lt;/li&gt;
+&lt;li&gt;每种组蛋白都包含1&lt;strong&gt;histone fold 组蛋白褶&lt;/strong&gt;，由3 α螺旋被2袢环分隔构成。核小体组装时，H3—H4之间、H2A—H2B之间的组蛋白褶相互结合，随后2 H3—H4 2聚体形成4聚体，结合2 H2A—H2B二聚体形成8聚体。&lt;/li&gt;
+&lt;li&gt;组蛋白N端形成未结构的尾，可接受共价修饰等调控。&lt;/li&gt;
+&lt;li&gt;核小体非常耦合：含有包括142氢键、碱性氨基酸—DNA之间离子键和疏水作用的大量非共价结合。&lt;/li&gt;
+&lt;li&gt;组蛋白—DNA结合与核苷酸序列有关，然而这种关联在生理状态下可忽略，因为核小体结构非常动态。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;ran-se-zhi-zhong-su-chromatin-remodeling&quot;&gt;染色质重塑 Chromatin Remodeling&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ATP-dependent chromatin-remodeling complexes ATP依赖染色质重塑复合体&lt;/strong&gt;可利用ATP催化&lt;em&gt;nucleosome sliding 核小体滑动&lt;/em&gt;、组蛋白的部分或全部移除。
+&lt;ul&gt;
+&lt;li&gt;部分移除可导致组蛋白变体的加入。
+&lt;ul&gt;
+&lt;li&gt;H3变体
+&lt;ul&gt;
+&lt;li&gt;H3.3：转录激活&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://maple-and-stonebridge.github.io/blog/20260902-chromatin-and-their-modifications/#zhao-si-li&quot;&gt;CENP-A&lt;/a&gt;：着丝粒功能和动粒组装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;H2A变体
+&lt;ul&gt;
+&lt;li&gt;H2AX：DNA修复和重组&lt;/li&gt;
+&lt;li&gt;H2AZ：基因表达，chromosome segregation&lt;/li&gt;
+&lt;li&gt;macroH2A：转录抑制，X染色体灭活&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;细胞有多种染色质重塑复合体，且每~5核小体就结合有1染色质重塑复合体。&lt;/li&gt;
+&lt;li&gt;染色质重塑复合体大多有&amp;gt;10亚基，是大型的复合体。&lt;/li&gt;
+&lt;li&gt;这赋予核小体动态性，使得DNA每处都有机会接触其他分子。&lt;/li&gt;
+&lt;li&gt;此过程对于核苷酸序列具有非常的选择性，例如染色质重塑复合体结合于转录调控蛋白或某些修饰过的组蛋白而作用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;zu-dan-bai-xiu-shi&quot;&gt;组蛋白修饰&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;包括赖氨酸的乙酰化，赖氨酸的单、双、三甲基化，丝氨酸的磷酸化等。主要发生在组蛋白N端尾部，也有&amp;gt;20种修饰位于球部。
+&lt;ul&gt;
+&lt;li&gt;H4K4me3：活动染色质&lt;/li&gt;
+&lt;li&gt;H3K9ac：活动染色质&lt;/li&gt;
+&lt;li&gt;H3K9me3：异染色质&lt;/li&gt;
+&lt;li&gt;H3K27me3：兼性异染色质&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;均为可逆的、选择性的，受到严密调控。&lt;/li&gt;
+&lt;li&gt;可识别出一些修饰模式，哺乳动物细胞中有&amp;gt;15模式。
+&lt;ul&gt;
+&lt;li&gt;一些模式具有生理意义，并且特异性地结合&lt;em&gt;阅读复合体&lt;/em&gt;，如一些染色质重塑复合体。
+&lt;ul&gt;
+&lt;li&gt;如PHD域家族可结合甲基化的赖氨酸残基，其中又包括ING PHD域可结合H3K4me3。&lt;/li&gt;
+&lt;li&gt;多个类似的域可位于大型的阅读复合体上，这使得阅读复合体能够特异性结合组蛋白修饰的模式，进而发挥生物学效应。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;在凝缩的染色质也可能被阅读。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;yi-ran-se-zhi-wei-zhi-xiao-ying-hua-ban&quot;&gt;异染色质；位置效应花斑&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;染色质可分为~20%活动的和~80%不活动的。活动染色质均为常染色质，而不活动染色质包括静止常染色质以及异染色质。异染色质又可分为&lt;strong&gt;constitutive heterochromatin 组成性异染色质&lt;/strong&gt;（永久，如中心粒、端粒）以及&lt;strong&gt;facultative heterochromatin 兼性异染色质&lt;/strong&gt;。
+根据表观遗传学又可将异染色质分为H3K9me3型和H3K27me3型，比例为~2。
+&lt;ul&gt;
+&lt;li&gt;组成性异染色质容纳了重复序列，否则可能会重组掉。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Position effect 位置效应&lt;/strong&gt;：基因活性与其在染色体上的位置有关。这是由于异染色质&lt;em&gt;状态&lt;/em&gt;可沿DNA进行&lt;em&gt;空间上的扩布&lt;/em&gt;。
+&lt;ul&gt;
+&lt;li&gt;初始，转录调控蛋白结合一些酶，在若干位点进行组蛋白修饰（&lt;em&gt;标记&lt;/em&gt;）。随后一个大型的&lt;strong&gt;reader-writer complex 读写复合体&lt;/strong&gt;依靠阅读蛋白结合，并别构激活其上的&lt;em&gt;书写酶&lt;/em&gt;对相邻的核小体进行修饰。相反地，&lt;strong&gt;reader-eraser complexes 读擦复合体&lt;/strong&gt;可逆转此过程。
+&lt;ul&gt;
+&lt;li&gt;通常，阅读蛋白、书写酶、擦除酶、染色质重塑蛋白均可位于同复合体上，可能介导了复合体沿染色质的运动。细节极其复杂。&lt;/li&gt;
+&lt;li&gt;H3K9me3型异染色质的阅读蛋白是HP1。其可2聚形成核小体间桥促进染色质凝缩，又可结合书写酶进行空间扩布。&lt;/li&gt;
+&lt;li&gt;H3K27me3型异染色质初始的标记由PRC1进行，而空间扩布由PRC2读写复合体进行。PRC, polycomb repressive complex。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;染色质以&lt;em&gt;屏障 barriers&lt;/em&gt;分隔不同的&lt;em&gt;域 domains&lt;/em&gt;，这些屏障可阻止异染色质的空间扩布。
+&lt;ul&gt;
+&lt;li&gt;机制包括借蛋白结合于核孔复合体、借蛋白紧密结合在核小体上、结合组蛋白乙酰化/去甲基化酶等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Position effect variegation 位置效应花斑&lt;/strong&gt;：位置效应，并且异染色质状态可表观遗传给细胞后代，即&lt;em&gt;时间上的延续&lt;/em&gt;。
+&lt;ul&gt;
+&lt;li&gt;异染色质可通过扩布而造成附近的&lt;em&gt;基因沉默&lt;/em&gt;。&lt;/li&gt;
+&lt;li&gt;如果蝇&lt;em&gt;White&lt;/em&gt;基因如位于异染色质附近，则不同细胞系的该基因可随机沉默或表达，造成花斑的表型。&lt;/li&gt;
+&lt;li&gt;机制：经修饰或含变体的组蛋白在染色质复制时，H3—H4 4聚体被均匀地分配给2子代染色质，继而通过空间扩布完成整个域的表观遗传。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;单个H3基因的突变H3K27M即可促进恶性肿瘤，尤其在儿童弥漫性内生性脑桥胶质瘤（DIPG）患者中。DIPG, diffuse intrinsic pontine glioma。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;fu-h3k27mtu-bian-xing-xiao-zhi-liu&quot;&gt;附：H3K27M突变型胶质瘤&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;source: Amanda M Saratsis, Truman Knowles, Antonela Petrovic, Javad Nazarian, H3K27M mutant glioma: Disease definition and biological underpinnings, Neuro-Oncology, Volume 26, Issue Supplement_2, April 2024, Pages S92–S100, https://doi.org/10.1093/neuonc/noad164&lt;/li&gt;
+&lt;li&gt;H3K27M突变型胶质瘤是WHO IV级高级别胶质瘤（HGG），涵盖弥漫性中线胶质瘤（DMG）、局限性胶质瘤和非中线胶质瘤等不同受累部位。HGG, high-grade glioma; DMG, diffuse midline glioma。&lt;/li&gt;
+&lt;li&gt;生物学特征
+&lt;ul&gt;
+&lt;li&gt;分子病理生理：H3K27M可抑制PRC2，使得细胞中H3K27me3水平降低和H3K27ac水平升高。H3K27M—H3K27ac组成的异型核小体招募BRD2/4，促进启动子与RNA聚合酶II的接触，继发基因的激活。其中包括&lt;em&gt;AFF4&lt;/em&gt;，编码蛋白作为超级增强子复合体的支架蛋白磷酸化RNA聚合酶2而促进原癌基因
+（如&lt;em&gt;MYC&lt;/em&gt;和&lt;em&gt;MCL1&lt;/em&gt;）转录启动。
+&lt;ul&gt;
+&lt;li&gt;PRC2与H3K27M解离后可能仍受抑制。&lt;/li&gt;
+&lt;li&gt;一些PRC靶点接受的PRC2转录抑制与H3K27me3水平反而增强，如&lt;em&gt;CDKN2A&lt;/em&gt;和其他分化基因，进一步促进了H3K27M突变型胶质瘤的未分化表型。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;细胞学：分化抑制的少突胶质前体细胞（OPC）。OPC, oligodendrocyte precurcor cell。&lt;/li&gt;
+&lt;li&gt;免疫病理学：NK细胞减少以及M2细胞趋向性造成免疫不足状态。H3K27M突变型DMG相比半球HGG炎症反应更弱。无PD-L1和TGF-β1的过表达。&lt;/li&gt;
+&lt;li&gt;相关突变：&lt;em&gt;TP53&lt;/em&gt;、cyclin D系统（&lt;em&gt;CCND1&lt;/em&gt;、&lt;em&gt;CCND2&lt;/em&gt;、&lt;em&gt;CCND3&lt;/em&gt;、&lt;em&gt;CDK4&lt;/em&gt;、&lt;em&gt;CDK6&lt;/em&gt;）、生长因子和&lt;a href=&quot;/blog/20260203-cell-signaling/#rtk&quot;&gt;RTK&lt;/a&gt;（&lt;em&gt;EGFR&lt;/em&gt;、PDGF家族、&lt;em&gt;PDGFRA&lt;/em&gt;）、&lt;em&gt;ACVR1&lt;/em&gt;、
+&lt;a href=&quot;/blog/20260203-cell-signaling/#rtk-pi-3-ji-mei-pip3-akt&quot;&gt;PI 3-激酶—Akt通路&lt;/a&gt;（&lt;em&gt;PIK3CA&lt;/em&gt;、&lt;em&gt;PIK3R1&lt;/em&gt;、&lt;em&gt;PTEN&lt;/em&gt;）、&lt;em&gt;MYC&lt;/em&gt;、&lt;em&gt;MYCN&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;临床：在每种形态/病理诊断中，H3K27M突变型与不良预后相关。&lt;/li&gt;
+&lt;li&gt;诊断：可进行H3K27me3免疫学试验，或者H3K27M的基因诊断。&lt;/li&gt;
+&lt;li&gt;生物学推导的治疗策略：分化诱导可使肿瘤细胞转录模式趋向更成熟的少突胶质细胞或星形胶质细胞。免疫治疗。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;zhao-si-li&quot;&gt;着丝粒&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;着丝粒特征是含有CENP-A作为H3变体。CENP, centromere protein。&lt;/li&gt;
+&lt;li&gt;CENP-A可能足够介导整个着丝粒和动粒的组装。&lt;/li&gt;
+&lt;li&gt;酿酒酵母 &lt;em&gt;Saccharomyces cerevisiae&lt;/em&gt;中，识别出1着丝粒核苷酸序列，~125bp，结合1微管。&lt;/li&gt;
+&lt;li&gt;人中，着丝粒通常位于171bp α卫星序列串联成的数Mbp DNA上，结合~20微管。&lt;/li&gt;
+&lt;li&gt;可能CENP-A介导了新着丝粒的形成，且其更倾向于形成于α卫星序列上。着丝粒通过CENP-A进行表观遗传。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+</feed>
