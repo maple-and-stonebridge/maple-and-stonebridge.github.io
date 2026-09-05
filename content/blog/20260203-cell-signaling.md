@@ -66,14 +66,14 @@ sources：
     * 磷酸化
         * 蛋白激酶包括丝氨酸/苏氨酸激酶以及酪氨酸激酶（主要存在于多细胞生物）。
         * 蛋白磷酸酶也包括丝氨酸/苏氨酸磷酸酶以及酪氨酸磷酸酶。
+    * 泛素化等
+* 非共价结合
     * GTP/GDP结合
         * GTP结合蛋白：激活状态结合GTP，无活性状态结合GDP。
             * 激活状态GTP结合蛋白将GTP水解，转化为无活性状态；无活性状态蛋白释放GDP以结合GTP转化为激活状态。
             > omg，这个GTP结合蛋白有组成性活性
             * GEF加速GDP释放，从而加速激活；GAP加速GTP水解，从而加速失活。GEF, guanine nucleotide exchange factor; GAP, GTPase activating protein。
             * 包括异源三聚体GTP结合蛋白/G蛋白，以及单体GTP酶/单体GTP结合蛋白/小G蛋白。
-    * 泛素化等
-* 非共价结合
     * cAMP、Ca<sup>++</sup>等第2信使
     * 其他信号蛋白
 ## 信号转导复合体
